@@ -1,0 +1,74 @@
+{
+ "id": 10309,
+ "sinner": "Don Quixote",
+ "title": "T Corp. Class 3 Collection Staff",
+ "rank": 3,
+ "appearance": "10309_Donquixote_TCorpAppearance",
+ "kind": "rig",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1030901,
+   "name": "Let Us Prepare To Collect",
+   "affinity": "SHAMROCK",
+   "attack": "blunt",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1"
+  },
+  "S2": {
+   "id": 1030902,
+   "name": "T Corp. Accelerated Amputator",
+   "affinity": "INDIGO",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S2"
+  },
+  "S3": {
+   "id": 1030903,
+   "name": "I Command Thee, Halt!",
+   "affinity": "AMBER",
+   "attack": "blunt",
+   "base": 4,
+   "coins": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "weight": 1,
+   "motion": "S3"
+  }
+ },
+ "battle": {
+  "hp": 306,
+  "stagger": [
+   50
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 2,
+   "blunt": 0.5
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {},
+ "clips": {}
+}

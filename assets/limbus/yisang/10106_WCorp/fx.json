@@ -1,0 +1,9155 @@
+{
+ "body_center": [
+  0.0,
+  66.0
+ ],
+ "effects": {
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Move": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    0.0,
+    22.5
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 10.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 2.0
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      -0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_cc_w_trail2_space_f9db2606a6",
+      "source": "Shader Graphs/FX_Grp_CC_W_Trail2_Space",
+      "name": "FX_Mat_CC_W_Trail2_Space",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0
+      ],
+      "layout": {
+       "Color_InNoise1": [
+        12,
+        4
+       ],
+       "Color_InNoise2": [
+        16,
+        4
+       ],
+       "MainTexMove": [
+        20,
+        2
+       ],
+       "Tiling_Noise": [
+        22,
+        2
+       ],
+       "Dissolve": [
+        24,
+        1
+       ],
+       "Rule": [
+        25,
+        1
+       ],
+       "Mask": [
+        26,
+        1
+       ],
+       "Alp": [
+        27,
+        1
+       ]
+      },
+      "colors": [
+       "Color_InNoise1",
+       "Color_InNoise2"
+      ],
+      "textures": {
+       "_SampleTexture2D_0b45b376563a4dcf9d6cc3e9e4eff494_Texture_1_Texture2D": "FX_Tex_Noise_Water1",
+       "_SampleTexture2D_41092fb8ac4a45a4b5fda15fca9a9dab_Texture_1_Texture2D": "FX_Tex_Noise_Water1",
+       "_SampleTexture2D_d2e778eb973f45f99bf9eca63266aa87_Texture_1_Texture2D": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_9_Ryoshu_W_Move_ani/Flash1",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       90.0,
+       0.0,
+       45.0
+      ],
+      [
+       0.0,
+       0.0,
+       90.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Dissolve": [
+       [
+        0.0,
+        -0.5
+       ],
+       [
+        0.3333,
+        0.4
+       ]
+      ],
+      "Color_InNoise1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Color_InNoise2": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Mask": [
+       [
+        0.0,
+        0.0
+       ]
+      ],
+      "Tiling_Noise": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       5.0,
+       1.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Move_ani/Lightning1",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       -90.0
+      ],
+      [
+       0.0,
+       90.0,
+       0.0,
+       45.0
+      ],
+      [
+       0.0,
+       0.0,
+       90.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       5.0,
+       1.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Move_ani/Lightning2",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       -90.0
+      ],
+      [
+       0.0,
+       90.0,
+       0.0,
+       45.0
+      ],
+      [
+       0.0,
+       0.0,
+       90.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.4,
+      "min_scalar": 0.2
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.25
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.25
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 10.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.0,
+      "arc": 180.0,
+      "thickness": 0.2,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       5.0,
+       1.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "size_over_life_y": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 3,
+       "scalar": 10.0,
+       "min_scalar": 1.0
+      },
+      "y": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "z": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 5,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_square_efc924aa93",
+      "source": "Shader Graphs/FX_Grp_Square",
+      "name": "FX_Mat_Square",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Alp": [
+        4,
+        1
+       ],
+       "Color_Main": [
+        8,
+        4
+       ],
+       "_Rule": [
+        12,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "_SampleTexture2D_6d95aa6c8ad947e0a3524529a9be1f26_Texture_1_Texture2D": "FX_Tex_Mask_Squere"
+      }
+     },
+     "name": "Square1",
+     "path": "FX_PC_9_Ryoshu_W_Move_ani/Square1",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       -90.0
+      ],
+      [
+       0.0,
+       90.0,
+       0.0,
+       45.0
+      ],
+      [
+       0.0,
+       0.0,
+       90.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.4,
+      "min_scalar": 0.2
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.25
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.25
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 10.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.0,
+      "arc": 180.0,
+      "thickness": 0.2,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       5.0,
+       1.5,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "size_over_life_y": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 3,
+       "scalar": 10.0,
+       "min_scalar": 1.0
+      },
+      "y": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "z": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 5,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_square_efc924aa93",
+      "source": "Shader Graphs/FX_Grp_Square",
+      "name": "FX_Mat_Square",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Alp": [
+        4,
+        1
+       ],
+       "Color_Main": [
+        8,
+        4
+       ],
+       "_Rule": [
+        12,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "_SampleTexture2D_6d95aa6c8ad947e0a3524529a9be1f26_Texture_1_Texture2D": "FX_Tex_Mask_Squere"
+      }
+     },
+     "name": "Square3",
+     "path": "FX_PC_9_Ryoshu_W_Move_ani/Square3",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       -90.0
+      ],
+      [
+       0.0,
+       90.0,
+       0.0,
+       45.0
+      ],
+      [
+       0.0,
+       0.0,
+       90.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    -34.2,
+    75.6
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       -20.295,
+       -72.2019,
+       0.0,
+       0.0
+      ],
+      [
+       -14.4404,
+       4.059,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       -20.295,
+       -72.2019,
+       0.0,
+       0.0
+      ],
+      [
+       -14.4404,
+       4.059,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       -20.295,
+       -72.2019,
+       0.0,
+       0.0
+      ],
+      [
+       -14.4404,
+       4.059,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    -45.0,
+    47.4
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       21.9656,
+       -117.7224,
+       0.0,
+       0.0
+      ],
+      [
+       -10.4195,
+       -9.7148,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       21.9656,
+       -117.7224,
+       0.0,
+       0.0
+      ],
+      [
+       -10.4195,
+       -9.7148,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       21.9656,
+       -117.7224,
+       0.0,
+       0.0
+      ],
+      [
+       -10.4195,
+       -9.7148,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    -9.3,
+    68.7
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       -85.9954,
+       -38.7822,
+       0.0,
+       0.0
+      ],
+      [
+       -31.3656,
+       -39.7862,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       -85.9954,
+       -38.7822,
+       0.0,
+       0.0
+      ],
+      [
+       -31.3656,
+       -39.7862,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       -85.9954,
+       -38.7822,
+       0.0,
+       0.0
+      ],
+      [
+       -31.3656,
+       -39.7862,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    -10.8,
+    100.2
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       -70.7213,
+       54.1281,
+       0.0,
+       0.0
+      ],
+      [
+       36.5388,
+       29.3013,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       -70.7213,
+       54.1281,
+       0.0,
+       0.0
+      ],
+      [
+       36.5388,
+       29.3013,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       -70.7213,
+       54.1281,
+       0.0,
+       0.0
+      ],
+      [
+       36.5388,
+       29.3013,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_2_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    9.6,
+    131.4
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       -31.5036,
+       12.9777,
+       0.0,
+       0.0
+      ],
+      [
+       -1.5256,
+       57.7649,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       -31.5036,
+       12.9777,
+       0.0,
+       0.0
+      ],
+      [
+       -1.5256,
+       57.7649,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       -31.5036,
+       12.9777,
+       0.0,
+       0.0
+      ],
+      [
+       -1.5256,
+       57.7649,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_3": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    8.67,
+    27.18
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       57.6289,
+       85.0163,
+       -0.0,
+       0.0
+      ],
+      [
+       -13.6772,
+       34.4829,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       57.6289,
+       85.0163,
+       -0.0,
+       0.0
+      ],
+      [
+       -13.6772,
+       34.4829,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       57.6289,
+       85.0163,
+       -0.0,
+       0.0
+      ],
+      [
+       -13.6772,
+       34.4829,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_4": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    12.9,
+    61.5
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.3
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.5,
+       "min_scalar": 2.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.4
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "source": "Shader Graphs/FX_Grp_Burn_2Color",
+      "name": "FX_Mat_Burn_2Color",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "_Color_2": [
+        0,
+        4
+       ],
+       "_Color_1": [
+        4,
+        4
+       ]
+      },
+      "colors": [
+       "_Color_1",
+       "_Color_2"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Spark1",
+     "matrix": [
+      [
+       -21.7233,
+       26.2486,
+       0.0,
+       0.0
+      ],
+      [
+       25.772,
+       51.7195,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_1": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         5.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_2": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning1",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning1",
+     "matrix": [
+      [
+       -21.7233,
+       26.2486,
+       0.0,
+       0.0
+      ],
+      [
+       25.772,
+       51.7195,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.4,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.15,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.7,
+      "arc": 180.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "mesh",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Lightning",
+     "material": {
+      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "source": "Shader Graphs/FX_Grp_Lightning1",
+      "name": "FX_Mat_Lightning1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Panner_Main1": [
+        8,
+        2
+       ],
+       "Tiling_Main1": [
+        10,
+        2
+       ],
+       "Tiling_Noise": [
+        12,
+        2
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Lightning"
+      }
+     },
+     "name": "Lightning2",
+     "path": "FX_PC_9_Ryoshu_W_Trail1_ani/Lightning2",
+     "matrix": [
+      [
+       -21.7233,
+       26.2486,
+       0.0,
+       0.0
+      ],
+      [
+       25.772,
+       51.7195,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       0.0,
+       -30.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Panner_Main1": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Teleport": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    0.0,
+    45.0
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.3,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.25,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.0,
+      "arc": 360.0,
+      "thickness": 1.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       3.0,
+       4.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "size_over_life_y": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "y": {
+       "mode": 3,
+       "scalar": -2.5,
+       "min_scalar": 2.5
+      },
+      "z": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_square_efc924aa93",
+      "source": "Shader Graphs/FX_Grp_Square",
+      "name": "FX_Mat_Square",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Alp": [
+        4,
+        1
+       ],
+       "Color_Main": [
+        8,
+        4
+       ],
+       "_Rule": [
+        12,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "_SampleTexture2D_6d95aa6c8ad947e0a3524529a9be1f26_Texture_1_Texture2D": "FX_Tex_Mask_Squere"
+      }
+     },
+     "name": "Square1",
+     "path": "FX_Mon_Train2_LostPassenger_Death_ani/Square1",
+     "matrix": [
+      [
+       60.0,
+       -0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.3,
+     "looping": false,
+     "delay": {
+      "mode": 3,
+      "scalar": 0.2,
+      "min_scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.25,
+      "min_scalar": 0.05
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.5
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.05,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 30.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 1.0,
+      "arc": 360.0,
+      "thickness": 1.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       3.0,
+       4.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "size_over_life_y": {
+      "mode": 2,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ],
+      "min_curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ],
+      "min_scalar": 1.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "y": {
+       "mode": 3,
+       "scalar": -2.5,
+       "min_scalar": 2.5
+      },
+      "z": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_square_efc924aa93",
+      "source": "Shader Graphs/FX_Grp_Square",
+      "name": "FX_Mat_Square",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Alp": [
+        4,
+        1
+       ],
+       "Color_Main": [
+        8,
+        4
+       ],
+       "_Rule": [
+        12,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "_SampleTexture2D_6d95aa6c8ad947e0a3524529a9be1f26_Texture_1_Texture2D": "FX_Tex_Mask_Squere"
+      }
+     },
+     "name": "Square2",
+     "path": "FX_Mon_Train2_LostPassenger_Death_ani/Square2",
+     "matrix": [
+      [
+       60.0,
+       -0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         0.05
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.05
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 8,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "TelePort2",
+     "path": "FX_Mon_Train2_LostPassenger_Death_ani/TelePort2",
+     "matrix": [
+      [
+       -0.0,
+       -60.0,
+       0.0,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.3,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.3,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 20.0,
+      "min_scalar": 10.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 1.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       2.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          0.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          0.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.031
+        ],
+        [
+         1.0,
+         0.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 9,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Burn1",
+     "path": "FX_Mon_Train2_LostPassenger_Death_ani/Burn1",
+     "matrix": [
+      [
+       60.0,
+       -0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 17.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 9,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "TelePort",
+     "path": "FX_Mon_Train2_LostPassenger_Death_ani/TelePort",
+     "matrix": [
+      [
+       -0.0,
+       -60.0,
+       0.0,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,915 @@
+{
+ "id": 10711,
+ "sinner": "Heathcliff",
+ "title": "Full-Stop Office Fixer",
+ "rank": 3,
+ "appearance": "10711_Heathcliff_TamakiAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1071101,
+   "name": "Return Fire",
+   "affinity": "AZURE",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    3,
+    3,
+    3
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 1.35,
+     "next": 0.8333,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.1167,
+       "skill1_2"
+      ],
+      [
+       0.1667,
+       "skill1_3"
+      ],
+      [
+       0.25,
+       "skill1_4"
+      ],
+      [
+       0.4667,
+       "skill1_4"
+      ],
+      [
+       0.5334,
+       "skill1_5"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.5333,
+       "to": "relative",
+       "x": -18,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.5333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5333,
+       0.8167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_shot_S1"
+      ]
+     ]
+    },
+    {
+     "length": 5.15,
+     "next": 0.5833,
+     "body": [
+      [
+       0.1333,
+       "skill1_4"
+      ],
+      [
+       0.15,
+       "skill1_5"
+      ],
+      [
+       0.3,
+       "skill1_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.15,
+       "to": "relative",
+       "x": -18,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.15,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.15,
+       5.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_shot_S1"
+      ]
+     ]
+    },
+    {
+     "length": 5.15,
+     "next": 0.5833,
+     "body": [
+      [
+       0.1333,
+       "skill1_4"
+      ],
+      [
+       0.15,
+       "skill1_5"
+      ],
+      [
+       0.3,
+       "skill1_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.15,
+       "to": "relative",
+       "x": -18,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.15,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.15,
+       5.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_shot_S1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1071102,
+   "name": "Headshot",
+   "affinity": "VIOLET",
+   "attack": "pierce",
+   "base": 10,
+   "coins": [
+    12
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 3.7333,
+     "next": 2.4833,
+     "body": [
+      [
+       0.0,
+       "skill2_2"
+      ],
+      [
+       0.2167,
+       "skill2_3"
+      ],
+      [
+       0.3167,
+       "skill2_4"
+      ],
+      [
+       1.6833,
+       "skill2_9"
+      ],
+      [
+       1.8833,
+       "skill2_10"
+      ],
+      [
+       1.9833,
+       "skill2_11"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 1.6667,
+       "to": "relative",
+       "x": -30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.6667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2167,
+       0.3,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/tamaki_S2_1_Gun_Move"
+      ],
+      [
+       0.5167,
+       1.15,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_Charge"
+      ],
+      [
+       1.6667,
+       1.95,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_shot_S2"
+      ],
+      [
+       2.2333,
+       1.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/tamaki_S2_1_after"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1071103,
+   "name": "Goin' for the Bullseye",
+   "affinity": "INDIGO",
+   "attack": "pierce",
+   "base": 12,
+   "coins": [
+    14
+   ],
+   "weight": 1,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 3.7093,
+     "next": 2.55,
+     "body": [
+      [
+       0.0,
+       "skill3_5"
+      ],
+      [
+       0.5667,
+       "skill3_6"
+      ],
+      [
+       0.7333,
+       "skill3_7"
+      ],
+      [
+       0.9333,
+       "skill3_8,12"
+      ],
+      [
+       1.4167,
+       "skill3_8,12"
+      ],
+      [
+       1.7667,
+       "skill3_9"
+      ],
+      [
+       1.8833,
+       "skill3_10"
+      ],
+      [
+       2.3167,
+       "skill3_11"
+      ],
+      [
+       2.5167,
+       "skill3_8,12"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 2.1333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.2
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       1.0,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/tamaki_Charge_S3_normal"
+      ],
+      [
+       1.8667,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Shot_tamaki_S3_Parry"
+      ],
+      [
+       1.8667,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/tamaki_Shot_Hit"
+      ],
+      [
+       2.7093,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/tamaki_S3_normal_after"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 219,
+  "stagger": [
+   65,
+   35,
+   15
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 0.5,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    65,
+    138
+   ]
+  },
+  "Bag1": {
+   "anchor": [
+    39,
+    24
+   ]
+  },
+  "idle": {
+   "anchor": [
+    31,
+    135
+   ]
+  },
+  "miss": {
+   "anchor": [
+    69,
+    130
+   ]
+  },
+  "gud": {
+   "anchor": [
+    51,
+    120
+   ]
+  },
+  "move": {
+   "anchor": [
+    49,
+    119
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    43,
+    145
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    43,
+    134
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    43,
+    134
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    43,
+    134
+   ]
+  },
+  "skill1_5": {
+   "anchor": [
+    41,
+    134
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    32,
+    224
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    41,
+    123
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    41,
+    123
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    41,
+    123
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    41,
+    123
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    41,
+    123
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    48,
+    95
+   ]
+  },
+  "skill3_8,12": {
+   "anchor": [
+    48,
+    95
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    49,
+    95
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    68,
+    96
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    47,
+    95
+   ]
+  },
+  "reload_1": {
+   "anchor": [
+    154,
+    74
+   ]
+  },
+  "reload_2": {
+   "anchor": [
+    154,
+    74
+   ]
+  },
+  "reload_3": {
+   "anchor": [
+    154,
+    74
+   ]
+  },
+  "reload_4": {
+   "anchor": [
+    154,
+    74
+   ]
+  },
+  "reload_5": {
+   "anchor": [
+    154,
+    74
+   ]
+  },
+  "dead": {
+   "anchor": [
+    37,
+    81
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    49,
+    95
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    49,
+    95
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    49,
+    95
+   ]
+  },
+  "skill3_bullet_Head": {
+   "anchor": [
+    12,
+    7
+   ]
+  },
+  "skill3_bullet_Head2": {
+   "anchor": [
+    20,
+    8
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.8833,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1167,
+     "skill1_2"
+    ],
+    [
+     0.1667,
+     "skill1_3"
+    ],
+    [
+     0.25,
+     "skill1_4"
+    ],
+    [
+     0.4,
+     "skill1_5"
+    ],
+    [
+     0.4667,
+     "skill1_4"
+    ],
+    [
+     0.55,
+     "skill1_5"
+    ],
+    [
+     0.7,
+     "skill1_4"
+    ],
+    [
+     0.8,
+     "skill1_5"
+    ],
+    [
+     0.8667,
+     "skill1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 2.0,
+   "body": [
+    [
+     0.0,
+     "skill2_2"
+    ],
+    [
+     0.2167,
+     "skill2_3"
+    ],
+    [
+     0.3167,
+     "skill2_4"
+    ],
+    [
+     1.6833,
+     "skill2_9"
+    ],
+    [
+     1.8833,
+     "skill2_10"
+    ],
+    [
+     1.9833,
+     "skill2_11"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathcliff_Tamaki_S3_2": {
+   "length": 3.4167,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.6833,
+     null
+    ],
+    [
+     2.3,
+     "skill3_8,12"
+    ],
+    [
+     2.65,
+     "skill3_9"
+    ],
+    [
+     2.7667,
+     "skill3_10"
+    ],
+    [
+     3.2,
+     "skill3_11"
+    ],
+    [
+     3.4,
+     "skill3_8,12"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S10": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathcliff_Tamaki_S3_1": {
+   "length": 2.5333,
+   "body": [
+    [
+     0.0,
+     "skill3_5"
+    ],
+    [
+     0.5667,
+     "skill3_6"
+    ],
+    [
+     0.7333,
+     "skill3_7"
+    ],
+    [
+     0.9333,
+     "skill3_8,12"
+    ],
+    [
+     1.4167,
+     "skill3_8,12"
+    ],
+    [
+     1.7667,
+     "skill3_9"
+    ],
+    [
+     1.8833,
+     "skill3_10"
+    ],
+    [
+     2.3167,
+     "skill3_11"
+    ],
+    [
+     2.5167,
+     "skill3_8,12"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (1)": {
+   "length": 5.9667,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded": {
+   "length": 5.9667,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.5667,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.5667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_PC_Sinclair_Zwei_DW_Guard"
+    ]
+   ]
+  }
+ ]
+}

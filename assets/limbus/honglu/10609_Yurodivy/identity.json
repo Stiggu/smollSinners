@@ -1,0 +1,2006 @@
+{
+ "id": 10609,
+ "sinner": "Hong Lu",
+ "title": "District 20 Yurodivy",
+ "rank": 3,
+ "appearance": "10609_Honglu_YurodivyAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1060901,
+   "name": "Deduction Start",
+   "affinity": "AZURE",
+   "attack": "blunt",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.3333,
+     "next": 0.2,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1333,
+       "to": "target",
+       "x": 108,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.15,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.1667,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ]
+     ]
+    },
+    {
+     "length": 0.5167,
+     "next": 0.5,
+     "body": [
+      [
+       0.0,
+       "skill1_2"
+      ],
+      [
+       0.1,
+       "skill1_3"
+      ],
+      [
+       0.3,
+       "skill1_4"
+      ],
+      [
+       0.4,
+       "skill1_5"
+      ],
+      [
+       0.5,
+       "skill1_5"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.3167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.3167,
+       0.1833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1060902,
+   "name": "Morph Cane Technique",
+   "affinity": "AMBER",
+   "attack": "pierce",
+   "base": 4,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 1.1167,
+     "next": 1.0333,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.1,
+       "skill2_2"
+      ],
+      [
+       0.2,
+       "skill2_3"
+      ],
+      [
+       0.3,
+       "skill2_2"
+      ],
+      [
+       0.4,
+       "skill2_3"
+      ],
+      [
+       0.4833,
+       "skill2_4"
+      ],
+      [
+       0.9167,
+       "skill1_2"
+      ],
+      [
+       1.0167,
+       "skill2_6"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.6667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.75,
+       "ratio": 1.0,
+       "count": 3,
+       "span": 0.2
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1,
+       0.6333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Spin1"
+      ],
+      [
+       0.7333,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.75,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ]
+     ]
+    },
+    {
+     "length": 0.6667,
+     "next": 0.4642,
+     "body": [
+      [
+       0.05,
+       "skill2_6"
+      ],
+      [
+       0.15,
+       "skill2_7"
+      ],
+      [
+       0.3,
+       "skill2_7"
+      ],
+      [
+       0.3142,
+       "skill2_8"
+      ],
+      [
+       0.4142,
+       "skill2_9"
+      ],
+      [
+       0.5142,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3975,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4142,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3,
+       0.0975,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/PiercingReady"
+      ],
+      [
+       0.4142,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Piercing1"
+      ],
+      [
+       0.4142,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ]
+     ]
+    },
+    {
+     "length": 0.9167,
+     "next": 0.8667,
+     "body": [
+      [
+       0.0,
+       "skill2_9"
+      ],
+      [
+       0.1,
+       "skill2_10"
+      ],
+      [
+       0.3166,
+       "skill2_11"
+      ],
+      [
+       0.4166,
+       "skill2_12"
+      ],
+      [
+       0.5166,
+       "skill2_13"
+      ],
+      [
+       0.6166,
+       "skill2_14"
+      ],
+      [
+       0.7333,
+       "skill2_15"
+      ],
+      [
+       0.9,
+       "skill2_15"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.3167,
+       "ratio": 0.4,
+       "count": 3,
+       "span": 0.3
+      },
+      {
+       "t": 0.6167,
+       "ratio": 0.6,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3167,
+       0.3,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Spin1"
+      ],
+      [
+       0.3167,
+       0.1,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.4167,
+       0.0833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.5,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.5667,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.6167,
+       0.25,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Piercing1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1060903,
+   "name": "You're the Culprit!",
+   "affinity": "SHAMROCK",
+   "attack": "pierce",
+   "base": 3,
+   "coins": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.6333,
+     "next": 0.6333,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [],
+     "turns": [],
+     "effects": []
+    },
+    {
+     "length": 4.6,
+     "next": 2.75,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ],
+      [
+       0.0333,
+       "skill3_2"
+      ],
+      [
+       0.0833,
+       "skill3_3"
+      ],
+      [
+       0.1833,
+       "skill3_3"
+      ],
+      [
+       0.2166,
+       "skill3_4"
+      ],
+      [
+       0.4,
+       "skill3_4"
+      ],
+      [
+       0.4167,
+       "skill3_5"
+      ],
+      [
+       0.5167,
+       "skill3_6"
+      ],
+      [
+       0.8333,
+       "skill3_6"
+      ],
+      [
+       0.9166,
+       "skill3_7"
+      ],
+      [
+       1.0166,
+       "skill3_8"
+      ],
+      [
+       1.1166,
+       "skill3_9"
+      ],
+      [
+       1.1833,
+       "skill3_10"
+      ],
+      [
+       1.2666,
+       "skill3_11"
+      ],
+      [
+       1.3833,
+       "skill3_12"
+      ],
+      [
+       1.5166,
+       "skill3_13"
+      ],
+      [
+       2.4,
+       "skill3_14"
+      ],
+      [
+       2.5,
+       "skill3_15"
+      ],
+      [
+       2.6,
+       "skill3_16"
+      ],
+      [
+       2.7,
+       "skill3_17"
+      ],
+      [
+       2.8,
+       "skill3_18"
+      ],
+      [
+       2.9834,
+       "skill3_19"
+      ],
+      [
+       3.1167,
+       "skill3_20"
+      ],
+      [
+       3.2334,
+       "skill3_21"
+      ],
+      [
+       3.3667,
+       "skill3_22"
+      ],
+      [
+       3.6,
+       "skill3_23"
+      ],
+      [
+       3.6834,
+       "skill3_24"
+      ],
+      [
+       3.7667,
+       "skill3_25"
+      ],
+      [
+       3.9834,
+       "skill3_25"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4,
+       "to": "relative",
+       "x": 18,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.9167,
+       "to": "target",
+       "x": 150,
+       "y": 30,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.0333,
+       "to": "target",
+       "x": 120,
+       "y": 60,
+       "dur": 0.3,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.1333,
+       "to": "target",
+       "x": 60,
+       "y": 84,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.2167,
+       "to": "target",
+       "x": 0,
+       "y": 120,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": false,
+       "chase_y": true
+      },
+      {
+       "t": 2.4,
+       "to": "target",
+       "x": 0,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": false,
+       "chase_y": true
+      },
+      {
+       "t": 2.8,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.2833,
+       "ratio": 0.1,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 2.4,
+       "ratio": 0.3,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 2.5,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 2.6,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 2.7,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.9167,
+       0.1,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Jump"
+      ],
+      [
+       1.0167,
+       0.2667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       1.2833,
+       0.8333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Piercing1"
+      ],
+      [
+       1.2833,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       2.4,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Ground"
+      ],
+      [
+       2.9833,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       3.3667,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       3.6,
+       0.4333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Shine"
+      ]
+     ]
+    },
+    {
+     "length": 1.6333,
+     "next": 0.35,
+     "body": [
+      [
+       0.0,
+       "skill3_14"
+      ],
+      [
+       0.1,
+       "skill3_15"
+      ],
+      [
+       0.2,
+       "skill3_16"
+      ],
+      [
+       0.3,
+       "skill3_17"
+      ],
+      [
+       0.4,
+       "skill3_18"
+      ],
+      [
+       0.5834,
+       "skill3_19"
+      ],
+      [
+       0.7167,
+       "skill3_20"
+      ],
+      [
+       0.8334,
+       "skill3_21"
+      ],
+      [
+       0.9667,
+       "skill3_22"
+      ],
+      [
+       1.2,
+       "skill3_23"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 0,
+       "y": -12,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": false,
+       "chase_y": true
+      },
+      {
+       "t": 0.4,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0,
+       "ratio": 0.4,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.1,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.2,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.3,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.0667,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.1333,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.2,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.2667,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.4,
+       0.1833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Ground"
+      ],
+      [
+       0.5833,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.9667,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       1.2,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Shine"
+      ]
+     ]
+    },
+    {
+     "length": 1.75,
+     "next": 0.35,
+     "body": [
+      [
+       0.0,
+       "skill3_14"
+      ],
+      [
+       0.1,
+       "skill3_15"
+      ],
+      [
+       0.2,
+       "skill3_16"
+      ],
+      [
+       0.3,
+       "skill3_17"
+      ],
+      [
+       0.4,
+       "skill3_18"
+      ],
+      [
+       0.5834,
+       "skill3_19"
+      ],
+      [
+       0.7167,
+       "skill3_20"
+      ],
+      [
+       0.8334,
+       "skill3_21"
+      ],
+      [
+       0.9667,
+       "skill3_22"
+      ],
+      [
+       1.2,
+       "skill3_23"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 0,
+       "y": -30,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": false,
+       "chase_y": true
+      },
+      {
+       "t": 0.4,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0,
+       "ratio": 0.4,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.1,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.2,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.3,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.0667,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.1333,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.2,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.2667,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       0.4,
+       0.1833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Ground"
+      ],
+      [
+       0.5833,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.9667,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       1.2,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Shine"
+      ]
+     ]
+    },
+    {
+     "length": 1.5333,
+     "next": null,
+     "body": [
+      [
+       0.1833,
+       "skill3_17"
+      ],
+      [
+       0.1999,
+       "skill3_18"
+      ],
+      [
+       0.3833,
+       "skill3_19"
+      ],
+      [
+       0.5166,
+       "skill3_20"
+      ],
+      [
+       0.6333,
+       "skill3_21"
+      ],
+      [
+       0.7666,
+       "skill3_22"
+      ],
+      [
+       0.9999,
+       "skill3_23"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0667,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Ground"
+      ],
+      [
+       0.0667,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Ground1"
+      ],
+      [
+       0.3833,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       0.7667,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       1.0,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Shine"
+      ]
+     ]
+    },
+    {
+     "length": 3.55,
+     "next": 2.5167,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ],
+      [
+       0.0333,
+       "skill3_2"
+      ],
+      [
+       0.0833,
+       "skill3_3"
+      ],
+      [
+       0.1833,
+       "skill3_3"
+      ],
+      [
+       0.2166,
+       "skill3_4"
+      ],
+      [
+       0.4,
+       "skill3_4"
+      ],
+      [
+       0.4167,
+       "skill3_5"
+      ],
+      [
+       0.5167,
+       "skill3_6"
+      ],
+      [
+       0.8333,
+       "skill3_6"
+      ],
+      [
+       0.9166,
+       "skill3_7"
+      ],
+      [
+       1.0166,
+       "skill3_8"
+      ],
+      [
+       1.1166,
+       "skill3_9"
+      ],
+      [
+       1.1833,
+       "skill3_10"
+      ],
+      [
+       1.2666,
+       "skill3_11"
+      ],
+      [
+       1.3833,
+       "skill3_12"
+      ],
+      [
+       1.5166,
+       "skill3_13"
+      ],
+      [
+       2.5,
+       "skill3_17"
+      ],
+      [
+       2.5166,
+       "skill3_18"
+      ],
+      [
+       2.7,
+       "skill3_19"
+      ],
+      [
+       2.8333,
+       "skill3_20"
+      ],
+      [
+       2.95,
+       "skill3_21"
+      ],
+      [
+       3.0833,
+       "skill3_22"
+      ],
+      [
+       3.3166,
+       "skill3_23"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4,
+       "to": "relative",
+       "x": 18,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.9167,
+       "to": "target",
+       "x": 150,
+       "y": 30,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.0333,
+       "to": "target",
+       "x": 120,
+       "y": 60,
+       "dur": 0.3,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.1333,
+       "to": "target",
+       "x": 60,
+       "y": 84,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.2167,
+       "to": "target",
+       "x": 0,
+       "y": 120,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": false,
+       "chase_y": true
+      },
+      {
+       "t": 2.4,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.2833,
+       "ratio": 0.1,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 2.4,
+       "ratio": 0.9,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.9167,
+       0.1,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Jump"
+      ],
+      [
+       1.0167,
+       0.2667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       1.2833,
+       0.8333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Piercing1"
+      ],
+      [
+       1.2833,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Attack"
+      ],
+      [
+       2.4,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Ground"
+      ],
+      [
+       2.4,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Ground1"
+      ],
+      [
+       2.7167,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       3.1,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+      ],
+      [
+       3.3333,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_Yurozibi_Shine"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 226,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 0.5,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    71,
+    149
+   ]
+  },
+  "idle": {
+   "anchor": [
+    33,
+    150
+   ]
+  },
+  "miss": {
+   "anchor": [
+    64,
+    149
+   ]
+  },
+  "gud": {
+   "anchor": [
+    58,
+    144
+   ]
+  },
+  "move": {
+   "anchor": [
+    91,
+    114
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    49,
+    139
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    88,
+    146
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    89,
+    146
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    53,
+    116
+   ]
+  },
+  "skill1_5": {
+   "anchor": [
+    53,
+    115
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    49,
+    138
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    49,
+    138
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    49,
+    139
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    88,
+    145
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    170,
+    145
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    154,
+    200
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    58,
+    124
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    58,
+    124
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    58,
+    124
+   ]
+  },
+  "skill2_12": {
+   "anchor": [
+    58,
+    124
+   ]
+  },
+  "skill2_13": {
+   "anchor": [
+    58,
+    124
+   ]
+  },
+  "skill2_14": {
+   "anchor": [
+    58,
+    125
+   ]
+  },
+  "skill2_15": {
+   "anchor": [
+    58,
+    125
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    33,
+    150
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    33,
+    150
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    33,
+    150
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    44,
+    145
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    44,
+    144
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    50,
+    151
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    54,
+    191
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    84,
+    164
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    102,
+    248
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    41,
+    275
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    42,
+    271
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    38,
+    271
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    28,
+    317
+   ]
+  },
+  "skill3_15": {
+   "anchor": [
+    28,
+    316
+   ]
+  },
+  "skill3_16": {
+   "anchor": [
+    28,
+    316
+   ]
+  },
+  "skill3_17": {
+   "anchor": [
+    28,
+    316
+   ]
+  },
+  "skill3_18": {
+   "anchor": [
+    61,
+    156
+   ]
+  },
+  "skill3_19": {
+   "anchor": [
+    117,
+    168
+   ]
+  },
+  "skill3_20": {
+   "anchor": [
+    128,
+    162
+   ]
+  },
+  "skill3_21": {
+   "anchor": [
+    90,
+    149
+   ]
+  },
+  "skill3_22": {
+   "anchor": [
+    103,
+    192
+   ]
+  },
+  "skill3_23": {
+   "anchor": [
+    80,
+    170
+   ]
+  },
+  "skill3_24": {
+   "anchor": [
+    76,
+    174
+   ]
+  },
+  "skill3_25": {
+   "anchor": [
+    76,
+    174
+   ]
+  },
+  "dead": {
+   "anchor": [
+    44,
+    116
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.6833,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1667,
+     "skill1_2"
+    ],
+    [
+     0.2667,
+     "skill1_3"
+    ],
+    [
+     0.4667,
+     "skill1_4"
+    ],
+    [
+     0.5667,
+     "skill1_5"
+    ],
+    [
+     0.6667,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 2.1833,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1,
+     "skill2_2"
+    ],
+    [
+     0.2,
+     "skill2_3"
+    ],
+    [
+     0.3,
+     "skill2_2"
+    ],
+    [
+     0.4,
+     "skill2_3"
+    ],
+    [
+     0.4833,
+     "skill2_4"
+    ],
+    [
+     0.75,
+     "skill1_2"
+    ],
+    [
+     0.85,
+     "skill2_6"
+    ],
+    [
+     1.0667,
+     "skill2_7"
+    ],
+    [
+     1.1667,
+     "skill2_8"
+    ],
+    [
+     1.2667,
+     "skill2_9"
+    ],
+    [
+     1.3667,
+     "skill2_10"
+    ],
+    [
+     1.5833,
+     "skill2_11"
+    ],
+    [
+     1.6833,
+     "skill2_12"
+    ],
+    [
+     1.7833,
+     "skill2_13"
+    ],
+    [
+     1.8833,
+     "skill2_14"
+    ],
+    [
+     2.0,
+     "skill2_15"
+    ],
+    [
+     2.1667,
+     "skill2_15"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 3.1833,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.1833,
+     "skill3_2"
+    ],
+    [
+     0.2333,
+     "skill3_3"
+    ],
+    [
+     0.3,
+     "skill3_4"
+    ],
+    [
+     0.4,
+     "skill3_5"
+    ],
+    [
+     0.5,
+     "skill3_6"
+    ],
+    [
+     0.75,
+     "skill3_7"
+    ],
+    [
+     0.85,
+     "skill3_8"
+    ],
+    [
+     0.95,
+     "skill3_9"
+    ],
+    [
+     1.0167,
+     "skill3_10"
+    ],
+    [
+     1.1,
+     "skill3_11"
+    ],
+    [
+     1.2167,
+     "skill3_12"
+    ],
+    [
+     1.35,
+     "skill3_13"
+    ],
+    [
+     1.5833,
+     "skill3_14"
+    ],
+    [
+     1.6833,
+     "skill3_15"
+    ],
+    [
+     1.7833,
+     "skill3_16"
+    ],
+    [
+     1.8833,
+     "skill3_17"
+    ],
+    [
+     1.9833,
+     "skill3_18"
+    ],
+    [
+     2.1667,
+     "skill3_19"
+    ],
+    [
+     2.3,
+     "skill3_20"
+    ],
+    [
+     2.4167,
+     "skill3_21"
+    ],
+    [
+     2.55,
+     "skill3_22"
+    ],
+    [
+     2.7833,
+     "skill3_23"
+    ],
+    [
+     2.8667,
+     "skill3_24"
+    ],
+    [
+     2.95,
+     "skill3_25"
+    ],
+    [
+     3.1667,
+     "skill3_25"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded": {
+   "length": 0.0,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.3,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.05,
+     "skill1_2"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.2667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+    ]
+   ]
+  },
+  {
+   "length": 0.3,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_3"
+    ],
+    [
+     0.0334,
+     "skill1_4"
+    ],
+    [
+     0.1334,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.2667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_5_Yurozibi_Trail1"
+    ]
+   ]
+  }
+ ]
+}

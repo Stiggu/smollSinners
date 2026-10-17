@@ -1,0 +1,1240 @@
+{
+ "id": 11109,
+ "sinner": "Outis",
+ "title": "The Ring Pointillist Student",
+ "rank": 2,
+ "appearance": "11109_Outis_RingFingerAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1110901,
+   "name": "Dotting",
+   "affinity": "SCARLET",
+   "attack": "pierce",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.6,
+     "next": 0.5,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ],
+      [
+       0.1667,
+       "skill1_2"
+      ],
+      [
+       0.3,
+       "skill1_3"
+      ],
+      [
+       0.4,
+       "skill1_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2667,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Trail1"
+      ]
+     ]
+    },
+    {
+     "length": 0.2833,
+     "next": 0.25,
+     "body": [
+      [
+       0.0,
+       "skill2_8"
+      ],
+      [
+       0.0833,
+       "skill2_9"
+      ],
+      [
+       0.1833,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Piercing1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1110902,
+   "name": "Sanguine Painting",
+   "affinity": "CRIMSON",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.9167,
+     "next": 0.8203,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1,
+       "skill2_2"
+      ],
+      [
+       0.2,
+       "skill2_1"
+      ],
+      [
+       0.3,
+       "skill2_2"
+      ],
+      [
+       0.45,
+       "skill2_7"
+      ],
+      [
+       0.6,
+       "skill2_8"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.5703,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.6,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.6,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Trail1"
+      ]
+     ]
+    },
+    {
+     "length": 0.4667,
+     "next": 0.25,
+     "body": [
+      [
+       0.0,
+       "skill2_8"
+      ],
+      [
+       0.0833,
+       "skill2_9"
+      ],
+      [
+       0.3667,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.0833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Piercing1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3667,
+     "next": 0.1333,
+     "body": [
+      [
+       0.0833,
+       "skill2_9"
+      ],
+      [
+       0.2667,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Piercing1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3667,
+     "next": 0.25,
+     "body": [
+      [
+       0.0,
+       "move"
+      ],
+      [
+       0.0833,
+       "skill2_9"
+      ],
+      [
+       0.2667,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Piercing1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1110903,
+   "name": "Artwork Inspection",
+   "affinity": "SHAMROCK",
+   "attack": "pierce",
+   "base": 4,
+   "coins": [
+    6,
+    6
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 1.6,
+     "next": 1.4833,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1,
+       "skill2_2"
+      ],
+      [
+       0.2,
+       "skill2_1"
+      ],
+      [
+       0.3,
+       "skill2_2"
+      ],
+      [
+       0.4,
+       "skill2_1"
+      ],
+      [
+       0.5,
+       "skill2_2"
+      ],
+      [
+       0.7,
+       "skill2_6"
+      ],
+      [
+       1.0333,
+       "idle"
+      ],
+      [
+       1.1166,
+       "skill3_1"
+      ],
+      [
+       1.2166,
+       "skill3_2"
+      ],
+      [
+       1.3,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 1.1833,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.2167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       1.2167,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Piercing1"
+      ],
+      [
+       1.2167,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Explo1"
+      ]
+     ]
+    },
+    {
+     "length": 3.3166,
+     "next": null,
+     "body": [
+      [
+       0.0,
+       "skill3_4"
+      ],
+      [
+       0.3,
+       "skill3_4"
+      ],
+      [
+       0.3834,
+       "skill3_5"
+      ],
+      [
+       0.4834,
+       "skill3_6"
+      ],
+      [
+       1.1333,
+       "skill3_6"
+      ],
+      [
+       1.2,
+       "skill3_7"
+      ],
+      [
+       1.2833,
+       "skill3_8"
+      ],
+      [
+       1.5,
+       "skill3_9"
+      ],
+      [
+       1.65,
+       "skill3_10"
+      ],
+      [
+       1.7833,
+       "skill3_11"
+      ],
+      [
+       2.15,
+       "skill3_12"
+      ],
+      [
+       2.2834,
+       "skill3_11"
+      ],
+      [
+       2.3167,
+       "skill3_11"
+      ],
+      [
+       2.4,
+       "skill3_10"
+      ],
+      [
+       2.4834,
+       "skill3_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 1.4833,
+       "to": "target",
+       "x": 48,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3833,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Piercing1"
+      ],
+      [
+       0.3833,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Wind"
+      ],
+      [
+       0.3833,
+       1.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Explo1"
+      ],
+      [
+       0.3833,
+       2.9333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/EnemyPivotEffect"
+      ],
+      [
+       2.1833,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Explo1"
+      ],
+      [
+       2.3167,
+       0.35,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Explo1"
+      ]
+     ]
+    },
+    {
+     "length": 2.1667,
+     "next": 2.1667,
+     "body": [
+      [
+       0.0,
+       "skill3_2"
+      ],
+      [
+       0.0834,
+       "skill3_3"
+      ],
+      [
+       0.2167,
+       "skill3_4"
+      ],
+      [
+       0.3834,
+       "skill3_5"
+      ],
+      [
+       0.4834,
+       "skill3_6"
+      ],
+      [
+       0.75,
+       "skill3_6"
+      ],
+      [
+       0.8167,
+       "skill3_7"
+      ],
+      [
+       0.9,
+       "skill3_8"
+      ],
+      [
+       1.15,
+       "skill2_6"
+      ],
+      [
+       1.4333,
+       "skill2_1"
+      ],
+      [
+       1.5333,
+       "skill2_2"
+      ],
+      [
+       1.6333,
+       "skill2_1"
+      ],
+      [
+       1.7333,
+       "skill2_2"
+      ],
+      [
+       1.8333,
+       "skill2_1"
+      ],
+      [
+       1.9333,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 1.1333,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3833,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Piercing1"
+      ],
+      [
+       0.3833,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Wind"
+      ],
+      [
+       0.3833,
+       1.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Explo1"
+      ],
+      [
+       0.3833,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/EnemyPivotEffect"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 215,
+  "stagger": [
+   65,
+   35,
+   15
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 0.5,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    61,
+    155
+   ]
+  },
+  "idle": {
+   "anchor": [
+    50,
+    208
+   ]
+  },
+  "miss": {
+   "anchor": [
+    84,
+    179
+   ]
+  },
+  "gud": {
+   "anchor": [
+    65,
+    205
+   ]
+  },
+  "move": {
+   "anchor": [
+    158,
+    97
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    81,
+    183
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    119,
+    123
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    121,
+    124
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    51,
+    208
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    51,
+    208
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    51,
+    208
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    81,
+    184
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    118,
+    122
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    37,
+    126
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    27,
+    126
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    27,
+    126
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    85,
+    126
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    54,
+    127
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    54,
+    126
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    123,
+    123
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    54,
+    117
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    52,
+    117
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    82,
+    118
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    52,
+    240
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    43,
+    209
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    43,
+    209
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    43,
+    209
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    43,
+    209
+   ]
+  },
+  "skill3_2_e1": {
+   "anchor": [
+    -26,
+    143
+   ]
+  },
+  "skill3_5_e1": {
+   "anchor": [
+    64,
+    181
+   ]
+  },
+  "skill3_7_e1": {
+   "anchor": [
+    -26,
+    131
+   ]
+  },
+  "dead": {
+   "anchor": [
+    41,
+    66
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.5167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.1667,
+     "skill1_2"
+    ],
+    [
+     0.3,
+     "skill1_3"
+    ],
+    [
+     0.4,
+     "skill1_4"
+    ],
+    [
+     0.5,
+     "skill1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 1.7167,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1,
+     "skill2_2"
+    ],
+    [
+     0.2,
+     "skill2_1"
+    ],
+    [
+     0.3,
+     "skill2_2"
+    ],
+    [
+     0.4,
+     "skill2_1"
+    ],
+    [
+     0.5,
+     "skill2_2"
+    ],
+    [
+     0.7,
+     "skill2_6"
+    ],
+    [
+     1.0333,
+     "skill2_7"
+    ],
+    [
+     1.1833,
+     "skill2_8"
+    ],
+    [
+     1.5,
+     "skill2_9"
+    ],
+    [
+     1.6,
+     "skill2_10"
+    ],
+    [
+     1.7,
+     "skill2_11"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 1.9667,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.0833,
+     "skill3_1"
+    ],
+    [
+     0.1833,
+     "skill3_2"
+    ],
+    [
+     0.2667,
+     "skill3_3"
+    ],
+    [
+     0.4,
+     "skill3_4"
+    ],
+    [
+     0.5667,
+     "skill3_5"
+    ],
+    [
+     0.6667,
+     "skill3_6"
+    ],
+    [
+     0.8667,
+     "skill3_7"
+    ],
+    [
+     0.95,
+     "skill3_8"
+    ],
+    [
+     1.1667,
+     "skill3_9"
+    ],
+    [
+     1.3167,
+     "skill3_10"
+    ],
+    [
+     1.45,
+     "skill3_11"
+    ],
+    [
+     1.5833,
+     "skill3_12"
+    ],
+    [
+     1.7167,
+     "skill3_11"
+    ],
+    [
+     1.75,
+     "skill3_11"
+    ],
+    [
+     1.8333,
+     "skill3_10"
+    ],
+    [
+     1.9167,
+     "skill3_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.1333,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.0333,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.1,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_12_Octis_RF_Trail1"
+    ]
+   ]
+  },
+  {
+   "length": 0.2666,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill3_4"
+    ],
+    [
+     0.0333,
+     "skill3_5"
+    ],
+    [
+     0.0833,
+     "skill3_6"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.1333,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_4_YiSang_RF_Piercing1"
+    ]
+   ]
+  }
+ ]
+}

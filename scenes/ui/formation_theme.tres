@@ -1,0 +1,78 @@
+[gd_resource type="Theme" format=3 uid="uid://becrnt6hew07i"]
+
+[ext_resource type="Texture2D" uid="uid://e7bit5tfr4yf" path="res://assets/limbus/ui/formation/button.png" id="1_button"]
+[ext_resource type="FontFile" uid="uid://brd0g52mp63mt" path="res://assets/limbus/ui/fonts/KOTRA_BOLD.ttf" id="2_font"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_button_hover"]
+content_margin_left = 44.0
+content_margin_top = 12.0
+content_margin_right = 44.0
+content_margin_bottom = 12.0
+texture = ExtResource("1_button")
+texture_margin_left = 19.0
+texture_margin_top = 19.0
+texture_margin_right = 19.0
+texture_margin_bottom = 19.0
+modulate_color = Color(1.012, 0.869, 0.704, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_button"]
+content_margin_left = 44.0
+content_margin_top = 12.0
+content_margin_right = 44.0
+content_margin_bottom = 12.0
+texture = ExtResource("1_button")
+texture_margin_left = 19.0
+texture_margin_top = 19.0
+texture_margin_right = 19.0
+texture_margin_bottom = 19.0
+modulate_color = Color(0.92, 0.79, 0.64, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_button_pressed"]
+content_margin_left = 44.0
+content_margin_top = 12.0
+content_margin_right = 44.0
+content_margin_bottom = 12.0
+texture = ExtResource("1_button")
+texture_margin_left = 19.0
+texture_margin_top = 19.0
+texture_margin_right = 19.0
+texture_margin_bottom = 19.0
+modulate_color = Color(0.782, 0.6715, 0.544, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_scroll_grabber"]
+bg_color = Color(0.62, 0.45, 0.25, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_scroll_grabber_lit"]
+bg_color = Color(0.82, 0.62, 0.36, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_scroll_track"]
+content_margin_left = 7.0
+content_margin_right = 7.0
+bg_color = Color(0, 0, 0, 0.5)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[resource]
+Button/colors/font_color = Color(0.08, 0.06, 0.04, 1)
+Button/colors/font_focus_color = Color(0.08, 0.06, 0.04, 1)
+Button/colors/font_hover_color = Color(0.08, 0.06, 0.04, 1)
+Button/colors/font_pressed_color = Color(0.08, 0.06, 0.04, 1)
+Button/font_sizes/font_size = 36
+Button/fonts/font = ExtResource("2_font")
+Button/styles/hover = SubResource("StyleBoxTexture_button_hover")
+Button/styles/normal = SubResource("StyleBoxTexture_button")
+Button/styles/pressed = SubResource("StyleBoxTexture_button_pressed")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_scroll_grabber")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_scroll_grabber_lit")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_scroll_grabber_lit")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_scroll_track")

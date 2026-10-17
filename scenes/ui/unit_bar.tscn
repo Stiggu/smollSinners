@@ -1,0 +1,372 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/unit_bar.gd" id="1_hi3wo"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/floor.png" id="2_akxpo"]
+[ext_resource type="Script" path="res://scripts/ui/hp_gauge.gd" id="3_0q1e1"]
+[ext_resource type="Texture2D" path="res://assets/limbus/yisang/10101_Base/poses/idle.png" id="4_h52m6"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="5_uaxxg"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/orb.png" id="6_ix1yi"]
+[ext_resource type="Script" path="res://scripts/ui/orb_glass.gd" id="7_2khub"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/panic_glow.png" id="8_6o4aq"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/plate.png" id="9_ou35s"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/Mikodacs.otf" id="10_jclpv"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/panic_icon.png" id="11_pgtpw"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/KOTRA_BOLD.ttf" id="12_eip3e"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_glow.png" id="13_ut7bj"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_bar.png" id="14_if3fp"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_burst.png" id="15_m8tty"]
+[ext_resource type="PackedScene" path="res://scenes/ui/clash_badge.tscn" id="16_ioxij"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_sni2t"]
+font = ExtResource("5_uaxxg")
+font_size = 23
+font_color = Color(0.91, 0.28, 0.13, 1)
+outline_size = 5
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_82o5a"]
+font = ExtResource("5_uaxxg")
+font_size = 18
+font_color = Color(0.59, 0.68, 1, 1)
+outline_size = 4
+outline_color = Color(0.02, 0.05, 0.16, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_sh4sb"]
+font = ExtResource("10_jclpv")
+font_size = 14
+font_color = Color(0.27, 0.88, 1, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_okihp"]
+font = ExtResource("12_eip3e")
+font_color = Color(0.27, 0.88, 1, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_qm5uy"]
+base_font = ExtResource("12_eip3e")
+spacing_glyph = 1
+
+[sub_resource type="LabelSettings" id="LabelSettings_3nqe1"]
+font = SubResource("FontVariation_qm5uy")
+font_color = Color(1, 0.74, 0, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="FontVariation" id="FontVariation_1jnu6"]
+base_font = ExtResource("12_eip3e")
+spacing_glyph = 1
+
+[sub_resource type="LabelSettings" id="LabelSettings_bmcpo"]
+font = SubResource("FontVariation_1jnu6")
+font_size = 36
+font_color = Color(1, 0.74, 0, 1)
+outline_size = 6
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="Animation" id="Animation_plate_appear"]
+resource_name = "appear"
+length = 0.2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1.4, 1.4), Vector2(1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_plate_pulse"]
+resource_name = "pulse"
+length = 1.5708
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Glow:modulate")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3927, 0.7854, 1.1781, 1.5708),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.8), Color(1, 1, 1, 1), Color(1, 1, 1, 0.8), Color(1, 1, 1, 0.6), Color(1, 1, 1, 0.8)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_plate"]
+_data = {
+&"appear": SubResource("Animation_plate_appear"),
+&"pulse": SubResource("Animation_plate_pulse")
+}
+
+[sub_resource type="Animation" id="Animation_burst_reveal"]
+resource_name = "reveal"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Glass:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.0833),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Glass:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.0833, 0.1167, 0.15),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0873, -0.0873, 0.0524, -0.0524]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Glass:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Word:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.1667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2, 2), Vector2(1, 1)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Word:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.0833, 0.1167, 0.15),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.0873, 0.0873, -0.0524, 0.0175]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Word:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.1667, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_burst"]
+_data = {
+&"reveal": SubResource("Animation_burst_reveal")
+}
+
+[node name="UnitBar" type="Node2D" unique_id=1139151241]
+script = ExtResource("1_hi3wo")
+
+[node name="Floor" type="Node2D" parent="." unique_id=1978785938]
+z_index = -1
+
+[node name="Plate" type="Sprite2D" parent="Floor" unique_id=2042835412]
+position = Vector2(0, -2.5)
+texture = ExtResource("2_akxpo")
+
+[node name="HPGauge" type="Node2D" parent="Floor" unique_id=2128972212]
+position = Vector2(0, 5.5)
+script = ExtResource("3_0q1e1")
+
+[node name="PreviewSinner" type="Sprite2D" parent="." unique_id=561574712 groups=["preview"]]
+texture = ExtResource("4_h52m6")
+centered = false
+offset = Vector2(-37, -138)
+
+[node name="HPNumber" type="Label" parent="." unique_id=903195711]
+offset_left = -69.0
+offset_top = -28.0
+offset_right = -9.0
+offset_bottom = -1.0
+pivot_offset = Vector2(30, 13.5)
+text = "226"
+label_settings = SubResource("LabelSettings_sni2t")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Orb" type="Node2D" parent="." unique_id=1038687230]
+position = Vector2(36, -17.5)
+
+[node name="Frame" type="Sprite2D" parent="Orb" unique_id=1790375654]
+texture = ExtResource("6_ix1yi")
+
+[node name="Glass" type="Node2D" parent="Orb" unique_id=741518525]
+script = ExtResource("7_2khub")
+
+[node name="Number" type="Label" parent="Orb" unique_id=64964505]
+offset_left = -20.0
+offset_top = -11.0
+offset_right = 20.0
+offset_bottom = 11.0
+pivot_offset = Vector2(20, 11)
+text = "45"
+label_settings = SubResource("LabelSettings_82o5a")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="States" type="Node2D" parent="." unique_id=1596506754]
+
+[node name="Slot1" type="Marker2D" parent="States" unique_id=732695046]
+position = Vector2(0, -64)
+
+[node name="Slot2" type="Marker2D" parent="States" unique_id=859359988]
+position = Vector2(0, -38)
+
+[node name="Panic" type="Node2D" parent="States" unique_id=1036507255]
+visible = false
+position = Vector2(0, -64)
+
+[node name="Glow" type="Sprite2D" parent="States/Panic" unique_id=196061813]
+texture = ExtResource("8_6o4aq")
+
+[node name="Plate" type="Sprite2D" parent="States/Panic" unique_id=332671269]
+texture = ExtResource("9_ou35s")
+
+[node name="Title" type="Label" parent="States/Panic" unique_id=918283742]
+offset_left = -45.0
+offset_top = -32.0
+offset_right = 45.0
+offset_bottom = -12.0
+rotation = -0.07
+pivot_offset = Vector2(45, 10)
+text = "PANIC"
+label_settings = SubResource("LabelSettings_sh4sb")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="IconAndName" type="HBoxContainer" parent="States/Panic" unique_id=2095648895]
+offset_left = -70.0
+offset_top = -16.0
+offset_right = 70.0
+offset_bottom = 16.0
+rotation = -0.07
+pivot_offset = Vector2(70, 16)
+mouse_filter = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="States/Panic/IconAndName" unique_id=374477720]
+layout_mode = 2
+mouse_filter = 2
+texture = ExtResource("11_pgtpw")
+stretch_mode = 3
+
+[node name="Name" type="Label" parent="States/Panic/IconAndName" unique_id=587497090]
+layout_mode = 2
+text = "Panic"
+label_settings = SubResource("LabelSettings_okihp")
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="States/Panic"]
+libraries/ = SubResource("AnimationLibrary_plate")
+
+[node name="Stagger" type="Node2D" parent="States" unique_id=450568067]
+visible = false
+position = Vector2(0, -64)
+
+[node name="Glow" type="Sprite2D" parent="States/Stagger" unique_id=510054769]
+texture = ExtResource("13_ut7bj")
+
+[node name="Bar" type="Sprite2D" parent="States/Stagger" unique_id=48881264]
+self_modulate = Color(1, 1, 1, 0.8)
+texture = ExtResource("14_if3fp")
+
+[node name="Plate" type="Sprite2D" parent="States/Stagger" unique_id=2039775676]
+self_modulate = Color(1, 0.74, 0, 1)
+texture = ExtResource("9_ou35s")
+
+[node name="Word" type="Label" parent="States/Stagger" unique_id=453010145]
+offset_left = -55.0
+offset_top = -11.0
+offset_right = 55.0
+offset_bottom = 11.0
+pivot_offset = Vector2(55, 11)
+text = "STAGGER"
+label_settings = SubResource("LabelSettings_3nqe1")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="States/Stagger"]
+libraries/ = SubResource("AnimationLibrary_plate")
+
+[node name="Burst" type="Node2D" parent="States" unique_id=1258920634]
+visible = false
+position = Vector2(0, -60)
+
+[node name="Glass" type="Sprite2D" parent="States/Burst" unique_id=1310938806]
+texture = ExtResource("15_m8tty")
+
+[node name="Word" type="Label" parent="States/Burst" unique_id=81979010]
+offset_left = -110.0
+offset_top = -23.0
+offset_right = 110.0
+offset_bottom = 26.0
+pivot_offset = Vector2(110, 23)
+text = "STAGGER"
+label_settings = SubResource("LabelSettings_bmcpo")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="States/Burst"]
+libraries/ = SubResource("AnimationLibrary_burst")
+
+[node name="BadgeAnchor" type="Marker2D" parent="." unique_id=1900228721]
+position = Vector2(0, -185)
+
+[node name="PreviewBadge" type="Node2D" parent="." unique_id=289690939 groups=["preview"] instance=ExtResource("16_ioxij")]
+position = Vector2(0, -185)

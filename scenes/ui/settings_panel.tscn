@@ -1,0 +1,217 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/settings_panel.gd" id="1_panel"]
+[ext_resource type="Theme" path="res://scenes/ui/formation_theme.tres" id="2_theme"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/background.png" id="3_background"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/header.png" id="4_header"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/Mikodacs.otf" id="5_title_font"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/panel.png" id="6_panel"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/KOTRA_BOLD.ttf" id="7_text_font"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_shadow"]
+bg_color = Color(0.03, 0.02, 0.01, 1)
+shadow_color = Color(0, 0, 0, 0.55)
+shadow_size = 40
+shadow_offset = Vector2(0, 8)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_header"]
+content_margin_left = 90.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+texture = ExtResource("4_header")
+texture_margin_left = 210.0
+texture_margin_right = 210.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_title"]
+font = ExtResource("5_title_font")
+font_size = 44
+font_color = Color(0.93, 0.82, 0.67, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_cards"]
+content_margin_left = 52.0
+content_margin_top = 52.0
+content_margin_right = 52.0
+content_margin_bottom = 52.0
+texture = ExtResource("6_panel")
+texture_margin_left = 80.0
+texture_margin_top = 80.0
+texture_margin_right = 80.0
+texture_margin_bottom = 80.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_status"]
+font = ExtResource("7_text_font")
+font_size = 32
+font_color = Color(0.93, 0.82, 0.67, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_hint"]
+font = ExtResource("7_text_font")
+font_size = 27
+font_color = Color(0.651, 0.574, 0.469, 1)
+outline_size = 4
+outline_color = Color(0.05, 0.03, 0.02, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_edge"]
+draw_center = false
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.62, 0.45, 0.25, 1)
+
+[node name="SettingsPanel" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_right = 2133.0
+offset_bottom = 1333.0
+mouse_default_cursor_shape = 13
+theme = ExtResource("2_theme")
+script = ExtResource("1_panel")
+
+[node name="Shadow" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_shadow")
+
+[node name="Body" type="Control" parent="."]
+clip_contents = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Background" type="TextureRect" parent="Body"]
+modulate = Color(0.45, 0.42, 0.4, 1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("3_background")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Layout" type="MarginContainer" parent="Body"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="Column" type="VBoxContainer" parent="Body/Layout"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 20
+
+[node name="Top" type="HBoxContainer" parent="Body/Layout/Column"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Header" type="PanelContainer" parent="Body/Layout/Column/Top"]
+custom_minimum_size = Vector2(640, 100)
+layout_mode = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_header")
+
+[node name="Title" type="Label" parent="Body/Layout/Column/Top/Header"]
+layout_mode = 2
+text = "SINNERS"
+label_settings = SubResource("LabelSettings_title")
+vertical_alignment = 1
+
+[node name="Spacer" type="Control" parent="Body/Layout/Column/Top"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Back" type="Button" parent="Body/Layout/Column/Top"]
+visible = false
+layout_mode = 2
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "«  Back"
+
+[node name="Cards" type="PanelContainer" parent="Body/Layout/Column"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_cards")
+
+[node name="Scroll" type="ScrollContainer" parent="Body/Layout/Column/Cards"]
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="Center" type="CenterContainer" parent="Body/Layout/Column/Cards/Scroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Grid" type="GridContainer" parent="Body/Layout/Column/Cards/Scroll/Center"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/h_separation = 36
+theme_override_constants/v_separation = 36
+columns = 6
+
+[node name="Bottom" type="HBoxContainer" parent="Body/Layout/Column"]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Lines" type="VBoxContainer" parent="Body/Layout/Column/Bottom"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="Status" type="Label" parent="Body/Layout/Column/Bottom/Lines"]
+layout_mode = 2
+label_settings = SubResource("LabelSettings_status")
+text_overrun_behavior = 3
+
+[node name="Hint" type="Label" parent="Body/Layout/Column/Bottom/Lines"]
+layout_mode = 2
+text = "Drag a card off here to bring that sinner out; drop a sinner back on here to send them home."
+label_settings = SubResource("LabelSettings_hint")
+text_overrun_behavior = 3
+
+[node name="Close" type="Button" parent="Body/Layout/Column/Bottom"]
+layout_mode = 2
+size_flags_vertical = 4
+focus_mode = 0
+mouse_default_cursor_shape = 2
+text = "Close"
+
+[node name="Edge" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_edge")
+
+[connection signal="pressed" from="Body/Layout/Column/Top/Back" to="." method="_show_roster"]
+[connection signal="pressed" from="Body/Layout/Column/Bottom/Close" to="." method="hide"]

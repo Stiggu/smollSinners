@@ -1,0 +1,74 @@
+{
+ "id": 11115,
+ "sinner": "Outis",
+ "title": "The House of Spiders: The Middle Nursefather",
+ "rank": 3,
+ "appearance": "11115_Outis_Middle_FatherAppearance",
+ "kind": "rig",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1111501,
+   "name": "Stomping",
+   "affinity": "SCARLET",
+   "attack": "blunt",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1"
+  },
+  "S2": {
+   "id": 1111502,
+   "name": "Don't Let Somethin' Like This Break You!",
+   "affinity": "VIOLET",
+   "attack": "blunt",
+   "base": 4,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S2"
+  },
+  "S3": {
+   "id": 1111503,
+   "name": "Stamp of Vengeance",
+   "affinity": "VIOLET",
+   "attack": "blunt",
+   "base": 4,
+   "coins": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "weight": 1,
+   "motion": "S3"
+  }
+ },
+ "battle": {
+  "hp": 301,
+  "stagger": [
+   75
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 2,
+   "blunt": 0.5
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {},
+ "clips": {}
+}

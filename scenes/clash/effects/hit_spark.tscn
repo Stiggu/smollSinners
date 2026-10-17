@@ -1,0 +1,7 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/clash/effects/impact_burst.tscn" id="1_burst"]
+
+[node name="HitSpark" instance=ExtResource("1_burst")]
+lifetime = 0.4
+size = 0.7

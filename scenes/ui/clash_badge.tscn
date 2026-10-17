@@ -1,0 +1,124 @@
+[gd_scene format=3 uid="uid://cmrjr3a3hntov"]
+
+[ext_resource type="Script" uid="uid://cugj73vbp27d2" path="res://scripts/ui/clash_badge.gd" id="1_jlqp5"]
+[ext_resource type="Texture2D" uid="uid://bw0w4oj7lx5p2" path="res://assets/limbus/ui/clash/ribbon.png" id="2_kpky6"]
+[ext_resource type="FontFile" uid="uid://brd0g52mp63mt" path="res://assets/limbus/ui/fonts/KOTRA_BOLD.ttf" id="3_llfpj"]
+[ext_resource type="Texture2D" uid="uid://c7mw2w5sm5lrj" path="res://assets/limbus/ui/clash/tab.png" id="4_a533k"]
+[ext_resource type="Texture2D" uid="uid://chm6pb1uh0smn" path="res://assets/limbus/ui/clash/glow_SCARLET.png" id="5_8m0hw"]
+[ext_resource type="Texture2D" uid="uid://cvsaim4xtbp4b" path="res://assets/limbus/ryoshu/10404_Pierre/skills/S3.png" id="6_btrca"]
+[ext_resource type="Texture2D" uid="uid://cfjt0k40xj5xd" path="res://assets/limbus/ui/clash/frame_SCARLET.png" id="7_ej1ch"]
+[ext_resource type="Texture2D" uid="uid://bpvgd32m47s8w" path="res://assets/limbus/ui/clash/attack_SCARLET_slash_2.png" id="8_kp25n"]
+[ext_resource type="FontFile" uid="uid://dnb4wka7u87uu" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="9_1e63g"]
+[ext_resource type="Texture2D" uid="uid://6f1aqvgyns07" path="res://assets/limbus/ui/coin_heads.png" id="10_ediql"]
+[ext_resource type="Shader" path="res://scripts/ui/color_grayscale.gdshader" id="11_grey"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/clash/attack_glow.png" id="12_aglow"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_grey"]
+resource_local_to_scene = true
+shader = ExtResource("11_grey")
+shader_parameter/grayscale_fade = 0.0
+
+[sub_resource type="LabelSettings" id="LabelSettings_vw70k"]
+font = ExtResource("3_llfpj")
+font_size = 24
+font_color = Color(0.92, 0.79, 0.64, 1)
+outline_size = 5
+outline_color = Color(0.22156863, 0.10980392, 0.04117647, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_ypft6"]
+font = ExtResource("9_1e63g")
+font_size = 47
+font_color = Color(0.92, 0.79, 0.64, 1)
+outline_size = 9
+outline_color = Color(0.1, 0.07, 0.05, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_tfwud"]
+font = ExtResource("9_1e63g")
+font_size = 18
+font_color = Color(0.98, 0.89, 0.72, 1)
+outline_size = 4
+outline_color = Color(0.1, 0.07, 0.05, 1)
+
+[node name="ClashBadge" type="Node2D" unique_id=289690939]
+script = ExtResource("1_jlqp5")
+end_pad = 18.4
+
+[node name="Ribbon" type="NinePatchRect" parent="." unique_id=562170251]
+self_modulate = Color(0.8862745, 0.4392157, 0.16470589, 1)
+offset_left = 15.0
+offset_top = -33.0
+offset_right = 137.0
+texture = ExtResource("2_kpky6")
+patch_margin_left = 5
+patch_margin_right = 12
+
+[node name="Name" type="Label" parent="." unique_id=1179655547]
+offset_left = 48.0
+offset_top = -41.0
+offset_right = 126.0
+offset_bottom = -8.0
+text = "Sweep"
+label_settings = SubResource("LabelSettings_vw70k")
+vertical_alignment = 1
+
+[node name="Tab" type="Sprite2D" parent="." unique_id=56970020]
+self_modulate = Color(0.7533334, 0.37333333, 0.14000002, 1)
+position = Vector2(3, -34)
+texture = ExtResource("4_a533k")
+
+[node name="Face" type="Node2D" parent="." unique_id=2097240721]
+
+[node name="Glow" type="Sprite2D" parent="Face" unique_id=1811429956]
+self_modulate = Color(0.8862745, 0.4392157, 0.16470589, 1)
+texture = ExtResource("5_8m0hw")
+
+[node name="Art" type="Sprite2D" parent="Face" unique_id=2031257137]
+material = SubResource("ShaderMaterial_grey")
+texture = ExtResource("6_btrca")
+
+[node name="Frame" type="Sprite2D" parent="Face" unique_id=1763813119]
+self_modulate = Color(0.90333337, 0.5233333, 0.29000002, 1)
+texture = ExtResource("7_ej1ch")
+
+[node name="AttackGlow" type="Sprite2D" parent="."]
+self_modulate = Color(0.8862745, 0.4392157, 0.16470589, 1)
+position = Vector2(-1, 25)
+texture = ExtResource("12_aglow")
+
+[node name="Attack" type="Sprite2D" parent="." unique_id=149420350]
+material = SubResource("ShaderMaterial_grey")
+position = Vector2(-1, 25)
+texture = ExtResource("8_kp25n")
+
+[node name="Power" type="Label" parent="." unique_id=905622803]
+offset_left = -55.0
+offset_top = -32.0
+offset_right = 55.0
+offset_bottom = 31.0
+pivot_offset = Vector2(55, 31.5)
+text = "15"
+label_settings = SubResource("LabelSettings_ypft6")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TabText" type="Label" parent="." unique_id=256420787]
+offset_left = -18.0
+offset_top = -48.0
+offset_right = 22.0
+offset_bottom = -26.0
+pivot_offset = Vector2(20, 11)
+text = "+3"
+label_settings = SubResource("LabelSettings_tfwud")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Coins" type="Node2D" parent="." unique_id=824706938]
+position = Vector2(4, -7)
+
+[node name="Coin1" type="Sprite2D" parent="Coins" unique_id=586383089]
+position = Vector2(52, -40)
+texture = ExtResource("10_ediql")
+
+[node name="Coin2" type="Sprite2D" parent="Coins" unique_id=394679737]
+position = Vector2(69, -40)
+texture = ExtResource("10_ediql")

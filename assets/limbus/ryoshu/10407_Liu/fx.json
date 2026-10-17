@@ -1,0 +1,10756 @@
+{
+ "body_center": [
+  0.0,
+  66.0
+ ],
+ "effects": {
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Parry2": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    53.7,
+    70.8
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.12
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 2,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
+     "matrix": [
+      [
+       44.9261,
+       -39.77,
+       -0.0,
+       -77.4275
+      ],
+      [
+       39.77,
+       44.9261,
+       -0.0,
+       -70.9452
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       -0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 25.0,
+      "min_scalar": 2.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 4,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.1,
+       "min_scalar": 0.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
+     "matrix": [
+      [
+       -0.0,
+       -39.77,
+       -44.9261,
+       0.0
+      ],
+      [
+       -0.0,
+       44.9261,
+       -39.77,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       -0.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL1_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    5.46,
+    79.05
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "spin": {
+      "mode": 1,
+      "scalar": 3.4907,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -1.0
+          ],
+          [
+           1.0,
+           0.25
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "mesh",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Circle1_Scaler",
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_Trail1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       20.0,
+       0.3,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.4,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_Noise_Cloud1",
+       "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
+      }
+     },
+     "name": "Trail1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
+     "matrix": [
+      [
+       -12.658,
+       -86.0831,
+       0.0,
+       0.0
+      ],
+      [
+       -27.559,
+       25.884,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Tiling_Mask": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         1.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_OutLine_Max": [
+       [
+        0.0,
+        0.9
+       ]
+      ],
+      "_ToonPower_OutLine_Min": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "_Tiling_Main": {
+       "r": [
+        [
+         0.0,
+         2.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        0.33
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.25,
+      "arc": 270.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": -1.0,
+       "min_scalar": -5.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
+     "matrix": [
+      [
+       -12.658,
+       -86.0831,
+       0.0,
+       0.0
+      ],
+      [
+       -27.559,
+       25.884,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL1_2": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    19.8,
+    82.2
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "spin": {
+      "mode": 1,
+      "scalar": 3.4907,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -1.0
+          ],
+          [
+           1.0,
+           0.25
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "mesh",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Circle1_Scaler",
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_Trail1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       20.0,
+       0.3,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.4,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_Noise_Cloud1",
+       "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
+      }
+     },
+     "name": "Trail1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
+     "matrix": [
+      [
+       23.1359,
+       -86.0515,
+       -0.0,
+       0.0
+      ],
+      [
+       23.6735,
+       -6.3597,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Tiling_Mask": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         1.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_OutLine_Max": [
+       [
+        0.0,
+        0.9
+       ]
+      ],
+      "_ToonPower_OutLine_Min": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "_Tiling_Main": {
+       "r": [
+        [
+         0.0,
+         2.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        0.33
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.25,
+      "arc": 270.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": -1.0,
+       "min_scalar": -5.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
+     "matrix": [
+      [
+       23.1359,
+       -86.0515,
+       -0.0,
+       0.0
+      ],
+      [
+       23.6735,
+       -6.3597,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    0.0,
+    60.0
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.15
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 10.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 2.5
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.4,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.8,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      -0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_Move_ani/Flash1",
+     "matrix": [
+      [
+       60.0,
+       0.0,
+       0.0,
+       -39.6
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       -15.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         20.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.9,
+      "min_scalar": 0.6
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 3.5,
+      "min_scalar": 2.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 3,
+      "scalar": -0.05,
+      "min_scalar": -0.01
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 5.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 5,
+      "radius": 2.0,
+      "arc": 180.0,
+      "thickness": 0.0,
+      "angle": 75.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       3.0,
+       0.0,
+       0.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "spin": {
+      "mode": 3,
+      "scalar": 0.8727,
+      "min_scalar": -0.8727
+     },
+     "spin_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "spin_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.45,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.9,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 3,
+       "scalar": -3.0,
+       "min_scalar": -9.0
+      },
+      "y": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "z": {
+       "mode": 3,
+       "scalar": 0.0,
+       "min_scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "source": "Shader Graphs/FX_Grp_Smoke1",
+      "name": "FX_Mat_Smoke1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Tiling_Noise": [
+        8,
+        2
+       ],
+       "Color_Main": [
+        12,
+        4
+       ],
+       "Power_Gradient": [
+        16,
+        1
+       ],
+       "Alp": [
+        17,
+        1
+       ],
+       "Dissolve": [
+        18,
+        1
+       ],
+       "Rule": [
+        19,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Smoke1",
+       "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
+      }
+     },
+     "name": "Smoke1",
+     "path": "FX_PC_5_Ishmael_Liu_Move_ani/Smoke1",
+     "matrix": [
+      [
+       60.0,
+       0.0,
+       0.0,
+       -60.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       -60.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         0.3
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.2
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Power_Gradient": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "Tiling_Noise": {
+       "r": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_1_Wave": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    53.7,
+    70.8
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 3.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.66
+          ],
+          [
+           1.0,
+           0.33
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_FireShockWave1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       -1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
+       "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
+      }
+     },
+     "name": "Wave1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
+     "matrix": [
+      [
+       18.2731,
+       -39.77,
+       41.042,
+       0.0
+      ],
+      [
+       16.1759,
+       44.9261,
+       36.3317,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         60.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.3
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_OutLineOnOff": [
+       [
+        0.0,
+        0.25
+       ]
+      ],
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_ToonPower_Mask": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.12
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 2,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
+     "matrix": [
+      [
+       44.9261,
+       -39.77,
+       -0.0,
+       -77.4275
+      ],
+      [
+       39.77,
+       44.9261,
+       -0.0,
+       -70.9452
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       -0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 25.0,
+      "min_scalar": 2.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 4,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.1,
+       "min_scalar": 0.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
+     "matrix": [
+      [
+       -0.0,
+       -39.77,
+       -44.9261,
+       0.0
+      ],
+      [
+       -0.0,
+       44.9261,
+       -39.77,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       -0.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.33
+          ],
+          [
+           1.0,
+           0.66
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
+      "name": "FX_Mat_Smoke1_New",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.01,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       180.0,
+       -1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_Tiling_Noise1": [
+        16,
+        2
+       ],
+       "_Tiling_Noise2": [
+        18,
+        2
+       ],
+       "_Panner_Noise1": [
+        20,
+        2
+       ],
+       "_Panner_Noise2": [
+        22,
+        2
+       ],
+       "_Dissolve": [
+        24,
+        1
+       ],
+       "_ToonPower": [
+        25,
+        1
+       ],
+       "_Rule": [
+        26,
+        1
+       ],
+       "_Color_Main": [
+        28,
+        4
+       ],
+       "_Color_OutLine": [
+        32,
+        4
+       ],
+       "_OutLine_OnOff": [
+        36,
+        1
+       ],
+       "_Alp": [
+        37,
+        1
+       ],
+       "_VectorMask_OnOff": [
+        38,
+        1
+       ],
+       "_VectorMask_Rotate": [
+        39,
+        1
+       ],
+       "_VectorMask_MaskPower": [
+        40,
+        1
+       ],
+       "_VectorMask_Value": [
+        41,
+        1
+       ],
+       "_Tiling_Main": [
+        42,
+        2
+       ],
+       "_Rotate_Main": [
+        48,
+        1
+       ],
+       "_MaskTex_OutputChange": [
+        49,
+        1
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Main": "FX_Tex_Noise_Cloud",
+       "_Tex_Mask": "FX_Tex_Smoke1",
+       "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
+       "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
+      }
+     },
+     "name": "Burn",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
+     "matrix": [
+      [
+       18.2731,
+       -39.77,
+       41.042,
+       0.0
+      ],
+      [
+       16.1759,
+       44.9261,
+       36.3317,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise1": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise2": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    19.8,
+    82.2
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "spin": {
+      "mode": 1,
+      "scalar": 3.4907,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -1.0
+          ],
+          [
+           1.0,
+           0.25
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "mesh",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Circle1_Scaler",
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_Trail1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       20.0,
+       0.3,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.4,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_Noise_Cloud1",
+       "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
+      }
+     },
+     "name": "Trail1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -21.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Tiling_Mask": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         1.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_OutLine_Max": [
+       [
+        0.0,
+        0.9
+       ]
+      ],
+      "_ToonPower_OutLine_Min": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "_Tiling_Main": {
+       "r": [
+        [
+         0.0,
+         2.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        0.33
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "shape": {
+      "type": 10,
+      "radius": 1.25,
+      "arc": 270.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": -1.0,
+       "min_scalar": -5.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "hidden": true,
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
+     "matrix": [
+      [
+       90.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -21.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2_Wave": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    97.8,
+    88.8
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 3.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.66
+          ],
+          [
+           1.0,
+           0.33
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_FireShockWave1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       -1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
+       "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
+      }
+     },
+     "name": "Wave1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
+     "matrix": [
+      [
+       24.3893,
+       -2.094,
+       54.7793,
+       0.0
+      ],
+      [
+       0.8517,
+       59.9634,
+       1.9129,
+       0.0
+      ],
+      [
+       -54.8127,
+       0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         60.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.3
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_OutLineOnOff": [
+       [
+        0.0,
+        0.25
+       ]
+      ],
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_ToonPower_Mask": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.3
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 0.7
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 2,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
+     "matrix": [
+      [
+       59.9011,
+       -3.4434,
+       -0.0,
+       -78.6064
+      ],
+      [
+       3.4434,
+       59.9011,
+       0.0,
+       -6.3472
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 25.0,
+      "min_scalar": 2.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 4,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.1,
+       "min_scalar": 0.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
+     "matrix": [
+      [
+       -0.0,
+       -2.094,
+       -59.9635,
+       0.0
+      ],
+      [
+       -0.0,
+       59.9634,
+       -2.094,
+       0.0
+      ],
+      [
+       60.0,
+       0.0,
+       -0.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.33
+          ],
+          [
+           1.0,
+           0.66
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
+      "name": "FX_Mat_Smoke1_New",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.01,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       180.0,
+       -1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_Tiling_Noise1": [
+        16,
+        2
+       ],
+       "_Tiling_Noise2": [
+        18,
+        2
+       ],
+       "_Panner_Noise1": [
+        20,
+        2
+       ],
+       "_Panner_Noise2": [
+        22,
+        2
+       ],
+       "_Dissolve": [
+        24,
+        1
+       ],
+       "_ToonPower": [
+        25,
+        1
+       ],
+       "_Rule": [
+        26,
+        1
+       ],
+       "_Color_Main": [
+        28,
+        4
+       ],
+       "_Color_OutLine": [
+        32,
+        4
+       ],
+       "_OutLine_OnOff": [
+        36,
+        1
+       ],
+       "_Alp": [
+        37,
+        1
+       ],
+       "_VectorMask_OnOff": [
+        38,
+        1
+       ],
+       "_VectorMask_Rotate": [
+        39,
+        1
+       ],
+       "_VectorMask_MaskPower": [
+        40,
+        1
+       ],
+       "_VectorMask_Value": [
+        41,
+        1
+       ],
+       "_Tiling_Main": [
+        42,
+        2
+       ],
+       "_Rotate_Main": [
+        48,
+        1
+       ],
+       "_MaskTex_OutputChange": [
+        49,
+        1
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Main": "FX_Tex_Noise_Cloud",
+       "_Tex_Mask": "FX_Tex_Smoke1",
+       "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
+       "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
+      }
+     },
+     "name": "Burn",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
+     "matrix": [
+      [
+       24.3893,
+       -2.094,
+       54.7793,
+       0.0
+      ],
+      [
+       0.8517,
+       59.9634,
+       1.9129,
+       0.0
+      ],
+      [
+       -54.8127,
+       0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise1": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise2": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_1": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    -9.9,
+    70.2
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.25
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -1.0
+          ],
+          [
+           1.0,
+           0.25
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "mesh",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Circle1_Scaler",
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_Trail1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       20.0,
+       0.3,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.4,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_Noise_Cloud1",
+       "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
+      }
+     },
+     "name": "Trail1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
+     "matrix": [
+      [
+       8.6139,
+       -88.8529,
+       -0.0,
+       0.0
+      ],
+      [
+       22.1463,
+       -9.0276,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Tiling_Mask": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         1.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_OutLine_Max": [
+       [
+        0.0,
+        0.9
+       ]
+      ],
+      "_ToonPower_OutLine_Min": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "_Tiling_Main": {
+       "r": [
+        [
+         0.0,
+         2.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        0.33
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 3.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.25,
+      "arc": 270.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": -1.0,
+       "min_scalar": -5.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
+     "matrix": [
+      [
+       85.6976,
+       -24.9992,
+       -0.0,
+       0.0
+      ],
+      [
+       16.6064,
+       17.21,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_1_Wave": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    94.38,
+    97.02
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 3.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.66
+          ],
+          [
+           1.0,
+           0.33
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_FireShockWave1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       -1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
+       "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
+      }
+     },
+     "name": "Wave1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
+     "matrix": [
+      [
+       23.6272,
+       -15.0197,
+       53.0675,
+       0.0
+      ],
+      [
+       6.1091,
+       58.0897,
+       13.7212,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         60.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.3
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_OutLineOnOff": [
+       [
+        0.0,
+        0.25
+       ]
+      ],
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_ToonPower_Mask": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.3
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 0.7
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 2,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      -0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
+     "matrix": [
+      [
+       58.0897,
+       -15.0197,
+       -0.0,
+       0.0
+      ],
+      [
+       15.0197,
+       58.0897,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 25.0,
+      "min_scalar": 2.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 4,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.1,
+       "min_scalar": 0.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
+     "matrix": [
+      [
+       -0.0,
+       -15.0197,
+       -58.0897,
+       0.0
+      ],
+      [
+       -0.0,
+       58.0897,
+       -15.0197,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       -0.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.33
+          ],
+          [
+           1.0,
+           0.66
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
+      "name": "FX_Mat_Smoke1_New",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.01,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       180.0,
+       -1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_Tiling_Noise1": [
+        16,
+        2
+       ],
+       "_Tiling_Noise2": [
+        18,
+        2
+       ],
+       "_Panner_Noise1": [
+        20,
+        2
+       ],
+       "_Panner_Noise2": [
+        22,
+        2
+       ],
+       "_Dissolve": [
+        24,
+        1
+       ],
+       "_ToonPower": [
+        25,
+        1
+       ],
+       "_Rule": [
+        26,
+        1
+       ],
+       "_Color_Main": [
+        28,
+        4
+       ],
+       "_Color_OutLine": [
+        32,
+        4
+       ],
+       "_OutLine_OnOff": [
+        36,
+        1
+       ],
+       "_Alp": [
+        37,
+        1
+       ],
+       "_VectorMask_OnOff": [
+        38,
+        1
+       ],
+       "_VectorMask_Rotate": [
+        39,
+        1
+       ],
+       "_VectorMask_MaskPower": [
+        40,
+        1
+       ],
+       "_VectorMask_Value": [
+        41,
+        1
+       ],
+       "_Tiling_Main": [
+        42,
+        2
+       ],
+       "_Rotate_Main": [
+        48,
+        1
+       ],
+       "_MaskTex_OutputChange": [
+        49,
+        1
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Main": "FX_Tex_Noise_Cloud",
+       "_Tex_Mask": "FX_Tex_Smoke1",
+       "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
+       "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
+      }
+     },
+     "name": "Burn",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
+     "matrix": [
+      [
+       23.6272,
+       -15.0197,
+       53.0675,
+       0.0
+      ],
+      [
+       6.1091,
+       58.0897,
+       13.7212,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise1": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise2": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_3": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    21.9,
+    66.3
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "spin": {
+      "mode": 1,
+      "scalar": 3.4907,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          1.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -1.0
+          ],
+          [
+           1.0,
+           0.25
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "mesh",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "mesh": "FX_Mesh_Plane_Circle1_Scaler",
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_Trail1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       20.0,
+       0.3,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.4,
+       0.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_Noise_Cloud1",
+       "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
+      }
+     },
+     "name": "Trail1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
+     "matrix": [
+      [
+       -26.8429,
+       53.5276,
+       -0.0,
+       0.0
+      ],
+      [
+       11.7966,
+       10.0047,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Tiling_Mask": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         1.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         25.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.1
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_OutLine_Max": [
+       [
+        0.0,
+        0.9
+       ]
+      ],
+      "_ToonPower_OutLine_Min": [
+       [
+        0.0,
+        0.5
+       ]
+      ],
+      "_Tiling_Main": {
+       "r": [
+        [
+         0.0,
+         2.5
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        0.33
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 9.0,
+      "min_scalar": 3.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 5.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 1.25,
+      "arc": 270.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       180.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": -1.0,
+       "min_scalar": -5.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
+     "matrix": [
+      [
+       -26.8429,
+       53.5276,
+       -0.0,
+       0.0
+      ],
+      [
+       11.7966,
+       10.0047,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       -60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_3_Charge": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    86.1,
+    86.7
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.2,
+      "min_scalar": 0.1
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": -25.0,
+      "min_scalar": -5.0
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.3,
+      "min_scalar": 0.9
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "shape": {
+      "type": 10,
+      "radius": 2.0,
+      "arc": 360.0,
+      "thickness": 0.66,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "stretched",
+     "sort": 1,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "hidden": true,
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Main1",
+     "path": "FX_PC_5_Ishmael_Liu_Charge_ani/Main1",
+     "matrix": [
+      [
+       60.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 0.6,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.6,
+      "min_scalar": 0.2
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 2.5,
+      "min_scalar": 0.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 2.5,
+      "min_scalar": 1.5
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 3,
+      "scalar": -0.09,
+      "min_scalar": -0.03
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 20.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 2.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 10,
+      "radius": 0.0001,
+      "arc": 360.0,
+      "thickness": 0.0,
+      "angle": 25.0,
+      "length": 0.5,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "spin": {
+      "mode": 3,
+      "scalar": 0.8727,
+      "min_scalar": -0.8727
+     },
+     "spin_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "spin_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.45,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.85,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_fire1_655aba64c6",
+      "source": "Shader Graphs/FX_Grp_Fire1",
+      "name": "FX_Mat_Fire1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Tiling_Noise": [
+        4,
+        2
+       ],
+       "Color_Main": [
+        8,
+        4
+       ],
+       "ToonPower": [
+        12,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Fire"
+      }
+     },
+     "name": "Fire1",
+     "path": "FX_PC_5_Ishmael_Liu_Charge_ani/Fire1",
+     "matrix": [
+      [
+       60.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       60.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         50.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.35
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling_Noise": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "ToonPower": [
+       [
+        0.0,
+        0.0
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_3_Wave": {
+   "anchor": "caster_feet",
+   "follow": true,
+   "follow_y": true,
+   "pos": [
+    102.0,
+    45.0
+   ],
+   "systems": [
+    {
+     "kind": "particles",
+     "duration": 0.5,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.2
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.33
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.66
+          ],
+          [
+           1.0,
+           0.33
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 1,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
+      "name": "FX_Mat_CC_Liu_FireShockWave1",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       -1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_ToonPower_Mask": [
+        4,
+        1
+       ],
+       "_Color_Main": [
+        12,
+        4
+       ],
+       "_ToonPower_Main": [
+        16,
+        1
+       ],
+       "_ToonPower_OutLine_Max": [
+        17,
+        1
+       ],
+       "_ToonPower_OutLine_Min": [
+        18,
+        1
+       ],
+       "_Dissolve": [
+        19,
+        1
+       ],
+       "_Alp": [
+        20,
+        1
+       ],
+       "_Rule": [
+        21,
+        1
+       ],
+       "_Tiling_Main": [
+        22,
+        2
+       ],
+       "_Panner_Main": [
+        24,
+        2
+       ],
+       "_Tiling_Mask": [
+        26,
+        2
+       ],
+       "_Tiling_Dissolve": [
+        32,
+        2
+       ],
+       "_Panner_Dissolve": [
+        34,
+        2
+       ],
+       "_Color_OutLine": [
+        36,
+        4
+       ],
+       "_OutLineOnOff": [
+        40,
+        1
+       ],
+       "_Panner_Mask": [
+        41,
+        2
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
+       "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
+       "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
+      }
+     },
+     "name": "Wave1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
+     "matrix": [
+      [
+       30.2996,
+       6.9558,
+       68.0539,
+       0.0
+      ],
+      [
+       -3.5365,
+       59.5954,
+       -7.943,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         60.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.3
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Color_OutLine": {
+       "r": [
+        [
+         0.0,
+         1000.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_OutLineOnOff": [
+       [
+        0.0,
+        0.25
+       ]
+      ],
+      "_Rule": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_Tiling_Dissolve": {
+       "r": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         3.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_ToonPower_Main": [
+       [
+        0.0,
+        1.0
+       ]
+      ],
+      "_ToonPower_Mask": [
+       [
+        0.0,
+        1.0
+       ]
+      ]
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.3
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 5.0
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 0,
+      "scalar": 0.7
+     },
+     "size_z": {
+      "mode": 0,
+      "scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          0.0,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         0.17,
+         [
+          0.33,
+          0.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          0.66,
+          0.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "render": "billboard",
+     "sort": 2,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      -0.25,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "source": "Shader Graphs/FX_Grp_Flash1",
+      "name": "FX_Mat_Flash1",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.4,
+       2.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ],
+       "Tiling": [
+        8,
+        2
+       ],
+       "ToonPower": [
+        10,
+        1
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {
+       "Tex_Main": "FX_Tex_Flash1"
+      }
+     },
+     "name": "Flash1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
+     "matrix": [
+      [
+       74.4943,
+       6.9558,
+       0.0,
+       0.0
+      ],
+      [
+       -8.6947,
+       59.5954,
+       -0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -0.0,
+       60.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.5
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "Tiling": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         10.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 3,
+      "scalar": 0.8,
+      "min_scalar": 0.4
+     },
+     "speed": {
+      "mode": 3,
+      "scalar": 25.0,
+      "min_scalar": 2.5
+     },
+     "size": {
+      "mode": 3,
+      "scalar": 0.06,
+      "min_scalar": 0.09
+     },
+     "rotation": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "size_y": {
+      "mode": 3,
+      "scalar": 0.1,
+      "min_scalar": 0.5
+     },
+     "size_z": {
+      "mode": 3,
+      "scalar": 1.0,
+      "min_scalar": 1.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 10.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "shape": {
+      "type": 4,
+      "radius": 0.5,
+      "arc": 360.0,
+      "thickness": 0.33,
+      "angle": 25.0,
+      "length": 5.0,
+      "box": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "scale": [
+       1.0,
+       1.0,
+       1.0
+      ],
+      "position": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "rotation": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "random_direction": 0.0
+     },
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "size_over_life_y": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        1.0
+       ],
+       [
+        1.0,
+        0.0
+       ]
+      ]
+     },
+     "color_over_life": {
+      "mode": 1,
+      "gradient": {
+       "c": [
+        [
+         0.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ],
+        [
+         1.0,
+         [
+          1.0,
+          1.0,
+          0.0
+         ]
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         1.0,
+         1.0
+        ]
+       ]
+      }
+     },
+     "velocity": {
+      "x": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "y": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "z": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "orbital_z": {
+       "mode": 3,
+       "scalar": 0.1,
+       "min_scalar": 0.5
+      },
+      "radial": {
+       "mode": 0,
+       "scalar": 0.0
+      },
+      "space": false
+     },
+     "noise": {
+      "strength": {
+       "mode": 0,
+       "scalar": 2.0
+      },
+      "frequency": 0.5
+     },
+     "render": "stretched",
+     "sort": 3,
+     "alignment": 0,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "source": "Shader Graphs/FX_Grp_Burn",
+      "name": "FX_Mat_Burn",
+      "values": [
+       1.0,
+       1.0,
+       1.0,
+       0.0
+      ],
+      "layout": {
+       "Color_Main": [
+        0,
+        4
+       ]
+      },
+      "colors": [
+       "Color_Main"
+      ],
+      "textures": {}
+     },
+     "name": "Spark1",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
+     "matrix": [
+      [
+       -0.0,
+       6.9558,
+       -74.4943,
+       0.0
+      ],
+      [
+       0.0,
+       59.5954,
+       8.6947,
+       0.0
+      ],
+      [
+       60.0,
+       -0.0,
+       -0.0,
+       0.0
+      ]
+     ],
+     "anim": {
+      "Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         0.25
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    },
+    {
+     "kind": "particles",
+     "duration": 1.0,
+     "looping": false,
+     "delay": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "lifetime": {
+      "mode": 0,
+      "scalar": 0.5
+     },
+     "speed": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "size": {
+      "mode": 0,
+      "scalar": 10.0
+     },
+     "rotation": {
+      "mode": 3,
+      "scalar": 6.2832,
+      "min_scalar": -6.2832
+     },
+     "color": {
+      "mode": 0,
+      "color": [
+       1.0,
+       1.0,
+       1.0,
+       1.0
+      ]
+     },
+     "gravity": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "max": 1000,
+     "rotation_x": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rotation_y": {
+      "mode": 3,
+      "scalar": 0.0,
+      "min_scalar": 0.0
+     },
+     "rate": {
+      "mode": 0,
+      "scalar": 0.0
+     },
+     "bursts": [
+      {
+       "time": 0.0,
+       "count": {
+        "mode": 0,
+        "scalar": 1.0
+       },
+       "cycles": 1,
+       "interval": 0.01,
+       "probability": 1.0
+      }
+     ],
+     "size_over_life": {
+      "mode": 1,
+      "scalar": 1.0,
+      "curve": [
+       [
+        0.0,
+        0.0
+       ],
+       [
+        1.0,
+        1.0
+       ]
+      ]
+     },
+     "custom_data": [
+      {
+       "vector": [
+        {
+         "mode": 1,
+         "scalar": 1.0,
+         "curve": [
+          [
+           0.0,
+           -0.33
+          ],
+          [
+           1.0,
+           0.66
+          ]
+         ]
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        },
+        {
+         "mode": 0,
+         "scalar": 0.0
+        }
+       ]
+      },
+      null
+     ],
+     "render": "billboard",
+     "sort": 3,
+     "alignment": 2,
+     "length_scale": 2.0,
+     "velocity_scale": 0.0,
+     "pivot": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "streams": [
+      0,
+      1,
+      3,
+      4,
+      32,
+      24
+     ],
+     "material": {
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
+      "name": "FX_Mat_Smoke1_New",
+      "values": [
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.01,
+       0.0,
+       0.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       1.0,
+       0.0,
+       180.0,
+       -1.0,
+       1.0,
+       1.0,
+       1.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0,
+       0.0
+      ],
+      "layout": {
+       "_Tiling_Noise1": [
+        16,
+        2
+       ],
+       "_Tiling_Noise2": [
+        18,
+        2
+       ],
+       "_Panner_Noise1": [
+        20,
+        2
+       ],
+       "_Panner_Noise2": [
+        22,
+        2
+       ],
+       "_Dissolve": [
+        24,
+        1
+       ],
+       "_ToonPower": [
+        25,
+        1
+       ],
+       "_Rule": [
+        26,
+        1
+       ],
+       "_Color_Main": [
+        28,
+        4
+       ],
+       "_Color_OutLine": [
+        32,
+        4
+       ],
+       "_OutLine_OnOff": [
+        36,
+        1
+       ],
+       "_Alp": [
+        37,
+        1
+       ],
+       "_VectorMask_OnOff": [
+        38,
+        1
+       ],
+       "_VectorMask_Rotate": [
+        39,
+        1
+       ],
+       "_VectorMask_MaskPower": [
+        40,
+        1
+       ],
+       "_VectorMask_Value": [
+        41,
+        1
+       ],
+       "_Tiling_Main": [
+        42,
+        2
+       ],
+       "_Rotate_Main": [
+        48,
+        1
+       ],
+       "_MaskTex_OutputChange": [
+        49,
+        1
+       ]
+      },
+      "colors": [
+       "_Color_Main",
+       "_Color_OutLine"
+      ],
+      "textures": {
+       "_Tex_Main": "FX_Tex_Noise_Cloud",
+       "_Tex_Mask": "FX_Tex_Smoke1",
+       "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
+       "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
+      }
+     },
+     "name": "Burn",
+     "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
+     "matrix": [
+      [
+       30.2996,
+       6.9558,
+       68.0539,
+       0.0
+      ],
+      [
+       -3.5365,
+       59.5954,
+       -7.943,
+       0.0
+      ],
+      [
+       -54.8127,
+       -0.0,
+       24.4042,
+       0.0
+      ]
+     ],
+     "anim": {
+      "_Color_Main": {
+       "r": [
+        [
+         0.0,
+         100.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ],
+        [
+         0.3333,
+         0.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise1": {
+       "r": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         1.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      },
+      "_Tiling_Noise2": {
+       "r": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "g": [
+        [
+         0.0,
+         2.0
+        ]
+       ],
+       "b": [
+        [
+         0.0,
+         0.0
+        ]
+       ],
+       "a": [
+        [
+         0.0,
+         0.0
+        ]
+       ]
+      }
+     }
+    }
+   ]
+  }
+ }
+}

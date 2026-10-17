@@ -1,0 +1,130 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/clash/effects/damage_number.gd" id="1_damage"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_slash.png" id="2_slash"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_pierce.png" id="3_pierce"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_blunt.png" id="4_blunt"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="5_font"]
+
+[sub_resource type="Gradient" id="Gradient_disc"]
+interpolation_mode = 1
+offsets = PackedFloat32Array(0, 1)
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_disc"]
+gradient = SubResource("Gradient_disc")
+width = 68
+height = 68
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
+
+[sub_resource type="LabelSettings" id="LabelSettings_number"]
+font = ExtResource("5_font")
+font_size = 34
+font_color = Color(1, 0.878, 0.29, 1)
+outline_size = 7
+outline_color = Color(0.17, 0.1, 0, 1)
+
+[sub_resource type="Animation" id="Animation_rise"]
+resource_name = "rise"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Rise:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -24)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Rise:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.65, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Rise/Glow:self_modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.35),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0.878, 0.29, 0.25), Color(1, 0.878, 0.29, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Rise/Pop:scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.1429),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1.5, 1.5), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_damage"]
+_data = {
+&"rise": SubResource("Animation_rise")
+}
+
+[node name="DamageNumber" type="Node2D"]
+script = ExtResource("1_damage")
+slash_icon = ExtResource("2_slash")
+pierce_icon = ExtResource("3_pierce")
+blunt_icon = ExtResource("4_blunt")
+
+[node name="Rise" type="Node2D" parent="."]
+
+[node name="Glow" type="Sprite2D" parent="Rise"]
+self_modulate = Color(1, 0.878, 0.29, 0.25)
+texture = SubResource("GradientTexture2D_disc")
+
+[node name="Pop" type="Node2D" parent="Rise"]
+scale = Vector2(1.5, 1.5)
+
+[node name="Number" type="Label" parent="Rise/Pop"]
+offset_left = -21.0
+offset_top = -21.0
+offset_right = 21.0
+offset_bottom = 21.0
+text = "12"
+label_settings = SubResource("LabelSettings_number")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AttackIcon" type="TextureRect" parent="Rise/Pop/Number"]
+self_modulate = Color(1, 0.878, 0.29, 1)
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -26.0
+offset_top = -9.0
+offset_right = -2.0
+offset_bottom = 9.0
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_slash")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries/ = SubResource("AnimationLibrary_damage")
+autoplay = &"rise"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="queue_free" unbinds=1]

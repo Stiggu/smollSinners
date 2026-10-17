@@ -1,0 +1,125 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/clash/effects/clash_count.gd" id="1_count"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/clash_count/splat_3.png" id="2_ink"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/clash_count/brush_digits.fnt" id="3_digits"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/clash_count/hap.png" id="4_hap"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_count"]
+font = ExtResource("3_digits")
+font_size = 4
+
+[sub_resource type="Animation" id="Animation_reveal"]
+resource_name = "reveal"
+length = 0.9167
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot/Ink:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.0833, 0.1167, 0.15),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0872665, -0.0872665, 0.0523599, -0.0523599]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Pivot/ScalePivot:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.0833, 0.1167, 0.15),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.0872665, 0.0872665, -0.0523599, 0.0174533]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Pivot/ScalePivot:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.1667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(2, 2), Vector2(1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Pivot/Ink:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.2833, 0.8333),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Pivot/ScalePivot/Count:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 0.05, 0.5, 0.9167),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Pivot/Hap:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.0833, 0.1667, 0.5, 0.9167),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_count"]
+_data = {
+&"reveal": SubResource("Animation_reveal")
+}
+
+[node name="ClashCount" type="Node2D"]
+script = ExtResource("1_count")
+
+[node name="Pivot" type="Node2D" parent="."]
+rotation = -0.141024
+
+[node name="Ink" type="Sprite2D" parent="Pivot"]
+texture = ExtResource("2_ink")
+
+[node name="ScalePivot" type="Node2D" parent="Pivot"]
+position = Vector2(-21.12, 7.92)
+scale = Vector2(2, 2)
+
+[node name="Count" type="Label" parent="Pivot/ScalePivot"]
+modulate = Color(1, 1, 1, 0)
+offset_left = -137.32
+offset_top = -28.89
+offset_right = 3.04
+offset_bottom = 20.09
+text = "2"
+label_settings = SubResource("LabelSettings_count")
+horizontal_alignment = 2
+
+[node name="Hap" type="Sprite2D" parent="Pivot"]
+modulate = Color(1, 1, 1, 0)
+position = Vector2(17.6, 4.29)
+texture = ExtResource("4_hap")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries/ = SubResource("AnimationLibrary_count")
+autoplay = &"reveal"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="queue_free" unbinds=1]

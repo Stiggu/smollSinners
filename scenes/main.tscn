@@ -1,0 +1,59 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/app/overlay.gd" id="1_overlay"]
+[ext_resource type="Script" path="res://scripts/desktop/desktop.gd" id="2_desktop"]
+[ext_resource type="Script" path="res://scripts/desktop/icon_boxes.gd" id="3_icon_boxes"]
+[ext_resource type="Script" path="res://scripts/sinner/team.gd" id="4_team"]
+[ext_resource type="Script" path="res://scripts/clash/clash_director.gd" id="5_clashes"]
+[ext_resource type="PackedScene" path="res://scenes/ui/settings_panel.tscn" id="6_settings"]
+[ext_resource type="Script" path="res://scripts/app/desktop_sleep.gd" id="7_sleep"]
+[ext_resource type="PackedScene" path="res://scenes/app/tray.tscn" id="8_tray"]
+
+[node name="Overlay" type="Node2D"]
+script = ExtResource("1_overlay")
+
+[node name="Desktop" type="Node" parent="."]
+script = ExtResource("2_desktop")
+
+[node name="IconBoxes" type="Node2D" parent="." node_paths=PackedStringArray("desktop")]
+visible = false
+script = ExtResource("3_icon_boxes")
+desktop = NodePath("../Desktop")
+
+[node name="Team" type="Node2D" parent="." node_paths=PackedStringArray("fx_layer")]
+script = ExtResource("4_team")
+fx_layer = NodePath("../Effects")
+
+[node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop")]
+script = ExtResource("5_clashes")
+desktop = NodePath("../Desktop")
+
+[node name="Effects" type="Node2D" parent="."]
+
+[node name="SettingsPanel" parent="." instance=ExtResource("6_settings")]
+z_index = 10
+
+[node name="DesktopSleep" type="Timer" parent="." node_paths=PackedStringArray("desktop")]
+process_mode = 3
+wait_time = 0.5
+autostart = true
+script = ExtResource("7_sleep")
+desktop = NodePath("../Desktop")
+
+[node name="Tray" parent="." instance=ExtResource("8_tray")]
+
+[connection signal="changed" from="Team" to="." method="_on_team_changed"]
+[connection signal="clash_wanted" from="Team" to="." method="_on_clash_wanted"]
+[connection signal="member_dropped" from="Team" to="." method="_on_sinner_dropped"]
+[connection signal="card_drag_ended" from="SettingsPanel" to="." method="_on_card_drag_ended"]
+[connection signal="card_drag_started" from="SettingsPanel" to="." method="_on_card_drag_started"]
+[connection signal="identity_chosen" from="SettingsPanel" to="." method="_on_identity_chosen"]
+[connection signal="visibility_changed" from="SettingsPanel" to="." method="_on_settings_visibility_changed"]
+[connection signal="fell_asleep" from="DesktopSleep" to="." method="_on_fell_asleep"]
+[connection signal="woke_up" from="DesktopSleep" to="." method="_on_woke_up"]
+[connection signal="bring_back_requested" from="Tray" to="Team" method="drop_all_in"]
+[connection signal="force_clash_requested" from="Tray" to="." method="_on_force_clash_requested"]
+[connection signal="icon_boxes_toggled" from="Tray" to="." method="_show_icon_boxes"]
+[connection signal="monitor_chosen" from="Tray" to="." method="_move_to_screen"]
+[connection signal="quit_requested" from="Tray" to="." method="_on_quit_requested"]
+[connection signal="settings_requested" from="Tray" to="." method="open_settings"]

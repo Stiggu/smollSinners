@@ -1,0 +1,1549 @@
+{
+ "id": 10203,
+ "sinner": "Faust",
+ "title": "Lobotomy Corp. Remnant",
+ "rank": 2,
+ "appearance": "10203_Faust_YuriAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1020301,
+   "name": "Sole Strike",
+   "affinity": "SCARLET",
+   "attack": "slash",
+   "base": 3,
+   "coins": [
+    8
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.5,
+     "next": 0.5,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.3333,
+       "skill1_2"
+      ],
+      [
+       0.4,
+       "skill1_3"
+      ],
+      [
+       0.4667,
+       "skill1_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill1_2_e"
+       ],
+       [
+        0.3167,
+        "skill1_2_e"
+       ],
+       [
+        0.3333,
+        "skill1_2_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.3167,
+        false
+       ],
+       [
+        0.3333,
+        true
+       ],
+       [
+        0.4,
+        false
+       ],
+       [
+        0.4667,
+        false
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        0,
+        0
+       ],
+       [
+        0.3167,
+        125,
+        -67
+       ],
+       [
+        0.3333,
+        125,
+        -67
+       ]
+      ]
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.1667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1020302,
+   "name": "Deep Cuts",
+   "affinity": "AZURE",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    3,
+    3,
+    3
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.5,
+     "next": 0.4,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ],
+      [
+       0.2667,
+       "skill3_1"
+      ],
+      [
+       0.3333,
+       "skill3_2"
+      ],
+      [
+       0.4167,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill3_1_e"
+       ],
+       [
+        0.3333,
+        "skill3_2_e"
+       ],
+       [
+        0.4167,
+        "skill3_3_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.2667,
+        true
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        0,
+        0
+       ],
+       [
+        0.2667,
+        -25,
+        -120
+       ],
+       [
+        0.3333,
+        57,
+        -57
+       ],
+       [
+        0.4167,
+        -17,
+        -53
+       ]
+      ]
+     },
+     "moves": [
+      {
+       "t": 0.2,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.1667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL3_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.8833,
+     "next": 0.8167,
+     "body": [
+      [
+       0.0,
+       "skill3_3"
+      ],
+      [
+       0.2,
+       "skill3_4"
+      ],
+      [
+       0.2667,
+       "skill3_5"
+      ],
+      [
+       0.65,
+       "skill3_6"
+      ],
+      [
+       0.7167,
+       "skill3_7"
+      ],
+      [
+       0.7833,
+       "skill3_8"
+      ],
+      [
+       0.8167,
+       "skill3_8"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill3_3_e"
+       ],
+       [
+        0.65,
+        "skill3_6_e"
+       ],
+       [
+        0.7167,
+        "skill3_7_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.2,
+        false
+       ],
+       [
+        0.65,
+        true
+       ],
+       [
+        0.7833,
+        false
+       ],
+       [
+        0.8167,
+        false
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        -17,
+        -53
+       ],
+       [
+        0.65,
+        202,
+        -85
+       ],
+       [
+        0.7167,
+        215,
+        7
+       ]
+      ]
+     },
+     "moves": [
+      {
+       "t": 0.6,
+       "to": "target",
+       "x": 240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.6667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.6667,
+       0.1667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL3_2"
+      ]
+     ]
+    },
+    {
+     "length": 1.0,
+     "next": null,
+     "body": [
+      [
+       0.0,
+       "skill3_8"
+      ],
+      [
+       0.05,
+       "skill3_9"
+      ],
+      [
+       0.1,
+       "skill3_10"
+      ],
+      [
+       0.5333,
+       "skill3_11"
+      ],
+      [
+       0.5833,
+       "skill3_12"
+      ],
+      [
+       0.6667,
+       "skill3_13"
+      ],
+      [
+       0.75,
+       "skill3_13"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill3_7_e"
+       ],
+       [
+        0.5833,
+        "skill3_12_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.5833,
+        true
+       ],
+       [
+        0.6667,
+        true
+       ],
+       [
+        0.75,
+        false
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        215,
+        7
+       ],
+       [
+        0.5833,
+        249,
+        -94
+       ]
+      ]
+     },
+     "moves": [
+      {
+       "t": 0.5167,
+       "to": "target",
+       "x": 240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.5833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5833,
+       0.1667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL3_3"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1020303,
+   "name": "Opportunistic Slash",
+   "affinity": "VIOLET",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    8,
+    8
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.5,
+     "next": 0.4,
+     "body": [
+      [
+       0.0,
+       "idle"
+      ],
+      [
+       0.0833,
+       "mov"
+      ],
+      [
+       0.2667,
+       "skill2_1"
+      ],
+      [
+       0.3333,
+       "skill2_2"
+      ],
+      [
+       0.4,
+       "skill2_3"
+      ],
+      [
+       0.4667,
+       "skill2_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill1_2_e"
+       ],
+       [
+        0.3333,
+        "skill3_6_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.3333,
+        true
+       ],
+       [
+        0.4,
+        false
+       ],
+       [
+        0.4667,
+        false
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        0,
+        0
+       ],
+       [
+        0.3333,
+        46,
+        -31
+       ]
+      ]
+     },
+     "moves": [
+      {
+       "t": 0.2667,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.3667,
+       "to": "relative",
+       "x": 300,
+       "y": 0,
+       "dur": 1.0,
+       "ease": "quint_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2667,
+       0.2333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL2_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.7333,
+     "next": 0.7167,
+     "body": [
+      [
+       0.0,
+       "skill2_4"
+      ],
+      [
+       0.1,
+       "skill3_3"
+      ],
+      [
+       0.2167,
+       "skill3_4"
+      ],
+      [
+       0.25,
+       "skill3_5"
+      ],
+      [
+       0.55,
+       "skill2_5"
+      ],
+      [
+       0.7167,
+       "skill2_6"
+      ]
+     ],
+     "effect": {
+      "sprites": [
+       [
+        0.0,
+        "skill3_6_e"
+       ],
+       [
+        0.55,
+        "skill2_5_e"
+       ],
+       [
+        0.7167,
+        "skill2_6_e"
+       ]
+      ],
+      "on": [
+       [
+        0.0,
+        false
+       ],
+       [
+        0.55,
+        true
+       ]
+      ],
+      "pos": [
+       [
+        0.0,
+        46,
+        -31
+       ],
+       [
+        0.55,
+        76,
+        -36
+       ],
+       [
+        0.7167,
+        -10,
+        -42
+       ]
+      ]
+     },
+     "moves": [
+      {
+       "t": 0.2167,
+       "to": "relative",
+       "x": 0,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.4833,
+       "to": "target",
+       "x": 180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.55,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.55,
+       0.1667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL2_2"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 224,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 1,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    77,
+    121
+   ]
+  },
+  "idle": {
+   "anchor": [
+    86,
+    133
+   ]
+  },
+  "miss": {
+   "anchor": [
+    65,
+    126
+   ]
+  },
+  "mov": {
+   "anchor": [
+    98,
+    105
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    126,
+    149
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    -9,
+    105
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    -11,
+    105
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    -11,
+    106
+   ]
+  },
+  "skill1_2_e": {
+   "anchor": [
+    116,
+    127
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    179,
+    76
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    139,
+    77
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    120,
+    99
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    91,
+    99
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    106,
+    114
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    42,
+    245
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    31,
+    163
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    76,
+    101
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    79,
+    100
+   ]
+  },
+  "skill3_6_e": {
+   "anchor": [
+    29,
+    85
+   ]
+  },
+  "skill2_5_e": {
+   "anchor": [
+    149,
+    70
+   ]
+  },
+  "skill2_6_e": {
+   "anchor": [
+    66,
+    50
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    104,
+    141
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    102,
+    113
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    -41,
+    114
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    -40,
+    115
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    -41,
+    115
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    -44,
+    112
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    -43,
+    110
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    -43,
+    110
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    -43,
+    113
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    -45,
+    112
+   ]
+  },
+  "skill3_1_e": {
+   "anchor": [
+    78,
+    16
+   ]
+  },
+  "skill3_2_e": {
+   "anchor": [
+    153,
+    68
+   ]
+  },
+  "skill3_3_e": {
+   "anchor": [
+    83,
+    52
+   ]
+  },
+  "skill3_7_e": {
+   "anchor": [
+    107,
+    57
+   ]
+  },
+  "skill3_12_e": {
+   "anchor": [
+    103,
+    50
+   ]
+  },
+  "dead": {
+   "anchor": [
+    50,
+    106
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ],
+    [
+     0.0167,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [
+     [
+      0.0,
+      false
+     ]
+    ],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.0167,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [
+     [
+      0.0,
+      false
+     ]
+    ],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ],
+    [
+     0.0167,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [
+     [
+      0.0,
+      false
+     ]
+    ],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ],
+    [
+     0.0167,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [
+     [
+      0.0,
+      false
+     ]
+    ],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "mov"
+    ],
+    [
+     0.0167,
+     "mov"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [
+     [
+      0.0,
+      false
+     ]
+    ],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.5167,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.3333,
+     "skill1_2"
+    ],
+    [
+     0.4,
+     "skill1_3"
+    ],
+    [
+     0.4667,
+     "skill1_4"
+    ],
+    [
+     0.5,
+     "skill1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [
+     [
+      0.0,
+      "skill1_2_e"
+     ],
+     [
+      0.3167,
+      "skill1_2_e"
+     ],
+     [
+      0.3333,
+      "skill1_2_e"
+     ]
+    ],
+    "on": [
+     [
+      0.0,
+      false
+     ],
+     [
+      0.3167,
+      false
+     ],
+     [
+      0.3333,
+      true
+     ],
+     [
+      0.4,
+      false
+     ],
+     [
+      0.4667,
+      false
+     ],
+     [
+      0.5,
+      false
+     ]
+    ],
+    "pos": [
+     [
+      0.0,
+      0,
+      0
+     ],
+     [
+      0.3167,
+      125,
+      -67
+     ],
+     [
+      0.3333,
+      125,
+      -67
+     ]
+    ]
+   }
+  },
+  "S2": {
+   "length": 1.2333,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.0833,
+     "mov"
+    ],
+    [
+     0.2667,
+     "skill2_1"
+    ],
+    [
+     0.3333,
+     "skill2_2"
+    ],
+    [
+     0.4,
+     "skill2_3"
+    ],
+    [
+     0.4667,
+     "skill2_4"
+    ],
+    [
+     0.5,
+     "skill2_4"
+    ],
+    [
+     0.6,
+     "skill3_3"
+    ],
+    [
+     0.7167,
+     "skill3_4"
+    ],
+    [
+     0.75,
+     "skill3_5"
+    ],
+    [
+     1.05,
+     "skill2_5"
+    ],
+    [
+     1.2167,
+     "skill2_6"
+    ]
+   ],
+   "effect": {
+    "sprites": [
+     [
+      0.0,
+      "skill1_2_e"
+     ],
+     [
+      0.3333,
+      "skill3_6_e"
+     ],
+     [
+      1.05,
+      "skill2_5_e"
+     ],
+     [
+      1.2167,
+      "skill2_6_e"
+     ]
+    ],
+    "on": [
+     [
+      0.0,
+      false
+     ],
+     [
+      0.3333,
+      true
+     ],
+     [
+      0.4,
+      false
+     ],
+     [
+      0.4667,
+      false
+     ],
+     [
+      0.5,
+      false
+     ],
+     [
+      1.05,
+      true
+     ]
+    ],
+    "pos": [
+     [
+      0.0,
+      0,
+      0
+     ],
+     [
+      0.3333,
+      46,
+      -31
+     ],
+     [
+      1.05,
+      76,
+      -36
+     ],
+     [
+      1.2167,
+      -10,
+      -42
+     ]
+    ]
+   }
+  },
+  "S3": {
+   "length": 2.2167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.2667,
+     "skill3_1"
+    ],
+    [
+     0.3333,
+     "skill3_2"
+    ],
+    [
+     0.4167,
+     "skill3_3"
+    ],
+    [
+     0.5,
+     "skill3_3"
+    ],
+    [
+     0.7,
+     "skill3_4"
+    ],
+    [
+     0.7667,
+     "skill3_5"
+    ],
+    [
+     1.15,
+     "skill3_6"
+    ],
+    [
+     1.2167,
+     "skill3_7"
+    ],
+    [
+     1.2833,
+     "skill3_8"
+    ],
+    [
+     1.3167,
+     "skill3_8"
+    ],
+    [
+     1.5,
+     "skill3_9"
+    ],
+    [
+     1.55,
+     "skill3_10"
+    ],
+    [
+     1.9833,
+     "skill3_11"
+    ],
+    [
+     2.0333,
+     "skill3_12"
+    ],
+    [
+     2.1167,
+     "skill3_13"
+    ],
+    [
+     2.2,
+     "skill3_13"
+    ]
+   ],
+   "effect": {
+    "sprites": [
+     [
+      0.0,
+      "skill3_1_e"
+     ],
+     [
+      0.3333,
+      "skill3_2_e"
+     ],
+     [
+      0.4167,
+      "skill3_3_e"
+     ],
+     [
+      0.5,
+      "skill3_3_e"
+     ],
+     [
+      1.15,
+      "skill3_6_e"
+     ],
+     [
+      1.2167,
+      "skill3_7_e"
+     ],
+     [
+      2.0333,
+      "skill3_12_e"
+     ]
+    ],
+    "on": [
+     [
+      0.0,
+      false
+     ],
+     [
+      0.2667,
+      true
+     ],
+     [
+      0.5,
+      false
+     ],
+     [
+      0.7,
+      false
+     ],
+     [
+      1.15,
+      true
+     ],
+     [
+      1.2833,
+      false
+     ],
+     [
+      1.3167,
+      false
+     ],
+     [
+      2.0333,
+      true
+     ],
+     [
+      2.1167,
+      true
+     ],
+     [
+      2.2,
+      false
+     ]
+    ],
+    "pos": [
+     [
+      0.0,
+      0,
+      0
+     ],
+     [
+      0.2667,
+      -25,
+      -120
+     ],
+     [
+      0.3333,
+      57,
+      -57
+     ],
+     [
+      0.4167,
+      -17,
+      -53
+     ],
+     [
+      0.5,
+      -17,
+      -53
+     ],
+     [
+      1.15,
+      202,
+      -85
+     ],
+     [
+      1.2167,
+      215,
+      7
+     ],
+     [
+      2.0333,
+      249,
+      -94
+     ]
+    ]
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.2,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.0333,
+     "skill1_2"
+    ],
+    [
+     0.1,
+     "skill1_3"
+    ],
+    [
+     0.1667,
+     "skill1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [
+     [
+      0.0,
+      "skill1_2_e"
+     ],
+     [
+      0.0167,
+      "skill1_2_e"
+     ],
+     [
+      0.0333,
+      "skill1_2_e"
+     ]
+    ],
+    "on": [
+     [
+      0.0,
+      false
+     ],
+     [
+      0.0167,
+      false
+     ],
+     [
+      0.0333,
+      true
+     ],
+     [
+      0.1,
+      false
+     ],
+     [
+      0.1667,
+      false
+     ]
+    ],
+    "pos": [
+     [
+      0.0,
+      0,
+      0
+     ],
+     [
+      0.0167,
+      125,
+      -67
+     ],
+     [
+      0.0333,
+      125,
+      -67
+     ]
+    ]
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.1667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_11_Faust_Yuri_SKL1"
+    ]
+   ]
+  }
+ ]
+}

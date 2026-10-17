@@ -1,0 +1,201 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/identity_card.gd" id="1_card"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/glow_1.png" id="2_glow"]
+[ext_resource type="Texture2D" path="res://assets/limbus/yisang/10101_Base/card.png" id="3_portrait"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/frame_1.png" id="4_frame"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/grade_1.png" id="5_grade"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/ring_1.png" id="6_ring"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/emblem_yisang.png" id="7_emblem"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="9_level_font"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/Mikodacs.otf" id="10_name_font"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/formation/selected.png" id="11_selected"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_level"]
+line_spacing = 0.0
+font = ExtResource("9_level_font")
+font_size = 45
+font_color = Color(0.95, 0.82, 0.67, 1)
+outline_size = 5
+outline_color = Color(0.08, 0.05, 0.02, 1)
+shadow_color = Color(0, 0, 0, 0.6)
+shadow_offset = Vector2(1, 3)
+
+[sub_resource type="FontVariation" id="FontVariation_name"]
+base_font = ExtResource("10_name_font")
+spacing_glyph = -2
+
+[sub_resource type="LabelSettings" id="LabelSettings_name"]
+line_spacing = 0.0
+font = SubResource("FontVariation_name")
+font_size = 35
+font_color = Color(0.97, 0.76, 0, 1)
+outline_size = 5
+outline_color = Color(0.08, 0.05, 0.02, 1)
+shadow_color = Color(0, 0, 0, 0.6)
+shadow_offset = Vector2(1, 3)
+
+[sub_resource type="LabelSettings" id="LabelSettings_order"]
+line_spacing = 0.0
+font = ExtResource("9_level_font")
+font_size = 100
+font_color = Color(1, 0.93, 0.2, 1)
+outline_size = 5
+outline_color = Color(1, 0.45, 0.08, 1)
+stacked_outline_count = 2
+stacked_outline_0/size = 8
+stacked_outline_0/color = Color(1, 0.4, 0, 0.4)
+stacked_outline_1/size = 11
+stacked_outline_1/color = Color(1, 0.4, 0, 0.15)
+
+[node name="IdentityCard" type="Control"]
+custom_minimum_size = Vector2(300, 450)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 300.0
+offset_bottom = 450.0
+pivot_offset = Vector2(150, 225)
+mouse_default_cursor_shape = 2
+script = ExtResource("1_card")
+
+[node name="Face" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="GlowSlot" type="Control" parent="Face"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = -11.0
+offset_top = 10.0
+offset_right = 301.0
+offset_bottom = 455.0
+mouse_filter = 2
+
+[node name="Glow" type="TextureRect" parent="Face/GlowSlot"]
+layout_mode = 0
+offset_left = 1.0
+offset_right = 310.0
+offset_bottom = 445.0
+mouse_filter = 2
+texture = ExtResource("2_glow")
+
+[node name="Portrait" type="TextureRect" parent="Face"]
+layout_mode = 0
+offset_left = 6.0
+offset_top = 26.0
+offset_right = 278.0
+offset_bottom = 438.0
+mouse_filter = 2
+texture = ExtResource("3_portrait")
+
+[node name="Unavailable" type="ColorRect" parent="Face/Portrait"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.59)
+
+[node name="Frame" type="TextureRect" parent="Face"]
+layout_mode = 0
+offset_left = -11.0
+offset_top = 10.0
+offset_right = 301.0
+offset_bottom = 455.0
+mouse_filter = 2
+texture = ExtResource("4_frame")
+
+[node name="Grade" type="TextureRect" parent="Face"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 35.0
+offset_right = 51.0
+offset_bottom = 85.0
+mouse_filter = 2
+texture = ExtResource("5_grade")
+
+[node name="Ring" type="TextureRect" parent="Face"]
+layout_mode = 0
+offset_left = 205.0
+offset_top = 2.0
+offset_right = 305.0
+offset_bottom = 102.0
+mouse_filter = 2
+texture = ExtResource("6_ring")
+
+[node name="EmblemSlot" type="Control" parent="Face"]
+layout_mode = 1
+anchors_preset = 0
+offset_left = 215.0
+offset_top = 14.0
+offset_right = 295.0
+offset_bottom = 94.0
+mouse_filter = 2
+
+[node name="Emblem" type="TextureRect" parent="Face/EmblemSlot"]
+layout_mode = 0
+offset_left = 4.0
+offset_right = 76.0
+offset_bottom = 80.0
+mouse_filter = 2
+texture = ExtResource("7_emblem")
+
+[node name="Text" type="VBoxContainer" parent="Face"]
+layout_mode = 0
+offset_left = 31.0
+offset_right = 261.0
+offset_bottom = 420.0
+mouse_filter = 2
+theme_override_constants/separation = 3
+alignment = 2
+
+[node name="LevelLine" type="Label" parent="Face/Text"]
+layout_mode = 2
+text = "Yi Sang"
+label_settings = SubResource("LabelSettings_level")
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="Name" type="Label" parent="Face/Text"]
+layout_mode = 2
+text = "LCB
+Sinner"
+label_settings = SubResource("LabelSettings_name")
+horizontal_alignment = 2
+autowrap_mode = 3
+
+[node name="SelectedTag" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_left = -8.0
+offset_top = 205.0
+offset_right = 293.0
+offset_bottom = 297.0
+mouse_filter = 2
+texture = ExtResource("11_selected")
+
+[node name="TeamOrder" type="Label" parent="SelectedTag"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -113.0
+offset_right = 100.0
+offset_bottom = -63.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "1"
+label_settings = SubResource("LabelSettings_order")
+horizontal_alignment = 1
+vertical_alignment = 1

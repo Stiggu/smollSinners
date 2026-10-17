@@ -1,0 +1,779 @@
+{
+ "id": 10702,
+ "sinner": "Heathcliff",
+ "title": "Shi Assoc. South Section 5",
+ "rank": 2,
+ "appearance": "10702_Heathclif_4Appearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1070201,
+   "name": "Extreme Edge",
+   "affinity": "SCARLET",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    6
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.75,
+     "next": 0.4333,
+     "body": [
+      [
+       0.0,
+       "skil1_1"
+      ],
+      [
+       0.0167,
+       "skil1_2"
+      ],
+      [
+       0.2667,
+       "skil1_3"
+      ],
+      [
+       0.3333,
+       "skil1_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2667,
+       0.4833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/Heathclif_Attack_0"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1070202,
+   "name": "Flying Sword",
+   "affinity": "CRIMSON",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    10
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 1.5,
+     "next": 1.2833,
+     "body": [
+      [
+       0.0,
+       "skil2_1"
+      ],
+      [
+       0.1333,
+       "skil2_2"
+      ],
+      [
+       0.2,
+       "skil2_3"
+      ],
+      [
+       0.3,
+       "skil2_5"
+      ],
+      [
+       0.3833,
+       "skil2_4"
+      ],
+      [
+       0.9,
+       "skil2_6"
+      ],
+      [
+       1.0,
+       "skil2_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": -180,
+       "y": 0,
+       "dur": 0.12,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.8833,
+       "to": "target",
+       "x": 300,
+       "y": 0,
+       "dur": 0.12,
+       "ease": "linear_in",
+       "turn": false,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.9833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/Heathclif_S1_1"
+      ],
+      [
+       0.9,
+       0.6,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/Heathclif_S1_2"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1070203,
+   "name": "Flashing Strike",
+   "affinity": "VIOLET",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    6,
+    6
+   ],
+   "weight": 1,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.7167,
+     "next": 0.6667,
+     "body": [
+      [
+       0.0,
+       "skil3_1"
+      ],
+      [
+       0.25,
+       "skil3_2"
+      ],
+      [
+       0.3,
+       "skil3_3"
+      ],
+      [
+       0.3833,
+       "skil3_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.25,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.25,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_4_SKL2_1"
+      ],
+      [
+       0.25,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_4_SKL2_1_Trail"
+      ]
+     ]
+    },
+    {
+     "length": 1.0,
+     "next": 0.6833,
+     "body": [
+      [
+       0.0,
+       "skil3_5"
+      ],
+      [
+       0.05,
+       "skil3_6"
+      ],
+      [
+       0.25,
+       "skil3_8"
+      ],
+      [
+       0.3167,
+       "skil3_7"
+      ],
+      [
+       0.3667,
+       "skil3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.25,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.25,
+       0.75,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_4_SKL2_2"
+      ],
+      [
+       0.25,
+       0.75,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_4_SKL2_2_Trail"
+      ]
+     ]
+    },
+    {
+     "length": 1.7667,
+     "next": 1.7667,
+     "body": [
+      [
+       0.9333,
+       "skil3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 1.0,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": []
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 265,
+  "stagger": [
+   80,
+   60
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 2,
+   "blunt": 1
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "idel": {
+   "anchor": [
+    28,
+    138
+   ]
+  },
+  "dead": {
+   "anchor": [
+    37,
+    81
+   ]
+  },
+  "miss": {
+   "anchor": [
+    39,
+    130
+   ]
+  },
+  "gud": {
+   "anchor": [
+    45,
+    119
+   ]
+  },
+  "dmg": {
+   "anchor": [
+    40,
+    132
+   ]
+  },
+  "move": {
+   "anchor": [
+    103,
+    101
+   ]
+  },
+  "skil1_1": {
+   "anchor": [
+    107,
+    132
+   ]
+  },
+  "skil1_2": {
+   "anchor": [
+    103,
+    132
+   ]
+  },
+  "skil1_3": {
+   "anchor": [
+    130,
+    128
+   ]
+  },
+  "skil1_4": {
+   "anchor": [
+    130,
+    102
+   ]
+  },
+  "skil3_8": {
+   "anchor": [
+    49,
+    164
+   ]
+  },
+  "skil3_7": {
+   "anchor": [
+    49,
+    161
+   ]
+  },
+  "skil3_9": {
+   "anchor": [
+    50,
+    162
+   ]
+  },
+  "skil2_1": {
+   "anchor": [
+    103,
+    103
+   ]
+  },
+  "skil2_2": {
+   "anchor": [
+    157,
+    100
+   ]
+  },
+  "skil2_3": {
+   "anchor": [
+    131,
+    100
+   ]
+  },
+  "skil2_5": {
+   "anchor": [
+    102,
+    108
+   ]
+  },
+  "skil2_4": {
+   "anchor": [
+    98,
+    108
+   ]
+  },
+  "skil2_6": {
+   "anchor": [
+    56,
+    103
+   ]
+  },
+  "skil2_7": {
+   "anchor": [
+    54,
+    102
+   ]
+  },
+  "skil3_1": {
+   "anchor": [
+    123,
+    103
+   ]
+  },
+  "skil3_2": {
+   "anchor": [
+    146,
+    100
+   ]
+  },
+  "skil3_3": {
+   "anchor": [
+    145,
+    100
+   ]
+  },
+  "skil3_4": {
+   "anchor": [
+    147,
+    101
+   ]
+  },
+  "skil3_5": {
+   "anchor": [
+    105,
+    119
+   ]
+  },
+  "skil3_6": {
+   "anchor": [
+    102,
+    120
+   ]
+  }
+ },
+ "clips": {
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idel"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.35,
+   "body": [
+    [
+     0.0,
+     "skil1_1"
+    ],
+    [
+     0.0167,
+     "skil1_2"
+    ],
+    [
+     0.2667,
+     "skil1_3"
+    ],
+    [
+     0.3333,
+     "skil1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Parrying_0": {
+   "length": 0.0833,
+   "body": [
+    [
+     0.0,
+     "skil1_3"
+    ],
+    [
+     0.0667,
+     "skil1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Parrying_1": {
+   "length": 0.1167,
+   "body": [
+    [
+     0.0,
+     "skil3_8"
+    ],
+    [
+     0.0333,
+     "skil3_7"
+    ],
+    [
+     0.1,
+     "skil3_9"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 1.0167,
+   "body": [
+    [
+     0.0,
+     "skil2_1"
+    ],
+    [
+     0.1333,
+     "skil2_2"
+    ],
+    [
+     0.2,
+     "skil2_3"
+    ],
+    [
+     0.3,
+     "skil2_5"
+    ],
+    [
+     0.3833,
+     "skil2_4"
+    ],
+    [
+     0.9,
+     "skil2_6"
+    ],
+    [
+     1.0,
+     "skil2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3 1": {
+   "length": 0.4,
+   "body": [
+    [
+     0.0,
+     "skil3_1"
+    ],
+    [
+     0.25,
+     "skil3_2"
+    ],
+    [
+     0.3,
+     "skil3_3"
+    ],
+    [
+     0.3833,
+     "skil3_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3 2": {
+   "length": 0.3833,
+   "body": [
+    [
+     0.0,
+     "skil3_5"
+    ],
+    [
+     0.05,
+     "skil3_6"
+    ],
+    [
+     0.25,
+     "skil3_8"
+    ],
+    [
+     0.3167,
+     "skil3_7"
+    ],
+    [
+     0.3667,
+     "skil3_9"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3 3": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "skil3_9"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 1.0,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skil1_2"
+    ],
+    [
+     0.0167,
+     "skil1_3"
+    ],
+    [
+     0.0833,
+     "skil1_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": []
+  }
+ ]
+}

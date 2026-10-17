@@ -1,0 +1,1202 @@
+{
+ "id": 10302,
+ "sinner": "Don Quixote",
+ "title": "W Corp. L3 Cleanup Agent",
+ "rank": 3,
+ "appearance": "10302_Donquixote_WAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1030201,
+   "name": "Rip",
+   "affinity": "AMBER",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    6
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.8334,
+     "next": 0.8333,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.25,
+       "skill1_2"
+      ],
+      [
+       0.3167,
+       "skill1_3"
+      ],
+      [
+       0.3833,
+       "skill1_4"
+      ],
+      [
+       0.4167,
+       "skill1_7"
+      ],
+      [
+       0.45,
+       "skill1_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4167,
+       "to": "target",
+       "x": -180,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.4167,
+       0.4167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_ATK"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1030202,
+   "name": "Leap",
+   "affinity": "AZURE",
+   "attack": "pierce",
+   "base": 4,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.4167,
+     "next": 0.3,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.2,
+       "skill2_2"
+      ],
+      [
+       0.2667,
+       "skill2_3"
+      ],
+      [
+       0.4,
+       "skill2_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.5667,
+     "next": 0.3,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.2,
+       "skill2_2"
+      ],
+      [
+       0.2667,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       0.3667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.9833,
+     "next": 0.7667,
+     "body": [
+      [
+       0.0,
+       "skill2_7"
+      ],
+      [
+       0.2667,
+       "skill2_9"
+      ],
+      [
+       0.3333,
+       "skill2_10"
+      ],
+      [
+       0.3667,
+       "skill2_11"
+      ],
+      [
+       0.4,
+       "skill2_12"
+      ],
+      [
+       0.4333,
+       "skill2_13"
+      ],
+      [
+       0.5,
+       "skill2_14"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3833,
+       "to": "target",
+       "x": -210,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.35,
+       0.6333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_2"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1030203,
+   "name": "Rip Space",
+   "affinity": "VIOLET",
+   "attack": "slash",
+   "base": 1,
+   "coins": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.4,
+     "next": 0.3333,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.2,
+       "skill3_2"
+      ],
+      [
+       0.2667,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3334,
+     "next": 0.1333,
+     "body": [
+      [
+       0.0,
+       "skill3_4"
+      ],
+      [
+       0.0667,
+       "skill3_5"
+      ],
+      [
+       0.2,
+       "skill3_6"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.0667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0667,
+       0.2667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3333,
+     "next": 0.1333,
+     "body": [
+      [
+       0.0,
+       "skill3_7"
+      ],
+      [
+       0.1333,
+       "skill3_8"
+      ],
+      [
+       0.2,
+       "skill3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.1333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1333,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.7,
+     "next": 0.2,
+     "body": [
+      [
+       0.0,
+       "skill3_10"
+      ],
+      [
+       0.1333,
+       "skill3_11"
+      ],
+      [
+       0.1667,
+       "skill3_12"
+      ],
+      [
+       0.2333,
+       "skill3_13"
+      ],
+      [
+       0.2667,
+       "skill3_14"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.0,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.7,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL2_1"
+      ]
+     ]
+    },
+    {
+     "length": 1.0167,
+     "next": 0.7833,
+     "body": [
+      [
+       0.0,
+       "skill3_14"
+      ],
+      [
+       0.2,
+       "skill3_15"
+      ],
+      [
+       0.2667,
+       "skill3_16"
+      ],
+      [
+       0.4,
+       "skill3_17"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       0.8,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL_SpaceTrail"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 236,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 0.5,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "idle": {
+   "anchor": [
+    29,
+    131
+   ]
+  },
+  "miss": {
+   "anchor": [
+    35,
+    127
+   ]
+  },
+  "gud": {
+   "anchor": [
+    38,
+    134
+   ]
+  },
+  "dmg": {
+   "anchor": [
+    35,
+    126
+   ]
+  },
+  "move": {
+   "anchor": [
+    55,
+    102
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    47,
+    115
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    47,
+    113
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    48,
+    112
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    146,
+    121
+   ]
+  },
+  "skill1_7": {
+   "anchor": [
+    72,
+    105
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    46,
+    104
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    42,
+    111
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    42,
+    109
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    41,
+    105
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    46,
+    104
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    42,
+    111
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    42,
+    109
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    41,
+    105
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    49,
+    111
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    47,
+    110
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    46,
+    104
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    42,
+    111
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    42,
+    110
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    90,
+    106
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    44,
+    100
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    45,
+    100
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    45,
+    100
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    45,
+    102
+   ]
+  },
+  "skill3_15": {
+   "anchor": [
+    76,
+    116
+   ]
+  },
+  "skill3_16": {
+   "anchor": [
+    75,
+    113
+   ]
+  },
+  "skill3_17": {
+   "anchor": [
+    72,
+    104
+   ]
+  },
+  "dead": {
+   "anchor": [
+    37,
+    119
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    46,
+    103
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    49,
+    100
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    45,
+    100
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    157,
+    118
+   ]
+  },
+  "skill2_12": {
+   "anchor": [
+    156,
+    102
+   ]
+  },
+  "skill2_13": {
+   "anchor": [
+    157,
+    102
+   ]
+  },
+  "skill2_14": {
+   "anchor": [
+    63,
+    126
+   ]
+  }
+ },
+ "clips": {
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.4667,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.25,
+     "skill1_2"
+    ],
+    [
+     0.3167,
+     "skill1_3"
+    ],
+    [
+     0.3833,
+     "skill1_4"
+    ],
+    [
+     0.4167,
+     "skill1_7"
+    ],
+    [
+     0.45,
+     "skill1_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2_2": {
+   "length": 0.4167,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.2,
+     "skill2_2"
+    ],
+    [
+     0.2667,
+     "skill2_3"
+    ],
+    [
+     0.4,
+     "skill2_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 2.1167,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.2,
+     "skill3_2"
+    ],
+    [
+     0.2667,
+     "skill3_3"
+    ],
+    [
+     0.4,
+     "skill3_4"
+    ],
+    [
+     0.4667,
+     "skill3_5"
+    ],
+    [
+     0.6,
+     "skill3_6"
+    ],
+    [
+     0.6667,
+     "skill3_7"
+    ],
+    [
+     0.8,
+     "skill3_8"
+    ],
+    [
+     0.8667,
+     "skill3_9"
+    ],
+    [
+     1.2667,
+     "skill3_10"
+    ],
+    [
+     1.4,
+     "skill3_11"
+    ],
+    [
+     1.4333,
+     "skill3_12"
+    ],
+    [
+     1.5,
+     "skill3_13"
+    ],
+    [
+     1.5333,
+     "skill3_14"
+    ],
+    [
+     1.9,
+     "skill3_15"
+    ],
+    [
+     1.9667,
+     "skill3_16"
+    ],
+    [
+     2.1,
+     "skill3_17"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2_3": {
+   "length": 0.5167,
+   "body": [
+    [
+     0.0,
+     "skill2_7"
+    ],
+    [
+     0.2667,
+     "skill2_9"
+    ],
+    [
+     0.3333,
+     "skill2_10"
+    ],
+    [
+     0.3667,
+     "skill2_11"
+    ],
+    [
+     0.4,
+     "skill2_12"
+    ],
+    [
+     0.4333,
+     "skill2_13"
+    ],
+    [
+     0.5,
+     "skill2_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3_1": {
+   "length": 0.4167,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.2,
+     "skill3_2"
+    ],
+    [
+     0.2667,
+     "skill3_3"
+    ],
+    [
+     0.4,
+     "skill3_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3_2": {
+   "length": 0.2833,
+   "body": [
+    [
+     0.0,
+     "skill3_4"
+    ],
+    [
+     0.0667,
+     "skill3_5"
+    ],
+    [
+     0.2,
+     "skill3_6"
+    ],
+    [
+     0.2667,
+     "skill3_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3_3": {
+   "length": 0.2167,
+   "body": [
+    [
+     0.0,
+     "skill3_7"
+    ],
+    [
+     0.1333,
+     "skill3_8"
+    ],
+    [
+     0.2,
+     "skill3_9"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3_4": {
+   "length": 0.2833,
+   "body": [
+    [
+     0.0,
+     "skill3_10"
+    ],
+    [
+     0.1333,
+     "skill3_11"
+    ],
+    [
+     0.1667,
+     "skill3_12"
+    ],
+    [
+     0.2333,
+     "skill3_13"
+    ],
+    [
+     0.2667,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3_5": {
+   "length": 0.2167,
+   "body": [
+    [
+     0.0,
+     "skill3_15"
+    ],
+    [
+     0.0667,
+     "skill3_16"
+    ],
+    [
+     0.2,
+     "skill3_17"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 1.0,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_3"
+    ],
+    [
+     0.0166,
+     "skill1_4"
+    ],
+    [
+     0.05,
+     "skill1_7"
+    ],
+    [
+     0.0833,
+     "skill1_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     1.0,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_ATK"
+    ]
+   ]
+  },
+  {
+   "length": 0.9833,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_12"
+    ],
+    [
+     0.0333,
+     "skill2_13"
+    ],
+    [
+     0.1,
+     "skill2_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.9833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_7_Donquixote_W_SKL1_1"
+    ]
+   ]
+  }
+ ]
+}

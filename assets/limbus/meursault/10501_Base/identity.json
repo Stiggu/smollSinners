@@ -1,0 +1,993 @@
+{
+ "id": 10501,
+ "sinner": "Meursault",
+ "title": "LCB Sinner",
+ "rank": 1,
+ "appearance": "10501_Meursault_BaseAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1050101,
+   "name": "Un, Deux",
+   "affinity": "AMBER",
+   "attack": "blunt",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.65,
+     "next": 0.4167,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.3333,
+       "skill1_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_1_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.4667,
+     "next": 0.3167,
+     "body": [
+      [
+       0.05,
+       "skill1_3"
+      ],
+      [
+       0.15,
+       "skill1_4"
+      ],
+      [
+       0.25,
+       "skill1_5"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.15,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.15,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_1_2"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1050102,
+   "name": "Nailing Fist",
+   "affinity": "INDIGO",
+   "attack": "blunt",
+   "base": 6,
+   "coins": [
+    9
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.9834,
+     "next": 0.8833,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1,
+       "skill2_2"
+      ],
+      [
+       0.2,
+       "skill2_3"
+      ],
+      [
+       0.3,
+       "skill2_4"
+      ],
+      [
+       0.6667,
+       "skill2_5"
+      ],
+      [
+       0.7167,
+       "skill2_6"
+      ],
+      [
+       0.8667,
+       "skill2_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.6333,
+       "to": "target",
+       "x": 105,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.6667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1,
+       0.8833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Turn_2_1"
+      ],
+      [
+       0.6667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_2_2"
+      ],
+      [
+       0.6667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Turn_3_3"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1050103,
+   "name": "Des Coups",
+   "affinity": "AZURE",
+   "attack": "blunt",
+   "base": 4,
+   "coins": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 1.0,
+     "next": 0.55,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.2,
+       "skill3_2"
+      ],
+      [
+       0.3,
+       "skill3_3"
+      ],
+      [
+       0.4667,
+       "skill3_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4333,
+       "to": "target",
+       "x": 105,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       0.8,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Turn_3_1"
+      ],
+      [
+       0.4667,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_3_2"
+      ]
+     ]
+    },
+    {
+     "length": 0.7,
+     "next": 0.3333,
+     "body": [
+      [
+       0.0,
+       "skill3_6"
+      ],
+      [
+       0.0833,
+       "skill3_7"
+      ],
+      [
+       0.25,
+       "skill3_8"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2167,
+       "to": "target",
+       "x": 105,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.25,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0167,
+       0.6833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Turn_3_5"
+      ],
+      [
+       0.25,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Turn_3_3"
+      ],
+      [
+       0.25,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_3_4"
+      ]
+     ]
+    },
+    {
+     "length": 0.55,
+     "next": 0.3167,
+     "body": [
+      [
+       0.0,
+       "skill3_10"
+      ],
+      [
+       0.0834,
+       "skill3_11"
+      ],
+      [
+       0.2334,
+       "skill3_12"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1667,
+       "to": "target",
+       "x": 105,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.2333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2333,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_3_6"
+      ]
+     ]
+    },
+    {
+     "length": 1.7833,
+     "next": 1.1,
+     "body": [
+      [
+       0.0,
+       "skill3_14"
+      ],
+      [
+       0.45,
+       "skill3_15"
+      ],
+      [
+       0.8834,
+       "skill3_16"
+      ],
+      [
+       0.9834,
+       "skill3_17"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -15,
+       "y": 0,
+       "dur": 0.8,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.75,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.8833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.8833,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_3_8"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 291,
+  "stagger": [
+   50,
+   20
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 2,
+   "blunt": 0.5
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    34,
+    130
+   ]
+  },
+  "dead": {
+   "anchor": [
+    35,
+    51
+   ]
+  },
+  "idle": {
+   "anchor": [
+    25,
+    143
+   ]
+  },
+  "miss": {
+   "anchor": [
+    38,
+    138
+   ]
+  },
+  "gud": {
+   "anchor": [
+    33,
+    131
+   ]
+  },
+  "move": {
+   "anchor": [
+    44,
+    112
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    30,
+    122
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    30,
+    106
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    29,
+    105
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    30,
+    123
+   ]
+  },
+  "skill1_5": {
+   "anchor": [
+    28,
+    122
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    28,
+    121
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    93,
+    119
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    94,
+    118
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    93,
+    118
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    25,
+    101
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    25,
+    103
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    28,
+    102
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    28,
+    121
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    37,
+    113
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    29,
+    113
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    31,
+    105
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    30,
+    105
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    108,
+    119
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    74,
+    119
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    56,
+    109
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    26,
+    103
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    28,
+    113
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    26,
+    113
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    24,
+    106
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    24,
+    105
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    26,
+    122
+   ]
+  },
+  "skill3_15": {
+   "anchor": [
+    24,
+    117
+   ]
+  },
+  "skill3_16": {
+   "anchor": [
+    28,
+    135
+   ]
+  },
+  "skill3_17": {
+   "anchor": [
+    29,
+    124
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.8667,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.3333,
+     "skill1_2"
+    ],
+    [
+     0.4167,
+     "skill1_3"
+    ],
+    [
+     0.75,
+     "skill1_4"
+    ],
+    [
+     0.85,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 0.8833,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1,
+     "skill2_2"
+    ],
+    [
+     0.2,
+     "skill2_3"
+    ],
+    [
+     0.3,
+     "skill2_4"
+    ],
+    [
+     0.6667,
+     "skill2_5"
+    ],
+    [
+     0.7167,
+     "skill2_6"
+    ],
+    [
+     0.8667,
+     "skill2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 2.9833,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.2,
+     "skill3_2"
+    ],
+    [
+     0.3,
+     "skill3_3"
+    ],
+    [
+     0.4667,
+     "skill3_4"
+    ],
+    [
+     0.55,
+     "skill3_5"
+    ],
+    [
+     0.8,
+     "skill3_6"
+    ],
+    [
+     0.8833,
+     "skill3_7"
+    ],
+    [
+     1.05,
+     "skill3_8"
+    ],
+    [
+     1.1333,
+     "skill3_9"
+    ],
+    [
+     1.3833,
+     "skill3_10"
+    ],
+    [
+     1.4667,
+     "skill3_11"
+    ],
+    [
+     1.6167,
+     "skill3_12"
+    ],
+    [
+     1.7,
+     "skill3_13"
+    ],
+    [
+     1.9833,
+     "skill3_14"
+    ],
+    [
+     2.4333,
+     "skill3_15"
+    ],
+    [
+     2.8667,
+     "skill3_16"
+    ],
+    [
+     2.9667,
+     "skill3_17"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.15,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.0334,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.1167,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_1_1"
+    ]
+   ]
+  },
+  {
+   "length": 0.1,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_4"
+    ],
+    [
+     0.05,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0333,
+     0.0667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_10_Meursault_Punch_1_2"
+    ]
+   ]
+  }
+ ]
+}

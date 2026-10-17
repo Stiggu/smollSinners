@@ -1,0 +1,1624 @@
+{
+ "id": 10506,
+ "sinner": "Meursault",
+ "title": "R Corp. 4th Pack Rhino",
+ "rank": 3,
+ "appearance": "10506_Meursault_RCorpAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1050601,
+   "name": "Weighty Bash",
+   "affinity": "VIOLET",
+   "attack": "blunt",
+   "base": 5,
+   "coins": [
+    6
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 1.95,
+     "next": 1.35,
+     "body": [
+      [
+       0.0,
+       "skill1_2"
+      ],
+      [
+       0.3,
+       "skill1_3"
+      ],
+      [
+       0.55,
+       "skill1_4"
+      ],
+      [
+       0.75,
+       "skill1_5"
+      ],
+      [
+       0.8667,
+       "skill1_6"
+      ],
+      [
+       0.95,
+       "skill1_7"
+      ],
+      [
+       1.0333,
+       "skill1_8"
+      ],
+      [
+       1.1667,
+       "skill1_9"
+      ],
+      [
+       1.2833,
+       "skill1_10"
+      ],
+      [
+       1.6833,
+       "skill1_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.3,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.55,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.75,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.8667,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 1.0333,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 1.1167,
+       "to": "relative",
+       "x": 300,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quint_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.0333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.05,
+       0.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_GroundWave"
+      ],
+      [
+       0.55,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_GroundWave"
+      ],
+      [
+       0.8667,
+       0.0833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_GroundWave"
+      ],
+      [
+       0.95,
+       0.0833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_Flash"
+      ],
+      [
+       1.0333,
+       0.9167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_ChargeAttack"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1050602,
+   "name": "Demolish",
+   "affinity": "AZURE",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    3,
+    3,
+    3
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 1.4,
+     "next": 0.4667,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1333,
+       "skill2_2"
+      ],
+      [
+       0.2,
+       "skill2_3"
+      ],
+      [
+       0.25,
+       "skill2_4"
+      ],
+      [
+       0.3167,
+       "skill2_5"
+      ],
+      [
+       0.3667,
+       "skill2_6"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quart_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.3167,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.4167,
+       "to": "relative",
+       "x": 180,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quint_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2833,
+       1.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_Flash"
+      ],
+      [
+       0.2833,
+       1.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_ChargeAttack"
+      ]
+     ]
+    },
+    {
+     "length": 1.45,
+     "next": 0.6,
+     "body": [
+      [
+       0.0,
+       "skill2_7"
+      ],
+      [
+       0.2833,
+       "skill2_8"
+      ],
+      [
+       0.4167,
+       "skill2_9"
+      ],
+      [
+       0.5167,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2833,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.0,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.3167,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.45,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2833,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_Flash"
+      ],
+      [
+       0.4167,
+       1.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2_Piercing"
+      ]
+     ]
+    },
+    {
+     "length": 1.1333,
+     "next": 0.5833,
+     "body": [
+      [
+       0.0,
+       "skill2_11"
+      ],
+      [
+       0.0333,
+       "skill2_12"
+      ],
+      [
+       0.1,
+       "skill2_13"
+      ],
+      [
+       0.15,
+       "skill2_14"
+      ],
+      [
+       0.3666,
+       "skill2_14"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.1,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1,
+       1.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_3_Piercing"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1050603,
+   "name": "Rhino Ram",
+   "affinity": "SCARLET",
+   "attack": "slash",
+   "base": 6,
+   "coins": [
+    3,
+    3,
+    3
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.95,
+     "next": 0.6667,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.1,
+       "skill3_2"
+      ],
+      [
+       0.1667,
+       "skill3_3"
+      ],
+      [
+       0.45,
+       "skill3_4 1"
+      ],
+      [
+       0.5167,
+       "skill3_5 1"
+      ],
+      [
+       0.5833,
+       "skill3_6 1"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3667,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.4667,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.55,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.45,
+       "ratio": 0.33,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.5167,
+       "ratio": 0.33,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 0.5833,
+       "ratio": 0.34,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3167,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_Flash"
+      ],
+      [
+       0.45,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_Trail1"
+      ],
+      [
+       0.5167,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_Trail2"
+      ],
+      [
+       0.5667,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_Trail3"
+      ],
+      [
+       0.5667,
+       0.3833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_1_End"
+      ]
+     ]
+    },
+    {
+     "length": 1.35,
+     "next": 0.35,
+     "body": [
+      [
+       0.0,
+       "skill3_8 1"
+      ],
+      [
+       0.0666,
+       "skill3_9"
+      ],
+      [
+       0.3166,
+       "skill3_11"
+      ],
+      [
+       0.3666,
+       "skill3_11 1"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2667,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.3,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_2_Trail"
+      ],
+      [
+       0.3,
+       1.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_2_Punch"
+      ]
+     ]
+    },
+    {
+     "length": 1.5,
+     "next": 0.95,
+     "body": [
+      [
+       0.0,
+       "skill3_12"
+      ],
+      [
+       0.35,
+       "skill2_2"
+      ],
+      [
+       0.4167,
+       "skill2_3"
+      ],
+      [
+       0.5167,
+       "skill3_13"
+      ],
+      [
+       0.6,
+       "skill3_14"
+      ],
+      [
+       0.8667,
+       "skill3_14"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1833,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quart_in",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.5,
+       "to": "target",
+       "x": 0,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.6167,
+       "to": "relative",
+       "x": 300,
+       "y": 0,
+       "dur": 1.5,
+       "ease": "expo_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.55,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5167,
+       0.9833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_Flash"
+      ],
+      [
+       0.5167,
+       0.9833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_3_Chargeattack"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 290,
+  "stagger": [
+   40
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 2,
+   "blunt": 0.5
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    90,
+    150
+   ]
+  },
+  "idle": {
+   "anchor": [
+    61,
+    148
+   ]
+  },
+  "miss": {
+   "anchor": [
+    93,
+    147
+   ]
+  },
+  "gud": {
+   "anchor": [
+    53,
+    136
+   ]
+  },
+  "move": {
+   "anchor": [
+    65,
+    134
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    55,
+    150
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    53,
+    141
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    54,
+    145
+   ]
+  },
+  "skill3_4 1": {
+   "anchor": [
+    72,
+    124
+   ]
+  },
+  "skill3_5 1": {
+   "anchor": [
+    45,
+    134
+   ]
+  },
+  "skill3_6 1": {
+   "anchor": [
+    42,
+    177
+   ]
+  },
+  "skill3_8 1": {
+   "anchor": [
+    75,
+    104
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    47,
+    98
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    53,
+    204
+   ]
+  },
+  "skill3_11 1": {
+   "anchor": [
+    53,
+    194
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    64,
+    101
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    56,
+    95
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    168,
+    92
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    61,
+    112
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    61,
+    112
+   ]
+  },
+  "skill3_4_e": {
+   "anchor": [
+    54,
+    87
+   ]
+  },
+  "skill3_5_e": {
+   "anchor": [
+    67,
+    79
+   ]
+  },
+  "skill3_6_e3": {
+   "anchor": [
+    85,
+    83
+   ]
+  },
+  "skill3_8_e": {
+   "anchor": [
+    110,
+    62
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    62,
+    101
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    152,
+    94
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    66,
+    115
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    68,
+    113
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    71,
+    130
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    74,
+    114
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    218,
+    121
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    60,
+    120
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    60,
+    124
+   ]
+  },
+  "skill2_12": {
+   "anchor": [
+    60,
+    127
+   ]
+  },
+  "skill2_13": {
+   "anchor": [
+    114,
+    127
+   ]
+  },
+  "skill2_14": {
+   "anchor": [
+    118,
+    127
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    40,
+    147
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    42,
+    146
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    33,
+    138
+   ]
+  },
+  "skill1_5": {
+   "anchor": [
+    59,
+    130
+   ]
+  },
+  "skill1_6": {
+   "anchor": [
+    44,
+    114
+   ]
+  },
+  "skill1_7": {
+   "anchor": [
+    126,
+    121
+   ]
+  },
+  "skill1_8": {
+   "anchor": [
+    65,
+    129
+   ]
+  },
+  "skill1_9": {
+   "anchor": [
+    58,
+    129
+   ]
+  },
+  "skill1_10": {
+   "anchor": [
+    55,
+    130
+   ]
+  },
+  "dead": {
+   "anchor": [
+    35,
+    51
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 2.5667,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.1,
+     "skill3_2"
+    ],
+    [
+     0.1667,
+     "skill3_3"
+    ],
+    [
+     0.45,
+     "skill3_4 1"
+    ],
+    [
+     0.5167,
+     "skill3_5 1"
+    ],
+    [
+     0.5833,
+     "skill3_6 1"
+    ],
+    [
+     0.9167,
+     "skill3_8 1"
+    ],
+    [
+     0.9833,
+     "skill3_9"
+    ],
+    [
+     1.2333,
+     "skill3_11"
+    ],
+    [
+     1.2833,
+     "skill3_11 1"
+    ],
+    [
+     1.6833,
+     "skill3_12"
+    ],
+    [
+     2.0333,
+     "skill2_2"
+    ],
+    [
+     2.1,
+     "skill2_3"
+    ],
+    [
+     2.2,
+     "skill3_13"
+    ],
+    [
+     2.2833,
+     "skill3_14"
+    ],
+    [
+     2.55,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 2.95,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1333,
+     "skill2_2"
+    ],
+    [
+     0.2,
+     "skill2_3"
+    ],
+    [
+     0.25,
+     "skill2_4"
+    ],
+    [
+     0.3167,
+     "skill2_5"
+    ],
+    [
+     0.3667,
+     "skill2_6"
+    ],
+    [
+     0.95,
+     "skill2_7"
+    ],
+    [
+     1.2333,
+     "skill2_8"
+    ],
+    [
+     1.3667,
+     "skill2_9"
+    ],
+    [
+     1.4667,
+     "skill2_10"
+    ],
+    [
+     2.45,
+     "skill2_11"
+    ],
+    [
+     2.6,
+     "skill2_12"
+    ],
+    [
+     2.6667,
+     "skill2_13"
+    ],
+    [
+     2.7167,
+     "skill2_14"
+    ],
+    [
+     2.9333,
+     "skill2_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 1.7,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.3,
+     "skill1_3"
+    ],
+    [
+     0.55,
+     "skill1_4"
+    ],
+    [
+     0.75,
+     "skill1_5"
+    ],
+    [
+     0.8667,
+     "skill1_6"
+    ],
+    [
+     0.95,
+     "skill1_7"
+    ],
+    [
+     1.0333,
+     "skill1_8"
+    ],
+    [
+     1.1667,
+     "skill1_9"
+    ],
+    [
+     1.2833,
+     "skill1_10"
+    ],
+    [
+     1.6833,
+     "skill1_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_S3_Helmet": {
+   "length": 2.5667,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.1,
+     "skill3_2"
+    ],
+    [
+     0.1667,
+     "skill3_3"
+    ],
+    [
+     0.45,
+     "skill3_4 1"
+    ],
+    [
+     0.5167,
+     "skill3_5 1"
+    ],
+    [
+     0.5833,
+     "skill3_6 1"
+    ],
+    [
+     0.9167,
+     "skill3_8 1"
+    ],
+    [
+     0.9833,
+     "skill3_9"
+    ],
+    [
+     1.2333,
+     "skill3_11"
+    ],
+    [
+     1.2833,
+     "skill3_11 1"
+    ],
+    [
+     1.6833,
+     "skill3_12"
+    ],
+    [
+     2.0333,
+     "skill2_2"
+    ],
+    [
+     2.1,
+     "skill2_3"
+    ],
+    [
+     2.2,
+     "skill3_13"
+    ],
+    [
+     2.2833,
+     "skill3_14"
+    ],
+    [
+     2.55,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_S2_Helmet": {
+   "length": 2.95,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1333,
+     "skill2_2"
+    ],
+    [
+     0.2,
+     "skill2_3"
+    ],
+    [
+     0.25,
+     "skill2_4"
+    ],
+    [
+     0.3167,
+     "skill2_5"
+    ],
+    [
+     0.3667,
+     "skill2_6"
+    ],
+    [
+     0.95,
+     "skill2_7"
+    ],
+    [
+     1.2333,
+     "skill2_8"
+    ],
+    [
+     1.3667,
+     "skill2_9"
+    ],
+    [
+     1.4667,
+     "skill2_10"
+    ],
+    [
+     2.45,
+     "skill2_11"
+    ],
+    [
+     2.6,
+     "skill2_12"
+    ],
+    [
+     2.6667,
+     "skill2_13"
+    ],
+    [
+     2.7167,
+     "skill2_14"
+    ],
+    [
+     2.9333,
+     "skill2_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_S1_Helmet": {
+   "length": 1.7,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.3,
+     "skill1_3"
+    ],
+    [
+     0.55,
+     "skill1_4"
+    ],
+    [
+     0.75,
+     "skill1_5"
+    ],
+    [
+     0.8667,
+     "skill1_6"
+    ],
+    [
+     0.95,
+     "skill1_7"
+    ],
+    [
+     1.0333,
+     "skill1_8"
+    ],
+    [
+     1.1667,
+     "skill1_9"
+    ],
+    [
+     1.2833,
+     "skill1_10"
+    ],
+    [
+     1.6833,
+     "skill1_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_Move_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_Guard_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_Evade_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_Default_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Meursault_RCorp_Damaged_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (1)": {
+   "length": 3.2167,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (2)": {
+   "length": 2.3667,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.8,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_7"
+    ],
+    [
+     0.0166,
+     "skill1_8"
+    ],
+    [
+     0.15,
+     "skill1_9"
+    ],
+    [
+     0.2666,
+     "skill1_10"
+    ],
+    [
+     0.6666,
+     "skill1_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.8,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_ChargeAttack"
+    ]
+   ]
+  },
+  {
+   "length": 1.7,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_3"
+    ],
+    [
+     0.0333,
+     "skill3_13"
+    ],
+    [
+     0.1166,
+     "skill3_14"
+    ],
+    [
+     0.3833,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     1.7,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_10_Meursault_R_ChargeAttack"
+    ]
+   ]
+  }
+ ]
+}

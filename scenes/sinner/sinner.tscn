@@ -1,0 +1,25 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/sinner/sinner.gd" id="1_sinner"]
+[ext_resource type="Script" path="res://scripts/sinner/sinner_body.gd" id="2_body"]
+[ext_resource type="PackedScene" path="res://scenes/ui/unit_bar.tscn" id="3_bar"]
+[ext_resource type="Script" path="res://scripts/sinner/timeline_player.gd" id="4_player"]
+
+[node name="Sinner" type="Node2D"]
+script = ExtResource("1_sinner")
+
+[node name="Body" type="Node2D" parent="."]
+script = ExtResource("2_body")
+
+[node name="Pose" type="Sprite2D" parent="Body"]
+centered = false
+
+[node name="Slash" type="Sprite2D" parent="Body"]
+visible = false
+centered = false
+
+[node name="UnitBar" parent="." instance=ExtResource("3_bar")]
+
+[node name="TimelinePlayer" type="Node" parent="." node_paths=PackedStringArray("body")]
+script = ExtResource("4_player")
+body = NodePath("../Body")

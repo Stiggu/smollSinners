@@ -1,0 +1,947 @@
+{
+ "id": 10403,
+ "sinner": "Ry\u014dsh\u016b",
+ "title": "Kurokumo Clan Wakashu",
+ "rank": 3,
+ "appearance": "10403_Ryoshu_BlackCloudAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1040301,
+   "name": "Focus Strike",
+   "affinity": "SHAMROCK",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    6
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.75,
+     "next": 0.5,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.1667,
+       "skill1_2"
+      ],
+      [
+       0.2167,
+       "skill1_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 150,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.1333,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1667,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Piercing"
+      ],
+      [
+       0.1667,
+       0.5833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_Flash"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1040302,
+   "name": "Clean Up",
+   "affinity": "INDIGO",
+   "attack": "pierce",
+   "base": 5,
+   "coins": [
+    5,
+    5
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 1.3333,
+     "next": 1.1167,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1167,
+       "skill2_2"
+      ],
+      [
+       0.75,
+       "skill2_3"
+      ],
+      [
+       0.8,
+       "skill2_4"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.7667,
+       "to": "target",
+       "x": -90,
+       "y": 0,
+       "dur": 0.033,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.8,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.8,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail2_1"
+      ],
+      [
+       0.8,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_Flash (1)"
+      ]
+     ]
+    },
+    {
+     "length": 1.25,
+     "next": 1.25,
+     "body": [
+      [
+       0.0,
+       "skill2_7"
+      ],
+      [
+       0.1,
+       "skill2_8"
+      ],
+      [
+       0.1666,
+       "skill2_9"
+      ],
+      [
+       0.2166,
+       "skill2_10"
+      ],
+      [
+       0.55,
+       "skill2_11"
+      ],
+      [
+       0.6,
+       "skill2_12"
+      ],
+      [
+       0.75,
+       "skill2_13"
+      ],
+      [
+       0.85,
+       "skill2_14"
+      ],
+      [
+       0.9666,
+       "skill2_15"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.6,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.55,
+       0.7,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail2_2"
+      ],
+      [
+       0.6,
+       0.65,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_Flash_2End"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1040303,
+   "name": "Lenticular Swirl",
+   "affinity": "SCARLET",
+   "attack": "pierce",
+   "base": 8,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 1.3166,
+     "next": 1.0333,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.0833,
+       "skill3_2"
+      ],
+      [
+       0.25,
+       "skill3_3"
+      ],
+      [
+       0.3,
+       "skill3_4"
+      ],
+      [
+       0.3833,
+       "skill3_5"
+      ],
+      [
+       0.7833,
+       "skill3_6"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.5,
+       "to": "relative",
+       "x": 30,
+       "y": 0,
+       "dur": 0.3,
+       "ease": "quad_in",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.7667,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.7833,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3,
+       0.4833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail3_0"
+      ],
+      [
+       0.7833,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail3_1"
+      ],
+      [
+       0.7833,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_Flash (1)"
+      ]
+     ]
+    },
+    {
+     "length": 0.9666,
+     "next": 0.95,
+     "body": [
+      [
+       0.0,
+       "skill3_7"
+      ],
+      [
+       0.1,
+       "skill3_8"
+      ],
+      [
+       0.2,
+       "skill3_9"
+      ],
+      [
+       0.3334,
+       "skill3_10"
+      ],
+      [
+       0.4334,
+       "skill3_11"
+      ],
+      [
+       0.5334,
+       "skill3_12"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3667,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.4333,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail3_2"
+      ],
+      [
+       0.4333,
+       0.5333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_SKL3_End"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 236,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 2,
+   "pierce": 0.5,
+   "blunt": 1
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    70,
+    122
+   ]
+  },
+  "idle": {
+   "anchor": [
+    68,
+    131
+   ]
+  },
+  "miss": {
+   "anchor": [
+    44,
+    128
+   ]
+  },
+  "gud": {
+   "anchor": [
+    44,
+    120
+   ]
+  },
+  "move": {
+   "anchor": [
+    48,
+    95
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    99,
+    109
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    48,
+    108
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    46,
+    109
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    55,
+    121
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    56,
+    121
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    47,
+    122
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    79,
+    211
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    102,
+    212
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    79,
+    129
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    73,
+    129
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    73,
+    128
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    73,
+    128
+   ]
+  },
+  "skill2_11": {
+   "anchor": [
+    77,
+    128
+   ]
+  },
+  "skill2_12": {
+   "anchor": [
+    107,
+    101
+   ]
+  },
+  "skill2_13": {
+   "anchor": [
+    103,
+    101
+   ]
+  },
+  "skill2_14": {
+   "anchor": [
+    103,
+    101
+   ]
+  },
+  "skill2_15": {
+   "anchor": [
+    103,
+    101
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    60,
+    131
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    61,
+    131
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    61,
+    132
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    115,
+    101
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    115,
+    100
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    110,
+    205
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    94,
+    201
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    81,
+    162
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    81,
+    159
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    80,
+    164
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    104,
+    173
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    97,
+    109
+   ]
+  },
+  "dead": {
+   "anchor": [
+    40,
+    82
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.2333,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1667,
+     "skill1_2"
+    ],
+    [
+     0.2167,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 2.6,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1167,
+     "skill2_2"
+    ],
+    [
+     0.75,
+     "skill2_3"
+    ],
+    [
+     0.8,
+     "skill2_4"
+    ],
+    [
+     0.95,
+     "skill2_5"
+    ],
+    [
+     1.6167,
+     "skill2_7"
+    ],
+    [
+     1.7167,
+     "skill2_8"
+    ],
+    [
+     1.7833,
+     "skill2_9"
+    ],
+    [
+     1.8333,
+     "skill2_10"
+    ],
+    [
+     2.1667,
+     "skill2_11"
+    ],
+    [
+     2.2167,
+     "skill2_12"
+    ],
+    [
+     2.3667,
+     "skill2_13"
+    ],
+    [
+     2.4667,
+     "skill2_14"
+    ],
+    [
+     2.5833,
+     "skill2_15"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 1.4333,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.0833,
+     "skill3_2"
+    ],
+    [
+     0.25,
+     "skill3_3"
+    ],
+    [
+     0.3,
+     "skill3_4"
+    ],
+    [
+     0.3833,
+     "skill3_5"
+    ],
+    [
+     0.7833,
+     "skill3_6"
+    ],
+    [
+     0.8833,
+     "skill3_7"
+    ],
+    [
+     0.9833,
+     "skill3_8"
+    ],
+    [
+     1.0833,
+     "skill3_9"
+    ],
+    [
+     1.2167,
+     "skill3_10"
+    ],
+    [
+     1.3167,
+     "skill3_11"
+    ],
+    [
+     1.4167,
+     "skill3_12"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.1,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.0167,
+     "skill1_2"
+    ],
+    [
+     0.0667,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.0833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Piercing"
+    ],
+    [
+     0.0167,
+     0.0833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_9_Ryoshu_BlackCloud_Flash"
+    ]
+   ]
+  },
+  {
+   "length": 0.5333,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_2"
+    ],
+    [
+     0.0167,
+     "skill2_3"
+    ],
+    [
+     0.0667,
+     "skill2_4"
+    ],
+    [
+     0.2167,
+     "skill2_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.5333,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_Ryoshu_BlackCloud_Trail2_1"
+    ]
+   ]
+  }
+ ]
+}

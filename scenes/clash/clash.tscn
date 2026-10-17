@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/clash/clash.gd" id="1_clash"]
+[ext_resource type="Script" path="res://scripts/clash/clash_effects.gd" id="2_effects"]
+[ext_resource type="Script" path="res://scripts/clash/icon_knockback.gd" id="3_knockback"]
+
+[node name="Clash" type="Node2D"]
+script = ExtResource("1_clash")
+
+[node name="Badges" type="Node2D" parent="."]
+
+[node name="Effects" type="Node2D" parent="."]
+script = ExtResource("2_effects")
+
+[node name="IconKnockback" type="Node" parent="."]
+script = ExtResource("3_knockback")

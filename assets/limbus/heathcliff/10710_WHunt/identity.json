@@ -1,0 +1,1542 @@
+{
+ "id": 10710,
+ "sinner": "Heathcliff",
+ "title": "Wild Hunt",
+ "rank": 3,
+ "appearance": "10710_Heathclif_WHuntAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1071001,
+   "name": "Beheading",
+   "affinity": "CRIMSON",
+   "attack": "slash",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 1.0667,
+     "next": 0.55,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.35,
+       "skill2_2"
+      ],
+      [
+       0.45,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.3,
+       "to": "target",
+       "x": 210,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.4,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quart_out",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.35,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2667,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/ShotMove"
+      ],
+      [
+       0.3,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail2"
+      ],
+      [
+       0.35,
+       0.2833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+      ]
+     ]
+    },
+    {
+     "length": 1.1667,
+     "next": 0.7167,
+     "body": [
+      [
+       0.0,
+       "skill2_4"
+      ],
+      [
+       0.1,
+       "skill2_5"
+      ],
+      [
+       0.3667,
+       "skill2_5"
+      ],
+      [
+       0.4334,
+       "skill2_6"
+      ],
+      [
+       0.5334,
+       "skill2_7"
+      ],
+      [
+       0.7834,
+       "skill2_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.7,
+       "ease": "quint_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.4,
+       "to": "target",
+       "x": -300,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.5,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quart_out",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.45,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.4,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Move1"
+      ],
+      [
+       0.45,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Piercing1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1071002,
+   "name": "Memorial Procession",
+   "affinity": "VIOLET",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    3,
+    3,
+    3
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.9333,
+     "next": 0.3667,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.0833,
+       "skill1_1"
+      ],
+      [
+       0.1166,
+       "skill1_2"
+      ],
+      [
+       0.2166,
+       "skill1_3"
+      ],
+      [
+       0.5166,
+       "skill1_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": 210,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0667,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail1"
+      ],
+      [
+       0.1167,
+       0.4167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+      ]
+     ]
+    },
+    {
+     "length": 0.6167,
+     "next": 0.45,
+     "body": [
+      [
+       0.0,
+       "skill1_3"
+      ],
+      [
+       0.0833,
+       "skill1_3"
+      ],
+      [
+       0.1167,
+       "skill2_1"
+      ],
+      [
+       0.1667,
+       "skill2_2"
+      ],
+      [
+       0.2667,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1167,
+       "to": "target",
+       "x": 210,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/ShotMove"
+      ],
+      [
+       0.1167,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail2"
+      ],
+      [
+       0.1667,
+       0.2833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+      ]
+     ]
+    },
+    {
+     "length": 3.1167,
+     "next": 2.6667,
+     "body": [
+      [
+       0.0,
+       "skill2_3"
+      ],
+      [
+       0.2,
+       "skill2_4"
+      ],
+      [
+       0.25,
+       "skill2_5"
+      ],
+      [
+       1.5833,
+       "skill2_5"
+      ],
+      [
+       1.6,
+       "skill2_6"
+      ],
+      [
+       1.7,
+       "skill2_7"
+      ],
+      [
+       1.95,
+       "skill2_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2,
+       "to": "target",
+       "x": 480,
+       "y": 0,
+       "dur": 1.0,
+       "ease": "quint_out",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 1.55,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.6333,
+       "ratio": 0.6,
+       "count": 6,
+       "span": 1.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2667,
+       1.3333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_GhostRide"
+      ],
+      [
+       0.2667,
+       1.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/GhostRideAddParticle"
+      ],
+      [
+       1.5833,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Move1"
+      ],
+      [
+       1.6,
+       1.15,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_GhostRide (1)"
+      ],
+      [
+       1.6333,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Piercing1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1071003,
+   "name": "Requiem",
+   "affinity": "AZURE",
+   "attack": "blunt",
+   "base": 6,
+   "coins": [
+    6,
+    6
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 1.5333,
+     "next": 1.2833,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.4833,
+       "skill3_1"
+      ],
+      [
+       0.5166,
+       "skill3_2"
+      ],
+      [
+       0.7833,
+       "skill3_2"
+      ],
+      [
+       0.85,
+       "skill3_3"
+      ],
+      [
+       1.0667,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 540,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quint_out",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.6,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quad_in",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.7833,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.9667,
+       "ratio": 0.2,
+       "count": 1,
+       "span": 0.0
+      },
+      {
+       "t": 1.1167,
+       "ratio": 0.8,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.8667,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail1"
+      ],
+      [
+       0.9167,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/Throw"
+      ],
+      [
+       1.1167,
+       0.25,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/FX_PC_6_Heathcliff_WildHunt_Wave1"
+      ]
+     ]
+    },
+    {
+     "length": 4.1333,
+     "next": null,
+     "body": [
+      [
+       0.0,
+       "skill3_3"
+      ],
+      [
+       0.2834,
+       "6"
+      ],
+      [
+       0.9333,
+       null
+      ],
+      [
+       1.0999,
+       "skill3_6 1"
+      ],
+      [
+       1.3166,
+       null
+      ],
+      [
+       1.7833,
+       "skill3_7 1"
+      ],
+      [
+       1.9999,
+       null
+      ],
+      [
+       2.5,
+       "skill3_8"
+      ],
+      [
+       2.6166,
+       "skill3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 2.55,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quart_out",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 2.7,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1667,
+       0.65,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/Full"
+      ],
+      [
+       1.1,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_DemonKing_LightningFall"
+      ],
+      [
+       1.7833,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Cp6_DemonKing_LightningFall (1)"
+      ],
+      [
+       2.5,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail1"
+      ],
+      [
+       2.5,
+       0.1,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+      ],
+      [
+       2.5,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Filter"
+      ],
+      [
+       2.55,
+       0.7833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/Throw"
+      ],
+      [
+       2.6,
+       0.7333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/FX_PC_6_Heathcliff_WildHunt_Wave1"
+      ]
+     ]
+    },
+    {
+     "length": 6.3333,
+     "next": 5.6667,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.4833,
+       "skill3_1"
+      ],
+      [
+       0.5166,
+       "skill3_2"
+      ],
+      [
+       0.7833,
+       "skill3_2"
+      ],
+      [
+       0.85,
+       "skill3_3"
+      ],
+      [
+       1.0667,
+       "skill3_3"
+      ],
+      [
+       1.5333,
+       "skill3_3"
+      ],
+      [
+       1.8167,
+       "6"
+      ],
+      [
+       2.4667,
+       null
+      ],
+      [
+       2.6333,
+       "skill3_6 1"
+      ],
+      [
+       2.85,
+       null
+      ],
+      [
+       3.3167,
+       "skill3_7 1"
+      ],
+      [
+       3.5333,
+       null
+      ],
+      [
+       4.0333,
+       "skill3_8"
+      ],
+      [
+       4.1499,
+       "skill3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 540,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quint_out",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.6,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quad_in",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.7833,
+       "to": "relative",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 4.0833,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.4,
+       "ease": "quart_out",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 4.2333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.8667,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/CoinBack/Trail1 (1)"
+      ],
+      [
+       0.9167,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/CoinBack/Throw (1)"
+      ],
+      [
+       1.1167,
+       0.25,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/CoinBack/FX_PC_6_Heathcliff_WildHunt_Wave1 (1)"
+      ],
+      [
+       1.7,
+       0.65,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/CoinBack/Full (1)"
+      ],
+      [
+       2.6333,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/CoinBack/FX_Mon_Cp6_DemonKing_LightningFall (2)"
+      ],
+      [
+       3.3167,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/CoinBack/FX_Mon_Cp6_DemonKing_LightningFall (3)"
+      ],
+      [
+       4.0333,
+       0.05,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/CoinBack/Trail1 (1)"
+      ],
+      [
+       4.0333,
+       0.1,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/CoinBack/FX_PC_6_Heathcliff_WildHunt_Wind1 (1)"
+      ],
+      [
+       4.0833,
+       0.7833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/CoinBack/Throw (1)"
+      ],
+      [
+       4.1333,
+       0.7333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Effect_Coffin/CoinBack/FX_PC_6_Heathcliff_WildHunt_Wave1 (1)"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 236,
+  "stagger": [
+   65,
+   35,
+   20
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 1,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   },
+   {
+    "on": "lose",
+    "sp": -5,
+    "per_clash": 10
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    189,
+    143
+   ]
+  },
+  "idle": {
+   "anchor": [
+    66,
+    161
+   ]
+  },
+  "miss": {
+   "anchor": [
+    81,
+    138
+   ]
+  },
+  "gud": {
+   "anchor": [
+    164,
+    143
+   ]
+  },
+  "mov": {
+   "anchor": [
+    168,
+    142
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    180,
+    186
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    227,
+    148
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    228,
+    148
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    69,
+    149
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    140,
+    199
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    148,
+    201
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    91,
+    149
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    92,
+    149
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    71,
+    154
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    71,
+    154
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    93,
+    253
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    108,
+    262
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    178,
+    140
+   ]
+  },
+  "6": {
+   "anchor": [
+    103,
+    240
+   ]
+  },
+  "skill3_3_e2": {
+   "anchor": [
+    51,
+    156
+   ]
+  },
+  "6_1": {
+   "anchor": [
+    22,
+    139
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    167,
+    170
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    167,
+    170
+   ]
+  },
+  "skill3_6 1": {
+   "anchor": [
+    103,
+    244
+   ]
+  },
+  "skill3_7 1": {
+   "anchor": [
+    100,
+    224
+   ]
+  },
+  "skill3_3_e6": {
+   "anchor": [
+    63,
+    145
+   ]
+  },
+  "skill3_4_e4": {
+   "anchor": [
+    63,
+    151
+   ]
+  },
+  "skill3_5_e4": {
+   "anchor": [
+    54,
+    147
+   ]
+  },
+  "skill3_8_e1": {
+   "anchor": [
+    44,
+    181
+   ]
+  },
+  "skill3_9_e1": {
+   "anchor": [
+    35,
+    173
+   ]
+  },
+  "skill3_4_H": {
+   "anchor": [
+    -189,
+    315
+   ]
+  },
+  "skill3_5_H": {
+   "anchor": [
+    -71,
+    299
+   ]
+  },
+  "skill3_6_H": {
+   "anchor": [
+    150,
+    233
+   ]
+  },
+  "dead": {
+   "anchor": [
+    37,
+    81
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    100,
+    224
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "mov"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.7667,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.35,
+     "skill1_2"
+    ],
+    [
+     0.45,
+     "skill1_3"
+    ],
+    [
+     0.75,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 1.4833,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.35,
+     "skill2_2"
+    ],
+    [
+     0.45,
+     "skill2_3"
+    ],
+    [
+     0.85,
+     "skill2_4"
+    ],
+    [
+     0.95,
+     "skill2_5"
+    ],
+    [
+     1.1167,
+     "skill2_6"
+    ],
+    [
+     1.2167,
+     "skill2_7"
+    ],
+    [
+     1.4667,
+     "skill2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S4": {
+   "length": 1.9333,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.1,
+     "skill3_2"
+    ],
+    [
+     0.2,
+     "skill3_3"
+    ],
+    [
+     0.8,
+     "6"
+    ],
+    [
+     1.4833,
+     "skill3_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 4.55,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.1,
+     "skill3_2"
+    ],
+    [
+     0.2,
+     "skill3_3"
+    ],
+    [
+     1.1667,
+     "6"
+    ],
+    [
+     1.6,
+     "skill3_8"
+    ],
+    [
+     1.7333,
+     "skill3_9"
+    ],
+    [
+     3.35,
+     null
+    ],
+    [
+     3.6333,
+     "skill3_6 1"
+    ],
+    [
+     3.85,
+     null
+    ],
+    [
+     4.3167,
+     "skill3_7 1"
+    ],
+    [
+     4.5333,
+     null
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_WHunt_Ride_Start": {
+   "length": 0.9167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ],
+    [
+     0.4,
+     null
+    ],
+    [
+     0.5333,
+     "mov"
+    ],
+    [
+     0.7667,
+     "skill2_6"
+    ],
+    [
+     0.9,
+     "skill2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded": {
+   "length": 1.1167,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_WHunt_S3_effect": {
+   "length": 5.65,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (1)": {
+   "length": 1.1167,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (4)": {
+   "length": 4.4167,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (3)": {
+   "length": 3.4833,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_WHunt_Duel_Win": {
+   "length": 2.0667,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.2,
+     "skill3_7"
+    ],
+    [
+     0.8,
+     "6"
+    ],
+    [
+     1.4833,
+     "skill3_3"
+    ],
+    [
+     1.6167,
+     "skill3_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.9333,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.0167,
+     "skill1_1"
+    ],
+    [
+     0.05,
+     "skill1_2"
+    ],
+    [
+     0.15,
+     "skill1_3"
+    ],
+    [
+     0.45,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.05,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail1"
+    ],
+    [
+     0.05,
+     0.4167,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+    ]
+   ]
+  },
+  {
+   "length": 1.0667,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.05,
+     "skill2_2"
+    ],
+    [
+     0.15,
+     "skill2_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.0333,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Trail2"
+    ],
+    [
+     0.05,
+     0.2833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Wind1"
+    ]
+   ]
+  },
+  {
+   "length": 1.1667,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_5"
+    ],
+    [
+     0.0334,
+     "skill2_6"
+    ],
+    [
+     0.1334,
+     "skill2_7"
+    ],
+    [
+     0.3834,
+     "skill2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.05,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Move1"
+    ],
+    [
+     0.05,
+     0.45,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_6_Heathcliff_WildHunt_Piercing1"
+    ]
+   ]
+  }
+ ]
+}

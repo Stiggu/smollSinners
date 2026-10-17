@@ -1,0 +1,74 @@
+{
+ "id": 11216,
+ "sinner": "Gregor",
+ "title": "Dawn Office Rep",
+ "rank": 3,
+ "appearance": "11216_Gregor_SalvadorAppearance",
+ "kind": "rig",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1121601,
+   "name": "Flash of Sunup",
+   "affinity": "AMBER",
+   "attack": "slash",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1"
+  },
+  "S2": {
+   "id": 1121602,
+   "name": "Sunset Blade",
+   "affinity": "INDIGO",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 2,
+   "motion": "S2"
+  },
+  "S3": {
+   "id": 1121603,
+   "name": "Dawnsplitter",
+   "affinity": "CRIMSON",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "weight": 1,
+   "motion": "S3"
+  }
+ },
+ "battle": {
+  "hp": 286,
+  "stagger": [
+   55
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 1,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {},
+ "clips": {}
+}

@@ -1,0 +1,1391 @@
+{
+ "id": 10703,
+ "sinner": "Heathcliff",
+ "title": "R Corp. 4th Pack Rabbit",
+ "rank": 3,
+ "appearance": "10703_Heathclif_RCorpAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1070301,
+   "name": "Graze the Grass",
+   "affinity": "CRIMSON",
+   "attack": "pierce",
+   "base": 4,
+   "coins": [
+    2,
+    2,
+    2
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.4834,
+     "next": 0.3333,
+     "body": [
+      [
+       0.1667,
+       "skill1_1"
+      ],
+      [
+       0.25,
+       "skill1_1"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot1"
+      ]
+     ]
+    },
+    {
+     "length": 0.4834,
+     "next": 0.3333,
+     "body": [
+      [
+       0.1667,
+       "skill1_1"
+      ],
+      [
+       0.25,
+       "skill1_1"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot1"
+      ]
+     ]
+    },
+    {
+     "length": 0.45,
+     "next": 0.3333,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1667,
+       "skill2_2"
+      ],
+      [
+       0.2833,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1333,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0167,
+       0.15,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_2_0"
+      ],
+      [
+       0.1333,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Flash"
+      ],
+      [
+       0.1667,
+       0.2833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_2_1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1070302,
+   "name": "Concentrated Fire",
+   "affinity": "SHAMROCK",
+   "attack": "pierce",
+   "base": 4,
+   "coins": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.75,
+     "next": 0.6333,
+     "body": [
+      [
+       0.0,
+       "skill2_5"
+      ],
+      [
+       0.0667,
+       "skill2_6"
+      ],
+      [
+       0.1167,
+       "skill2_7"
+      ],
+      [
+       0.2167,
+       "skill2_8"
+      ],
+      [
+       0.4334,
+       "skill2_9"
+      ],
+      [
+       0.5667,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4333,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.4333,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot2"
+      ]
+     ]
+    },
+    {
+     "length": 0.3167,
+     "next": 0.1667,
+     "body": [
+      [
+       0.0,
+       "skill2_9"
+      ],
+      [
+       0.1333,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot2"
+      ]
+     ]
+    },
+    {
+     "length": 0.3167,
+     "next": 0.1667,
+     "body": [
+      [
+       0.0,
+       "skill2_9"
+      ],
+      [
+       0.1333,
+       "skill2_10"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot2"
+      ]
+     ]
+    },
+    {
+     "length": 0.45,
+     "next": 0.3333,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1667,
+       "skill2_2"
+      ],
+      [
+       0.2833,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1333,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0167,
+       0.15,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_2_0"
+      ],
+      [
+       0.1333,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Flash"
+      ],
+      [
+       0.1667,
+       0.2833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_2_1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1070303,
+   "name": "Quick Suppression",
+   "affinity": "VIOLET",
+   "attack": "pierce",
+   "base": 3,
+   "coins": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.5,
+     "next": 0.2667,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.0667,
+       "skill3_2"
+      ],
+      [
+       0.1667,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1667,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1667,
+       0.25,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot2"
+      ]
+     ]
+    },
+    {
+     "length": 0.3167,
+     "next": 0.1167,
+     "body": [
+      [
+       0.0,
+       "skill3_4"
+      ],
+      [
+       0.0167,
+       "skill3_5"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0167,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0167,
+       0.3,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Shot2"
+      ]
+     ]
+    },
+    {
+     "length": 0.5834,
+     "next": 0.5833,
+     "body": [
+      [
+       0.0,
+       "skill3_6"
+      ],
+      [
+       0.0833,
+       "skill3_7"
+      ],
+      [
+       0.1833,
+       "skill3_8"
+      ],
+      [
+       0.2666,
+       "skill3_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2333,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.2667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2333,
+       0.35,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Flash2"
+      ],
+      [
+       0.2667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_3_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3834,
+     "next": 0.2,
+     "body": [
+      [
+       0.0667,
+       "skill3_11"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0333,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.0667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0333,
+       0.35,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Flash2"
+      ],
+      [
+       0.0667,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_3_2"
+      ]
+     ]
+    },
+    {
+     "length": 0.5834,
+     "next": 0.4167,
+     "body": [
+      [
+       0.0,
+       "skill3_12"
+      ],
+      [
+       0.1,
+       "skill3_13"
+      ],
+      [
+       0.2,
+       "skill3_14"
+      ],
+      [
+       0.5667,
+       "skill3_14"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": 90,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0667,
+       0.5167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Flash2"
+      ],
+      [
+       0.1,
+       0.4833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_3_3"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 214,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 1,
+   "pierce": 0.5,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    50,
+    125
+   ]
+  },
+  "idle": {
+   "anchor": [
+    40,
+    138
+   ]
+  },
+  "miss": {
+   "anchor": [
+    66,
+    125
+   ]
+  },
+  "gud": {
+   "anchor": [
+    43,
+    133
+   ]
+  },
+  "move": {
+   "anchor": [
+    49,
+    105
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    36,
+    106
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    69,
+    150
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    97,
+    127
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    99,
+    127
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    99,
+    128
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    45,
+    126
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    44,
+    126
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    46,
+    142
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    33,
+    131
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    34,
+    130
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    33,
+    131
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    41,
+    140
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    30,
+    128
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    31,
+    127
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    29,
+    128
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    30,
+    128
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    29,
+    128
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    32,
+    128
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    34,
+    104
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    54,
+    104
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    52,
+    104
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    35,
+    97
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    33,
+    97
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    35,
+    106
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    36,
+    106
+   ]
+  },
+  "dead": {
+   "anchor": [
+    37,
+    81
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.1,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.0833,
+     "skill1_1"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 1.6,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1667,
+     "skill2_2"
+    ],
+    [
+     0.2833,
+     "skill2_3"
+    ],
+    [
+     0.35,
+     "skill2_4"
+    ],
+    [
+     0.4833,
+     "skill2_5"
+    ],
+    [
+     0.55,
+     "skill2_6"
+    ],
+    [
+     0.6,
+     "skill2_7"
+    ],
+    [
+     0.7,
+     "skill2_8"
+    ],
+    [
+     0.9167,
+     "skill2_9"
+    ],
+    [
+     1.05,
+     "skill2_10"
+    ],
+    [
+     1.2,
+     "skill2_9"
+    ],
+    [
+     1.3333,
+     "skill2_10"
+    ],
+    [
+     1.45,
+     "skill2_9"
+    ],
+    [
+     1.5833,
+     "skill2_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 1.7333,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.0667,
+     "skill3_2"
+    ],
+    [
+     0.1667,
+     "skill3_3"
+    ],
+    [
+     0.2667,
+     "skill3_4"
+    ],
+    [
+     0.4667,
+     "skill3_5"
+    ],
+    [
+     0.5667,
+     "skill3_6"
+    ],
+    [
+     0.65,
+     "skill3_7"
+    ],
+    [
+     0.75,
+     "skill3_8"
+    ],
+    [
+     0.8333,
+     "skill3_9"
+    ],
+    [
+     0.8833,
+     "skill3_10"
+    ],
+    [
+     1.05,
+     "skill3_11"
+    ],
+    [
+     1.15,
+     "skill3_12"
+    ],
+    [
+     1.25,
+     "skill3_13"
+    ],
+    [
+     1.35,
+     "skill3_14"
+    ],
+    [
+     1.7167,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_Default_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_Damaged_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_Evade_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_Guard_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_Move_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_S1_Helmet": {
+   "length": 0.1,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.0833,
+     "skill1_1"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_S2_Helmet": {
+   "length": 1.5333,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1667,
+     "skill2_2"
+    ],
+    [
+     0.2833,
+     "skill2_3"
+    ],
+    [
+     0.35,
+     "skill2_4"
+    ],
+    [
+     0.4833,
+     "skill2_5"
+    ],
+    [
+     0.55,
+     "skill2_6"
+    ],
+    [
+     0.6,
+     "skill2_7"
+    ],
+    [
+     0.7,
+     "skill2_8"
+    ],
+    [
+     0.9167,
+     "skill2_9"
+    ],
+    [
+     1.05,
+     "skill2_10"
+    ],
+    [
+     1.2,
+     "skill2_9"
+    ],
+    [
+     1.3333,
+     "skill2_10"
+    ],
+    [
+     1.45,
+     "skill2_9"
+    ],
+    [
+     1.5167,
+     "skill2_10"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Heathclif_RCorp_S3_Helmet": {
+   "length": 1.7333,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.0667,
+     "skill3_2"
+    ],
+    [
+     0.1667,
+     "skill3_3"
+    ],
+    [
+     0.2667,
+     "skill3_4"
+    ],
+    [
+     0.4667,
+     "skill3_5"
+    ],
+    [
+     0.5667,
+     "skill3_6"
+    ],
+    [
+     0.65,
+     "skill3_7"
+    ],
+    [
+     0.75,
+     "skill3_8"
+    ],
+    [
+     0.8333,
+     "skill3_9"
+    ],
+    [
+     0.8833,
+     "skill3_10"
+    ],
+    [
+     1.05,
+     "skill3_11"
+    ],
+    [
+     1.15,
+     "skill3_12"
+    ],
+    [
+     1.25,
+     "skill3_13"
+    ],
+    [
+     1.35,
+     "skill3_14"
+    ],
+    [
+     1.7167,
+     "skill3_14"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.2,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.0167,
+     "skill2_2"
+    ],
+    [
+     0.1333,
+     "skill2_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.1833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_6_Heathcliff_R_Trail_2_1"
+    ]
+   ]
+  }
+ ]
+}

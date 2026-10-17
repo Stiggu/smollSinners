@@ -1,0 +1,1478 @@
+{
+ "id": 10411,
+ "sinner": "Ry\u014dsh\u016b",
+ "title": "Heishou Pack - Mao Branch",
+ "rank": 3,
+ "appearance": "10411_Ryoshu_BlackHand_MaoAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1041101,
+   "name": "Blinkstep",
+   "affinity": "SCARLET",
+   "attack": "slash",
+   "base": 3,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 2.0667,
+     "next": 0.85,
+     "body": [
+      [
+       0.0,
+       "skill4_1"
+      ],
+      [
+       0.0833,
+       "skill4_2"
+      ],
+      [
+       0.2,
+       "skill4_3"
+      ],
+      [
+       0.5167,
+       "skill4_4"
+      ],
+      [
+       0.6167,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.05,
+       "to": "relative",
+       "x": -240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.6167,
+       "to": "target",
+       "x": -360,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.8,
+       "to": "relative",
+       "x": 240,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.7167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hair"
+      ],
+      [
+       0.5667,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Jaro_Speed"
+      ],
+      [
+       0.5833,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_Off"
+      ],
+      [
+       0.5833,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_On"
+      ],
+      [
+       0.6167,
+       1.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1"
+      ],
+      [
+       0.6333,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ],
+      [
+       0.6333,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1"
+      ],
+      [
+       0.6333,
+       0.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Dash"
+      ]
+     ]
+    },
+    {
+     "length": 1.8167,
+     "next": 0.55,
+     "body": [
+      [
+       0.0,
+       "skill4_3"
+      ],
+      [
+       0.2667,
+       "skill4_4"
+      ],
+      [
+       0.3667,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -240,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.3667,
+       "to": "target",
+       "x": -360,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hair"
+      ],
+      [
+       0.3167,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Jaro_Speed"
+      ],
+      [
+       0.3333,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_Off"
+      ],
+      [
+       0.3333,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_On"
+      ],
+      [
+       0.3667,
+       1.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1"
+      ],
+      [
+       0.3833,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ],
+      [
+       0.3833,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1"
+      ],
+      [
+       0.3833,
+       0.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Dash"
+      ]
+     ]
+    },
+    {
+     "length": 1.5833,
+     "next": 1.0,
+     "body": [
+      [
+       0.0,
+       "skill2_2"
+      ],
+      [
+       0.0333,
+       "skill4_4"
+      ],
+      [
+       0.1167,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.05,
+       "to": "relative",
+       "x": 240,
+       "y": 0,
+       "dur": 0.5,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 0.1167,
+       "to": "target",
+       "x": -360,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.2167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hair"
+      ],
+      [
+       0.0667,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Jaro_Speed"
+      ],
+      [
+       0.0833,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_Off"
+      ],
+      [
+       0.0833,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_On"
+      ],
+      [
+       0.1167,
+       1.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1"
+      ],
+      [
+       0.1333,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ],
+      [
+       0.1333,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1"
+      ],
+      [
+       0.1333,
+       0.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Dash"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1041102,
+   "name": "As Written",
+   "affinity": "SHAMROCK",
+   "attack": "slash",
+   "base": 4,
+   "coins": [
+    6,
+    6
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 5.75,
+     "next": 0.9,
+     "body": [
+      [
+       0.0833,
+       "skill4_1"
+      ],
+      [
+       0.1666,
+       "skill4_2"
+      ],
+      [
+       0.2833,
+       "skill4_3"
+      ],
+      [
+       0.6,
+       "skill4_4"
+      ],
+      [
+       0.6833,
+       "skill2_2"
+      ],
+      [
+       0.7833,
+       "skill2_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.05,
+       "to": "relative",
+       "x": -240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.7,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.8,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hair"
+      ],
+      [
+       0.6167,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_Off"
+      ],
+      [
+       0.6167,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_On"
+      ],
+      [
+       0.7,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1"
+      ],
+      [
+       0.75,
+       5.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ]
+     ]
+    },
+    {
+     "length": 5.5,
+     "next": null,
+     "body": [
+      [
+       0.0,
+       "skill3_6"
+      ],
+      [
+       0.2667,
+       "skill3_7"
+      ],
+      [
+       0.4833,
+       "skill3_2"
+      ],
+      [
+       0.55,
+       "skill1_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0,
+       "to": "target",
+       "x": 240,
+       "y": 120,
+       "dur": 0.25,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 0.3333,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.25,
+       "ease": "quad_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 0.45,
+       "to": "target",
+       "x": -360,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.5667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5,
+       5.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S2_2_var"
+      ],
+      [
+       0.5,
+       5.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1041103,
+   "name": "I'll gut you with a curse-engraved blade",
+   "affinity": "INDIGO",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    4,
+    4,
+    4
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 6.9,
+     "next": 2.25,
+     "body": [
+      [
+       0.4833,
+       "skill4_1"
+      ],
+      [
+       0.5666,
+       "skill4_2"
+      ],
+      [
+       0.6833,
+       "skill4_3"
+      ],
+      [
+       1.2667,
+       "skill4_3"
+      ],
+      [
+       1.3167,
+       "skill4_4"
+      ],
+      [
+       1.5333,
+       "skill3_2"
+      ],
+      [
+       1.6333,
+       "skill3_3"
+      ],
+      [
+       1.85,
+       "skill3_3"
+      ],
+      [
+       1.9166,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.5167,
+       "to": "relative",
+       "x": -60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.5667,
+       "to": "relative",
+       "x": -240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 1.5833,
+       "to": "target",
+       "x": 240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.8,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.25,
+       "ease": "quad_in",
+       "turn": true,
+       "chase_y": true
+      },
+      {
+       "t": 1.9167,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 2.0333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5667,
+       0.65,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Vignette"
+      ],
+      [
+       1.1167,
+       0.45,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Eye"
+      ],
+      [
+       1.1167,
+       0.3333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hair"
+      ],
+      [
+       1.5346,
+       0.0487,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Jaro_Speed"
+      ],
+      [
+       1.5833,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1"
+      ],
+      [
+       1.5833,
+       0.0654,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_Off"
+      ],
+      [
+       1.5833,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Ground_Speed_On"
+      ],
+      [
+       1.6833,
+       1.0,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Dash"
+      ],
+      [
+       1.9,
+       1.4833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1"
+      ],
+      [
+       1.9,
+       0.8167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ]
+     ]
+    },
+    {
+     "length": 2.8333,
+     "next": 0.75,
+     "body": [
+      [
+       0.0,
+       "skill2_3"
+      ],
+      [
+       0.1,
+       "skill3_6"
+      ],
+      [
+       0.3,
+       "skill3_7"
+      ],
+      [
+       0.5167,
+       "skill3_8"
+      ],
+      [
+       1.1167,
+       "skill3_7"
+      ],
+      [
+       1.5167,
+       "skill4_4"
+      ],
+      [
+       1.7001,
+       "skill4_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0333,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      },
+      {
+       "t": 0.0833,
+       "to": "relative",
+       "x": 150,
+       "y": 240,
+       "dur": 0.65,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 1.0333,
+       "to": "relative",
+       "x": 150,
+       "y": 240,
+       "dur": 0.2,
+       "ease": "quad_out",
+       "turn": false,
+       "ground": false
+      },
+      {
+       "t": 1.1167,
+       "to": "relative",
+       "x": 210,
+       "y": 60,
+       "dur": 0.4,
+       "ease": "quart_in",
+       "turn": false,
+       "ground": true
+      },
+      {
+       "t": 1.5167,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.35,
+       "ease": "quart_out",
+       "turn": false,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1,
+       "ratio": 1.0,
+       "count": 5,
+       "span": 0.5
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2,
+       2.6333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S3_3"
+      ],
+      [
+       0.2,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ],
+      [
+       0.2667,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ],
+      [
+       0.3333,
+       0.0667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Hit"
+      ]
+     ]
+    },
+    {
+     "length": 4.5333,
+     "next": 1.45,
+     "body": [
+      [
+       0.0,
+       "skill3_9"
+      ],
+      [
+       0.2,
+       "skill3_10"
+      ],
+      [
+       0.9833,
+       "skill3_10"
+      ],
+      [
+       1.1,
+       "skill3_11"
+      ],
+      [
+       1.15,
+       "skill3_12"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.05,
+       "to": "relative",
+       "x": 15,
+       "y": 30,
+       "dur": 0.066,
+       "ease": "quad_out",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 0.1833,
+       "to": "relative",
+       "x": 24,
+       "y": -6,
+       "dur": 0.75,
+       "ease": "linear_in",
+       "turn": true,
+       "ground": false
+      },
+      {
+       "t": 1.1,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 1.2,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       1.1833,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/Fx_Mon_BlackHand_Mao_Dash (1)"
+      ],
+      [
+       1.2,
+       3.3333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S3_4"
+      ],
+      [
+       1.2,
+       0.1167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_Mon_BlackHand_Mao_Jaro_Dash_1 (1)"
+      ]
+     ]
+    },
+    {
+     "length": 5.8109,
+     "next": 1.8167,
+     "body": [
+      [
+       0.0,
+       "skill3_12"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.7,
+       "to": "relative",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "ground": true
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.8,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.8,
+       3.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S3_4"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 221,
+  "stagger": [
+   65,
+   35
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 1,
+   "blunt": 2
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    83,
+    136
+   ]
+  },
+  "idle": {
+   "anchor": [
+    60,
+    138
+   ]
+  },
+  "miss": {
+   "anchor": [
+    97,
+    130
+   ]
+  },
+  "gud": {
+   "anchor": [
+    38,
+    127
+   ]
+  },
+  "move": {
+   "anchor": [
+    143,
+    114
+   ]
+  },
+  "skill4_1": {
+   "anchor": [
+    54,
+    134
+   ]
+  },
+  "skill4_2": {
+   "anchor": [
+    76,
+    114
+   ]
+  },
+  "skill4_3": {
+   "anchor": [
+    77,
+    113
+   ]
+  },
+  "skill4_4": {
+   "anchor": [
+    74,
+    113
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    144,
+    112
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    124,
+    162
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    76,
+    76
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    75,
+    76
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    79,
+    137
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    102,
+    137
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    68,
+    100
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    75,
+    76
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    60,
+    148
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    67,
+    133
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    84,
+    147
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    86,
+    151
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    73,
+    101
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    74,
+    102
+   ]
+  },
+  "dead": {
+   "anchor": [
+    40,
+    82
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 4.0333,
+   "body": [
+    [
+     0.0,
+     "skill4_1"
+    ],
+    [
+     0.0833,
+     "skill4_2"
+    ],
+    [
+     0.2,
+     "skill4_3"
+    ],
+    [
+     0.5167,
+     "skill4_4"
+    ],
+    [
+     0.65,
+     "skill1_1"
+    ],
+    [
+     0.7167,
+     "skill1_2"
+    ],
+    [
+     3.8333,
+     "skill4_4"
+    ],
+    [
+     4.0167,
+     "skill4_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 0.9167,
+   "body": [
+    [
+     0.0,
+     "skill2_2"
+    ],
+    [
+     0.1,
+     "skill2_3"
+    ],
+    [
+     0.35,
+     "skill3_6"
+    ],
+    [
+     0.6167,
+     "skill3_7"
+    ],
+    [
+     0.8333,
+     "skill3_2"
+    ],
+    [
+     0.9,
+     "skill1_2"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 4.7667,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.1,
+     "skill3_2"
+    ],
+    [
+     0.2,
+     "skill3_3"
+    ],
+    [
+     0.3333,
+     "skill2_2"
+    ],
+    [
+     0.55,
+     "skill2_3"
+    ],
+    [
+     0.65,
+     "skill3_6"
+    ],
+    [
+     0.85,
+     "skill3_7"
+    ],
+    [
+     1.0667,
+     "skill3_8"
+    ],
+    [
+     1.7,
+     "skill3_9"
+    ],
+    [
+     1.9,
+     "skill3_10"
+    ],
+    [
+     2.4,
+     "skill3_11"
+    ],
+    [
+     2.45,
+     "skill3_12"
+    ],
+    [
+     4.2667,
+     "skill3_7"
+    ],
+    [
+     4.75,
+     "skill3_1"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Recorded (3)": {
+   "length": 1.0333,
+   "body": [],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.7667,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill3_2"
+    ],
+    [
+     0.0333,
+     "skill1_2"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0,
+     0.7667,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S2_2_var"
+    ]
+   ]
+  },
+  {
+   "length": 1.0167,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill4_4"
+    ],
+    [
+     0.0333,
+     "skill2_2"
+    ],
+    [
+     0.1333,
+     "skill2_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     1.0,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1"
+    ]
+   ]
+  },
+  {
+   "length": 5.1167,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill3_6"
+    ],
+    [
+     0.1,
+     "skill3_7"
+    ],
+    [
+     0.3333,
+     "skill4_4"
+    ],
+    [
+     0.5167,
+     "skill4_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.1167,
+     5.0,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/front/Fx_S1_1_Parry"
+    ]
+   ]
+  }
+ ]
+}

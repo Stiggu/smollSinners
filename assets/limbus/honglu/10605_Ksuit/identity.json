@@ -1,0 +1,1140 @@
+{
+ "id": 10605,
+ "sinner": "Hong Lu",
+ "title": "K Corp. Class 3 Excision Staff",
+ "rank": 3,
+ "appearance": "10605_Honglu_KsuitAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1060501,
+   "name": "Impede the Intruder",
+   "affinity": "INDIGO",
+   "attack": "slash",
+   "base": 5,
+   "coins": [
+    6
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.5167,
+     "next": 0.5167,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.1,
+       "skill1_2"
+      ],
+      [
+       0.3333,
+       "skill1_3"
+      ],
+      [
+       0.4,
+       "skill1_4"
+      ],
+      [
+       0.5,
+       "skill1_5"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.1833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_KCrop_Trail"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1060502,
+   "name": "Decay Blade",
+   "affinity": "SHAMROCK",
+   "attack": "blunt",
+   "base": 6,
+   "coins": [
+    5,
+    5
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.7,
+     "next": 0.45,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.1,
+       "skill2_2"
+      ],
+      [
+       0.3333,
+       "skill2_3"
+      ],
+      [
+       0.35,
+       "skill2_6"
+      ],
+      [
+       0.4333,
+       "skill2_7"
+      ],
+      [
+       0.6,
+       "skill2_8"
+      ],
+      [
+       0.6667,
+       "skill2_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2667,
+       "to": "target",
+       "x": -240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2667,
+       0.0167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_KCrop_Spin"
+      ],
+      [
+       0.2667,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Train1_KCorp_Grade3_Flash"
+      ],
+      [
+       0.3333,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_1_Trail"
+      ]
+     ]
+    },
+    {
+     "length": 0.4833,
+     "next": 0.35,
+     "body": [
+      [
+       0.0,
+       "skill2_10"
+      ],
+      [
+       0.0333,
+       "skill3_1"
+      ],
+      [
+       0.1667,
+       "skill3_2"
+      ],
+      [
+       0.2833,
+       "skill3_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.0667,
+       "to": "target",
+       "x": -240,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.1167,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0333,
+       0.2167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2_Trail"
+      ],
+      [
+       0.05,
+       0.2,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Train1_KCorp_Grade3_Flash"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1060503,
+   "name": "Excise Target",
+   "affinity": "AMBER",
+   "attack": "slash",
+   "base": 8,
+   "coins": [
+    4,
+    4
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 0.8167,
+     "next": 0.6833,
+     "body": [
+      [
+       0.0,
+       "skill3_5"
+      ],
+      [
+       0.0833,
+       "skill3_6"
+      ],
+      [
+       0.1667,
+       "skill3_7"
+      ],
+      [
+       0.25,
+       "skill3_8"
+      ],
+      [
+       0.3333,
+       "skill3_9"
+      ],
+      [
+       0.4833,
+       "skill2_6"
+      ],
+      [
+       0.5667,
+       "skill2_7"
+      ],
+      [
+       0.6833,
+       "skill2_9"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.5,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.0833,
+       0.4167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_Spin"
+      ],
+      [
+       0.5,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_1_Trail"
+      ]
+     ]
+    },
+    {
+     "length": 0.7667,
+     "next": 0.6833,
+     "body": [
+      [
+       0.0,
+       "skill2_9"
+      ],
+      [
+       0.35,
+       "skill2_8"
+      ],
+      [
+       0.4666,
+       "skill3_10"
+      ],
+      [
+       0.55,
+       "skill3_11"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.4,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "quart_out",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.4667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.35,
+       0.0333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_Mon_Train1_KCorp_Grade3_Flash"
+      ],
+      [
+       0.4667,
+       0.1833,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL3_2_Trail"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 320,
+  "stagger": [
+   50
+  ],
+  "resist": {
+   "slash": 2,
+   "pierce": 0.5,
+   "blunt": 1
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    66,
+    152
+   ]
+  },
+  "idle": {
+   "anchor": [
+    43,
+    140
+   ]
+  },
+  "gud": {
+   "anchor": [
+    46,
+    139
+   ]
+  },
+  "move": {
+   "anchor": [
+    40,
+    113
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    124,
+    132
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    122,
+    132
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    35,
+    133
+   ]
+  },
+  "skill1_4": {
+   "anchor": [
+    35,
+    133
+   ]
+  },
+  "skill1_5": {
+   "anchor": [
+    35,
+    119
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    124,
+    132
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    122,
+    131
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    35,
+    133
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    35,
+    133
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    35,
+    119
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    81,
+    146
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    89,
+    144
+   ]
+  },
+  "skill2_8": {
+   "anchor": [
+    85,
+    139
+   ]
+  },
+  "skill2_9": {
+   "anchor": [
+    92,
+    144
+   ]
+  },
+  "skill2_10": {
+   "anchor": [
+    92,
+    144
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    115,
+    145
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    135,
+    122
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    134,
+    121
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    134,
+    121
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    110,
+    173
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    121,
+    169
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    118,
+    171
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    121,
+    169
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    108,
+    153
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    86,
+    129
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    80,
+    135
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    83,
+    128
+   ]
+  },
+  "dead": {
+   "anchor": [
+    44,
+    116
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.5167,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1,
+     "skill1_2"
+    ],
+    [
+     0.3333,
+     "skill1_3"
+    ],
+    [
+     0.4,
+     "skill1_4"
+    ],
+    [
+     0.5,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 1.7833,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1,
+     "skill2_2"
+    ],
+    [
+     0.3333,
+     "skill2_3"
+    ],
+    [
+     0.4,
+     "skill2_4"
+    ],
+    [
+     0.5,
+     "skill2_5"
+    ],
+    [
+     1.0,
+     "skill2_6"
+    ],
+    [
+     1.0833,
+     "skill2_7"
+    ],
+    [
+     1.25,
+     "skill2_8"
+    ],
+    [
+     1.3167,
+     "skill2_9"
+    ],
+    [
+     1.35,
+     "skill2_10"
+    ],
+    [
+     1.3833,
+     "skill3_1"
+    ],
+    [
+     1.5167,
+     "skill3_2"
+    ],
+    [
+     1.6333,
+     "skill3_3"
+    ],
+    [
+     1.7667,
+     "skill3_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 2.5167,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.4,
+     "skill3_2"
+    ],
+    [
+     0.6333,
+     "skill3_3"
+    ],
+    [
+     0.7667,
+     "skill3_4"
+    ],
+    [
+     1.0,
+     "skill3_5"
+    ],
+    [
+     1.0833,
+     "skill3_6"
+    ],
+    [
+     1.1667,
+     "skill3_7"
+    ],
+    [
+     1.25,
+     "skill3_8"
+    ],
+    [
+     1.3333,
+     "skill3_9"
+    ],
+    [
+     1.4833,
+     "skill2_6"
+    ],
+    [
+     1.5667,
+     "skill2_7"
+    ],
+    [
+     1.6833,
+     "skill2_9"
+    ],
+    [
+     2.1667,
+     "skill2_8"
+    ],
+    [
+     2.2833,
+     "skill3_10"
+    ],
+    [
+     2.3667,
+     "skill3_11"
+    ],
+    [
+     2.5,
+     "skill3_12"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_Damaged_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_Default_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_Guard_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_Move_Helmet": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_S1_Helmet": {
+   "length": 0.5167,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.1,
+     "skill1_2"
+    ],
+    [
+     0.3333,
+     "skill1_3"
+    ],
+    [
+     0.4,
+     "skill1_4"
+    ],
+    [
+     0.5,
+     "skill1_5"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_S2_Helmet": {
+   "length": 1.7833,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.1,
+     "skill2_2"
+    ],
+    [
+     0.3333,
+     "skill2_3"
+    ],
+    [
+     0.4,
+     "skill2_4"
+    ],
+    [
+     0.5,
+     "skill2_5"
+    ],
+    [
+     1.0,
+     "skill2_6"
+    ],
+    [
+     1.0833,
+     "skill2_7"
+    ],
+    [
+     1.25,
+     "skill2_8"
+    ],
+    [
+     1.3167,
+     "skill2_9"
+    ],
+    [
+     1.35,
+     "skill2_10"
+    ],
+    [
+     1.3833,
+     "skill3_1"
+    ],
+    [
+     1.5167,
+     "skill3_2"
+    ],
+    [
+     1.6333,
+     "skill3_3"
+    ],
+    [
+     1.7667,
+     "skill3_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Honglu_Ksuit_S3_Helmet": {
+   "length": 2.5667,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.4,
+     "skill3_2"
+    ],
+    [
+     0.6333,
+     "skill3_3"
+    ],
+    [
+     0.7667,
+     "skill3_4"
+    ],
+    [
+     1.0,
+     "skill3_5"
+    ],
+    [
+     1.0833,
+     "skill3_6"
+    ],
+    [
+     1.1667,
+     "skill3_7"
+    ],
+    [
+     1.25,
+     "skill3_8"
+    ],
+    [
+     1.3333,
+     "skill3_9"
+    ],
+    [
+     1.4833,
+     "skill2_6"
+    ],
+    [
+     1.55,
+     "skill2_8"
+    ],
+    [
+     1.6333,
+     "skill2_9"
+    ],
+    [
+     1.75,
+     "skill2_10"
+    ],
+    [
+     2.1667,
+     "skill2_7"
+    ],
+    [
+     2.2667,
+     "skill3_10"
+    ],
+    [
+     2.3833,
+     "skill3_11"
+    ],
+    [
+     2.55,
+     "skill3_12"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.0833,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.0166,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.05,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/FX_PC_8_Honglu_KCrop_Trail"
+    ]
+   ]
+  },
+  {
+   "length": 0.45,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.05,
+     "skill3_2"
+    ],
+    [
+     0.2833,
+     "skill3_3"
+    ],
+    [
+     0.4167,
+     "skill3_4"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.3,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform]DefaultEffectPivot/SKL2_2_Trail"
+    ]
+   ]
+  }
+ ]
+}

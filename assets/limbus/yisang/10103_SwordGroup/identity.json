@@ -1,0 +1,823 @@
+{
+ "id": 10103,
+ "sinner": "Yi Sang",
+ "title": "Blade Lineage Salsu",
+ "rank": 3,
+ "appearance": "10103_Yisang_SwordGroupAppearance",
+ "kind": "sprite",
+ "scale": 0.3,
+ "skills": {
+  "S1": {
+   "id": 1010301,
+   "name": "Striker\u2019s Stance",
+   "affinity": "INDIGO",
+   "attack": "slash",
+   "base": 6,
+   "coins": [
+    7
+   ],
+   "weight": 3,
+   "motion": "S1",
+   "timelines": [
+    {
+     "length": 0.5667,
+     "next": 0.4,
+     "body": [
+      [
+       0.0,
+       "skill1_1"
+      ],
+      [
+       0.25,
+       "skill1_2"
+      ],
+      [
+       0.35,
+       "skill1_3"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.2,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.2667,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.25,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL1"
+      ]
+     ]
+    }
+   ]
+  },
+  "S2": {
+   "id": 1010302,
+   "name": "Heel Turn",
+   "affinity": "CRIMSON",
+   "attack": "slash",
+   "base": 7,
+   "coins": [
+    2,
+    2
+   ],
+   "weight": 2,
+   "motion": "S2",
+   "timelines": [
+    {
+     "length": 0.65,
+     "next": 0.4667,
+     "body": [
+      [
+       0.0,
+       "skill2_1"
+      ],
+      [
+       0.3333,
+       "skill2_2"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.3167,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL2_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.8,
+     "next": 0.65,
+     "body": [
+      [
+       0.0,
+       "skill2_4"
+      ],
+      [
+       0.1,
+       "skill2_5"
+      ],
+      [
+       0.3334,
+       "skill2_6"
+      ],
+      [
+       0.4334,
+       "skill2_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.3333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.3333,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL2_2"
+      ]
+     ]
+    }
+   ]
+  },
+  "S3": {
+   "id": 1010303,
+   "name": "Flank Thrust",
+   "affinity": "VIOLET",
+   "attack": "slash",
+   "base": 8,
+   "coins": [
+    2,
+    2,
+    2
+   ],
+   "weight": 1,
+   "motion": "S3",
+   "timelines": [
+    {
+     "length": 1.0333,
+     "next": 0.8833,
+     "body": [
+      [
+       0.0,
+       "skill3_1"
+      ],
+      [
+       0.2667,
+       "skill3_2"
+      ],
+      [
+       0.45,
+       "skill3_3"
+      ],
+      [
+       0.5333,
+       "skill3_4"
+      ],
+      [
+       0.6,
+       "skill3_5"
+      ],
+      [
+       0.7667,
+       "skill3_6"
+      ],
+      [
+       0.95,
+       "skill3_7"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.5,
+       "to": "target",
+       "x": 60,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.5333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.5333,
+       0.5,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL3_1"
+      ]
+     ]
+    },
+    {
+     "length": 0.3833,
+     "next": 0.3833,
+     "body": [
+      [
+       0.0,
+       "skill3_9"
+      ],
+      [
+       0.1167,
+       "skill3_10"
+      ],
+      [
+       0.2167,
+       "skill3_11"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [
+      {
+       "t": 0.1667,
+       "to": "target",
+       "x": 120,
+       "y": 0,
+       "dur": 0.066,
+       "ease": "linear_in",
+       "turn": true,
+       "chase_y": false
+      }
+     ],
+     "hits": [
+      {
+       "t": 0.2333,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.2333,
+       0.1333,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL3_2"
+      ]
+     ]
+    },
+    {
+     "length": 0.6667,
+     "next": 0.3333,
+     "body": [
+      [
+       0.0,
+       "skill3_12"
+      ],
+      [
+       0.1,
+       "skill3_13"
+      ],
+      [
+       0.2,
+       "skill3_14"
+      ],
+      [
+       0.3,
+       "skill3_15"
+      ],
+      [
+       0.4,
+       "skill3_16"
+      ]
+     ],
+     "effect": {
+      "sprites": [],
+      "on": [],
+      "pos": []
+     },
+     "moves": [],
+     "hits": [
+      {
+       "t": 0.2,
+       "ratio": 1.0,
+       "count": 1,
+       "span": 0.0
+      }
+     ],
+     "turns": [],
+     "effects": [
+      [
+       0.1833,
+       0.4667,
+       "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL3_3"
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "battle": {
+  "hp": 214,
+  "stagger": [
+   70,
+   40,
+   20
+  ],
+  "resist": {
+   "slash": 0.5,
+   "pierce": 2,
+   "blunt": 1
+  },
+  "sanity": [
+   {
+    "on": "win",
+    "sp": 10,
+    "per_clash": 20
+   }
+  ],
+  "panic": "Panic"
+ },
+ "sprites": {
+  "dmg": {
+   "anchor": [
+    55,
+    129
+   ]
+  },
+  "miss": {
+   "anchor": [
+    61,
+    127
+   ]
+  },
+  "gud": {
+   "anchor": [
+    38,
+    150
+   ]
+  },
+  "move": {
+   "anchor": [
+    73,
+    106
+   ]
+  },
+  "skill1_1": {
+   "anchor": [
+    100,
+    112
+   ]
+  },
+  "skill1_2": {
+   "anchor": [
+    91,
+    130
+   ]
+  },
+  "skill1_3": {
+   "anchor": [
+    90,
+    130
+   ]
+  },
+  "skill2_1": {
+   "anchor": [
+    53,
+    127
+   ]
+  },
+  "skill2_2": {
+   "anchor": [
+    65,
+    114
+   ]
+  },
+  "skill2_3": {
+   "anchor": [
+    61,
+    116
+   ]
+  },
+  "skill2_4": {
+   "anchor": [
+    51,
+    108
+   ]
+  },
+  "skill2_5": {
+   "anchor": [
+    52,
+    108
+   ]
+  },
+  "skill2_6": {
+   "anchor": [
+    55,
+    212
+   ]
+  },
+  "skill2_7": {
+   "anchor": [
+    54,
+    180
+   ]
+  },
+  "skill3_1": {
+   "anchor": [
+    61,
+    104
+   ]
+  },
+  "skill3_2": {
+   "anchor": [
+    60,
+    89
+   ]
+  },
+  "skill3_3": {
+   "anchor": [
+    55,
+    89
+   ]
+  },
+  "skill3_4": {
+   "anchor": [
+    70,
+    111
+   ]
+  },
+  "skill3_5": {
+   "anchor": [
+    63,
+    112
+   ]
+  },
+  "skill3_6": {
+   "anchor": [
+    94,
+    90
+   ]
+  },
+  "skill3_7": {
+   "anchor": [
+    73,
+    121
+   ]
+  },
+  "skill3_8": {
+   "anchor": [
+    75,
+    114
+   ]
+  },
+  "skill3_9": {
+   "anchor": [
+    72,
+    112
+   ]
+  },
+  "skill3_10": {
+   "anchor": [
+    72,
+    111
+   ]
+  },
+  "skill3_11": {
+   "anchor": [
+    91,
+    119
+   ]
+  },
+  "skill3_12": {
+   "anchor": [
+    81,
+    120
+   ]
+  },
+  "skill3_13": {
+   "anchor": [
+    81,
+    120
+   ]
+  },
+  "skill3_14": {
+   "anchor": [
+    90,
+    127
+   ]
+  },
+  "skill3_15": {
+   "anchor": [
+    88,
+    129
+   ]
+  },
+  "skill3_16": {
+   "anchor": [
+    88,
+    128
+   ]
+  },
+  "idle": {
+   "anchor": [
+    49,
+    137
+   ]
+  },
+  "dead": {
+   "anchor": [
+    38,
+    49
+   ]
+  }
+ },
+ "clips": {
+  "Damaged": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "dmg"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Evade": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "miss"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Guard": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "gud"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Move": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "move"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S1": {
+   "length": 0.3667,
+   "body": [
+    [
+     0.0,
+     "skill1_1"
+    ],
+    [
+     0.25,
+     "skill1_2"
+    ],
+    [
+     0.35,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S2": {
+   "length": 0.9833,
+   "body": [
+    [
+     0.0,
+     "skill2_1"
+    ],
+    [
+     0.3333,
+     "skill2_2"
+    ],
+    [
+     0.4333,
+     "skill2_3"
+    ],
+    [
+     0.5333,
+     "skill2_4"
+    ],
+    [
+     0.6333,
+     "skill2_5"
+    ],
+    [
+     0.8667,
+     "skill2_6"
+    ],
+    [
+     0.9667,
+     "skill2_7"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "S3": {
+   "length": 2.2333,
+   "body": [
+    [
+     0.0,
+     "skill3_1"
+    ],
+    [
+     0.2667,
+     "skill3_2"
+    ],
+    [
+     0.45,
+     "skill3_3"
+    ],
+    [
+     0.5333,
+     "skill3_4"
+    ],
+    [
+     0.6,
+     "skill3_5"
+    ],
+    [
+     0.7667,
+     "skill3_6"
+    ],
+    [
+     0.95,
+     "skill3_7"
+    ],
+    [
+     1.0333,
+     "skill3_8"
+    ],
+    [
+     1.5,
+     "skill3_9"
+    ],
+    [
+     1.6167,
+     "skill3_10"
+    ],
+    [
+     1.7167,
+     "skill3_11"
+    ],
+    [
+     1.8167,
+     "skill3_12"
+    ],
+    [
+     1.9167,
+     "skill3_13"
+    ],
+    [
+     2.0167,
+     "skill3_14"
+    ],
+    [
+     2.1167,
+     "skill3_15"
+    ],
+    [
+     2.2167,
+     "skill3_16"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Default": {
+   "length": 0.0167,
+   "body": [
+    [
+     0.0,
+     "idle"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  },
+  "Dead": {
+   "length": 0.0333,
+   "body": [
+    [
+     0.0,
+     "dead"
+    ],
+    [
+     0.0167,
+     "dead"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   }
+  }
+ },
+ "parry": [
+  {
+   "length": 0.1,
+   "next": null,
+   "body": [
+    [
+     0.0,
+     "skill1_2"
+    ],
+    [
+     0.0833,
+     "skill1_3"
+    ]
+   ],
+   "effect": {
+    "sprites": [],
+    "on": [],
+    "pos": []
+   },
+   "moves": [],
+   "hits": [],
+   "turns": [],
+   "effects": [
+    [
+     0.0167,
+     0.0833,
+     "[Transform,Fixed]ScaleAndPositionPivot/[Transform]PivotForAnim/[Transform,Fixed]EffectsRoot/FX_PC_4_YiSang_SwordGroup_SKL1"
+    ]
+   ]
+  }
+ ]
+}
