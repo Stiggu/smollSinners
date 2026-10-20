@@ -10,6 +10,10 @@ Small project for myself to have little Limbus Company sinners running around in
 
 ![Faust attacking](pictures/faustfight.gif)
 
+## Getting the already-built app
+
+Download the latest release from the [releases](https://github.com/Stiggu/smollSinners/releases) page, then run the executable file.
+
 ## Using it
 
 The sinners live on one monitor, and the app has an icon in the Windows tray with:
