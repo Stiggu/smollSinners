@@ -16,6 +16,7 @@
 [ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_bar.png" id="14_if3fp"]
 [ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_burst.png" id="15_m8tty"]
 [ext_resource type="PackedScene" path="res://scenes/ui/clash_badge.tscn" id="16_ioxij"]
+[ext_resource type="PackedScene" path="res://scenes/fx/fx_stage.tscn" id="17_orbfx"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_sni2t"]
 font = ExtResource("5_uaxxg")
@@ -247,6 +248,11 @@ texture = ExtResource("6_ix1yi")
 
 [node name="Glass" type="Node2D" parent="Orb" unique_id=741518525]
 script = ExtResource("7_2khub")
+
+[node name="Stage" parent="Orb/Glass" instance=ExtResource("17_orbfx")]
+position = Vector2(-64, -64)
+size = Vector2i(128, 128)
+oversample = 2
 
 [node name="Number" type="Label" parent="Orb" unique_id=64964505]
 offset_left = -20.0

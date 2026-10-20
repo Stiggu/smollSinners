@@ -5,6 +5,8 @@ extends Node2D
 
 const CLIP_REACH := 100000.0  ## px: far enough every way to take in any overlay
 
+## Material values set from outside, over the material's own (see FxEffect.set_material_value()).
+var material_values: Dictionary[String, float] = {}
 var _floor_y := INF  ## px down from its origin below which it shows nothing; INF: no floor
 
 

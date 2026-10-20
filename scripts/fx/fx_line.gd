@@ -35,7 +35,7 @@ func setup(definition: FxLineDef, rng: RandomNumberGenerator, source: Vector2, t
 func advance(effect_time: float, _delta: float) -> void:
 	_time = effect_time
 	if _shader_material:
-		_def.material.animate(_shader_material, effect_time)
+		_def.material.animate(_shader_material, effect_time, material_values)
 		queue_redraw()
 
 

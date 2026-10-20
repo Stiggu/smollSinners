@@ -50,6 +50,12 @@ func play(definition: FxEffectDef, life: float, source: Vector2, target: Vector2
 	_hide_below_floor()
 
 
+## Sets a value of its parts' materials over the game's own (one the game's code drives).
+func set_material_value(property: String, value: float) -> void:
+	for system in _parts():
+		system.material_values[property] = value
+
+
 func _process(delta: float) -> void:
 	_time += delta
 	if _time >= _life:

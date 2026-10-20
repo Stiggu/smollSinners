@@ -66,9 +66,10 @@ func is_animated() -> bool:
 	return not (_float_keys.is_empty() and _channel_keys.is_empty())
 
 
-## The material's values as the Animator keys them `time` seconds into the effect.
-func animate(material: ShaderMaterial, time: float) -> void:
-	if not is_animated():
+## The material's values as the Animator keys them `time` seconds into the effect, with
+## `overrides` (property -> value) set over them.
+func animate(material: ShaderMaterial, time: float, overrides: Dictionary[String, float] = {}) -> void:
+	if not is_animated() and overrides.is_empty():
 		return
 	var now := values.duplicate()
 	for property in _float_keys:
@@ -80,6 +81,9 @@ func animate(material: ShaderMaterial, time: float) -> void:
 		for channel: int in channels:
 			if channel < _layout[property].y:
 				now[at + channel] = FxCurve.keyed(channels[channel], time, now[at + channel])
+	for property in overrides:
+		if _layout.has(property):
+			now[_layout[property].x] = overrides[property]
 	material.set_shader_parameter(VALUES_UNIFORM, _registers(now))
 
 

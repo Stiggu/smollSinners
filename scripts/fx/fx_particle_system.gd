@@ -93,7 +93,7 @@ func advance(effect_time: float, delta: float) -> void:
 			_set_off(FxSubEmitterDef.Trigger.DEATH, particle)
 	_particles = _particles.filter(func(particle: FxParticle) -> bool: return particle.is_alive())
 	if _shader_material:
-		_def.material.animate(_shader_material, effect_time)
+		_def.material.animate(_shader_material, effect_time, material_values)
 		queue_redraw()
 	if _trails:
 		_trails.show_trails(_particles, effect_time)

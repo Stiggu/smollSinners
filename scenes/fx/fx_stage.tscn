@@ -5,6 +5,7 @@
 [ext_resource type="Shader" path="res://scripts/fx/bloom/fx_bloom_composite.gdshader" id="3_composite"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_composite"]
+resource_local_to_scene = true
 shader = ExtResource("3_composite")
 shader_parameter/intensity = 2.0
 shader_parameter/tint = Vector3(1, 1, 1)
