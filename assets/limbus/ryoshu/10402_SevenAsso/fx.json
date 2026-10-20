@@ -209,7 +209,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -274,7 +274,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin1",
      "path": "Spin1",
@@ -549,7 +551,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -614,7 +616,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin2",
      "path": "Spin2",
@@ -902,7 +906,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -920,7 +924,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle2",
      "path": "Particle2",
@@ -1182,7 +1188,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1200,7 +1206,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Particle1",
@@ -1462,7 +1470,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1480,7 +1488,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Particle1",
@@ -1742,7 +1752,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1760,7 +1770,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Particle1",
@@ -2022,7 +2034,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2040,7 +2052,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_SKL1_ani/Particle1",
@@ -2301,7 +2315,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2319,7 +2333,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_J_ani/Particle1",
@@ -2484,7 +2500,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_crack2_ecf149c519",
+      "shader": "shader_graphs_fx_grp_crack2_86db2b9aff",
       "source": "Shader Graphs/FX_Grp_Crack2",
       "name": "FX_Mat_Crack2",
       "values": [
@@ -2532,7 +2548,9 @@
       ],
       "textures": {
        "_Texture2DAsset_b1b2823d836046e983d881d35d937e43_Out_0_Texture2D": "FX_Tex_Crack2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Crack1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_J_ani/Crack1",
@@ -2783,7 +2801,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2801,7 +2819,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle2",
      "path": "Scaler/FX_PC_9_Ryoshu_7_J_ani/Particle2",
@@ -3063,7 +3083,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3081,7 +3101,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Particle1",
@@ -3343,7 +3365,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3361,7 +3383,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_SKL3_End_ani/FX_PC_9_Ryoshu_7_SKL1_ani/Particle1",
@@ -3614,7 +3638,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3632,7 +3656,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_SKL3_End_ani/particle1",
@@ -3882,7 +3908,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3900,7 +3926,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Scaler/FX_PC_9_Ryoshu_7_SKL3_End_ani/Flash/Particle1",
@@ -4117,7 +4145,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -4153,7 +4181,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash",
      "path": "Scaler/FX_PC_9_Ryoshu_7_SKL3_End_ani/Flash",

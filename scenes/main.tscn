@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" path="res://scenes/ui/settings_panel.tscn" id="6_settings"]
 [ext_resource type="Script" path="res://scripts/app/desktop_sleep.gd" id="7_sleep"]
 [ext_resource type="PackedScene" path="res://scenes/app/tray.tscn" id="8_tray"]
+[ext_resource type="PackedScene" path="res://scenes/fx/fx_stage.tscn" id="9_fx_stage"]
 
 [node name="Overlay" type="Node2D"]
 script = ExtResource("1_overlay")
@@ -20,15 +21,15 @@ visible = false
 script = ExtResource("3_icon_boxes")
 desktop = NodePath("../Desktop")
 
-[node name="Team" type="Node2D" parent="." node_paths=PackedStringArray("fx_layer")]
+[node name="Team" type="Node2D" parent="." node_paths=PackedStringArray("fx_stage")]
 script = ExtResource("4_team")
-fx_layer = NodePath("../Effects")
+fx_stage = NodePath("../FxStage")
 
 [node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop")]
 script = ExtResource("5_clashes")
 desktop = NodePath("../Desktop")
 
-[node name="Effects" type="Node2D" parent="."]
+[node name="FxStage" parent="." instance=ExtResource("9_fx_stage")]
 
 [node name="SettingsPanel" parent="." instance=ExtResource("6_settings")]
 z_index = 10

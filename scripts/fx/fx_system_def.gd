@@ -28,6 +28,16 @@ func draws() -> bool:
 	return not hidden and material != null
 
 
+## The game's floor hides it below the feet (its shader tests depth).
+func hidden_below_floor() -> bool:
+	return draws() and material.depth_tested
+
+
+## A distortion or screen filter: plays on FxStage's screen layer.
+func reads_screen() -> bool:
+	return draws() and material.reads_screen
+
+
 ## The node that plays it. source, target: global points a line runs between.
 func instantiate(_rng: RandomNumberGenerator, _source: Vector2, _target: Vector2) -> Node2D:
 	return null

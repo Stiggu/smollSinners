@@ -15,8 +15,8 @@ const SINNER_SCENE := preload("res://scenes/sinner/sinner.tscn")
 ## A sinner brought out from Settings drops in somewhere in this span of the overlay's width.
 const SPAWN_SPAN := Vector2(0.15, 0.85)
 
-## Where the members' particle effects go: over the clashes.
-@export var fx_layer: Node2D
+## Where the members' particle effects play: over the clashes, with the game's bloom.
+@export var fx_stage: FxStage
 
 var members: Array[Sinner] = []
 
@@ -85,7 +85,7 @@ func identity_paths() -> Array[String]:
 
 func _spawn(identity_path: String, x_fraction: float) -> Sinner:
 	var sinner: Sinner = SINNER_SCENE.instantiate()
-	sinner.fx_layer = fx_layer
+	sinner.fx_stage = fx_stage
 	add_child(sinner)
 	sinner.wear(IdentityLibrary.load_identity(identity_path))
 	sinner.drop_in(x_fraction)

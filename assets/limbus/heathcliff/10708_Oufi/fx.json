@@ -117,7 +117,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -135,7 +135,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BGBurn1",
      "path": "FX_PC_6_Heathcliff_Weupi_PiercingReady_ani/BGBurn1",
@@ -346,7 +348,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -370,7 +372,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight1",
      "path": "FX_PC_6_Heathcliff_Weupi_PiercingReady_ani/CrossLight1",
@@ -577,7 +581,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -601,7 +605,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight2",
      "path": "FX_PC_6_Heathcliff_Weupi_PiercingReady_ani/CrossLight2",
@@ -814,7 +820,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -850,7 +856,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Flash1",
@@ -1069,7 +1077,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_crack2_ecf149c519",
+      "shader": "shader_graphs_fx_grp_crack2_86db2b9aff",
       "source": "Shader Graphs/FX_Grp_Crack2",
       "name": "FX_Mat_Crack2",
       "values": [
@@ -1117,7 +1125,9 @@
       ],
       "textures": {
        "_Texture2DAsset_b1b2823d836046e983d881d35d937e43_Out_0_Texture2D": "FX_Tex_Crack2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash2",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Flash2",
@@ -1342,7 +1352,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -1406,7 +1416,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Wave1",
@@ -1727,7 +1739,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1745,7 +1757,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Spark1",
@@ -1983,7 +1997,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2040,7 +2054,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Cp6_Stone_Wave1_ani/Smoke1",
@@ -2338,7 +2354,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2356,7 +2372,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Spark1",
@@ -2597,7 +2615,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2654,7 +2672,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Cp6_Stone_Wave1_ani/Smoke1",
@@ -2896,7 +2916,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Weupi_Trail2_Line",
       "values": [
@@ -3019,7 +3039,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Glass1",
        "_Tex_Main": "FX_Tex_CC_Music_5Line1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "FX_PC_6_Heathcliff_Weupi_Piercing1_ani (1)/Line1",
@@ -3354,7 +3376,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Weupi_Trail2_Line",
       "values": [
@@ -3477,7 +3499,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Glass1",
        "_Tex_Main": "FX_Tex_CC_Music_5Line1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "FX_PC_6_Heathcliff_Weupi_Piercing1_ani/Line1",
@@ -3819,7 +3843,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -3855,7 +3879,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Flash1",
@@ -4074,7 +4100,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_crack2_ecf149c519",
+      "shader": "shader_graphs_fx_grp_crack2_86db2b9aff",
       "source": "Shader Graphs/FX_Grp_Crack2",
       "name": "FX_Mat_Crack2",
       "values": [
@@ -4122,7 +4148,9 @@
       ],
       "textures": {
        "_Texture2DAsset_b1b2823d836046e983d881d35d937e43_Out_0_Texture2D": "FX_Tex_Crack2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash2",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Flash2",
@@ -4396,7 +4424,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4414,7 +4442,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_6_Heathcliff_Weupi_Piercing1_ani/Particle1",
@@ -4613,7 +4643,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -4677,7 +4707,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Wave1",
@@ -4998,7 +5030,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5016,7 +5048,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_Mon_Cp6_Weupi_Piercing1_ani/Spark1",
@@ -5275,7 +5309,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5293,7 +5327,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_6_Heathcliff_Weupi_Trail_ani/Particle1",

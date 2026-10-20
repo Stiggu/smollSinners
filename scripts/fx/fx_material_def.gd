@@ -15,6 +15,8 @@ var shader_key := ""  ## under FxAssets.SHADER_DIR
 var source := ""  ## the game's shader, for reference
 var values := PackedFloat32Array()
 var textures: Dictionary[String, String] = {}  ## property -> texture name under FxAssets
+var depth_tested := false  ## the game's shader tests depth: the battle floor hides what it draws under it
+var reads_screen := false  ## the shader draws the screen behind it (a distortion or a screen filter)
 var _layout: Dictionary[String, Vector2i] = {}  ## property -> (first float, components)
 var _float_keys: Dictionary[String, PackedVector2Array] = {}  ## animated floats: (time, value) keys
 var _channel_keys: Dictionary[String, Dictionary] = {}  ## animated colours: property -> {channel: keys}
@@ -26,6 +28,8 @@ static func from_json(data: Dictionary, animated: Dictionary) -> FxMaterialDef:
 	material.shader_key = data.shader
 	material.source = data.get("source", "")
 	material.values = PackedFloat32Array(data["values"])
+	material.depth_tested = data.get("depth_tested", false)
+	material.reads_screen = data.get("reads_screen", false)
 	for property: String in data.get("textures", {}):
 		material.textures[property] = data.textures[property]
 	for property: String in data.get("layout", {}):

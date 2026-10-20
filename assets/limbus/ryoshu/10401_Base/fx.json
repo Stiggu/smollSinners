@@ -140,7 +140,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1",
      "material": {
-      "shader": "shader_graphs_fx_grp_swordwave1_073d50c853",
+      "shader": "shader_graphs_fx_grp_swordwave1_1ff2cf8802",
       "source": "Shader Graphs/FX_Grp_SwordWave1",
       "name": "FX_Mat_SwordWave1",
       "values": [
@@ -184,7 +184,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_SwordWave1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SubTrail_",
      "path": "FX_PC_BaseFX_ATK1_ani/FX_PC_11_Faust_SKL1_1_ani/SubTrail_",
@@ -448,7 +450,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -484,7 +486,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -784,7 +788,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -802,7 +806,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "RushParticle",
      "path": "FX_PC_BaseFX_ATK1_ani/RushParticle",
@@ -1017,7 +1023,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1",
      "material": {
-      "shader": "shader_graphs_fx_grp_swordwave1_073d50c853",
+      "shader": "shader_graphs_fx_grp_swordwave1_1ff2cf8802",
       "source": "Shader Graphs/FX_Grp_SwordWave1",
       "name": "FX_Mat_SwordWave1",
       "values": [
@@ -1061,7 +1067,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_SwordWave1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SubTrail_",
      "path": "FX_PC_BaseFX_ATK1_ani/FX_PC_11_Faust_SKL1_1_ani/SubTrail_",
@@ -1325,7 +1333,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -1361,7 +1369,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -1661,7 +1671,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1679,7 +1689,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "RushParticle",
      "path": "FX_PC_BaseFX_ATK1_ani/RushParticle",
@@ -1930,7 +1942,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -1966,7 +1978,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -2199,7 +2213,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -2235,7 +2249,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -2468,7 +2484,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -2504,7 +2520,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -2719,7 +2737,7 @@
      ],
      "mesh": "FX_Mesh_Plane1",
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -2743,7 +2761,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "HandFlash",
      "path": "FX_PC_9_Ryoshu_SKL1_4_ani/HandFlash",
@@ -2969,7 +2989,7 @@
      ],
      "mesh": "FX_Mesh_Plane1",
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -2993,7 +3013,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "HandFlash",
      "path": "FX_PC_9_Ryoshu_SKL1_4_ani (1)/HandFlash",
@@ -3253,7 +3275,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3271,7 +3293,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "FX_PC_9_Ryoshu_SKL1_4_ani/HandFlash/Particle",

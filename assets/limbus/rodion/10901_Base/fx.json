@@ -187,7 +187,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -223,7 +223,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Scaler/FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -476,7 +478,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -494,7 +496,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "RushParticle",
      "path": "Scaler/FX_PC_BaseFX_ATK1_ani/RushParticle",
@@ -745,7 +749,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -781,7 +785,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Scaler/FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -1025,7 +1031,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -1061,7 +1067,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Scaler/FX_PC_Basic_3_RJSKL1_1_ani/FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -1296,7 +1304,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -1361,7 +1369,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line",
      "path": "Scaler/FX_PC_2_Rodion_SKL1_1_ani/FX_PC_BaseFX_ATK1_ani/FX_Mesh_Plane_Circle1_Scaler/Line",
@@ -1626,7 +1636,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -1662,7 +1672,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Scaler/FX_PC_2_Rodion_SKL1_1_ani/FX_PC_8_Honglu_SKL1_ani/Wind1",
@@ -1904,7 +1916,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1922,7 +1934,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle2",
      "path": "Scaler/FX_PC_2_Rodion_SKL1_1_ani/FX_PC_BaseFX_ATK1_ani/FX_Mesh_Plane_Circle1_Scaler/Particle2",
@@ -2169,7 +2183,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2187,7 +2201,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Charge",
      "path": "Scaler/FX_PC_2_Rodion_SKL2_Charge_ani/Line/Charge",
@@ -2397,7 +2413,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2415,7 +2431,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_2_Rodion_SKL2_Charge_ani/Burn",
@@ -2583,7 +2601,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -2648,7 +2666,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line",
      "path": "Scaler/FX_PC_2_Rodion_SKL2_Charge_ani/Line",

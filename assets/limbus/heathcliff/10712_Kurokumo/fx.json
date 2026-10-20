@@ -380,7 +380,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -575,7 +575,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -801,7 +803,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -995,7 +997,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -1226,7 +1230,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -1420,7 +1424,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -1824,7 +1830,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -2019,7 +2025,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -2245,7 +2253,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -2439,7 +2447,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -2670,7 +2680,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -2864,7 +2874,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -3152,7 +3164,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_Tamaki_Smoke",
       "values": [
@@ -3350,7 +3362,9 @@
        "_Dissolve_Tex": "fx_t_noise_05",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke_f",
      "path": "smoke_f",
@@ -3754,7 +3768,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -3949,7 +3963,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -4175,7 +4191,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -4369,7 +4385,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -4600,7 +4618,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -4794,7 +4812,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -5082,7 +5102,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_Tamaki_Smoke",
       "values": [
@@ -5280,7 +5300,9 @@
        "_Dissolve_Tex": "fx_t_noise_05",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke_f",
      "path": "smoke_f",
@@ -5748,7 +5770,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -5834,7 +5856,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle2",
      "path": "Pivot/Trail_Main1/Trail_Particle2",
@@ -6069,7 +6093,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -6264,7 +6288,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -6490,7 +6516,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -6684,7 +6710,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -6997,7 +7025,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7083,7 +7111,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle1",
      "path": "Pivot/Trail_Main1/Trail_Particle1",
@@ -7314,7 +7344,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -7508,7 +7538,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -7796,7 +7828,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_Tamaki_Smoke",
       "values": [
@@ -7994,7 +8026,9 @@
        "_Dissolve_Tex": "fx_t_noise_05",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke_f",
      "path": "smoke_f",
@@ -8462,7 +8496,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8548,7 +8582,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle2",
      "path": "Pivot/Trail_Main1/Trail_Particle2",
@@ -8783,7 +8819,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -8978,7 +9014,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -9204,7 +9242,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -9398,7 +9436,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -9711,7 +9751,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -9797,7 +9837,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle1",
      "path": "Pivot/Trail_Main1/Trail_Particle1",
@@ -10028,7 +10070,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -10222,7 +10264,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -10690,7 +10734,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10776,7 +10820,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle2",
      "path": "Pivot/Trail_Main1/Trail_Particle2",
@@ -11011,7 +11057,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail1",
       "values": [
@@ -11206,7 +11252,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Slash_04",
        "_Noise_Tex": "fx_t_noise_19"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -11432,7 +11480,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1c95125a66",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_bc0e7dd935",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_OutCloud",
       "values": [
@@ -11626,7 +11674,9 @@
        "_Color_Tex": "FX_T_Shape_BlackCloud_CloudTrail1",
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "FX_T_Shape_BlackCloud_CloudTrail1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_OutCloud1",
      "path": "Pivot/Trail_Main1/Trail_OutCloud1",
@@ -11939,7 +11989,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -12025,7 +12075,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Particle1",
      "path": "Pivot/Trail_Main1/Trail_Particle1",
@@ -12256,7 +12308,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95875200ae",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_91f9a845a0",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Shape_BlackCloud_Trail2",
       "values": [
@@ -12450,7 +12502,9 @@
        "_Color_Tex": "fx_t_noise_19",
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_05_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main2",
      "path": "Pivot/Trail_Main1/Trail_Main2",
@@ -12738,7 +12792,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_Tamaki_Smoke",
       "values": [
@@ -12936,7 +12990,9 @@
        "_Dissolve_Tex": "fx_t_noise_05",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke_f",
      "path": "smoke_f",
@@ -13391,7 +13447,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_pierce",
       "values": [
@@ -13586,7 +13642,9 @@
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce (1)",
      "path": "pivot/Pierce (1)",
@@ -13854,7 +13912,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Wave",
       "values": [
@@ -13993,7 +14051,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Impact_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave2",
      "path": "pivot/Wave2",
@@ -14324,7 +14384,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_fc91c9b1f3",
+      "shader": "fx_team_fx_grp_compact_shader_1b0da30ec0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Ishmael_Zwei_Impact",
       "values": [
@@ -14415,7 +14475,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit",
      "path": "pivot/Hit",
@@ -14701,7 +14763,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_pierce",
       "values": [
@@ -14896,7 +14958,9 @@
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce",
      "path": "pivot/Pierce",
@@ -15199,7 +15263,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15285,7 +15349,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "pivot/Spark1",
@@ -15570,7 +15636,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15656,7 +15722,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1 (1)",
      "path": "pivot/Spark1 (1)",
@@ -15944,7 +16012,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_Tamaki_Smoke",
       "values": [
@@ -16142,7 +16210,9 @@
        "_Dissolve_Tex": "fx_t_noise_05",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke_f",
      "path": "smoke_f",
@@ -16513,7 +16583,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Dash",
       "values": [
@@ -16708,7 +16778,9 @@
        "_Dissolve_Tex": "fx_t_noise_19",
        "_MainTex": "Fx_T_Shape_Blur_02_hw",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "Dash",
@@ -17250,7 +17322,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_ec3809c6e9",
+      "shader": "fx_team_fx_grp_compact_shader_df32334b0f",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Hit",
       "values": [
@@ -17337,7 +17409,9 @@
       "textures": {
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_18"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit",
      "path": "pivot/Hit",
@@ -17611,7 +17685,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_ec3809c6e9",
+      "shader": "fx_team_fx_grp_compact_shader_df32334b0f",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Hit",
       "values": [
@@ -17698,7 +17772,9 @@
       "textures": {
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_18"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "pivot/Hit (1)",
@@ -18241,7 +18317,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_ec3809c6e9",
+      "shader": "fx_team_fx_grp_compact_shader_df32334b0f",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Hit",
       "values": [
@@ -18328,7 +18404,9 @@
       "textures": {
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_18"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit",
      "path": "pivot/Hit",
@@ -18602,7 +18680,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_ec3809c6e9",
+      "shader": "fx_team_fx_grp_compact_shader_df32334b0f",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Heathclif_Kurokumo_Hit",
       "values": [
@@ -18689,7 +18767,9 @@
       "textures": {
        "_MainTex": "Fx_T_Shape_Slash_07_hw",
        "_Noise_Tex": "fx_t_noise_18"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "pivot/Hit (1)",

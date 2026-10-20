@@ -161,7 +161,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -233,7 +233,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -570,7 +572,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -622,7 +624,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -943,7 +947,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -1012,7 +1016,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -1359,7 +1365,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -1405,7 +1411,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -1688,7 +1696,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1706,7 +1714,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -1971,7 +1981,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2028,7 +2038,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Smoke1",
@@ -2272,7 +2284,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -2336,7 +2348,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -2611,7 +2625,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -2676,7 +2690,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -2901,7 +2917,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -2973,7 +2989,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -3310,7 +3328,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -3362,7 +3380,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -3683,7 +3703,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -3752,7 +3772,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -4064,7 +4086,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -4100,7 +4122,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -4363,7 +4387,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -4409,7 +4433,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -4692,7 +4718,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4710,7 +4736,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -4938,7 +4966,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -4974,7 +5002,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Flash1",
@@ -5237,7 +5267,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -5283,7 +5313,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Water1",
@@ -5572,7 +5604,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -5641,7 +5673,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/SparkBubble2",
@@ -6002,7 +6036,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6020,7 +6054,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Spark1",
@@ -6192,7 +6228,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6210,7 +6246,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_5_Ishmael_Olga_Spin_ani/Burn1",
@@ -6395,7 +6433,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -6460,7 +6498,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_5_Ishmael_Olga_Spin_ani/Ring1",
@@ -6748,7 +6788,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6766,7 +6806,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Spin_ani/Spark1",
@@ -7017,7 +7059,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7035,7 +7077,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_5_Ishmael_Olga_Spin_ani/particle1",
@@ -7245,7 +7289,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -7309,7 +7353,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -7568,7 +7614,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -7633,7 +7679,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -7858,7 +7906,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -7930,7 +7978,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -8267,7 +8317,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -8319,7 +8369,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -8563,7 +8615,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -8581,7 +8633,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodBurn1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/BloodBurn1",
@@ -8841,7 +8895,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -8893,7 +8947,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Blood1",
@@ -9171,7 +9227,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -9217,7 +9273,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Water1",
@@ -9506,7 +9564,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -9575,7 +9633,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -9887,7 +9947,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -9923,7 +9983,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -10186,7 +10248,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -10232,7 +10294,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -10515,7 +10579,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -10533,7 +10597,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -10743,7 +10809,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -10807,7 +10873,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -11082,7 +11150,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -11147,7 +11215,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -11372,7 +11442,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -11444,7 +11514,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -11781,7 +11853,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -11833,7 +11905,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -12077,7 +12151,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -12095,7 +12169,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodBurn1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/BloodBurn1",
@@ -12355,7 +12431,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -12407,7 +12483,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Blood1",
@@ -12685,7 +12763,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -12731,7 +12809,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Water1",
@@ -13020,7 +13100,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -13089,7 +13169,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -13401,7 +13483,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -13437,7 +13519,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -13700,7 +13784,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -13746,7 +13830,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -14029,7 +14115,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -14047,7 +14133,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -14257,7 +14345,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -14321,7 +14409,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -14580,7 +14670,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -14645,7 +14735,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -14870,7 +14962,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -14942,7 +15034,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -15279,7 +15373,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -15331,7 +15425,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -15652,7 +15748,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -15721,7 +15817,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -16033,7 +16131,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -16069,7 +16167,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -16332,7 +16432,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -16378,7 +16478,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -16661,7 +16763,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -16679,7 +16781,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -16891,7 +16995,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -16963,7 +17067,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -17300,7 +17406,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -17352,7 +17458,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -17673,7 +17781,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -17742,7 +17850,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -18089,7 +18199,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -18135,7 +18245,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -18418,7 +18530,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -18436,7 +18548,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -18701,7 +18815,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -18758,7 +18872,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Smoke1",
@@ -19002,7 +19118,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -19066,7 +19182,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -19341,7 +19459,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -19406,7 +19524,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -19631,7 +19751,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -19703,7 +19823,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -20040,7 +20162,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -20092,7 +20214,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -20413,7 +20537,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -20482,7 +20606,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -20794,7 +20920,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -20830,7 +20956,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -21093,7 +21221,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -21139,7 +21267,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -21422,7 +21552,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -21440,7 +21570,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -21650,7 +21782,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -21714,7 +21846,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -21973,7 +22107,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -22038,7 +22172,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -22263,7 +22399,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -22335,7 +22471,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -22672,7 +22810,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -22724,7 +22862,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -22968,7 +23108,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -22986,7 +23126,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodBurn1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/BloodBurn1",
@@ -23246,7 +23388,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -23298,7 +23440,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Blood1",
@@ -23576,7 +23720,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -23622,7 +23766,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling/FX_Mon_Train2_FairyLongLegs_Pulling_ani/Water1",
@@ -23911,7 +24057,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -23980,7 +24126,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -24292,7 +24440,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -24328,7 +24476,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -24591,7 +24741,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -24637,7 +24787,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -24920,7 +25072,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -24938,7 +25090,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -25166,7 +25320,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -25202,7 +25356,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Flash1",
@@ -25465,7 +25621,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -25511,7 +25667,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Water1",
@@ -25800,7 +25958,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -25869,7 +26027,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/SparkBubble2",
@@ -26230,7 +26390,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -26248,7 +26408,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Shock1_ani/Spark1",
@@ -26458,7 +26620,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -26522,7 +26684,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -26781,7 +26945,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -26846,7 +27010,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -27055,7 +27221,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -27127,7 +27293,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -27448,7 +27616,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -27500,7 +27668,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -27821,7 +27991,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -27890,7 +28060,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -28186,7 +28358,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -28222,7 +28394,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -28469,7 +28643,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -28515,7 +28689,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -28798,7 +28974,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -28816,7 +28992,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",
@@ -29026,7 +29204,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -29090,7 +29268,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main1",
@@ -29365,7 +29545,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -29430,7 +29610,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Main2",
@@ -29639,7 +29821,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_1a621b05fe",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_trail1_49a833c78f",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Trail1",
       "name": "FX_Mat_CC_WaterFish_Trail1",
       "values": [
@@ -29711,7 +29893,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail1",
@@ -30032,7 +30216,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -30084,7 +30268,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Trail2",
@@ -30405,7 +30591,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_9342d8027b",
+      "shader": "shader_graphs_fx_grp_cc_waterfish_hammer_771460179c",
       "source": "Shader Graphs/FX_Grp_CC_WaterFish_Hammer",
       "name": "FX_Mat_CC_WaterFish_Hammer",
       "values": [
@@ -30474,7 +30660,9 @@
       "textures": {
        "_SampleTexture2D_8faaaf7bea204f8c9bd1407bdc218d93_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer",
        "_SampleTexture2D_9a36aa229fcc407ea727efe5b1586d3c_Texture_1_Texture2D": "FX_Tex_CC_EGO_WaterFish_Hammer_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "SparkBubble2",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/SparkBubble2",
@@ -30770,7 +30958,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -30806,7 +30994,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Flash1",
@@ -31053,7 +31243,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -31099,7 +31289,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Water1",
@@ -31382,7 +31574,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -31400,7 +31592,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Olga_Piercing1_ani/Spark1",

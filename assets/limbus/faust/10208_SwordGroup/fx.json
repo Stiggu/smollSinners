@@ -117,7 +117,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -130,7 +130,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/Burn1",
@@ -325,7 +327,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -377,7 +379,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodExplo1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/BloodExplo1",
@@ -608,7 +612,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -632,7 +636,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/Light1",
@@ -910,7 +916,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -928,7 +934,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/Particle1",
@@ -1191,7 +1199,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -1331,7 +1339,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/BloodFlower1",
@@ -1597,7 +1607,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1615,7 +1625,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bloodparticle1",
      "path": "FX_PC_11_Faust_SwordGroup_BloodExplo_ani/Bloodparticle1",
@@ -1825,7 +1837,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Flash1",
       "values": [
@@ -1965,7 +1977,9 @@
        "_Tex_Mask": "FX_Tex_Flash1",
        "_Tex_Noise1": "FX_Tex_Noise_Water1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Flash1",
@@ -2327,7 +2341,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2384,7 +2398,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Smoke1",
@@ -2667,7 +2683,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2685,7 +2701,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Spark1",
@@ -2951,7 +2969,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2969,7 +2987,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/particle1",
@@ -3179,7 +3199,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Flash1",
       "values": [
@@ -3319,7 +3339,9 @@
        "_Tex_Mask": "FX_Tex_Flash1",
        "_Tex_Noise1": "FX_Tex_Noise_Water1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/Flash1",
@@ -3705,7 +3727,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -3762,7 +3784,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/Smoke1",
@@ -4045,7 +4069,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4063,7 +4087,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/Spark1",
@@ -4329,7 +4355,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4347,7 +4373,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/particle1",
@@ -4595,7 +4623,7 @@
      ],
      "hidden": true,
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -4735,7 +4763,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/BloodFlower1",
@@ -5001,7 +5031,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5019,7 +5049,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bloodparticle1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_Blood_ani/Bloodparticle1",
@@ -5229,7 +5261,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Flash1",
       "values": [
@@ -5369,7 +5401,9 @@
        "_Tex_Mask": "FX_Tex_Flash1",
        "_Tex_Noise1": "FX_Tex_Noise_Water1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Flash1",
@@ -5731,7 +5765,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -5788,7 +5822,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Smoke1",
@@ -6071,7 +6107,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6089,7 +6125,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/Spark1",
@@ -6355,7 +6393,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6373,7 +6411,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Move1_ani/particle1",
@@ -6672,7 +6712,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -6812,7 +6852,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -7165,7 +7207,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7183,7 +7225,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_ani/particle1",
@@ -7482,7 +7526,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -7622,7 +7666,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -7975,7 +8021,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7993,7 +8039,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_ani/particle1",
@@ -8292,7 +8340,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -8432,7 +8480,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -8785,7 +8835,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -8803,7 +8853,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_ani/particle1",
@@ -9024,7 +9076,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -9074,7 +9126,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Piercing",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani/Piercing",
@@ -9357,7 +9411,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -9497,7 +9551,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -9819,7 +9875,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -9855,7 +9911,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash_Outter1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani/Flash_Outter1",
@@ -10080,7 +10138,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -10116,7 +10174,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani/Flash",
@@ -10396,7 +10456,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -10414,7 +10474,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani/Particle1",
@@ -10646,7 +10708,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -10682,7 +10744,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash_Outter1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani (1)/Flash_Outter1",
@@ -10981,7 +11045,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -11121,7 +11185,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -11474,7 +11540,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -11492,7 +11558,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_ani/particle1",
@@ -11791,7 +11859,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -11931,7 +11999,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -12308,7 +12378,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -12326,7 +12396,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/particle1",
@@ -12589,7 +12661,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -12729,7 +12801,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/BloodFlower1",
@@ -12995,7 +13069,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -13013,7 +13087,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bloodparticle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/Bloodparticle1",
@@ -13189,7 +13265,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -13202,7 +13278,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn2",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Burn2",
@@ -13441,7 +13519,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -13581,7 +13659,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -13958,7 +14038,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -13976,7 +14056,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/particle1",
@@ -14239,7 +14321,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -14379,7 +14461,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/BloodFlower1",
@@ -14645,7 +14729,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -14663,7 +14747,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bloodparticle1",
      "path": "FX_PC_11_Faust_SwordGroup_Trail1_Blood_ani/Bloodparticle1",
@@ -14866,7 +14952,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -14902,7 +14988,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash2",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Flash2",
@@ -15128,7 +15216,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -15141,7 +15229,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn2",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani (1)/Burn2",
@@ -15324,7 +15414,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -15374,7 +15464,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Piercing",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/Piercing",
@@ -15681,7 +15773,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -15821,7 +15913,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani/Trail1",
@@ -16177,7 +16271,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -16317,7 +16411,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani (1)/Trail1",
@@ -16663,7 +16759,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -16699,7 +16795,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash_Outter1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/Flash_Outter1",
@@ -16948,7 +17046,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -16984,7 +17082,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/Flash",
@@ -17288,7 +17388,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -17306,7 +17406,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/Particle1",
@@ -17538,7 +17640,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -17574,7 +17676,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash_Outter1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_ani (1)/Flash_Outter1",
@@ -17861,7 +17965,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -18001,7 +18105,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/BloodFlower1",
@@ -18267,7 +18373,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -18285,7 +18391,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bloodparticle1",
      "path": "FX_PC_11_Faust_SwordGroup_Piercing1_Blood_ani/Bloodparticle1",
@@ -18488,7 +18596,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -18524,7 +18632,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash2",
      "path": "FX_PC_11_Faust_SwordGroup_SlashShadow_ani (1)/Flash2",
@@ -18742,7 +18852,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -18755,7 +18865,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn2",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Burn2",
@@ -18885,7 +18997,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -18898,7 +19010,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Burn1",
@@ -19064,7 +19178,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -19088,7 +19202,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Light1",
@@ -19366,7 +19482,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -19384,7 +19500,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Particle1",
@@ -19632,7 +19750,7 @@
      ],
      "hidden": true,
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -19772,7 +19890,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/BloodFlower1",
@@ -19940,7 +20060,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -19953,7 +20073,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn2",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Burn2",
@@ -20083,7 +20205,7 @@
       4
      ],
      "material": {
-      "shader": "legacy_shaders_particles_alpha_blended_premultiply_828945e648",
+      "shader": "legacy_shaders_particles_alpha_blended_premultiply_4837e626f8",
       "source": "Legacy Shaders/Particles/Alpha Blended Premultiply",
       "name": "Default-Particle",
       "values": [
@@ -20096,7 +20218,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Burn1",
@@ -20262,7 +20386,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -20286,7 +20410,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Light1",
@@ -20564,7 +20690,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -20582,7 +20708,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/Particle1",
@@ -20830,7 +20958,7 @@
      ],
      "hidden": true,
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Flower1",
       "values": [
@@ -20970,7 +21098,9 @@
        "_Tex_Mask": "FX_Tex_Flower1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodFlower1",
      "path": "FX_PC_11_Faust_SwordGroup_Flash1_Blood_ani/BloodFlower1",

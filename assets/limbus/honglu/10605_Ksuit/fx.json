@@ -177,7 +177,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -229,7 +229,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "GroundPosion",
      "path": "FX_Mon_Train1_KCorp_Grade3_Flash_ani/GroundPosion",
@@ -468,7 +470,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -504,7 +506,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_Mon_Train1_KCorp_Grade3_Flash_ani/Flash1",
@@ -809,7 +813,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -827,7 +831,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Train1_KCorp_Grade3_Flash_ani/Particle1",
@@ -1092,7 +1098,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -1149,7 +1155,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Train1_KCorp_Grade3_Flash_ani/Smoke1",
@@ -1438,7 +1446,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -1495,7 +1503,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_Mon_Train1_KCorp_Grade3_Flash_ani/PoisonSmoke1",
@@ -1712,7 +1722,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -1764,7 +1774,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Trail1",
@@ -2087,7 +2099,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2144,7 +2156,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Smoke1",
@@ -2358,7 +2372,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -2410,7 +2424,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Trail1",
@@ -2700,7 +2716,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -2765,7 +2781,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Line1",
@@ -3056,7 +3074,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -3092,7 +3110,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Wind1",
@@ -3378,7 +3398,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3396,7 +3416,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Particle1",
@@ -3659,7 +3681,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3677,7 +3699,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/Spark1",
@@ -3942,7 +3966,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -3999,7 +4023,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/PoisonSmoke1",
@@ -4294,7 +4320,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4312,7 +4338,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/Spark1",
@@ -4577,7 +4605,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -4634,7 +4662,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/PoisonSmoke1",
@@ -4929,7 +4959,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4947,7 +4977,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/Spark1",
@@ -5212,7 +5244,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -5269,7 +5301,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/PoisonSmoke1",
@@ -5564,7 +5598,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5582,7 +5616,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/Spark1",
@@ -5847,7 +5883,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -5904,7 +5940,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/PoisonSmoke1",
@@ -6199,7 +6237,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6217,7 +6255,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/Spark1",
@@ -6482,7 +6522,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -6539,7 +6579,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "PoisonSmoke1",
      "path": "FX_PC_8_Honglu_KCrop_Trail_ani/Trail/Pivot/PoisonSmoke1",
@@ -6756,7 +6798,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -6808,7 +6850,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Trail1",
@@ -7131,7 +7175,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -7188,7 +7232,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Smoke1",
@@ -7402,7 +7448,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -7454,7 +7500,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Trail1",
@@ -7744,7 +7792,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -7809,7 +7857,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Line1",
@@ -8100,7 +8150,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -8136,7 +8186,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Wind1",
@@ -8422,7 +8474,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -8440,7 +8492,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_8_Honglu_KCrop_Spin_ani/Particle1",

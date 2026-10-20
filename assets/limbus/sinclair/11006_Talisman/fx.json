@@ -115,7 +115,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_Talisman_MagicPaper1",
       "values": [
@@ -255,7 +255,9 @@
        "_Tex_Mask": "FX_Tex_CC_Talisman_MagicPaper1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_3_Sinclair_Talisman_MagicPaper_ani/Main1",
@@ -472,7 +474,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -536,7 +538,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_3_Sinclair_Talisman_MagicPaper_ani/Wave1",
@@ -777,7 +781,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -795,7 +799,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_3_Sinclair_Talisman_MagicPaper_ani/Burn1",
@@ -1029,7 +1035,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1047,7 +1053,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle1",
      "path": "FX_PC_3_Sinclair_Talisman_MagicPaper_ani/particle1",
@@ -1260,7 +1268,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -1296,7 +1304,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Flash1",
@@ -1537,7 +1547,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -1601,7 +1611,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Wave1",
@@ -1922,7 +1934,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1940,7 +1952,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Spark1",
@@ -2113,7 +2127,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -2165,7 +2179,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin1",
      "path": "FX_PC_3_Sinclair_Talisman_Spin_ani/Spin1",
@@ -2379,7 +2395,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -2431,7 +2447,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin2",
      "path": "FX_PC_3_Sinclair_Talisman_Spin_ani/Spin2",
@@ -2685,7 +2703,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -2749,7 +2767,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Wave1",
@@ -3070,7 +3090,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3088,7 +3108,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Spark1",
@@ -3274,7 +3296,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -3310,7 +3332,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_3_Sinclair_Talisman_Piercing1_ani/Flash1",
@@ -3533,7 +3557,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -3585,7 +3609,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin1",
      "path": "FX_PC_3_Sinclair_Talisman_Spin_ani/Spin1",
@@ -3799,7 +3825,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -3851,7 +3877,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spin2",
      "path": "FX_PC_3_Sinclair_Talisman_Spin_ani/Spin2",

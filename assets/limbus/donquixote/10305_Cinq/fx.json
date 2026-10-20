@@ -130,7 +130,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_Cinq_Glove1",
       "values": [
@@ -270,7 +270,9 @@
        "_Tex_Mask": "FX_Tex_CC_Cinq_Glove1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Glove1",
      "path": "FX_PC_7_Donquixote_Cinq_GloveDamage1_ani/Glove1",
@@ -557,7 +559,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -621,7 +623,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_7_Donquixote_Cinq_GloveDamage1_ani/Wave1",
@@ -942,7 +946,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -969,7 +973,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_GloveDamage1_ani/Spark1",
@@ -1208,7 +1214,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -1244,7 +1250,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Throw1",
      "path": "FX_PC_7_Donquixote_Cinq_Move_ani/Throw1",
@@ -1559,7 +1567,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -1616,7 +1624,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_7_Donquixote_Cinq_Move_ani/Smoke1",
@@ -1901,7 +1911,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1919,7 +1929,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Move_ani/Spark1",
@@ -2126,7 +2138,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -2248,7 +2260,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Main1",
@@ -2654,7 +2668,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -2678,7 +2692,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Light1",
@@ -2898,7 +2914,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -3020,7 +3036,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Main1",
@@ -3426,7 +3444,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -3450,7 +3468,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Light1",
@@ -3711,7 +3731,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -3776,7 +3796,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Ring1",
@@ -4077,7 +4099,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -4104,7 +4126,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Spark1",
@@ -4383,7 +4407,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_feather1_a9fd6e134d",
+      "shader": "shader_graphs_fx_grp_feather1_fa6ffefbe0",
       "source": "Shader Graphs/FX_Grp_Feather1",
       "name": "FX_Mat_Feather1",
       "values": [
@@ -4415,7 +4439,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Feather1",
@@ -4657,7 +4683,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_Cinq_Glove1",
       "values": [
@@ -4797,7 +4823,9 @@
        "_Tex_Mask": "FX_Tex_CC_Cinq_Glove1_Mask",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Glove1",
      "path": "FX_PC_7_Donquixote_Cinq_Throw1_ani/Glove1",
@@ -5082,7 +5110,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -5118,7 +5146,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Throw1",
      "path": "FX_PC_7_Donquixote_Cinq_Throw1_ani/Throw1",
@@ -5420,7 +5450,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -5447,7 +5477,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Throw1_ani/Spark1",
@@ -5680,7 +5712,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -5802,7 +5834,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Main1",
@@ -6208,7 +6242,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -6232,7 +6266,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Light1",
@@ -6452,7 +6488,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -6574,7 +6610,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Main1",
@@ -6980,7 +7018,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -7004,7 +7042,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Light1",
@@ -7265,7 +7305,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -7330,7 +7370,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Ring1",
@@ -7631,7 +7673,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -7658,7 +7700,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Spark1",
@@ -7937,7 +7981,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_feather1_a9fd6e134d",
+      "shader": "shader_graphs_fx_grp_feather1_fa6ffefbe0",
       "source": "Shader Graphs/FX_Grp_Feather1",
       "name": "FX_Mat_Feather1",
       "values": [
@@ -7969,7 +8013,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Feather1",
@@ -8202,7 +8248,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -8324,7 +8370,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Main1",
@@ -8730,7 +8778,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -8754,7 +8802,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Light1",
@@ -8974,7 +9024,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -9096,7 +9146,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Main1",
@@ -9502,7 +9554,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -9526,7 +9578,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Light1",
@@ -9787,7 +9841,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -9852,7 +9906,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Ring1",
@@ -10153,7 +10209,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -10180,7 +10236,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Spark1",
@@ -10475,7 +10533,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_feather1_a9fd6e134d",
+      "shader": "shader_graphs_fx_grp_feather1_fa6ffefbe0",
       "source": "Shader Graphs/FX_Grp_Feather1",
       "name": "FX_Mat_Feather1",
       "values": [
@@ -10507,7 +10565,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Feather1",
@@ -10740,7 +10800,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -10862,7 +10922,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Main1",
@@ -11268,7 +11330,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -11292,7 +11354,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Light1",
@@ -11512,7 +11576,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -11634,7 +11698,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Main1",
@@ -12040,7 +12106,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -12064,7 +12130,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Light1",
@@ -12325,7 +12393,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -12390,7 +12458,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Ring1",
@@ -12691,7 +12761,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -12718,7 +12788,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Spark1",
@@ -12997,7 +13069,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_feather1_a9fd6e134d",
+      "shader": "shader_graphs_fx_grp_feather1_fa6ffefbe0",
       "source": "Shader Graphs/FX_Grp_Feather1",
       "name": "FX_Mat_Feather1",
       "values": [
@@ -13029,7 +13101,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Feather1",
@@ -13262,7 +13336,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -13384,7 +13458,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Main1",
@@ -13790,7 +13866,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -13814,7 +13890,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Light1",
@@ -14034,7 +14112,7 @@
      ],
      "mesh": "FX_Mesh_Cone",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_852bc0f95b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_940d0012b0",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Cinq_Trail1_Piercing",
       "values": [
@@ -14156,7 +14234,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Gradiant_Base4",
        "_Tex_Mask": "FX_Tex_CC_Cinq_TrailMask1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Main1",
@@ -14562,7 +14642,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -14586,7 +14666,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani (1)/Light1",
@@ -14847,7 +14929,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -14912,7 +14994,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Ring1",
@@ -15213,7 +15297,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_2color_229ef195ee",
+      "shader": "shader_graphs_fx_grp_burn_2color_aec2b3ec31",
       "source": "Shader Graphs/FX_Grp_Burn_2Color",
       "name": "FX_Mat_Burn_2Color",
       "values": [
@@ -15240,7 +15324,9 @@
        "_Color_1",
        "_Color_2"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Spark1",
@@ -15519,7 +15605,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_feather1_a9fd6e134d",
+      "shader": "shader_graphs_fx_grp_feather1_fa6ffefbe0",
       "source": "Shader Graphs/FX_Grp_Feather1",
       "name": "FX_Mat_Feather1",
       "values": [
@@ -15551,7 +15637,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "FX_PC_7_Donquixote_Cinq_Piercing1_ani/Feather1",
@@ -15768,7 +15856,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -15786,7 +15874,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodBurn1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling_ani/BloodBurn1",
@@ -16046,7 +16136,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -16098,7 +16188,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling_ani/Blood1",
@@ -16376,7 +16468,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -16422,7 +16514,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Water1",
      "path": "FX_Mon_Train2_FairyLongLegs_Pulling_ani/Water1",

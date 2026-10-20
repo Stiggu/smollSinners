@@ -158,7 +158,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -194,7 +194,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash",
      "path": "Scaler/FX_PC_8_Honglu_BlackCloud_Kick_ani/Flash",
@@ -405,7 +407,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_blackcloud_trail1_1af8479689",
+      "shader": "shader_graphs_fx_grp_cc_blackcloud_trail1_c12cb86bca",
       "source": "Shader Graphs/FX_Grp_CC_BlackCloud_Trail1",
       "name": "FX_Mat_CC_BlackCloud_Trail1",
       "values": [
@@ -466,7 +468,9 @@
       "textures": {
        "_SampleTexture2D_b15bb6d1217e433eb3e96dd815dec61b_Texture_1_Texture2D": "FX_Tex_CC_BlackCloud_Trail1_Mask",
        "_SampleTexture2D_d64c7e7529cd4dcba01455c8c829b4d0_Texture_1_Texture2D": "FX_Tex_CC_BlackCloud_Trail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Cloud",
      "path": "Scaler/FX_PC_8_Honglu_BlackCloud_Kick_ani/Cloud",
@@ -715,7 +719,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -733,7 +737,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark",
      "path": "Scaler/FX_PC_8_Honglu_BlackCloud_Kick_ani/Spark",
@@ -894,7 +900,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke4_c75708e5c9",
+      "shader": "shader_graphs_fx_grp_smoke4_0cb8afc2a5",
       "source": "Shader Graphs/FX_Grp_Smoke4",
       "name": "FX_Mat_Smoke4",
       "values": [
@@ -958,7 +964,9 @@
       ],
       "textures": {
        "_SampleTexture2D_97be4e56cada4d8a8832a9cd24a3925e_Texture_1_Texture2D": "FX_Tex_Smoke4"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "Scaler/FX_PC_8_Honglu_BlackCloud_Kick_ani/Dash",

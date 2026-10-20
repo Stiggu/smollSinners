@@ -382,7 +382,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_773d9e7fe4",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_aebee2029a",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Faust_Shi_Dash",
       "values": [
@@ -576,7 +576,9 @@
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "Pivot/Dash",
@@ -982,7 +984,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_773d9e7fe4",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_aebee2029a",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Faust_Shi_Dash",
       "values": [
@@ -1176,7 +1178,9 @@
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "Pivot/Dash",
@@ -1582,7 +1586,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_773d9e7fe4",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_aebee2029a",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Faust_Shi_Dash",
       "values": [
@@ -1776,7 +1780,9 @@
        "_Dissolve_Tex": "fx_t_noise_15_hw",
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "Pivot/Dash",
@@ -2371,7 +2377,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_7e6cc39d47",
+      "shader": "fx_team_fx_grp_compact_shader_ebcdb1bb72",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Faust_Shi_Hit",
       "values": [
@@ -2459,7 +2465,9 @@
        "_Dissolve_Tex": "fx_t_noise_25",
        "_MainTex": "Fx_T_Shape_Hit",
        "_Noise_Tex": "FX_T_Noise_06_2048"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "pivot/Hit (1)",
@@ -2739,7 +2747,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_7e6cc39d47",
+      "shader": "fx_team_fx_grp_compact_shader_ebcdb1bb72",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Faust_Shi_Hit",
       "values": [
@@ -2827,7 +2835,9 @@
        "_Dissolve_Tex": "fx_t_noise_25",
        "_MainTex": "Fx_T_Shape_Hit",
        "_Noise_Tex": "FX_T_Noise_06_2048"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit",
      "path": "pivot/Hit",
@@ -3131,7 +3141,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -3217,7 +3227,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle_1",
      "path": "pivot/particle_1",
@@ -3521,7 +3533,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -3607,7 +3619,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "particle_1 (1)",
      "path": "pivot/particle_1 (1)",
@@ -4055,7 +4069,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -4142,7 +4156,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1",
      "path": "pivot (1)/wind_1",
@@ -4406,7 +4422,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_f287976792",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_d6a357c5af",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Faust_Rose_Awak_Smoke",
       "values": [
@@ -4604,7 +4620,9 @@
        "_Dissolve_Tex": "fx_t_noise_04",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "smoke",
      "path": "smoke",
@@ -5016,7 +5034,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_43042e82e5",
+      "shader": "fx_team_fx_grp_maincustom_shader_4a07726a7a",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash_Aura",
       "values": [
@@ -5156,7 +5174,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -5419,7 +5439,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -5506,7 +5526,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1",
      "path": "pivot/Slash/wind_1",
@@ -5746,7 +5768,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_96b0660d7e",
+      "shader": "fx_team_fx_grp_maincustom_shader_840e9e8025",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash",
       "values": [
@@ -5887,7 +5909,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -6299,7 +6323,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_43042e82e5",
+      "shader": "fx_team_fx_grp_maincustom_shader_4a07726a7a",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash_Aura",
       "values": [
@@ -6439,7 +6463,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -6702,7 +6728,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -6789,7 +6815,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1",
      "path": "pivot/Slash/wind_1",
@@ -7029,7 +7057,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_96b0660d7e",
+      "shader": "fx_team_fx_grp_maincustom_shader_840e9e8025",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash",
       "values": [
@@ -7170,7 +7198,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -7424,7 +7454,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_43042e82e5",
+      "shader": "fx_team_fx_grp_maincustom_shader_4a07726a7a",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash_Aura",
       "values": [
@@ -7564,7 +7594,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -7804,7 +7836,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_96b0660d7e",
+      "shader": "fx_team_fx_grp_maincustom_shader_840e9e8025",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash",
       "values": [
@@ -7945,7 +7977,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -8366,7 +8400,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -8453,7 +8487,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1",
      "path": "pivot/Slash/wind_1",
@@ -8865,7 +8901,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_43042e82e5",
+      "shader": "fx_team_fx_grp_maincustom_shader_4a07726a7a",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash_Aura",
       "values": [
@@ -9005,7 +9041,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -9268,7 +9306,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -9355,7 +9393,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1",
      "path": "pivot/Slash/wind_1",
@@ -9595,7 +9635,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_96b0660d7e",
+      "shader": "fx_team_fx_grp_maincustom_shader_840e9e8025",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash",
       "values": [
@@ -9736,7 +9776,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -10148,7 +10190,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_43042e82e5",
+      "shader": "fx_team_fx_grp_maincustom_shader_4a07726a7a",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash_Aura",
       "values": [
@@ -10288,7 +10330,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -10551,7 +10595,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Cp8_5_1_Wei_Berserk_Wind",
       "values": [
@@ -10638,7 +10682,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "wind_1 (1)",
      "path": "pivot/wind_1 (1)",
@@ -10878,7 +10924,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_96b0660d7e",
+      "shader": "fx_team_fx_grp_maincustom_shader_840e9e8025",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Faust_Shi_Slash",
       "values": [
@@ -11019,7 +11065,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw_Blur",
        "_Noise_Tex": "Fx_T_Noise_36"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",

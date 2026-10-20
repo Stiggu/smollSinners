@@ -394,7 +394,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_MoveFlash1",
       "values": [
@@ -587,7 +587,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -887,7 +889,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95485f713b",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33aa884fbb",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Smoke1",
       "values": [
@@ -1081,7 +1083,9 @@
        "_Color_Tex": "fx_t_noise_08",
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "Pivot/Smoke1",
@@ -1387,7 +1391,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -1473,7 +1477,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "Pivot/Spark1",
@@ -1614,7 +1620,7 @@
       4
      ],
      "material": {
-      "shader": "universal_render_pipeline_particles_unlit_68f4530977",
+      "shader": "universal_render_pipeline_particles_unlit_89bb2a8141",
       "source": "Universal Render Pipeline/Particles/Unlit",
       "name": "ParticlesUnlit",
       "values": [
@@ -1666,7 +1672,9 @@
       ],
       "textures": {
        "_BaseMap": "Default-Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BGBurn1",
      "path": "Pivot/BGBurn1",
@@ -1971,7 +1979,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -2057,7 +2065,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -2309,7 +2319,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -2395,7 +2405,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -2647,7 +2659,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -2733,7 +2745,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -2963,7 +2977,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -3049,7 +3063,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -3467,7 +3483,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_MoveFlash1",
       "values": [
@@ -3660,7 +3676,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -3962,7 +3980,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_WildHunt_MoveWind1",
       "values": [
@@ -4155,7 +4173,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Ground_Wind_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Pivot/Wind1",
@@ -4455,7 +4475,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95485f713b",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33aa884fbb",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Smoke1",
       "values": [
@@ -4649,7 +4669,9 @@
        "_Color_Tex": "fx_t_noise_08",
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "Pivot/Smoke1",
@@ -4977,7 +4999,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -5169,7 +5191,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -5475,7 +5499,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -5561,7 +5585,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "Pivot/Spark1",
@@ -5954,7 +5980,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail2_Shadow",
       "values": [
@@ -6147,7 +6173,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -6371,7 +6399,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail1",
       "values": [
@@ -6564,7 +6592,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -6869,7 +6899,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -6955,7 +6985,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -7283,7 +7315,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -7475,7 +7507,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -7727,7 +7761,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7813,7 +7847,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -8065,7 +8101,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8151,7 +8187,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -8381,7 +8419,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8467,7 +8505,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -8860,7 +8900,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail2_Shadow",
       "values": [
@@ -9053,7 +9093,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -9277,7 +9319,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail1",
       "values": [
@@ -9470,7 +9512,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -9775,7 +9819,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -9861,7 +9905,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -10189,7 +10235,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -10381,7 +10427,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -10633,7 +10681,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10719,7 +10767,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -10971,7 +11021,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11057,7 +11107,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -11287,7 +11339,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11373,7 +11425,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -11766,7 +11820,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail2_Shadow",
       "values": [
@@ -11959,7 +12013,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -12183,7 +12239,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail1",
       "values": [
@@ -12376,7 +12432,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -12681,7 +12739,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -12767,7 +12825,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -13095,7 +13155,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -13287,7 +13347,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -13539,7 +13601,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -13625,7 +13687,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -13877,7 +13941,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -13963,7 +14027,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -14193,7 +14259,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -14279,7 +14345,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -14680,7 +14748,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -14873,7 +14941,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -15105,7 +15175,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -15298,7 +15368,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow (1)",
      "path": "Pivot/Shadow/Shadow (1)",
@@ -15520,7 +15592,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -15713,7 +15785,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -15935,7 +16009,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -16128,7 +16202,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1 (1)",
      "path": "Pivot/Main1/Main1 (1)",
@@ -16349,7 +16425,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -16542,7 +16618,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2_Line",
      "path": "Pivot/Main2_Line",
@@ -16868,7 +16946,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -17061,7 +17139,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Pivot/Ring1",
@@ -17367,7 +17447,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -17453,7 +17533,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -17778,7 +17860,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -17970,7 +18052,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -18222,7 +18306,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18308,7 +18392,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1 (1)",
      "path": "Pivot/Light1 (1)",
@@ -18560,7 +18646,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18646,7 +18732,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2 (1)",
      "path": "Pivot/Light2 (1)",
@@ -18876,7 +18964,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18962,7 +19050,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3 (1)",
      "path": "Pivot/Light3 (1)",
@@ -19381,7 +19471,7 @@
       ]
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_screenfliter_appuse_1edf646344",
+      "shader": "shader_graphs_fx_grp_screenfliter_appuse_d0ee1da304",
       "source": "Shader Graphs/Fx_Grp_ScreenFliter_AppUse",
       "name": "Fx_M_Public_ScreenFliter_AppUse",
       "values": [
@@ -19439,7 +19529,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": true
      },
      "name": "Distortion",
      "path": "Pivot/Distortion",
@@ -19691,7 +19783,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_MoveFlash1",
       "values": [
@@ -19884,7 +19976,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -20218,7 +20312,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -20304,7 +20398,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -20629,7 +20725,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -20821,7 +20917,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -21214,7 +21312,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail2_Shadow",
       "values": [
@@ -21407,7 +21505,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -21631,7 +21731,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail1",
       "values": [
@@ -21824,7 +21924,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -22129,7 +22231,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -22215,7 +22317,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -22543,7 +22647,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -22735,7 +22839,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -22987,7 +23093,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -23073,7 +23179,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -23325,7 +23433,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -23411,7 +23519,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -23641,7 +23751,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -23727,7 +23837,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -24146,7 +24258,7 @@
       ]
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_screenfliter_appuse_1edf646344",
+      "shader": "shader_graphs_fx_grp_screenfliter_appuse_d0ee1da304",
       "source": "Shader Graphs/Fx_Grp_ScreenFliter_AppUse",
       "name": "Fx_M_Public_ScreenFliter_AppUse",
       "values": [
@@ -24204,7 +24316,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": true
      },
      "name": "Distortion",
      "path": "Pivot/Distortion",
@@ -24456,7 +24570,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_MoveFlash1",
       "values": [
@@ -24649,7 +24763,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -24983,7 +25099,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -25069,7 +25185,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -25394,7 +25512,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -25586,7 +25704,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -25979,7 +26099,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail2_Shadow",
       "values": [
@@ -26172,7 +26292,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -26396,7 +26518,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Trail1",
       "values": [
@@ -26589,7 +26711,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -26894,7 +27018,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -26980,7 +27104,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -27308,7 +27434,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -27500,7 +27626,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -27752,7 +27880,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -27838,7 +27966,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1",
      "path": "Pivot/Light1",
@@ -28090,7 +28220,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -28176,7 +28306,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2",
      "path": "Pivot/Light2",
@@ -28406,7 +28538,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -28492,7 +28624,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3",
      "path": "Pivot/Light3",
@@ -28893,7 +29027,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -29086,7 +29220,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -29318,7 +29454,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -29511,7 +29647,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow (1)",
      "path": "Pivot/Shadow/Shadow (1)",
@@ -29733,7 +29871,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -29926,7 +30064,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -30148,7 +30288,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -30341,7 +30481,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1 (1)",
      "path": "Pivot/Main1/Main1 (1)",
@@ -30562,7 +30704,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -30755,7 +30897,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2_Line",
      "path": "Pivot/Main2_Line",
@@ -31081,7 +31225,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -31274,7 +31418,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Pivot/Ring1",
@@ -31580,7 +31726,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -31666,7 +31812,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -31991,7 +32139,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -32183,7 +32331,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -32435,7 +32585,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -32521,7 +32671,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1 (1)",
      "path": "Pivot/Light1 (1)",
@@ -32773,7 +32925,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -32859,7 +33011,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2 (1)",
      "path": "Pivot/Light2 (1)",
@@ -33089,7 +33243,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -33175,7 +33329,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3 (1)",
      "path": "Pivot/Light3 (1)",
@@ -33609,7 +33765,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -33802,7 +33958,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -34067,7 +34225,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -34260,7 +34418,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow (1)",
      "path": "Pivot/Shadow/Shadow (1)",
@@ -34515,7 +34675,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -34708,7 +34868,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -34963,7 +35125,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -35156,7 +35318,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1 (1)",
      "path": "Pivot/Main1/Main1 (1)",
@@ -35410,7 +35574,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -35603,7 +35767,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2_Line",
      "path": "Pivot/Main2_Line",
@@ -35962,7 +36128,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -36155,7 +36321,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Pivot/Ring1",
@@ -36461,7 +36629,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -36547,7 +36715,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -36872,7 +37042,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -37064,7 +37234,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -37465,7 +37637,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -37658,7 +37830,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow",
      "path": "Pivot/Shadow",
@@ -37890,7 +38064,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_4d05955c29",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_2ba3231a2d",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing2_Shadow",
       "values": [
@@ -38083,7 +38257,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "Fx_T_Shape_Slash_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shadow (1)",
      "path": "Pivot/Shadow/Shadow (1)",
@@ -38305,7 +38481,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -38498,7 +38674,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -38720,7 +38898,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_Piercing1",
       "values": [
@@ -38913,7 +39091,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_Slash_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1 (1)",
      "path": "Pivot/Main1/Main1 (1)",
@@ -39134,7 +39314,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -39327,7 +39507,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2_Line",
      "path": "Pivot/Main2_Line",
@@ -39653,7 +39835,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ca764a46ac",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_ea8aafdfa7",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp7_Camille_PiercingLine",
       "values": [
@@ -39846,7 +40028,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_mask_1",
        "_MainTex": "Fx_T_Shape_LineFlash_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Pivot/Ring1",
@@ -40152,7 +40336,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -40238,7 +40422,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "Pivot/Particle1",
@@ -40563,7 +40749,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_dfbbbc255f",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_baf0d522f8",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Public_Outline_ColorMask_Alp",
       "values": [
@@ -40755,7 +40941,9 @@
       ],
       "textures": {
        "_MainTex": "FX_T_Shape_Feather1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Feather1",
      "path": "Pivot/Feather1",
@@ -41007,7 +41195,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -41093,7 +41281,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light1 (1)",
      "path": "Pivot/Light1 (1)",
@@ -41345,7 +41535,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -41431,7 +41621,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light2 (1)",
      "path": "Pivot/Light2 (1)",
@@ -41661,7 +41853,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -41747,7 +41939,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Light3 (1)",
      "path": "Pivot/Light3 (1)",
@@ -42145,7 +42339,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_e0f66a6206",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_e94c6dec76",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Heathcliff_WildHunt_MoveWind1",
       "values": [
@@ -42338,7 +42532,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Ground_Wind_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "Wind1",

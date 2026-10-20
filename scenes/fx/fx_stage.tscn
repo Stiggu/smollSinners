@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/fx/fx_stage.gd" id="1_stage"]
+[ext_resource type="Script" path="res://scripts/fx/fx_bloom.gd" id="2_bloom"]
+[ext_resource type="Shader" path="res://scripts/fx/bloom/fx_bloom_composite.gdshader" id="3_composite"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_composite"]
+shader = ExtResource("3_composite")
+shader_parameter/intensity = 2.0
+shader_parameter/tint = Vector3(1, 1, 1)
+
+[node name="FxStage" type="Node2D"]
+script = ExtResource("1_stage")
+
+[node name="Bloom" type="Node" parent="."]
+script = ExtResource("2_bloom")
+
+[node name="Composite" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_composite")
+centered = false
+
+[node name="ScreenEffects" type="Node2D" parent="."]

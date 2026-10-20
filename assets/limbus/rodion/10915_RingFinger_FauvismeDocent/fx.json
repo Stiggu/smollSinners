@@ -384,7 +384,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Dash",
       "values": [
@@ -579,7 +579,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_07",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Dash",
      "path": "pivot/Dash",
@@ -971,7 +973,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -1169,7 +1171,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Particle",
@@ -1506,7 +1510,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_YiSang_Heishou_Wu_Splash",
       "values": [
@@ -1705,7 +1709,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Wind_01",
        "_Noise_Tex": "fx_t_noise_normal_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "Blodd_Circle",
@@ -2297,7 +2303,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -2496,7 +2502,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "pivot/Splash",
@@ -2798,7 +2806,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -2996,7 +3004,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle (1)",
      "path": "pivot/Particle (1)",
@@ -3321,7 +3331,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95485f713b",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33aa884fbb",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Hit_1",
       "values": [
@@ -3515,7 +3525,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf",
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Hit_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (2)",
      "path": "pivot/Hit (2)",
@@ -3796,7 +3808,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_b617a22741",
+      "shader": "fx_team_fx_grp_compact_shader_cbdbb7f698",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Rodion_Devyat_Hit",
       "values": [
@@ -3883,7 +3895,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_25",
        "_MainTex": "Fx_T_Shape_Hit"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "pivot/Hit (1)",
@@ -4188,7 +4202,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -4274,7 +4288,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "pivot/Particle",
@@ -4505,7 +4521,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -4591,7 +4607,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Flare_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare",
      "path": "pivot/Flare",
@@ -4822,7 +4840,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -4908,7 +4926,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Hit_06"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare (1)",
      "path": "pivot/Flare (1)",
@@ -5222,7 +5242,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -5421,7 +5441,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -5723,7 +5745,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -5921,7 +5943,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -6319,7 +6343,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -6514,7 +6538,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -6762,7 +6788,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -6957,7 +6983,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -7205,7 +7233,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -7400,7 +7428,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -7648,7 +7678,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -7843,7 +7873,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -8116,7 +8148,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8202,7 +8234,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",
@@ -8515,7 +8549,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -8714,7 +8748,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -9016,7 +9052,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -9214,7 +9250,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -9612,7 +9650,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -9807,7 +9845,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -10055,7 +10095,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -10250,7 +10290,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -10498,7 +10540,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -10693,7 +10735,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid (1)",
      "path": "pivot/Slash_mid (1)",
@@ -10941,7 +10985,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -11136,7 +11180,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -11384,7 +11430,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -11579,7 +11625,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -11852,7 +11900,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11938,7 +11986,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",
@@ -12251,7 +12301,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -12450,7 +12500,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -12752,7 +12804,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -12950,7 +13002,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -13348,7 +13402,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -13543,7 +13597,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -13791,7 +13847,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -13986,7 +14042,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -14234,7 +14292,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -14429,7 +14487,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -14677,7 +14737,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -14872,7 +14932,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -15145,7 +15207,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15231,7 +15293,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",
@@ -15544,7 +15608,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -15743,7 +15807,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -16045,7 +16111,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -16243,7 +16309,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -16641,7 +16709,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -16836,7 +16904,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -17084,7 +17154,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -17279,7 +17349,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -17527,7 +17599,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -17722,7 +17794,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid (1)",
      "path": "pivot/Slash_mid (1)",
@@ -17970,7 +18044,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -18165,7 +18239,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -18413,7 +18489,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -18608,7 +18684,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -18881,7 +18959,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18967,7 +19045,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",
@@ -19280,7 +19360,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -19479,7 +19559,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -19781,7 +19863,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -19979,7 +20061,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -20377,7 +20461,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -20572,7 +20656,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -20820,7 +20906,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -21015,7 +21101,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -21263,7 +21351,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -21458,7 +21546,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid (1)",
      "path": "pivot/Slash_mid (1)",
@@ -21706,7 +21796,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -21901,7 +21991,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -22149,7 +22241,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -22344,7 +22436,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -22617,7 +22711,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -22703,7 +22797,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",
@@ -23016,7 +23112,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Splash_2_DF",
       "values": [
@@ -23215,7 +23311,9 @@
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Ink_Splash_02",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Splash",
      "path": "Flower/Splash",
@@ -23517,7 +23615,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_1df215d257",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_5b1445181c",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Particle",
       "values": [
@@ -23715,7 +23813,9 @@
        "_Color_Tex": "Fx_T_Noise_RingFinger_FauvismeDocent_Wolf_Color_02",
        "_Dissolve_Tex": "fx_t_noise_30",
        "_MainTex": "Fx_T_Shape_Particle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Flower/Particle",
@@ -24113,7 +24213,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Blood",
       "values": [
@@ -24308,7 +24408,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Smoke_06",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "pivot/Blodd_Circle",
@@ -24556,7 +24658,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -24751,7 +24853,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -24999,7 +25103,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -25194,7 +25298,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid (1)",
      "path": "pivot/Slash_mid (1)",
@@ -25442,7 +25548,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -25637,7 +25743,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_mid",
      "path": "pivot/Slash_mid",
@@ -25885,7 +25993,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Cp9_5_1_RingFinger_FauvismeDocent_Wolf_Slash",
       "values": [
@@ -26080,7 +26188,9 @@
        "_Dissolve_Tex": "fx_t_noise_20_hw",
        "_MainTex": "Fx_T_Shape_Slash_Claw_01",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_up",
      "path": "pivot/Slash_up",
@@ -26353,7 +26463,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -26439,7 +26549,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flower",
      "path": "Flower",

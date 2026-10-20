@@ -162,7 +162,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -198,7 +198,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Move_ani/Flash1",
@@ -489,7 +491,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -546,7 +548,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Move_ani/Smoke1",
@@ -751,7 +755,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_basictrail1_4a71bcd5b7",
+      "shader": "shader_graphs_fx_grp_cc_basictrail1_5f3b970ba6",
       "source": "Shader Graphs/FX_Grp_CC_BasicTrail1",
       "name": "FX_Mat_CC_BasicTrail1",
       "values": [
@@ -803,7 +807,9 @@
       ],
       "textures": {
        "_MainTex": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Spin_ani/Trail1",
@@ -1002,7 +1008,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_blackcloud_trail2_99ccec9005",
+      "shader": "shader_graphs_fx_grp_cc_blackcloud_trail2_ac995d6cab",
       "source": "Shader Graphs/FX_Grp_CC_BlackCloud_Trail2",
       "name": "FX_Mat_CC_BlackCloud_Trail2",
       "values": [
@@ -1051,7 +1057,9 @@
       "textures": {
        "_SampleTexture2D_31288ae79d924463b24eb2db4872ae36_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b07eee0834e147239e1d3a6a00c2f77c_Texture_1_Texture2D": "FX_Tex_Noise_ToonCloud"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail2",
      "path": "FX_PC_7_Donquixote_MeatLantern_Spin_ani/Trail2",
@@ -1335,7 +1343,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -1381,7 +1389,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Spin_ani/Bubble1",
@@ -1646,7 +1656,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -1703,7 +1713,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Spin_ani/Smoke1",
@@ -1964,7 +1976,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -2010,7 +2022,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Trail1_ani/Bubble1",
@@ -2239,7 +2253,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -2285,7 +2299,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Trail1_ani/Bubble1",
@@ -2467,7 +2483,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2485,7 +2501,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Burn1",
@@ -2677,7 +2695,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -2741,7 +2759,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Wave1",
@@ -3019,7 +3039,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodexplo_60284a67a2",
+      "shader": "shader_graphs_fx_grp_bloodexplo_a812000ffc",
       "source": "Shader Graphs/FX_Grp_BloodExplo",
       "name": "FX_Mat_BloodExplo",
       "values": [
@@ -3051,7 +3071,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8b5ffc2721fe470c8c16988475d9d638_Texture_1_Texture2D": "FX_Tex_BloodExplo"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood1",
@@ -3276,7 +3298,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -3328,7 +3350,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood2",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood2",
@@ -3564,7 +3588,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -3610,7 +3634,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Bubble1",
@@ -3839,7 +3865,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -3885,7 +3911,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Trail1_ani/Bubble1",
@@ -4114,7 +4142,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -4160,7 +4188,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_Trail1_ani/Bubble1",
@@ -4342,7 +4372,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4360,7 +4390,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Burn1",
@@ -4552,7 +4584,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -4616,7 +4648,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Wave1",
@@ -4894,7 +4928,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodexplo_60284a67a2",
+      "shader": "shader_graphs_fx_grp_bloodexplo_a812000ffc",
       "source": "Shader Graphs/FX_Grp_BloodExplo",
       "name": "FX_Mat_BloodExplo",
       "values": [
@@ -4926,7 +4960,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8b5ffc2721fe470c8c16988475d9d638_Texture_1_Texture2D": "FX_Tex_BloodExplo"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood1",
@@ -5151,7 +5187,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -5203,7 +5239,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood2",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood2",
@@ -5439,7 +5477,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -5485,7 +5523,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Bubble1",
@@ -5667,7 +5707,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5685,7 +5725,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Burn1",
@@ -5878,7 +5920,7 @@
      "hidden": true,
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -5942,7 +5984,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Wave1",
@@ -6220,7 +6264,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodexplo_60284a67a2",
+      "shader": "shader_graphs_fx_grp_bloodexplo_a812000ffc",
       "source": "Shader Graphs/FX_Grp_BloodExplo",
       "name": "FX_Mat_BloodExplo",
       "values": [
@@ -6252,7 +6296,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8b5ffc2721fe470c8c16988475d9d638_Texture_1_Texture2D": "FX_Tex_BloodExplo"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood1",
@@ -6477,7 +6523,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -6529,7 +6575,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood2",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood2",
@@ -6765,7 +6813,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -6811,7 +6859,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Bubble1",
@@ -6993,7 +7043,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7011,7 +7061,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Burn1",
@@ -7297,7 +7349,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -7349,7 +7401,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_Mon_WNight_Green_Dawn_Piercing1_ani/Blood1",
@@ -7573,7 +7627,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -7637,7 +7691,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Wave1",
@@ -7915,7 +7971,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodexplo_60284a67a2",
+      "shader": "shader_graphs_fx_grp_bloodexplo_a812000ffc",
       "source": "Shader Graphs/FX_Grp_BloodExplo",
       "name": "FX_Mat_BloodExplo",
       "values": [
@@ -7947,7 +8003,9 @@
       ],
       "textures": {
        "_SampleTexture2D_8b5ffc2721fe470c8c16988475d9d638_Texture_1_Texture2D": "FX_Tex_BloodExplo"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood1",
@@ -8172,7 +8230,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -8224,7 +8282,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blood2",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Blood2",
@@ -8460,7 +8520,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_waterbubble1_fc72a664ba",
+      "shader": "shader_graphs_fx_grp_waterbubble1_c751b8441a",
       "source": "Shader Graphs/FX_Grp_WaterBubble1",
       "name": "FX_Mat_WaterBubble1",
       "values": [
@@ -8506,7 +8566,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bubble1",
      "path": "FX_PC_7_Donquixote_MeatLantern_BloodExplo_ani/Bubble1",

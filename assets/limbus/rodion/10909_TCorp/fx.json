@@ -227,7 +227,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -284,7 +284,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Cp6_5_ClockGolemMon_SteamCharge_ani/Smoke1",
@@ -540,7 +542,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -558,7 +560,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Cp6_5_ClockGolemMon_SteamCharge_ani/Particle1",
@@ -750,7 +754,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave3_22c790e251",
+      "shader": "shader_graphs_fx_grp_shockwave3_92dca04504",
       "source": "Shader Graphs/FX_Grp_ShockWave3",
       "name": "FX_Mat_ShockWave3",
       "values": [
@@ -814,7 +818,9 @@
       ],
       "textures": {
        "_SampleTexture2D_22801f720b324adbbe17a8460c4752eb_Texture_1_Texture2D": "FX_Tex_ShockWave2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Attack_ani/Wave1",
@@ -1056,7 +1062,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1074,7 +1080,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Attack_ani/Burn1",
@@ -1297,7 +1305,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -1354,7 +1362,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Attack_ani/Smoke1",
@@ -1686,7 +1696,7 @@
       ]
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolven_4e3abebd82",
+      "shader": "shader_graphs_fx_grp_0_master_dissolven_b182df4fe8",
       "source": "Shader Graphs/FX_Grp_0_Master_DissolveN",
       "name": "FX_Mat_CC_Yurozibi_Gear1",
       "values": [
@@ -1825,7 +1835,9 @@
        "_MainTex": "FX_Tex_UI_UserNameTag_Cp6_5_EGO_BG_Gear3",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Gear1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Attack_ani/Gear1",
@@ -2166,7 +2178,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2184,7 +2196,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Attack_ani/Particle1",
@@ -2388,7 +2402,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -2424,7 +2438,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Piercing1_ani/Flash1",
@@ -2630,7 +2646,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2648,7 +2664,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Piercing1_ani/Burn1",
@@ -2948,7 +2966,7 @@
       ]
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolven_4e3abebd82",
+      "shader": "shader_graphs_fx_grp_0_master_dissolven_b182df4fe8",
       "source": "Shader Graphs/FX_Grp_0_Master_DissolveN",
       "name": "FX_Mat_CC_Yurozibi_Gear1",
       "values": [
@@ -3087,7 +3105,9 @@
        "_MainTex": "FX_Tex_UI_UserNameTag_Cp6_5_EGO_BG_Gear3",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Gear1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Piercing1_ani/Gear1",
@@ -3428,7 +3448,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3446,7 +3466,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Piercing1_ani/Particle1",
@@ -3757,7 +3779,7 @@
       ]
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolven_4e3abebd82",
+      "shader": "shader_graphs_fx_grp_0_master_dissolven_b182df4fe8",
       "source": "Shader Graphs/FX_Grp_0_Master_DissolveN",
       "name": "FX_Mat_CC_Yurozibi_Gear1",
       "values": [
@@ -3896,7 +3918,9 @@
        "_MainTex": "FX_Tex_UI_UserNameTag_Cp6_5_EGO_BG_Gear3",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Gear1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Trail1_ani/Gear1",
@@ -4237,7 +4261,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4255,7 +4279,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Cp6_5_TcorpStaff_Trail1_ani/Particle1",
@@ -4485,7 +4511,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_mat_0_master_dissolve_distortion_defa76feeb",
+      "shader": "shader_graphs_fx_mat_0_master_dissolve_distortion_181e4577b8",
       "source": "Shader Graphs/FX_Mat_0_Master_Dissolve_Distortion",
       "name": "FX_Mat_BG_Cp6_Noise1",
       "values": [
@@ -4589,7 +4615,9 @@
        "_Tex_Distortion": "FX_Tex_UI_Battle_Train2_Noise",
        "_Tex_Noise1": "FX_Tex_UI_Battle_Train2_Noise",
        "_Tex_Noise2": "FX_Tex_Noise_Glass1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": true
      },
      "name": "Distortion1",
      "path": "FX_PC_2_Rodion_TCorp_TimeFlash1_ani/Distortion1",
@@ -4757,7 +4785,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -4793,7 +4821,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_2_Rodion_TCorp_TimeFlash1_ani/Flash1",

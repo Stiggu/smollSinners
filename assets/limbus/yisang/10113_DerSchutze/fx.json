@@ -319,7 +319,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -514,7 +514,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -750,7 +752,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -838,7 +840,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke",
      "path": "Pivot/Shot_smoke",
@@ -1099,7 +1103,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -1294,7 +1298,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Hit_02",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Main1",
      "path": "Pivot/Shot_Main1",
@@ -1588,7 +1594,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -1674,7 +1680,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -1910,7 +1918,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -1996,7 +2004,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BGBurn",
      "path": "",
@@ -2220,7 +2230,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -2306,7 +2316,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "fx_t_mask_1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Main1",
      "path": "Pivot/Bullet_Main1",
@@ -2718,7 +2730,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -2913,7 +2925,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Bullet_Main1/Trail_ShadowFire1",
@@ -3132,7 +3146,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_929dc7dbc5",
+      "shader": "fx_team_fx_grp_maincustom_shader_3fa3cbf306",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Wave_Slow",
       "values": [
@@ -3271,7 +3285,9 @@
       "textures": {
        "_MainTex": "fx_t_mask_1",
        "_Noise_Tex": "fx_t_noise_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail2",
      "path": "Pivot/Bullet_Main1/Bullet_Trail2",
@@ -3517,7 +3533,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_e7c66f0ff1",
+      "shader": "fx_team_fx_grp_compact_shader_1f028687d9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Trail_Slow",
       "values": [
@@ -3605,7 +3621,9 @@
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "FX_T_Mask_Squere1",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail1",
      "path": "Pivot/Bullet_Main1/Bullet_Trail1",
@@ -3949,7 +3967,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -4144,7 +4162,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -4409,7 +4429,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_bad7a102da",
+      "shader": "fx_team_fx_grp_compact_shader_0750c7fb10",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Smoke",
       "values": [
@@ -4501,7 +4521,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke",
      "path": "Pivot/Shot_smoke",
@@ -4762,7 +4784,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -4957,7 +4979,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Hit_02",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Main1",
      "path": "Pivot/Shot_Main1",
@@ -5251,7 +5275,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -5337,7 +5361,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -5570,7 +5596,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -5656,7 +5682,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Burn1",
      "path": "Pivot/Shot_Burn1",
@@ -5928,7 +5956,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Theatre_Bari_wind",
       "values": [
@@ -6015,7 +6043,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_02",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Ring",
      "path": "Pivot/Shot_Ring",
@@ -6215,7 +6245,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -6303,7 +6333,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Smoke1",
      "path": "Pivot/Field_Smoke1",
@@ -6515,7 +6547,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -6601,7 +6633,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Burn1",
      "path": "Pivot/Field_Burn1",
@@ -6814,7 +6848,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95ea2bd579",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_da608b4a09",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Field1",
       "values": [
@@ -7009,7 +7043,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "FX_T_Shape_YiSang_BloodBullet2_MagicCircle1",
        "_Noise_Tex": "fx_t_noise_31_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_main1",
      "path": "Pivot/Field_main1",
@@ -7300,7 +7336,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7386,7 +7422,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -7729,7 +7767,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -7924,7 +7962,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -8189,7 +8229,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_bad7a102da",
+      "shader": "fx_team_fx_grp_compact_shader_0750c7fb10",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Smoke",
       "values": [
@@ -8281,7 +8321,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke",
      "path": "Pivot/Shot_smoke",
@@ -8473,7 +8515,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -8561,7 +8603,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Smoke1",
      "path": "Pivot/Field_Smoke1",
@@ -8806,7 +8850,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8892,7 +8936,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "fx_t_mask_1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Main1",
      "path": "Pivot/Bullet_Main1",
@@ -9305,7 +9351,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -9500,7 +9546,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Bullet_Main1/Trail_ShadowFire1",
@@ -9766,7 +9814,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -9854,7 +9902,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke (1)",
      "path": "Pivot/Shot_smoke (1)",
@@ -10146,7 +10196,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -10341,7 +10391,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Hit_02",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Main1",
      "path": "Pivot/Field_Main/Shot_Main1",
@@ -10638,7 +10690,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10724,7 +10776,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1 (1)",
      "path": "Pivot/Field_Main/Trail_Spark1 (1)",
@@ -10971,7 +11025,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -11057,7 +11111,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Burn1",
      "path": "Pivot/Field_Main/Shot_Burn1",
@@ -11274,7 +11330,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11360,7 +11416,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Burn1",
      "path": "Pivot/Field_Burn1",
@@ -11606,7 +11664,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_e7c66f0ff1",
+      "shader": "fx_team_fx_grp_compact_shader_1f028687d9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Trail_Slow",
       "values": [
@@ -11694,7 +11752,9 @@
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "FX_T_Mask_Squere1",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail1",
      "path": "Pivot/Bullet_Main1/Bullet_Trail1",
@@ -11989,7 +12049,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -12075,7 +12135,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1 (1)",
      "path": "Pivot/Trail_Spark1 (1)",
@@ -12334,7 +12396,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95ea2bd579",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_da608b4a09",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Field1",
       "values": [
@@ -12529,7 +12591,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "FX_T_Shape_YiSang_BloodBullet2_MagicCircle1",
        "_Noise_Tex": "fx_t_noise_31_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Main",
      "path": "Pivot/Field_Main",
@@ -12957,7 +13021,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_929dc7dbc5",
+      "shader": "fx_team_fx_grp_maincustom_shader_3fa3cbf306",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Wave_Slow",
       "values": [
@@ -13096,7 +13160,9 @@
       "textures": {
        "_MainTex": "fx_t_mask_1",
        "_Noise_Tex": "fx_t_noise_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail2",
      "path": "Pivot/Bullet_Main1/Bullet_Trail2",
@@ -13388,7 +13454,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -13474,7 +13540,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -13779,7 +13847,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Theatre_Bari_wind",
       "values": [
@@ -13866,7 +13934,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_02",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Ring",
      "path": "Pivot/Field_Main/Shot_Ring",
@@ -14210,7 +14280,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -14405,7 +14475,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -14670,7 +14742,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_bad7a102da",
+      "shader": "fx_team_fx_grp_compact_shader_0750c7fb10",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Smoke",
       "values": [
@@ -14762,7 +14834,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke",
      "path": "Pivot/Shot_smoke",
@@ -14954,7 +15028,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -15042,7 +15116,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Smoke1",
      "path": "Pivot/Field_Smoke1",
@@ -15285,7 +15361,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15371,7 +15447,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "fx_t_mask_1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Main1",
      "path": "Pivot/Bullet_Main1",
@@ -15784,7 +15862,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -15979,7 +16057,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Bullet_Main1/Trail_ShadowFire1",
@@ -16245,7 +16325,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_178ec835ad",
+      "shader": "fx_team_fx_grp_compact_shader_95a86affa0",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Smoke1",
       "values": [
@@ -16333,7 +16413,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke (1)",
      "path": "Pivot/Shot_smoke (1)",
@@ -16624,7 +16706,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -16819,7 +16901,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Hit_02",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Main1",
      "path": "Pivot/Field_Main/Shot_Main1",
@@ -17115,7 +17199,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -17201,7 +17285,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1 (1)",
      "path": "Pivot/Field_Main/Trail_Spark1 (1)",
@@ -17447,7 +17533,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -17533,7 +17619,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Burn1",
      "path": "Pivot/Field_Main/Shot_Burn1",
@@ -17749,7 +17837,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -17835,7 +17923,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Burn1",
      "path": "Pivot/Field_Burn1",
@@ -18081,7 +18171,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_e7c66f0ff1",
+      "shader": "fx_team_fx_grp_compact_shader_1f028687d9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Trail_Slow",
       "values": [
@@ -18169,7 +18259,9 @@
        "_Dissolve_Tex": "fx_t_noise_10",
        "_MainTex": "FX_T_Mask_Squere1",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail1",
      "path": "Pivot/Bullet_Main1/Bullet_Trail1",
@@ -18464,7 +18556,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18550,7 +18642,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1 (1)",
      "path": "Pivot/Trail_Spark1 (1)",
@@ -18809,7 +18903,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_95ea2bd579",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_da608b4a09",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Field1",
       "values": [
@@ -19004,7 +19098,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "FX_T_Shape_YiSang_BloodBullet2_MagicCircle1",
        "_Noise_Tex": "fx_t_noise_31_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Field_Main",
      "path": "Pivot/Field_Main",
@@ -19432,7 +19528,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_929dc7dbc5",
+      "shader": "fx_team_fx_grp_maincustom_shader_3fa3cbf306",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Wave_Slow",
       "values": [
@@ -19571,7 +19667,9 @@
       "textures": {
        "_MainTex": "fx_t_mask_1",
        "_Noise_Tex": "fx_t_noise_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bullet_Trail2",
      "path": "Pivot/Bullet_Main1/Bullet_Trail2",
@@ -19863,7 +19961,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -19949,7 +20047,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -20253,7 +20353,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Theatre_Bari_wind",
       "values": [
@@ -20340,7 +20440,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_02",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Ring",
      "path": "Pivot/Field_Main/Shot_Ring",
@@ -20601,7 +20703,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -20796,7 +20898,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_LineFlash_01",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -21128,7 +21232,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -21323,7 +21427,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -21617,7 +21723,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -21703,7 +21809,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -22008,7 +22116,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -22094,7 +22202,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -22405,7 +22515,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -22491,7 +22601,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "FX_T_Shape_BulletCase1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Pivot/Main1",
@@ -22834,7 +22946,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -23029,7 +23141,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -23294,7 +23408,7 @@
       24
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_bad7a102da",
+      "shader": "fx_team_fx_grp_compact_shader_0750c7fb10",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_YiSang_BloodBullet_Awak_Smoke",
       "values": [
@@ -23386,7 +23500,9 @@
        "_Dissolve_Tex": "fx_t_noise_08",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_smoke",
      "path": "Pivot/Shot_smoke",
@@ -23647,7 +23763,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move1",
       "values": [
@@ -23842,7 +23958,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Hit_02",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Main1",
      "path": "Pivot/Shot_Main1",
@@ -24136,7 +24254,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -24222,7 +24340,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -24455,7 +24575,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -24541,7 +24661,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Burn1",
      "path": "Pivot/Shot_Burn1",
@@ -24813,7 +24935,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f400ed3b3e",
+      "shader": "fx_team_fx_grp_compact_shader_f70d11f993",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Theatre_Bari_wind",
       "values": [
@@ -24900,7 +25022,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_02",
        "_MainTex": "Fx_T_Shape_Wave_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Ring",
      "path": "Pivot/Shot_Ring",
@@ -25160,7 +25284,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Move2",
       "values": [
@@ -25355,7 +25479,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_LineFlash_01",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -25649,7 +25775,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -25735,7 +25861,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -25979,7 +26107,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -26065,7 +26193,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Shot_Burn1_Bround1",
      "path": "",
@@ -26300,7 +26430,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Trail1",
       "values": [
@@ -26495,7 +26625,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -26824,7 +26956,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -27019,7 +27151,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -27312,7 +27446,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -27398,7 +27532,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -27633,7 +27769,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_YiSang_BloodBullet2_Trail1",
       "values": [
@@ -27828,7 +27964,9 @@
        "_Dissolve_Tex": "fx_t_noise_12",
        "_MainTex": "Fx_T_Shape_Slash_05_hw",
        "_Noise_Tex": "fx_t_noise_10"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -28157,7 +28295,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_Mon_Cp8_Gachiu_Flame1",
       "values": [
@@ -28352,7 +28490,9 @@
        "_Dissolve_Tex": "fx_t_noise_31_hw",
        "_MainTex": "Fx_T_Shape_Fire_01_2x2",
        "_Noise_Tex": "fx_t_noise_20_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_ShadowFire1",
      "path": "Pivot/Trail_ShadowFire1",
@@ -28645,7 +28785,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -28731,7 +28871,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",

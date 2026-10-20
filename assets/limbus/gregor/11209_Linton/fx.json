@@ -146,7 +146,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -196,7 +196,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave2",
      "path": "FX_Mon_Cp6_HomeWorker_Move_ani/Wave2",
@@ -436,7 +438,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -472,7 +474,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_Mon_Cp6_HomeWorker_Move_ani/Flash1",
@@ -748,7 +752,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -805,7 +809,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_Mon_Cp6_HomeWorker_Move_ani/Smoke1",
@@ -1108,7 +1114,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1126,7 +1132,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_Mon_Cp6_HomeWorker_Move_ani/Particle1",
@@ -1362,7 +1370,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_crack2_ecf149c519",
+      "shader": "shader_graphs_fx_grp_crack2_86db2b9aff",
       "source": "Shader Graphs/FX_Grp_Crack2",
       "name": "FX_Mat_Crack2",
       "values": [
@@ -1410,7 +1418,9 @@
       ],
       "textures": {
        "_Texture2DAsset_b1b2823d836046e983d881d35d937e43_Out_0_Texture2D": "FX_Tex_Crack2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash2",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/Flash2",
@@ -1638,7 +1648,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -1674,7 +1684,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/Flash1",
@@ -1834,7 +1846,7 @@
      ],
      "mesh": "FX_Mesh_Cone_Twist1",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_1677fb24e9",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_7849ff850c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_HomeWorker_Trail2",
       "values": [
@@ -1956,7 +1968,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/Main1",
@@ -2310,7 +2324,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2328,7 +2342,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/Particle1",
@@ -2512,7 +2528,7 @@
      ],
      "mesh": "FX_Mesh_Cone_Twist1",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_1677fb24e9",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_7849ff850c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_HomeWorker_Trail2",
       "values": [
@@ -2634,7 +2650,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani (1)/Main1",
@@ -2933,7 +2951,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -2957,7 +2975,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/CrossLight1",
@@ -3164,7 +3184,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -3188,7 +3208,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight2",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/CrossLight2",
@@ -3431,7 +3453,7 @@
      ],
      "mesh": "FX_Mesh_Cone_Twist1",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_1677fb24e9",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_7849ff850c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_HomeWorker_Trail1",
       "values": [
@@ -3553,7 +3575,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Noise_Water1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/Main2",
@@ -3838,7 +3862,7 @@
      ],
      "mesh": "FX_Mesh_Cone_Twist1",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_1677fb24e9",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_7849ff850c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_HomeWorker_Trail1",
       "values": [
@@ -3960,7 +3984,9 @@
       "textures": {
        "_Tex_Dissolve": "FX_Tex_Noise_Water1",
        "_Tex_Mask": "FX_Tex_CC_BasicTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani (1)/Main2",
@@ -4224,7 +4250,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_bloodsprite_5891d7593c",
+      "shader": "shader_graphs_fx_grp_bloodsprite_5a23a83b16",
       "source": "Shader Graphs/FX_Grp_BloodSprite",
       "name": "FX_Mat_BloodSprite",
       "values": [
@@ -4276,7 +4302,9 @@
       ],
       "textures": {
        "_SampleTexture2D_1b9e06552280467191378f90fab20908_Texture_1_Texture2D": "FX_Tex_BloodSprite"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "BloodExplo1",
      "path": "FX_PC_1_Gregor_Linton_Piercing1_ani/BloodExplo1",
@@ -4565,7 +4593,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_db2b368a2b",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_5254ee0f0f",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_CC_KSG_Trail1",
       "values": [
@@ -4705,7 +4733,9 @@
        "_Tex_Mask": "FX_Tex_CC_KSG_Trail1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1 (1)",
      "path": "FX_PC_1_Gregor_Linton_Trail1_ani/Trail1 (1)",
@@ -5058,7 +5088,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5076,7 +5106,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle1",
      "path": "FX_PC_1_Gregor_Linton_Trail1_ani/Particle1",
@@ -5339,7 +5371,7 @@
      ],
      "mesh": "FX_Mesh_Cone_Tube1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -5375,7 +5407,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wind1",
      "path": "FX_PC_1_Gregor_Linton_Trail1_ani/Wind1",
@@ -5582,7 +5616,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -5606,7 +5640,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight1",
      "path": "FX_PC_1_Gregor_Linton_Trail1_ani/CrossLight1",
@@ -5813,7 +5849,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_linelight2_7b10f7ecee",
+      "shader": "shader_graphs_fx_grp_linelight2_14cfe910ce",
       "source": "Shader Graphs/FX_Grp_LineLight2",
       "name": "FX_Mat_LineLight2",
       "values": [
@@ -5837,7 +5873,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_LineLight2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CrossLight2",
      "path": "FX_PC_1_Gregor_Linton_Trail1_ani/CrossLight2",

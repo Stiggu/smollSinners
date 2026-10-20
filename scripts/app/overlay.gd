@@ -8,7 +8,7 @@ extends Node2D
 ## nothing runs.
 ##
 ## This script only wires the parts together:
-##  - Desktop: the icons. Team: the sinners. Clashes: their fights. Effects: particle effects.
+##  - Desktop: the icons. Team: the sinners. Clashes: their fights. FxStage: particle effects.
 ##  - SettingsPanel and Tray: the controls. DesktopSleep: sleeping while the desktop is covered.
 
 ## Window titles and the tray's tooltip. The project keeps config/name "smollSinner": it

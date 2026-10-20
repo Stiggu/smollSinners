@@ -56,7 +56,7 @@
      "texture_mode": 0,
      "sort": 0,
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_mindline_460ff7b088",
+      "shader": "shader_graphs_fx_grp_cc_r_mindline_c98475fad6",
       "source": "Shader Graphs/FX_Grp_CC_R_MindLine",
       "name": "FX_Mat_CC_R_MindLine",
       "values": [
@@ -120,7 +120,9 @@
       ],
       "textures": {
        "_SampleTexture2D_980954f1ffef4868bb4878e31b4de31b_Texture_1_Texture2D": "FX_Tex_Line1_R"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "MindLine_Main",
      "path": "Scaler/FX_PC_5_Ishmael_R_MindLine_ani/MindLine_Main",
@@ -351,7 +353,7 @@
      "texture_mode": 0,
      "sort": 0,
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_mindline_460ff7b088",
+      "shader": "shader_graphs_fx_grp_cc_r_mindline_c98475fad6",
       "source": "Shader Graphs/FX_Grp_CC_R_MindLine",
       "name": "FX_Mat_CC_R_MindLine",
       "values": [
@@ -415,7 +417,9 @@
       ],
       "textures": {
        "_SampleTexture2D_980954f1ffef4868bb4878e31b4de31b_Texture_1_Texture2D": "FX_Tex_Line1_R"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "MindLine_Main",
      "path": "Scaler/FX_PC_5_Ishmael_R_MindLine_ani/MindLine_Main",
@@ -741,7 +745,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -759,7 +763,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/Burn",
@@ -959,7 +965,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -1045,7 +1051,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/Ring1",
@@ -1389,7 +1397,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -1475,7 +1483,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (1)/Ring1",
@@ -1819,7 +1829,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -1905,7 +1915,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (2)/Ring1",
@@ -2249,7 +2261,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -2335,7 +2347,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (3)/Ring1",
@@ -2656,7 +2670,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2674,7 +2688,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CenterLight",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/CenterLight",
@@ -2884,7 +2900,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Lightning",
      "material": {
-      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "shader": "shader_graphs_fx_grp_lightning1_31ff8f9789",
       "source": "Shader Graphs/FX_Grp_Lightning1",
       "name": "FX_Mat_Lightning1",
       "values": [
@@ -2928,7 +2944,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Lightning"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "lightning",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/lightning",
@@ -3198,7 +3216,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_triangle_62ac81f9a5",
+      "shader": "shader_graphs_fx_grp_triangle_f6441bb975",
       "source": "Shader Graphs/FX_Grp_Triangle",
       "name": "FX_Mat_Triangle",
       "values": [
@@ -3234,7 +3252,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/lightning/Particle",
@@ -3401,7 +3421,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Lightning",
      "material": {
-      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "shader": "shader_graphs_fx_grp_lightning1_31ff8f9789",
       "source": "Shader Graphs/FX_Grp_Lightning1",
       "name": "FX_Mat_Lightning1",
       "values": [
@@ -3445,7 +3465,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Lightning"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "lightning",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (4)/lightning",
@@ -3647,7 +3669,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3665,7 +3687,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/Burn",
@@ -3865,7 +3889,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -3951,7 +3975,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/Ring1",
@@ -4295,7 +4321,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -4381,7 +4407,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (1)/Ring1",
@@ -4725,7 +4753,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -4811,7 +4839,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (2)/Ring1",
@@ -5155,7 +5185,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_cc_r_trail1_f6a09c9e40",
+      "shader": "shader_graphs_fx_grp_cc_r_trail1_fe5c095902",
       "source": "Shader Graphs/FX_Grp_CC_R_Trail1",
       "name": "FX_Mat_CC_R_Trail1",
       "values": [
@@ -5241,7 +5271,9 @@
        "_SampleTexture2D_93da25878c014271864c9e2e8f1368bd_Texture_1_Texture2D": "FX_Tex_CC_BasicTrail1",
        "_SampleTexture2D_b0a5b45b29a14bc9919f10cd25380702_Texture_1_Texture2D": "FX_Tex_Noise_Tile1",
        "_SampleTexture2D_c842be76b6aa48908e41e82bf4250372_Texture_1_Texture2D": "FX_Tex_Noise_Tile1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring1",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani (3)/Ring1",
@@ -5562,7 +5594,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5580,7 +5612,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "CenterLight",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/CenterLight",
@@ -5790,7 +5824,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Lightning",
      "material": {
-      "shader": "shader_graphs_fx_grp_lightning1_8b93681119",
+      "shader": "shader_graphs_fx_grp_lightning1_31ff8f9789",
       "source": "Shader Graphs/FX_Grp_Lightning1",
       "name": "FX_Mat_Lightning1",
       "values": [
@@ -5834,7 +5868,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Lightning"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "lightning",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/lightning",
@@ -6104,7 +6140,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_triangle_62ac81f9a5",
+      "shader": "shader_graphs_fx_grp_triangle_f6441bb975",
       "source": "Shader Graphs/FX_Grp_Triangle",
       "name": "FX_Mat_Triangle",
       "values": [
@@ -6140,7 +6176,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Scaler/FX_PC_5_Ishmael_R_SKL2_1_ani/lightning/Particle",
@@ -6415,7 +6453,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_367197e594",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33efc38310",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -6610,7 +6648,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Impact_01",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -6923,7 +6963,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7009,7 +7049,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -7325,7 +7367,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7411,7 +7453,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -7686,7 +7730,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7772,7 +7816,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -8034,7 +8080,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_367197e594",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33efc38310",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -8229,7 +8275,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Impact_01",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -8542,7 +8590,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8628,7 +8676,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -8944,7 +8994,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -9030,7 +9080,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -9305,7 +9357,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -9391,7 +9443,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -9715,7 +9769,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -9801,7 +9855,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -10117,7 +10173,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10203,7 +10259,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -10478,7 +10536,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10564,7 +10622,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -10857,7 +10917,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -10943,7 +11003,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_lightning_03_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "LightningShot_Main1",
      "path": "Pivot/LightningShot_Main1",
@@ -11178,7 +11240,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -11373,7 +11435,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Slash_08_hw",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -11686,7 +11750,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11772,7 +11836,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -12088,7 +12154,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -12174,7 +12240,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -12449,7 +12517,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -12535,7 +12603,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -12770,7 +12840,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -12965,7 +13035,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Slash_08_hw",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -13278,7 +13350,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -13364,7 +13436,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -13680,7 +13754,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -13766,7 +13840,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -14041,7 +14117,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -14127,7 +14203,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -14413,7 +14491,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -14499,7 +14577,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -14774,7 +14854,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -14860,7 +14940,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot (1)/Trail_Lightning1",
@@ -15146,7 +15228,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15232,7 +15314,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -15507,7 +15591,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15593,7 +15677,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot (1)/Trail_Lightning1",
@@ -15855,7 +15941,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_367197e594",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_33efc38310",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -16050,7 +16136,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Impact_01",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -16363,7 +16451,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -16449,7 +16537,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -16765,7 +16855,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -16851,7 +16941,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -17126,7 +17218,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -17212,7 +17304,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -17536,7 +17630,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -17622,7 +17716,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -17938,7 +18034,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18024,7 +18120,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -18299,7 +18397,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18385,7 +18483,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",
@@ -18678,7 +18778,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -18764,7 +18864,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_lightning_03_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "LightningShot_Main1",
      "path": "Pivot/LightningShot_Main1",
@@ -18999,7 +19101,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "FX_M_PC_8_Honglu_RCorp_Trail1",
       "values": [
@@ -19194,7 +19296,9 @@
        "_Dissolve_Tex": "fx_t_noise_27",
        "_MainTex": "Fx_T_Shape_Slash_08_hw",
        "_Noise_Tex": "Fx_T_Noise_Hexagon1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Main1",
      "path": "Pivot/Trail_Main1",
@@ -19507,7 +19611,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -19593,7 +19697,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark1",
      "path": "Pivot/Trail_Spark1",
@@ -19909,7 +20015,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -19995,7 +20101,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "coin_triangle"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Spark2_Tri",
      "path": "Pivot/Trail_Spark2_Tri",
@@ -20270,7 +20378,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_27f1e04f91",
+      "shader": "fx_team_fx_grp_compact_shader_952e206fe2",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -20356,7 +20464,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Lightning1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail_Lightning1",
      "path": "Pivot/Trail_Lightning1",

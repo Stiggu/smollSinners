@@ -436,7 +436,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_9a7fda7e47",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_noise_random_60e03f1822",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader_Noise_Random",
       "name": "Fx_M_Mon_Ring_Father_Dash",
       "values": [
@@ -631,7 +631,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Blur_02_hw",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash_In",
@@ -889,7 +891,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_d930052eec",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_270e2889bb",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Crack",
       "values": [
@@ -1083,7 +1085,9 @@
        "_Dissolve_Tex": "Fx_T_Shape_Smoke_04_hw",
        "_MainTex": "Fx_T_Shape_Crack_Line_02",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Crack",
      "path": "pivot/Crack",
@@ -1570,7 +1574,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_39be938d62",
+      "shader": "fx_team_fx_grp_compact_shader_8ce12ea5fa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Disciple_Normal_Splash",
       "values": [
@@ -1662,7 +1666,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_45_hw",
        "_MainTex": "Fx_T_Shape_Splash_01_2x2",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "splash",
      "path": "pivot/splash",
@@ -1975,7 +1981,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -2061,7 +2067,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "pivot/Spark1",
@@ -2411,7 +2419,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -2503,7 +2511,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1 (2)",
      "path": "pivot/Hit_1 (2)",
@@ -2853,7 +2863,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -2945,7 +2955,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1",
      "path": "pivot/Hit_1",
@@ -3177,7 +3189,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_8102a5ad59",
+      "shader": "fx_team_fx_grp_compact_shader_e11b526203",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Add",
       "values": [
@@ -3263,7 +3275,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Flare_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare",
      "path": "pivot/Flare",
@@ -3495,7 +3509,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_f4f40bf415",
+      "shader": "fx_team_fx_grp_compact_shader_2b9ebbc6db",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_BG_Alp",
       "values": [
@@ -3585,7 +3599,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Flare_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare (1)",
      "path": "pivot/Flare (1)",
@@ -4058,7 +4074,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_fa2d057069",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_edef0e46b1",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_Ego_Heathcliff_KQE_Splash_Torus",
       "values": [
@@ -4257,7 +4273,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Smoke_01_hw",
        "_Noise_Tex": "fx_t_noise_normal_01"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "Pivot/Blodd_Circle",
@@ -4714,7 +4732,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -4804,7 +4822,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "Pivot/Bone",
@@ -5107,7 +5127,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -5193,7 +5213,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Dot_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Particle",
      "path": "Pivot/Particle",
@@ -5437,7 +5459,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -5523,7 +5545,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Impact_03"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Ring (1)",
      "path": "Pivot/Ring (1)",
@@ -5799,7 +5823,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_b617a22741",
+      "shader": "fx_team_fx_grp_compact_shader_cbdbb7f698",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_PC_Rodion_Devyat_Hit",
       "values": [
@@ -5886,7 +5910,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_25",
        "_MainTex": "Fx_T_Shape_Hit"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "Pivot/pivot/Hit (1)",
@@ -6156,7 +6182,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_3857393b48",
+      "shader": "fx_team_fx_grp_compact_shader_28ae288ae9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_Alp",
       "values": [
@@ -6242,7 +6268,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Hit"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit",
      "path": "Pivot/pivot/Hit",
@@ -6568,7 +6596,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_337feba2c8",
+      "shader": "fx_team_fx_grp_maincustom_shader_60a34f85ce",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Donquixote_Hatred_Hit",
       "values": [
@@ -6707,7 +6735,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Hit_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit (1)",
      "path": "Pivot/Hit (1)",
@@ -6937,7 +6967,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7023,7 +7053,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Hit_06"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare (1)",
      "path": "Pivot/Flare (1)",
@@ -7263,7 +7295,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -7349,7 +7381,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Flare_01_hw"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flare",
      "path": "Pivot/Flare",
@@ -7847,7 +7881,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_39be938d62",
+      "shader": "fx_team_fx_grp_compact_shader_8ce12ea5fa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Disciple_Normal_Splash",
       "values": [
@@ -7939,7 +7973,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_45_hw",
        "_MainTex": "Fx_T_Shape_Splash_01_2x2",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "splash",
      "path": "pivot/splash",
@@ -8266,7 +8302,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -8358,7 +8394,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1",
      "path": "pivot/Hit_1",
@@ -8671,7 +8709,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -8757,7 +8795,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "pivot/Spark1",
@@ -9057,7 +9097,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -9252,7 +9292,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_20",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce (1)",
      "path": "pivot/Pierce (1)",
@@ -9542,7 +9584,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_efe8ac0648",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_c31982a58e",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Pierce",
       "values": [
@@ -9736,7 +9778,9 @@
        "_Dissolve_Tex": "FX_T_Noise_06_2048",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce",
      "path": "pivot/Pierce",
@@ -10014,7 +10058,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Yisang_Liu_Wave",
       "values": [
@@ -10153,7 +10197,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_impact_06_hw_Blur"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "m_wave",
      "path": "pivot/m_wave",
@@ -10651,7 +10697,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_39be938d62",
+      "shader": "fx_team_fx_grp_compact_shader_8ce12ea5fa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Disciple_Normal_Splash",
       "values": [
@@ -10743,7 +10789,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_45_hw",
        "_MainTex": "Fx_T_Shape_Splash_01_2x2",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "splash",
      "path": "pivot/splash",
@@ -11070,7 +11118,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -11162,7 +11210,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1 (1)",
      "path": "pivot/Hit_1 (1)",
@@ -11489,7 +11539,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -11581,7 +11631,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1",
      "path": "pivot/Hit_1",
@@ -11894,7 +11946,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -11980,7 +12032,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "pivot/Spark1",
@@ -12280,7 +12334,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -12475,7 +12529,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_20",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce (1)",
      "path": "pivot/Pierce (1)",
@@ -12765,7 +12821,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_efe8ac0648",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_c31982a58e",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Pierce",
       "values": [
@@ -12959,7 +13015,9 @@
        "_Dissolve_Tex": "FX_T_Noise_06_2048",
        "_MainTex": "Fx_T_Shape_Slash_23",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce",
      "path": "pivot/Pierce",
@@ -13237,7 +13295,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Yisang_Liu_Wave",
       "values": [
@@ -13376,7 +13434,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_impact_06_hw_Blur"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "m_wave",
      "path": "pivot/m_wave",
@@ -13654,7 +13714,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Yisang_Liu_Wave",
       "values": [
@@ -13793,7 +13853,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_impact_06_hw_Blur"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "m_wave (1)",
      "path": "pivot/m_wave (1)",
@@ -14291,7 +14353,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_39be938d62",
+      "shader": "fx_team_fx_grp_compact_shader_8ce12ea5fa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Disciple_Normal_Splash",
       "values": [
@@ -14383,7 +14445,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_45_hw",
        "_MainTex": "Fx_T_Shape_Splash_01_2x2",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "splash",
      "path": "pivot/splash",
@@ -14710,7 +14774,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -14802,7 +14866,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1 (1)",
      "path": "pivot/Hit_1 (1)",
@@ -15129,7 +15195,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_11cc9a883b",
+      "shader": "fx_team_fx_grp_compact_shader_b2e5f594e9",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Mon_Index_Father_Impact",
       "values": [
@@ -15221,7 +15287,9 @@
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_hit_03_2x2_hw",
        "_Noise_Tex": "fx_t_noise_08"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Hit_1",
      "path": "pivot/Hit_1",
@@ -15534,7 +15602,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_89ad7817a2",
+      "shader": "fx_team_fx_grp_compact_shader_8fa270aeaa",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGB_Alp",
       "values": [
@@ -15620,7 +15688,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Blur_01_Clamp"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "pivot/Spark1",
@@ -15920,7 +15990,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -16115,7 +16185,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_20",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce (1)",
      "path": "pivot/Pierce (1)",
@@ -16405,7 +16477,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_efe8ac0648",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_c31982a58e",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Pierce",
       "values": [
@@ -16599,7 +16671,9 @@
        "_Dissolve_Tex": "FX_T_Noise_06_2048",
        "_MainTex": "Fx_T_Shape_Slash_23",
        "_Noise_Tex": "fx_t_noise_04"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Pierce",
      "path": "pivot/Pierce",
@@ -16877,7 +16951,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Yisang_Liu_Wave",
       "values": [
@@ -17016,7 +17090,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_impact_06_hw_Blur"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "m_wave",
      "path": "pivot/m_wave",
@@ -17294,7 +17370,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_maincustom_shader_170704bef7",
+      "shader": "fx_team_fx_grp_maincustom_shader_7c4c00270c",
       "source": "Fx_Team/Fx_Grp_MainCustom_Shader",
       "name": "Fx_M_PC_Yisang_Liu_Wave",
       "values": [
@@ -17433,7 +17509,9 @@
       "textures": {
        "_Dissolve_Tex": "fx_t_noise_06",
        "_MainTex": "Fx_T_Shape_impact_06_hw_Blur"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "m_wave (1)",
      "path": "pivot/m_wave (1)",
@@ -17834,7 +17912,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -18029,7 +18107,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -18272,7 +18352,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -18467,7 +18547,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -18700,7 +18782,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -18895,7 +18977,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -19211,7 +19295,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -19301,7 +19385,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -19702,7 +19788,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -19897,7 +19983,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -20140,7 +20228,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -20335,7 +20423,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -20568,7 +20658,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -20763,7 +20853,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -21079,7 +21171,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -21169,7 +21261,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -21570,7 +21664,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -21765,7 +21859,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -21997,7 +22093,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -22192,7 +22288,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura (1)",
      "path": "pivot/Slash/slash_Aura (1)",
@@ -22435,7 +22533,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -22630,7 +22728,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -22873,7 +22973,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -23068,7 +23168,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_22_hw",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In (1)",
      "path": "pivot/Slash/Slash_In (1)",
@@ -23301,7 +23403,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -23496,7 +23598,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -23812,7 +23916,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -23902,7 +24006,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -24303,7 +24409,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -24498,7 +24604,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -24730,7 +24838,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -24925,7 +25033,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura (1)",
      "path": "pivot/Slash/slash_Aura (1)",
@@ -25168,7 +25278,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -25363,7 +25473,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -25606,7 +25718,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -25801,7 +25913,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_22_hw",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In (1)",
      "path": "pivot/Slash/Slash_In (1)",
@@ -26034,7 +26148,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -26229,7 +26343,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -26545,7 +26661,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -26635,7 +26751,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -27036,7 +27154,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -27231,7 +27349,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -27474,7 +27594,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -27669,7 +27789,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -27902,7 +28024,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -28097,7 +28219,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -28413,7 +28537,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -28503,7 +28627,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -28904,7 +29030,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_0afb43d924",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_a6b5535018",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Aura",
       "values": [
@@ -29099,7 +29225,9 @@
        "_Dissolve_Tex": "fx_t_noise_28",
        "_MainTex": "Fx_T_Shape_Slash_09_hw",
        "_Noise_Tex": "Fx_T_Noise_44"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "slash_Aura",
      "path": "pivot/Slash/slash_Aura",
@@ -29342,7 +29470,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash_In",
       "values": [
@@ -29537,7 +29665,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_35",
        "_MainTex": "Fx_T_Shape_Slash_16",
        "_Noise_Tex": "fx_t_noise_12"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash_In",
      "path": "pivot/Slash/Slash_In",
@@ -29770,7 +29900,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -29965,7 +30095,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Slash_15",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Slash",
      "path": "pivot/Slash",
@@ -30281,7 +30413,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -30371,7 +30503,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "pivot/Slash/Bone",
@@ -30825,7 +30959,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_07af24761d",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_8a2033f378",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_Mon_Ring_Father_Slash",
       "values": [
@@ -31020,7 +31154,9 @@
        "_Dissolve_Tex": "fx_t_noise_01",
        "_MainTex": "Fx_T_Shape_Splash_01_2x2",
        "_Noise_Tex": "fx_t_noise_30"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "splash",
      "path": "splash",
@@ -31357,7 +31493,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_outline_colormask_shader_ddc22490b3",
+      "shader": "fx_team_fx_grp_outline_colormask_shader_0d5b9d00cc",
       "source": "Fx_Team/Fx_Grp_Outline_ColorMask_Shader",
       "name": "Fx_M_PC_YiSang_Heishou_Wu_Splash",
       "values": [
@@ -31556,7 +31692,9 @@
        "_Dissolve_Tex": "Fx_T_Noise_41",
        "_MainTex": "Fx_T_Shape_Wind_01",
        "_Noise_Tex": "fx_t_noise_normal_02"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Blodd_Circle",
      "path": "Blodd_Circle",
@@ -31905,7 +32043,7 @@
       ]
      ],
      "material": {
-      "shader": "fx_team_fx_grp_compact_shader_9ea72455d4",
+      "shader": "fx_team_fx_grp_compact_shader_610fc37a5d",
       "source": "Fx_Team/Fx_Grp_Compact_Shader",
       "name": "Fx_M_Public_Compact_RGBA_BG_Alp",
       "values": [
@@ -31995,7 +32133,9 @@
       "colors": [],
       "textures": {
        "_MainTex": "Fx_T_Shape_Bone"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Bone",
      "path": "Bone",

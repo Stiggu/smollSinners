@@ -193,7 +193,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -211,7 +211,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -448,7 +450,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -498,7 +500,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -773,7 +777,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -829,7 +833,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -1141,7 +1147,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1159,7 +1165,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -1396,7 +1404,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -1446,7 +1454,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -1721,7 +1731,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -1777,7 +1787,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -2089,7 +2101,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -2107,7 +2119,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -2335,7 +2349,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -2400,7 +2414,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Line1",
@@ -2637,7 +2653,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -2687,7 +2703,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -2962,7 +2980,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -3018,7 +3036,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -3330,7 +3350,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3348,7 +3368,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -3554,7 +3576,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -3590,7 +3612,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "Scaler/FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -3877,7 +3901,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -3927,7 +3951,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -4202,7 +4228,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -4258,7 +4284,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -4570,7 +4598,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4588,7 +4616,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -4825,7 +4855,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -4875,7 +4905,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -5150,7 +5182,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -5206,7 +5238,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -5518,7 +5552,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5536,7 +5570,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -5742,7 +5778,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -5778,7 +5814,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "Scaler/FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -6056,7 +6094,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -6121,7 +6159,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Line1",
@@ -6358,7 +6398,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -6408,7 +6448,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -6683,7 +6725,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -6739,7 +6781,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -7051,7 +7095,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7069,7 +7113,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Burn",
@@ -7275,7 +7321,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -7311,7 +7357,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "Scaler/FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -7589,7 +7637,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -7654,7 +7702,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Line1",
@@ -7891,7 +7941,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_shockwave1_c65881832b",
+      "shader": "shader_graphs_fx_grp_shockwave1_aeb60626e5",
       "source": "Shader Graphs/FX_Grp_ShockWave1",
       "name": "FX_Mat_ShockWave1",
       "values": [
@@ -7941,7 +7991,9 @@
       "colors": [
        "MainColor"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main1",
@@ -8216,7 +8268,7 @@
      ],
      "mesh": "FX_Mesh_Sphere_4Slice",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke2_b1f41dfd46",
+      "shader": "shader_graphs_fx_grp_smoke2_038f85f7b4",
       "source": "Shader Graphs/FX_Grp_Smoke2",
       "name": "FX_Mat_Smoke2",
       "values": [
@@ -8272,7 +8324,9 @@
       ],
       "textures": {
        "_SampleTexture2D_56d2a8cbba8f499298278da04118fe2f_Texture_1_Texture2D": "FX_Tex_Smoke2"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main2",
      "path": "Scaler/FX_PC_10_Meursault_Punch_ani/Main2",
@@ -8579,7 +8633,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -8615,7 +8669,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Swing1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1",
@@ -8903,7 +8959,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -8968,7 +9024,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1/Line1",
@@ -9174,7 +9232,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -9210,7 +9268,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -9499,7 +9559,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -9535,7 +9595,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Swing1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1",
@@ -9823,7 +9885,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -9888,7 +9950,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1/Line1",
@@ -10127,7 +10191,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -10163,7 +10227,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Swing1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1",
@@ -10451,7 +10517,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -10516,7 +10582,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1/Line1",
@@ -10722,7 +10790,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -10758,7 +10826,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",
@@ -11047,7 +11117,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder1",
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke3_79a00c586c",
+      "shader": "shader_graphs_fx_grp_smoke3_5050179b74",
       "source": "Shader Graphs/FX_Grp_Smoke3",
       "name": "FX_Mat_Smoke3",
       "values": [
@@ -11083,7 +11153,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Smoke3"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Swing1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1",
@@ -11371,7 +11443,7 @@
      ],
      "mesh": "FX_Mesh_Cylinder_Half1",
      "material": {
-      "shader": "shader_graphs_fx_grp_line1_3fd29187cc",
+      "shader": "shader_graphs_fx_grp_line1_50d41c1f44",
       "source": "Shader Graphs/FX_Grp_Line1",
       "name": "FX_Mat_Line1",
       "values": [
@@ -11436,7 +11508,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Line2",
        "_Tex_Noise": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Line1",
      "path": "Scaler/FX_PC_5_Ishmael_SKL2_1_ani/Swing1/Line1",
@@ -11642,7 +11716,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -11678,7 +11752,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_10_Meursault_Flash/FX_PC_10_Meursault_Flash_ani/Flash1",

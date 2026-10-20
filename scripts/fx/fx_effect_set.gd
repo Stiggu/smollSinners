@@ -6,6 +6,8 @@ extends RefCounted
 
 ## The game's usual centre point (1.1 units above the feet), for an identity without fx.json.
 const DEFAULT_BODY_CENTER := Vector2(0, 66)
+## Hand-made placement fixes next to fx.json, matched to the game where its code moves an effect.
+const CORRECTIONS_FILE := "fx_corrections.json"
 
 var body_center := DEFAULT_BODY_CENTER  ## px from the feet, x forward, y up
 var effects: Dictionary[String, FxEffectDef] = {}
@@ -22,4 +24,17 @@ static func load_from(path: String) -> FxEffectSet:
 	var by_path: Dictionary = data.get("effects", {})
 	for path_in_prefab: String in by_path:
 		effect_set.effects[path_in_prefab] = FxEffectDef.from_json(by_path[path_in_prefab])
+	effect_set._apply_corrections(path.get_base_dir().path_join(CORRECTIONS_FILE))
 	return effect_set
+
+
+## Each correction: {"shift": [x forward, y up]} px added to the effect's offset.
+func _apply_corrections(path: String) -> void:
+	if not FileAccess.file_exists(path):
+		return
+	var corrections: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(path))
+	for path_in_prefab: String in corrections:
+		var correction: Variant = corrections[path_in_prefab]
+		if correction is Dictionary and effects.has(path_in_prefab):
+			var shift: Array = correction.get("shift", [0, 0])
+			effects[path_in_prefab].offset += Vector2(shift[0], shift[1])

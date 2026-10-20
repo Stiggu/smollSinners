@@ -127,6 +127,14 @@ func _read(data: Dictionary) -> void:
 	streams = FxVertexStreams.from_ids(data.get("streams", FxVertexStreams.DEFAULT), render == Render.MESH)
 
 
+## Flat-on-the-floor billboards stay whole: they dip below the line only on screen.
+func hidden_below_floor() -> bool:
+	if render == Render.HORIZONTAL:
+		return false
+	var trail_hidden := trail != null and trail.material != null and trail.material.depth_tested
+	return super() or trail_hidden
+
+
 func _read_velocity(velocity: Dictionary) -> void:
 	if velocity.is_empty():
 		return

@@ -54,7 +54,7 @@ var identity: IdentityData
 var state := State.IDLE
 var facing := 1  ## 1 = right, the way the game's sprites face
 var status: UnitStatus  ## HP and Sanity; a new one with each identity
-var fx_layer: Node  ## where its particle effects go (overlay coordinates); its parent if unset
+var fx_stage: FxStage  ## where its particle effects play; unset: on its parent, without bloom
 
 var _state_time := 0.0
 var _idle_seconds := 0.0
@@ -71,7 +71,7 @@ var _effect_anchors: EffectAnchors  ## where the playing timeline's effects go
 
 
 func _ready() -> void:
-	_effect_anchors = EffectAnchors.new(self, Callable())
+	_effect_anchors = EffectAnchors.new(self, Callable(), position.y)
 	_player.fx_cued.connect(_spawn_fx)
 	_player.finished.connect(_on_timeline_finished)
 
@@ -241,8 +241,8 @@ func show_pose(pose_name: Variant) -> void:
 
 ## Play a timeline on top of the current state, with the effects it switches on aimed at the
 ## foe if one is given (foe_at: Callable -> Vector2, the foe's centre). Returns its length in seconds.
-func play_timeline(timeline: Timeline, foe_at := Callable()) -> float:
-	_effect_anchors = EffectAnchors.new(self, foe_at)
+func play_timeline(timeline: Timeline, foe_at := Callable(), ground_y := position.y) -> float:
+	_effect_anchors = EffectAnchors.new(self, foe_at, ground_y)
 	_player.play(timeline)
 	return timeline.length
 
@@ -400,8 +400,12 @@ func _spawn_fx(cue: FxCue) -> void:
 	var effect := FxEffect.new()
 	effect.scale.x = facing
 	effect.anchor_to(_effect_anchors.point.bind(definition.anchor), definition)
-	(fx_layer if fx_layer else get_parent()).add_child(effect)
-	effect.play(definition, cue.duration, crown(), _effect_anchors.foe_center())
+	effect.stand_on(_effect_anchors.floor_under(definition))
+	if fx_stage:
+		fx_stage.play(effect, definition, cue.duration, crown(), _effect_anchors.foe_center())
+	else:
+		get_parent().add_child(effect)
+		effect.play(definition, cue.duration, crown(), _effect_anchors.foe_center())
 
 
 func _is_airborne() -> bool:

@@ -162,7 +162,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -198,7 +198,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
@@ -482,7 +484,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -500,7 +502,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
@@ -718,7 +722,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_b56c2619c1",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_Trail1",
       "values": [
@@ -841,7 +845,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
@@ -1231,7 +1237,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1249,7 +1255,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
@@ -1467,7 +1475,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_b56c2619c1",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_Trail1",
       "values": [
@@ -1590,7 +1598,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
@@ -1980,7 +1990,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -1998,7 +2008,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
@@ -2194,7 +2206,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -2230,7 +2242,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_Move_ani/Flash1",
@@ -2521,7 +2535,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_smoke1_4cfe10f6c9",
+      "shader": "shader_graphs_fx_grp_smoke1_b93e99fffd",
       "source": "Shader Graphs/FX_Grp_Smoke1",
       "name": "FX_Mat_Smoke1",
       "values": [
@@ -2578,7 +2592,9 @@
       "textures": {
        "Tex_Main": "FX_Tex_Smoke1",
        "_SampleTexture2D_6caaeb4d1efc4b15b5d40a5ab82cee92_Texture_1_Texture2D": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Smoke1",
      "path": "FX_PC_5_Ishmael_Liu_Move_ani/Smoke1",
@@ -2805,7 +2821,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_FireShockWave1",
       "values": [
@@ -2928,7 +2944,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
        "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
@@ -3206,7 +3224,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -3242,7 +3260,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
@@ -3526,7 +3546,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -3544,7 +3564,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
@@ -3728,7 +3750,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_29ed98d8ee",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Smoke1_New",
       "values": [
@@ -3868,7 +3890,9 @@
        "_Tex_Mask": "FX_Tex_Smoke1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
@@ -4146,7 +4170,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_b56c2619c1",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_Trail1",
       "values": [
@@ -4269,7 +4293,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
@@ -4644,7 +4670,7 @@
      ],
      "hidden": true,
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -4662,7 +4688,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
@@ -4857,7 +4885,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_FireShockWave1",
       "values": [
@@ -4980,7 +5008,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
        "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
@@ -5258,7 +5288,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -5294,7 +5324,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
@@ -5578,7 +5610,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -5596,7 +5628,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
@@ -5780,7 +5814,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_29ed98d8ee",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Smoke1_New",
       "values": [
@@ -5920,7 +5954,9 @@
        "_Tex_Mask": "FX_Tex_Smoke1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
@@ -6184,7 +6220,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_b56c2619c1",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_Trail1",
       "values": [
@@ -6307,7 +6343,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
@@ -6697,7 +6735,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -6715,7 +6753,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
@@ -6910,7 +6950,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_FireShockWave1",
       "values": [
@@ -7033,7 +7073,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
        "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
@@ -7311,7 +7353,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -7347,7 +7389,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
@@ -7631,7 +7675,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -7649,7 +7693,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
@@ -7833,7 +7879,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_29ed98d8ee",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Smoke1_New",
       "values": [
@@ -7973,7 +8019,9 @@
        "_Tex_Mask": "FX_Tex_Smoke1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",
@@ -8251,7 +8299,7 @@
      ],
      "mesh": "FX_Mesh_Plane_Circle1_Scaler",
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_5e0eb229c6",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_b56c2619c1",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_Trail1",
       "values": [
@@ -8374,7 +8422,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_Noise_Cloud1",
        "_Tex_Mask": "FX_Tex_CC_LiuTrail1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Trail1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Trail1",
@@ -8764,7 +8814,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -8782,7 +8832,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_Trail_ani/Spark1",
@@ -9028,7 +9080,7 @@
      ],
      "hidden": true,
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -9046,7 +9098,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Main1",
      "path": "FX_PC_5_Ishmael_Liu_Charge_ani/Main1",
@@ -9307,7 +9361,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_fire1_655aba64c6",
+      "shader": "shader_graphs_fx_grp_fire1_33bb18d026",
       "source": "Shader Graphs/FX_Grp_Fire1",
       "name": "FX_Mat_Fire1",
       "values": [
@@ -9347,7 +9401,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Fire"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Fire1",
      "path": "FX_PC_5_Ishmael_Liu_Charge_ani/Fire1",
@@ -9574,7 +9630,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_trailshader_d91269297b",
+      "shader": "shader_graphs_fx_grp_0_master_trailshader_41fee0647c",
       "source": "Shader Graphs/FX_Grp_0_Master_TrailShader",
       "name": "FX_Mat_CC_Liu_FireShockWave1",
       "values": [
@@ -9697,7 +9753,9 @@
        "_Tex_Dissolve": "FX_Tex_Noise_Cloud1",
        "_Tex_Main": "FX_Tex_CC_Liu_FireWave1",
        "_Tex_Mask": "FX_Tex_CC_Liu_FireWave1_Mask"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Wave1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Wave1",
@@ -9975,7 +10033,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_flash1_1b4d8ec365",
+      "shader": "shader_graphs_fx_grp_flash1_cde4e08064",
       "source": "Shader Graphs/FX_Grp_Flash1",
       "name": "FX_Mat_Flash1",
       "values": [
@@ -10011,7 +10069,9 @@
       ],
       "textures": {
        "Tex_Main": "FX_Tex_Flash1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Flash1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Flash1",
@@ -10295,7 +10355,7 @@
       4
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_burn_20eb044b87",
+      "shader": "shader_graphs_fx_grp_burn_04c2a15d51",
       "source": "Shader Graphs/FX_Grp_Burn",
       "name": "FX_Mat_Burn",
       "values": [
@@ -10313,7 +10373,9 @@
       "colors": [
        "Color_Main"
       ],
-      "textures": {}
+      "textures": {},
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Spark1",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Spark1",
@@ -10497,7 +10559,7 @@
       24
      ],
      "material": {
-      "shader": "shader_graphs_fx_grp_0_master_dissolve_383223d70e",
+      "shader": "shader_graphs_fx_grp_0_master_dissolve_29ed98d8ee",
       "source": "Shader Graphs/FX_Grp_0_Master_Dissolve",
       "name": "FX_Mat_Smoke1_New",
       "values": [
@@ -10637,7 +10699,9 @@
        "_Tex_Mask": "FX_Tex_Smoke1",
        "_Tex_Noise1": "FX_Tex_Noise_Cloud1",
        "_Tex_Noise2": "FX_Tex_Noise_Cloud1"
-      }
+      },
+      "depth_tested": true,
+      "reads_screen": false
      },
      "name": "Burn",
      "path": "FX_PC_5_Ishmael_Liu_SKL1_ShockWave_ani/Burn",

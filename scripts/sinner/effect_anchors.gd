@@ -8,13 +8,15 @@ extends RefCounted
 ## px from a foe's feet up to its centre: the game's usual CharacterCenterPoint (1.1 units).
 const FOE_CENTER_HEIGHT := 66.0
 
+var ground_y: float  ## the floor the fight is on (parent coordinates)
 var _sinner: Sinner
 var _foe_center := Callable()  ## -> Vector2 in the sinner's parent's coordinates; invalid: no foe
 
 
-func _init(sinner: Sinner, foe_center: Callable) -> void:
+func _init(sinner: Sinner, foe_center: Callable, fight_ground_y: float) -> void:
 	_sinner = sinner
 	_foe_center = foe_center
+	ground_y = fight_ground_y
 
 
 ## Where `anchor` is now, in the sinner's parent's coordinates.
@@ -31,6 +33,11 @@ func point(anchor: FxEffectDef.Anchor) -> Vector2:
 
 func has_foe() -> bool:
 	return _foe_center.is_valid()
+
+
+## The sinner's ground, or the foe's feet for an effect put on the foe.
+func floor_under(definition: FxEffectDef) -> float:
+	return point(FxEffectDef.Anchor.TARGET_FEET).y if definition.is_on_target() and has_foe() else ground_y
 
 
 ## The foe's centre (what a line effect runs to); the sinner's own without a foe.

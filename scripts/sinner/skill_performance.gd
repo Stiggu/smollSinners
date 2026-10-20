@@ -73,7 +73,7 @@ func _begin_step(index: int) -> void:
 	_events = _steps[index].timeline.events(index == _last_step_with_hits)
 	_next_event = 0
 	_step_events_done = false
-	_sinner.play_timeline(_steps[index].timeline, _foe_at)
+	_sinner.play_timeline(_steps[index].timeline, _foe_at, _ground_y)
 	_dispatch_due_events()
 
 
