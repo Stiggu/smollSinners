@@ -2,6 +2,14 @@
 
 Small project for myself to have little Limbus Company sinners running around in my desktop. You can select sinners alongside their identities to drag and drop into your desktop, they will run around and clash with your desktop icons, moving them if they win the clash (Don't worry, they go back to the original place *for now*).
 
+*Dragging sinners with your mouse*
+
+![Faust getting yoinked](pictures/faustfly.gif)
+
+*Fighting random icons in your desktop*
+
+![Faust attacking](pictures/faustfight.gif)
+
 ## Using it
 
 The sinners live on one monitor, and the app has an icon in the Windows tray with:
@@ -70,6 +78,12 @@ In `%APPDATA%\Godot\app_userdata\smollSinner\`:
 
 - `settings.cfg`: the team out on the desktop and the monitor they're on.
 - `moved_icons.json`: where every moved icon started, so icons are put back on the next start if the app crashes mid-clash.
+
+### TODO
+
+- Match skill icons + names, in case anything is miss-matching.
+- Match the clash to the game, they're quite small still graphically (and likely values).
+- Probably more... Faust can't remember.
 
 ## Disclaimer
 
