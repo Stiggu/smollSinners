@@ -7,22 +7,14 @@ extends RefCounted
 ## How a coin shows: tossed coins spin until they land; a coin lost in a clash round shows
 ## cracked (its back if it had landed tails) until the next round, then it's gone.
 enum Face { UNFLIPPED, SPINNING, HEADS, TAILS, CRACKED_FRONT, CRACKED_BACK, GONE }
-## Each of an icon's stats comes from its own slice of its name's hash.
-enum IconStat { BASE_POWER, COIN_COUNT, COIN_POWER, ATTACK }
 
 const LONG_AGO := -10.0  ## a clash time well before anything: nothing is still popping
-
-## Desktop icons get their stats from their name's hash, so an icon always fights the same
-## way; about the range of a sinner's early skills.
-const ICON_BASE_POWERS := [3, 4, 5, 6]
-const ICON_COIN_COUNTS := [1, 2, 3]
-const ICON_COIN_POWERS := [2, 3, 4, 5]
-const ICON_ATTACKS := ["slash", "pierce", "blunt"]
-const BITS_PER_ICON_STAT := 4  ## the size of each IconStat's slice of the hash
-const ICON_SIN := "NONE"  ## desktop icons have no sin affinity
+const NO_SIN := "NONE"  ## a skill whose sin affinity has no colours
+## The seven sin affinities: a desktop icon's skill takes one at random each clash.
+const SINS: Array[String] = ["CRIMSON", "SCARLET", "AMBER", "SHAMROCK", "AZURE", "INDIGO", "VIOLET"]
 
 var skill_name := ""  ## on the badge's ribbon
-var sin := ICON_SIN  ## the skill's sin affinity, e.g. "SCARLET"
+var sin := NO_SIN  ## the skill's sin affinity, e.g. "SCARLET"
 var art: Texture2D  ## the skill's art inside the badge, or null
 var attack := "blunt"  ## "slash", "pierce" or "blunt"
 ## How well the other side takes this fighter's attack: the badge's attack icon shows it.
@@ -44,7 +36,7 @@ var badge: ClashBadge
 static func for_skill(skill: SkillData, skill_art: Texture2D) -> ClashFighter:
 	var fighter := ClashFighter.new()
 	fighter.skill_name = skill.name
-	fighter.sin = skill.affinity if ClashBadge.has_sin_colour(skill.affinity) else ICON_SIN
+	fighter.sin = skill.affinity if ClashBadge.has_sin_colour(skill.affinity) else NO_SIN
 	fighter.art = skill_art
 	fighter.attack = skill.attack
 	fighter.base_power = skill.base_power
@@ -52,23 +44,16 @@ static func for_skill(skill: SkillData, skill_art: Texture2D) -> ClashFighter:
 	return fighter
 
 
+## A desktop icon's side: its made-up skill (see IconStats), named after the icon, in a random sin and attack type.
 static func for_icon(icon: DesktopIcon) -> ClashFighter:
 	var fighter := ClashFighter.new()
 	fighter.skill_name = icon.short_name()
-	var name_hash := absi(fighter.skill_name.hash())
-	fighter.base_power = _icon_stat(name_hash, IconStat.BASE_POWER, ICON_BASE_POWERS)
-	var coin_count: int = _icon_stat(name_hash, IconStat.COIN_COUNT, ICON_COIN_COUNTS)
-	var coin_power: int = _icon_stat(name_hash, IconStat.COIN_POWER, ICON_COIN_POWERS)
-	fighter.attack = _icon_stat(name_hash, IconStat.ATTACK, ICON_ATTACKS)
-	var powers: Array[int] = []
-	for i in coin_count:
-		powers.append(coin_power)
-	fighter._set_coins(powers)
+	fighter.sin = SINS.pick_random()
+	fighter.attack = IconStats.ATTACKS.pick_random()
+	var stats := IconStats.of(fighter.skill_name)
+	fighter.base_power = stats.base_power
+	fighter._set_coins(stats.coin_powers)
 	return fighter
-
-
-static func _icon_stat(name_hash: int, stat: IconStat, options: Array) -> Variant:
-	return options[(name_hash >> (stat * BITS_PER_ICON_STAT)) % options.size()]
 
 
 ## The coins left back to unflipped, the lost ones gone, and the power back to base (which

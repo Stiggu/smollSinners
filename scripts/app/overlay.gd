@@ -9,6 +9,7 @@ extends Node2D
 ##
 ## This script only wires the parts together:
 ##  - Desktop: the icons. Team: the sinners. Clashes: their fights. FxStage: particle effects.
+##  - IconStatuses: the icons' HP; IconBars show it, IconGraveyard turns defeated ones to dust.
 ##  - SettingsPanel and Tray: the controls. DesktopSleep: sleeping while the desktop is covered.
 
 ## Window titles and the tray's tooltip. The project keeps config/name "smollSinner": it
@@ -23,6 +24,7 @@ var _carried: Sinner  ## being carried out of Settings on a dragged card
 @onready var desktop: Desktop = $Desktop
 @onready var team: Team = $Team
 @onready var clashes: ClashDirector = $Clashes
+@onready var icon_statuses: IconStatuses = $IconStatuses
 @onready var settings_panel: SettingsPanel = $SettingsPanel
 @onready var _icon_boxes: IconBoxes = $IconBoxes
 @onready var _sleep: DesktopSleep = $DesktopSleep
@@ -38,6 +40,7 @@ func _ready() -> void:
 	if options.identity:
 		lineup = [options.identity]
 	team.bring_out(Team.valid_lineup(lineup))
+	_set_icon_dust(AppSettings.icons_turn_to_dust())
 	WinGlue.process_mode = Node.PROCESS_MODE_ALWAYS  # keeps the overlay click-through while asleep
 	DebugLaunch.apply(options, self)
 
@@ -62,6 +65,7 @@ func _apply_options() -> void:
 	clashes.forced_skill = options.clash_skill
 	clashes.forced_outcome = options.clash_outcome
 	clashes.icon_filter = options.clash_icon
+	IconStats.forced_max_hp = options.icon_hp
 	_show_icon_boxes(options.icon_boxes)
 
 
@@ -102,6 +106,12 @@ func open_settings() -> void:
 func _show_icon_boxes(shown: bool) -> void:
 	_icon_boxes.visible = shown
 	_tray.show_icon_boxes(shown)
+
+
+## Whether defeated icons turn to dust for a while, or get back up at once.
+func _set_icon_dust(on: bool) -> void:
+	icon_statuses.turn_to_dust = on
+	_tray.show_icon_dust(on)
 
 
 ## Off the desktop. A clash it was in has been stopped (picking it up does that) but may still
@@ -165,6 +175,11 @@ func _on_card_drag_ended() -> void:
 
 func _on_settings_visibility_changed() -> void:
 	_sleep.stay_awake = settings_panel.visible
+
+
+func _on_icon_dust_toggled(on: bool) -> void:
+	_set_icon_dust(on)
+	AppSettings.save_icons_turn_to_dust(on)
 
 
 ## Right away, ignoring the cooldown: everyone free, each against an icon of their own, as

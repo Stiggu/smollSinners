@@ -21,11 +21,12 @@ The sinners live on one monitor, and the app has an icon in the Windows tray wit
 - **Settings…**: the team screen, made to look like the game's formation screen. Drag a sinner's card onto the desktop to bring them out, click one of their identities to change what they're wearing, and drop a sinner back on the panel to send them home (the last one out always stays). One of each sinner at a time, like in the game.
 - **Force clash**: every free sinner picks a fight with an icon right away.
 - **Bring them back**: everyone drops back in from the top of the screen.
+- **Defeated icons turn to dust**: when ticked, a beaten icon crumbles away and comes back after a while (the real icon never moves, it's just hidden). Unticked, it gets back up right away.
 - **Monitor**: which monitor they live on.
 - **Show icon boxes**: outlines every desktop icon (for debugging).
 - **Quit**
 
-Sinners can be picked up with the mouse and thrown. Clashes play out like in the game: coin flips, the game's skill animations and effects, and HP and Sanity on the bar under their feet, with staggers and panics. When the desktop is covered (a maximized or fullscreen window), they go to sleep and use next to no CPU until it shows again.
+Sinners can be picked up with the mouse and thrown. Clashes play out like in the game: coin flips, the game's skill animations and effects, and HP and Sanity on the bar under their feet, with staggers and panics. Icons fight back the same way: each has its own HP bar, can be staggered, takes more or less damage from slash, pierce and blunt, and can be beaten. When the desktop is covered (a maximized or fullscreen window), they go to sleep and use next to no CPU until it shows again.
 
 ## "Tech-Stack"
 
@@ -69,6 +70,7 @@ The most useful ones:
 - `--fake-icons`: made-up desktop icons, so nothing real moves.
 - `--identity <path>`: only this identity out, e.g. `faust/10201_Base`.
 - `--clash-test`: clash again and again as soon as the first sinner is free.
+- `--icon-hp N`: every icon has this much HP (a low number to see them beaten quickly).
 
 The full list is at the top of [scripts/app/launch_options.gd](scripts/app/launch_options.gd).
 

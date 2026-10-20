@@ -6,12 +6,22 @@ extends Node
 
 const KNOCK_HOP_SECONDS := 0.07  ## per grid cell while knocked back
 const HOME_HOP_SECONDS := 0.28  ## per grid cell on the way home
+const EXPLORER_PAINT_LAG := 0.23  ## seconds Explorer takes to show a move it has taken (measured 0.233 every time)
+
+
+## A spot Explorer put the icon at, and when it shows there.
+class Placement:
+	var at: Vector2i
+	var shows_at: float
 
 var _desktop: Desktop
 var _icon: DesktopIcon
 var _home: Vector2i  ## the icon image's top-left before the clash, screen pixels
 var _now_at: Vector2i  ## where it was last sent
 var _cell: Vector2i  ## the desktop grid's cell: the step an icon moves by
+var _last_placed := Rect2i()  ## Explorer's placement of it as last seen
+var _shown: Vector2i  ## where it shows now
+var _pending: Array[Placement] = []  ## placements Explorer took but hasn't shown yet, oldest first
 
 
 func track(desktop: Desktop, icon: DesktopIcon) -> void:
@@ -20,15 +30,32 @@ func track(desktop: Desktop, icon: DesktopIcon) -> void:
 	_home = icon.rect.position
 	_now_at = _home
 	_cell = desktop.grid_spacing()
+	_last_placed = desktop.placed_rect(icon)
+	_shown = _home
 
 
-## The icon's centre where it is now, in overlay coordinates.
+## The icon's centre where it shows now (moves land a moment after they're sent), in overlay coordinates.
 func icon_center() -> Vector2:
-	return _desktop.to_overlay(Rect2i(_now_at, _icon.rect.size)).get_center()
+	return _desktop.to_overlay(Rect2i(_shown_at(), _icon.rect.size)).get_center()
 
 
 func is_away() -> bool:
 	return _now_at != _home
+
+
+## Where the icon shows: each spot Explorer takes, EXPLORER_PAINT_LAG after it took it.
+func _shown_at() -> Vector2i:
+	var now := Time.get_ticks_msec() / 1000.0
+	var placed := _desktop.placed_rect(_icon)
+	if placed.has_area() and placed != _last_placed:
+		_last_placed = placed
+		var placement := Placement.new()
+		placement.at = placed.position
+		placement.shows_at = now + EXPLORER_PAINT_LAG
+		_pending.append(placement)
+	while not _pending.is_empty() and _pending[0].shows_at <= now:
+		_shown = _pending.pop_front().at
+	return _shown
 
 
 ## Knock the icon `cells` grid cells away, hop by hop: away from the sinner (standing on

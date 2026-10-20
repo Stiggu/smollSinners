@@ -65,6 +65,10 @@ public partial class WinGlue : Node
     /// <summary>Moves an icon so its image's top-left is at <paramref name="iconTopLeft"/> (Godot screen coordinates). Asynchronous.</summary>
     public void MoveDesktopIcon(string id, Vector2I iconTopLeft) => _desktopIcons?.Move(id, iconTopLeft - Win32ToGodot());
 
+    /// <summary>Where Explorer last put an icon we moved (Godot screen coordinates); empty if we never moved it.</summary>
+    public Rect2I GetPlacedIconRect(string id) =>
+        _desktopIcons != null && _desktopIcons.TryGetPlaced(id, out var rect) ? new Rect2I(rect.Position + Win32ToGodot(), rect.Size) : new Rect2I();
+
     /// <summary>Puts every icon we moved back where it was (unless the user moved it since). Blocks briefly.</summary>
     public void RestoreDesktopIcons() => _desktopIcons?.RestoreAll();
 
@@ -74,6 +78,42 @@ public partial class WinGlue : Node
     /// </summary>
     public float DesktopUncoveredFraction(Rect2I area) =>
         OperatingSystem.IsWindows() ? DesktopCoverage.UncoveredFraction(new Rect2I(area.Position - Win32ToGodot(), area.Size)) : 1f;
+
+    /// <summary>What the screen shows in an area (Godot screen coordinates), without this app's window.</summary>
+    public Image CaptureScreen(Rect2I area) =>
+        ScreenCapture.Copy(new Rect2I(area.Position - Win32ToGodot(), area.Size), MainWindowHandle());
+
+    /// <summary>The wallpaper: "position" (fill, fit...), "background" and "monitors" ({rect, file}); empty on failure.</summary>
+    public Godot.Collections.Dictionary GetWallpaper()
+    {
+        if (!OperatingSystem.IsWindows())
+            return new Godot.Collections.Dictionary();
+        DesktopWallpaper.Layout layout;
+        try
+        {
+            layout = DesktopWallpaper.Read();
+        }
+        catch (Exception e)
+        {
+            GD.PushWarning($"Can't read the wallpaper: {e.Message}");
+            return new Godot.Collections.Dictionary();
+        }
+        var monitors = new Godot.Collections.Array<Godot.Collections.Dictionary>();
+        foreach (var monitor in layout.Monitors)
+        {
+            monitors.Add(new Godot.Collections.Dictionary
+            {
+                ["rect"] = new Rect2I(monitor.Area.Position + Win32ToGodot(), monitor.Area.Size),
+                ["file"] = monitor.File,
+            });
+        }
+        return new Godot.Collections.Dictionary
+        {
+            ["position"] = layout.Position,
+            ["background"] = layout.Background,
+            ["monitors"] = monitors,
+        };
+    }
 
     /// <summary>Stop re-reading the desktop's icons every second (moves and restores still happen), or start again.</summary>
     public void SetDesktopIconsPaused(bool paused)

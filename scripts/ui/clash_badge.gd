@@ -13,7 +13,7 @@ extends Node2D
 
 const CLASH_UI := "res://assets/limbus/ui/clash"
 const NO_SIN := "NONE"
-## Sin affinity colours for the frame, tab and ribbon; NO_SIN is for desktop icons.
+## Sin affinity colours for the frame, tab and ribbon; NO_SIN is for a skill without one.
 const SIN_COLOURS := {
 	"CRIMSON": Color("c8322b"), "SCARLET": Color("e2702a"), "AMBER": Color("e9b53c"),
 	"SHAMROCK": Color("7fb83a"), "AZURE": Color("2f86e0"), "INDIGO": Color("3d4fb0"),
@@ -28,6 +28,11 @@ const COIN_FACES := {
 	ClashFighter.Face.CRACKED_BACK: preload("res://assets/limbus/ui/coin_cracked_back.png"),
 }
 const GRAYSCALE_FADE := &"grayscale_fade"  ## the ColorGrayscale shader's 0 (colour) to 1 (grey)
+## Attack icon brightness per resist level, as the damage popup's; a resisted (Ineff.) attack is grey.
+const ATTACK_ICON_LEVELS := {
+	UnitStatus.ResistLevel.ENDURED: 0, UnitStatus.ResistLevel.NORMAL: 1,
+	UnitStatus.ResistLevel.WEAK: 2, UnitStatus.ResistLevel.FATAL: 3,
+}
 
 ## px of ribbon past the end of the name.
 @export var end_pad := 18.0
@@ -119,9 +124,16 @@ func show_fighter(fighter: ClashFighter) -> void:
 	_frame.texture = _texture("frame_" + _sin)
 	_art_sprite.texture = fighter.art
 	_art_sprite.visible = fighter.art != null
-	_attack.texture = _texture("attack_%s_%s_%d" % [_sin, fighter.attack, fighter.attack_level])
+	_attack.texture = _attack_icon(fighter)
 	_set_coin_count(fighter.coin_powers.size())
 	place(position, outward)
+
+
+## The attack type in the sin's colours, lit by how well the target takes it.
+func _attack_icon(fighter: ClashFighter) -> Texture2D:
+	if not ATTACK_ICON_LEVELS.has(fighter.attack_level):
+		return _texture("attack_GREY_" + fighter.attack)
+	return _texture("attack_%s_%s_%d" % [_sin, fighter.attack, ATTACK_ICON_LEVELS[fighter.attack_level]])
 
 
 ## Centre it at `center` with its ribbon running `toward` (+1 right, -1 left).

@@ -9,10 +9,11 @@ signal force_clash_requested
 signal bring_back_requested
 signal monitor_chosen(screen: int)
 signal icon_boxes_toggled(shown: bool)
+signal icon_dust_toggled(on: bool)
 signal quit_requested
 
 ## The menu items' ids, as set in the scene.
-enum MenuItem { SETTINGS = 0, FORCE_CLASH = 1, BRING_BACK = 2, ICON_BOXES = 3, QUIT = 4, MONITOR = 5 }
+enum MenuItem { SETTINGS = 0, FORCE_CLASH = 1, BRING_BACK = 2, ICON_BOXES = 3, QUIT = 4, MONITOR = 5, ICON_DUST = 6 }
 
 const SCREEN_LABEL := "Monitor %d (%d×%d, %s)"
 
@@ -36,6 +37,11 @@ func show_icon_boxes(shown: bool) -> void:
 	_menu.set_item_checked(_menu.get_item_index(MenuItem.ICON_BOXES), shown)
 
 
+## Tick "Defeated icons turn to dust" (unticked, they get back up at once).
+func show_icon_dust(on: bool) -> void:
+	_menu.set_item_checked(_menu.get_item_index(MenuItem.ICON_DUST), on)
+
+
 func _on_menu_id_pressed(id: int) -> void:
 	match id:
 		MenuItem.SETTINGS:
@@ -48,6 +54,10 @@ func _on_menu_id_pressed(id: int) -> void:
 			var shown := not _menu.is_item_checked(_menu.get_item_index(MenuItem.ICON_BOXES))
 			show_icon_boxes(shown)
 			icon_boxes_toggled.emit(shown)
+		MenuItem.ICON_DUST:
+			var on := not _menu.is_item_checked(_menu.get_item_index(MenuItem.ICON_DUST))
+			show_icon_dust(on)
+			icon_dust_toggled.emit(on)
 		MenuItem.QUIT:
 			quit_requested.emit()
 

@@ -31,6 +31,7 @@ internal sealed class DesktopIcons : IDisposable
     private readonly Thread _thread;
     private readonly AutoResetEvent _wake = new(false);
     private readonly ConcurrentQueue<Action> _jobs = new();
+    private readonly ConcurrentDictionary<string, Godot.Rect2I> _placed = new();
     private volatile bool _stopping;
     private volatile IReadOnlyList<Icon> _icons = Array.Empty<Icon>();
     private volatile Layout _layout;
@@ -53,6 +54,9 @@ internal sealed class DesktopIcons : IDisposable
     public IReadOnlyList<Icon> Icons => _icons;
 
     public Layout CurrentLayout => _layout;
+
+    /// <summary>Where Explorer put an icon we moved, as it reported right after the move (icon image, screen pixels).</summary>
+    public bool TryGetPlaced(string id, out Godot.Rect2I rect) => _placed.TryGetValue(id, out rect);
 
     /// <summary>Why the last Explorer call failed, or null.</summary>
     public string LastError => _lastError;
@@ -157,6 +161,7 @@ internal sealed class DesktopIcons : IDisposable
         var before = _view.Position(index);
         _view.Place(index, _view.PositionFor(iconTopLeft));
         var landed = _view.Position(index); // may differ from where it was sent when icons snap to the grid
+        _placed[id] = _view.ScreenRect(landed, _view.IconSize());
 
         if (_moved.Icons.TryGetValue(id, out var moved))
         {

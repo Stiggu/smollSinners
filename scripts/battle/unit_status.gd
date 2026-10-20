@@ -10,7 +10,7 @@ extends RefCounted
 ##    Dropping past a stagger threshold (a % of max HP) staggers it for a turn; at 0 HP it dies.
 ## The pet has no turns: a turn is TURN seconds. Once nothing has happened for BATTLE_OVER
 ## seconds the battle is over, and like a new stage HP comes back, broken thresholds mend and
-## Sanity settles back to 0. A dead unit gets back up after DEAD_TIME.
+## Sanity settles back to 0. A dead unit gets back up after dead_time.
 
 ## HP went up or down by delta.
 signal hp_changed(delta: int)
@@ -18,9 +18,13 @@ signal hp_changed(delta: int)
 signal sp_changed(delta: int, shown: bool)
 ## Staggered, panicked, died, or got over it.
 signal condition_changed
+## HP ran out.
+signal died
+## Back up after dying, at full HP.
+signal got_up
 
 ## How well a unit takes an attack type, as the game's attack icons show it.
-enum ResistLevel { RESISTED, ENDURED, NORMAL, FATAL }
+enum ResistLevel { RESISTED, ENDURED, NORMAL, WEAK, FATAL }
 
 const MIN_SP := -45
 const MAX_SP := 45
@@ -33,6 +37,7 @@ const SP_DRIFT := 0.25  ## SP per second back towards 0 once the battle is over
 const STAGGERED_RESIST := 2.0  ## a staggered unit takes Fatal damage from everything
 const EVEN_ODDS := 50.0  ## % chance of heads at 0 Sanity
 const ENDURED_FROM := 0.5  ## damage multipliers above this are only "endured", not resisted
+const FATAL_FROM := 2.0  ## damage multipliers from this up are "fatal"; between 1 and this, "weak"
 
 var max_hp := DEFAULT_MAX_HP
 var hp := DEFAULT_MAX_HP
@@ -44,6 +49,7 @@ var broken: Array[bool] = []
 var staggered_for := 0.0  ## seconds left
 var panicked_for := 0.0
 var dead_for := 0.0
+var dead_time := DEAD_TIME  ## seconds it stays dead
 
 var _resist: Dictionary  ## damage multiplier per attack type
 ## The identity's Sanity rules: {on: "win"|"lose", sp, per_clash (% more per clash count after
@@ -90,8 +96,10 @@ func resistance(attack: String) -> float:
 ## How well it takes an attack type, for the attack icons.
 func resistance_level(attack: String) -> ResistLevel:
 	var multiplier := resistance(attack)
-	if multiplier > 1.0:
+	if multiplier >= FATAL_FROM:
 		return ResistLevel.FATAL
+	if multiplier > 1.0:
+		return ResistLevel.WEAK
 	if multiplier >= 1.0:
 		return ResistLevel.NORMAL
 	return ResistLevel.ENDURED if multiplier > ENDURED_FROM else ResistLevel.RESISTED
@@ -104,6 +112,11 @@ func heads_chance() -> float:
 ## Keeps the battle going (call while clashing).
 func fighting() -> void:
 	_quiet = 0.0
+
+
+## The battle isn't over for it: it clashed lately, or it's hurt or staggered.
+func is_in_battle() -> bool:
+	return _quiet < BATTLE_OVER or hp < max_hp or is_staggered()
 
 
 ## A clash ended; clash_count is how many times the coins were compared. foe_sp: the foe's
@@ -137,7 +150,8 @@ func take_hit(damage: int, attack: String) -> int:
 	if is_dead():
 		staggered_for = 0.0
 		panicked_for = 0.0
-		dead_for = DEAD_TIME
+		dead_for = dead_time
+		died.emit()
 		condition_changed.emit()
 	elif crossed_threshold and not is_staggered():
 		staggered_for = TURN
@@ -161,7 +175,7 @@ func tick(delta: float) -> void:
 	if is_dead():
 		dead_for -= delta
 		if dead_for <= 0.0:
-			_get_up()
+			get_up()
 		return
 	if staggered_for > 0.0:
 		staggered_for -= delta
@@ -215,10 +229,12 @@ func _recover(delta: float) -> void:
 		add_sp(-signi(sp) * step, false)
 
 
-func _get_up() -> void:
+## Back up at full HP, the battle over (it happens by itself after dead_time).
+func get_up() -> void:
 	dead_for = 0.0
 	_set_hp(max_hp)
 	broken.fill(false)
 	add_sp(-sp, false)
 	_quiet = BATTLE_OVER
+	got_up.emit()
 	condition_changed.emit()

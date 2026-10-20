@@ -4,8 +4,8 @@ extends Node2D
 ## the leap in to the icon hopping home. Each round both sides flip their coins one by one
 ## (power = base + heads × coin power) and the lower total breaks a coin, until one side has
 ## none left. The winner then hits once per coin it kept. The sinner's coins land heads
-## (50 + Sanity)% of the time; the result moves its Sanity by the identity's rules, and the
-## icon's hits cost it HP.
+## (50 + Sanity)% of the time; the result moves its Sanity by the identity's rules, and hits
+## cost HP after resistances. A staggered icon is attacked one-sided, a defeated one no more.
 ##
 ## Looks and timing follow the game (matches/PowerGuard.gif, matches/clash_count.png): badges
 ## flip in, coins spin and land one by one, numbers pop on every heads, a fiery impact with a
@@ -57,6 +57,7 @@ const SINNER_FRONT := Vector2(55, -95)
 
 var sinner: Sinner
 var icon: DesktopIcon
+var icon_status: UnitStatus  ## the icon's HP, stagger and resistances
 var area := Rect2()  ## the part of the overlay it takes up (see ClashLayout.footprint())
 var verbose := false  ## print each step
 var fx_stage: FxStage  ## where its damage numbers glow (set before prepare())
@@ -71,6 +72,7 @@ var _foe: ClashFighter  ## the icon
 var _layout: ClashLayout
 var _side := 1  ## +1: the sinner is right of the icon
 var _flipped_coin := -1  ## during the sinner's attack: the last coin flipped so far
+var _icon_defeated := false  ## the rest of the attack lands on nothing
 var _aborted := false
 var _tween: Tween
 var _time := 0.0
@@ -107,9 +109,10 @@ func footprint(candidate: DesktopIcon) -> Rect2:
 			_you.badge.ribbon_end_for(candidate.short_name()))
 
 
-## Fight this icon (one that fits()).
-func start(target: DesktopIcon) -> void:
+## Fight this icon (one that fits()), with its status.
+func start(target: DesktopIcon, target_status: UnitStatus) -> void:
 	icon = target
+	icon_status = target_status
 	area = footprint(target)
 	_layout = _layout_against(target)
 	_knockback.track(_desktop, target)
@@ -117,8 +120,15 @@ func start(target: DesktopIcon) -> void:
 	_run()
 
 
+## Where the icon is right now (overlay coordinates), knocked back or not.
+func icon_rect_now() -> Rect2:
+	return _icon_rect()
+
+
 func _process(delta: float) -> void:
 	_time += delta
+	if icon_status:
+		icon_status.fighting()
 	for fighter: ClashFighter in [_you, _foe]:
 		if fighter and fighter.badge:
 			fighter.badge.visible = fighter.shown
@@ -129,18 +139,22 @@ func _process(delta: float) -> void:
 func _run() -> void:
 	sinner.begin_clash()
 	_foe = ClashFighter.for_icon(icon)
-	_foe.attack_level = sinner.status.resistance_level(_foe.attack)  # desktop icons resist nothing
+	_foe.attack_level = sinner.status.resistance_level(_foe.attack)
+	_you.attack_level = icon_status.resistance_level(_you.attack)
+	_you.badge.show_fighter(_you)  # its attack icon now shows how the icon takes it
 	_add_badge(_foe)
-	_log("%s (%s) vs icon #%d: %s %d%s against %d%s" % [sinner.identity.id, sinner.identity.title,
-			icon.name.hash() % LOG_ICON_NUMBERS, _skill.slot, _you.base_power, _you.coin_powers, _foe.base_power, _foe.coin_powers])
+	var unopposed := icon_status.is_staggered()
+	_log("%s (%s) vs icon #%d: %s %d%s against %d%s%s" % [sinner.identity.id, sinner.identity.title,
+			icon.name.hash() % LOG_ICON_NUMBERS, _skill.slot, _you.base_power, _you.coin_powers, _foe.base_power,
+			_foe.coin_powers, " (staggered: one-sided)" if unopposed else ""])
 
-	await _leap_in()
+	await _leap_in(unopposed)
 	var rounds := 0
-	while not _aborted and _you.coins_left > 0 and _foe.coins_left > 0 and rounds < MAX_ROUNDS:
+	while not unopposed and not _aborted and _you.coins_left > 0 and _foe.coins_left > 0 and rounds < MAX_ROUNDS:
 		rounds += 1
 		await _clash_round(rounds)
 	if not _aborted:
-		await _finish(rounds)
+		await _finish(rounds, unopposed)
 	_you.shown = false
 	_foe.shown = false
 	if _knockback.is_away():
@@ -151,17 +165,19 @@ func _run() -> void:
 	queue_free()
 
 
-## The winner attacks.
-func _finish(rounds: int) -> void:
-	var sinner_won := _you.coins_left >= _foe.coins_left
-	sinner.status.clash_ended(sinner_won, rounds)
+## The winner attacks; a one-sided attack (unopposed) moves no Sanity.
+func _finish(rounds: int, unopposed: bool) -> void:
+	var sinner_won := unopposed or _you.coins_left >= _foe.coins_left
+	if not unopposed:
+		sinner.status.clash_ended(sinner_won, rounds)
 	if sinner_won:
 		await _sinner_attacks()
 	else:
 		await _icon_attacks()
 
 
-func _leap_in() -> void:
+## Leap in and put the badges up (only the sinner's when unopposed).
+func _leap_in(unopposed: bool) -> void:
 	_side = _layout.side
 	sinner.face(_layout.feet)
 	sinner.show_clip_pose(IdentityData.CLIP_MOVE)
@@ -173,15 +189,15 @@ func _leap_in() -> void:
 		return
 	sinner.facing = -_side
 	sinner.show_clip_pose(IdentityData.CLIP_GUARD)
-	_place_badges()
+	_place_badges([_you] if unopposed else [_you, _foe])
 	await _wait(BADGES_SETTLE)
 
 
 ## Badges above each fighter, ribbons pointing away from each other; fits() made sure there's room.
-func _place_badges() -> void:
+func _place_badges(fighters: Array) -> void:
 	_you.badge.place(_layout.sinner_badge, _side)
 	_foe.badge.place(_layout.icon_badge, -_side)
-	for fighter: ClashFighter in [_you, _foe]:
+	for fighter: ClashFighter in fighters:
 		fighter.appeared_at = _time
 		fighter.power_changed_at = _time + POWER_SHOWS_AFTER
 		fighter.shown = true
@@ -346,13 +362,23 @@ func _flip(fighter: ClashFighter, coin: int) -> void:
 		_effects.heads_star(fighter.badge.position + HEADS_STAR_OFFSET)
 
 
+## A hit on the icon: it takes `damage` after its resistance (Fatal while staggered).
 func _hit_icon(damage: int) -> void:
+	if _icon_defeated:
+		return
 	_effects.hit(_icon_center())
 	_effects.icon_flash(_icon_rect())
-	_effects.damage(_icon_center() + Vector2(0, EffectAnchors.FOE_CENTER_HEIGHT - DAMAGE_HEIGHT), damage, _you)
+	var staggered := icon_status.is_staggered()  # as the hit lands, before it can stagger
+	var taken := icon_status.take_hit(damage, _you.attack)
+	_effects.damage(_icon_center() + Vector2(0, EffectAnchors.FOE_CENTER_HEIGHT - DAMAGE_HEIGHT), taken, _you, staggered)
+	if icon_status.is_dead():
+		_icon_defeated = true
+		_log("icon defeated")
 
 
 func _knock_icon(cells: int) -> void:
+	if _icon_defeated:
+		return
 	if _knockback.knock_back(cells, _side):
 		_log("icon knocked back %d cells" % cells)
 	else:

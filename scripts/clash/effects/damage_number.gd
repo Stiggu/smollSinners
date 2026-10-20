@@ -12,6 +12,7 @@ const WORDS := {
 	UnitStatus.ResistLevel.RESISTED: "Ineff.",
 	UnitStatus.ResistLevel.ENDURED: "Endure",
 	UnitStatus.ResistLevel.NORMAL: "Normal",
+	UnitStatus.ResistLevel.WEAK: "Weak",
 	UnitStatus.ResistLevel.FATAL: "Fatal",
 }
 ## Their colours (the game's ResistValueColors).
@@ -19,6 +20,7 @@ const WORD_COLOURS := {
 	UnitStatus.ResistLevel.RESISTED: Color(0.5, 0.5, 0.5),
 	UnitStatus.ResistLevel.ENDURED: Color(0.8, 0.8, 0.8),
 	UnitStatus.ResistLevel.NORMAL: Color(0.894, 0.765, 0.576),
+	UnitStatus.ResistLevel.WEAK: Color(1.0, 0.552, 0.552),
 	UnitStatus.ResistLevel.FATAL: Color(1.0, 0.25, 0.25),
 }
 const STAGGERED_WORD_COLOUR := Color(0.94, 0.78, 0.31)  ## gold, as a screenshot of a staggered hit shows
@@ -26,6 +28,7 @@ const STAGGERED_WORD_COLOUR := Color(0.94, 0.78, 0.31)  ## gold, as a screenshot
 const ICON_LEVELS := {
 	UnitStatus.ResistLevel.ENDURED: 0,
 	UnitStatus.ResistLevel.NORMAL: 1,
+	UnitStatus.ResistLevel.WEAK: 2,
 	UnitStatus.ResistLevel.FATAL: 3,
 }
 

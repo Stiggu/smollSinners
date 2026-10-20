@@ -5,6 +5,7 @@ extends RefCounted
 ##  --screen N             start on this monitor (0 is the first) instead of the remembered one
 ##  --identity <path>      only this identity out, e.g. faust/10201_Base
 ##  --sp N, --damage N     the first sinner starts with this much Sanity / this much damage taken
+##  --icon-hp N            every desktop icon has this much max HP (a low one: quick defeats)
 ##  --clash-test           clash as soon as the first sinner is idle, again and again (logged)
 ##  --clash-icon <text>    only fight icons whose name contains this
 ##  --clash-skill S3       always use this skill slot
@@ -20,6 +21,7 @@ var screen := NOT_GIVEN
 var identity := ""
 var start_sp := 0
 var start_damage := 0
+var icon_hp := 0
 var clash_test := false
 var clash_icon := ""
 var clash_skill := ""
@@ -45,6 +47,7 @@ static func parse(args: PackedStringArray) -> LaunchOptions:
 	options.identity = options._value_after("--identity")
 	options.start_sp = int(options._value_after("--sp", "0"))
 	options.start_damage = int(options._value_after("--damage", "0"))
+	options.icon_hp = int(options._value_after("--icon-hp", "0"))
 	options.clash_test = options._has("--clash-test")
 	options.clash_icon = options._value_after("--clash-icon")
 	options.clash_skill = options._value_after("--clash-skill")

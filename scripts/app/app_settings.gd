@@ -4,6 +4,7 @@ extends RefCounted
 ##  - pet/screen: the monitor the overlay covers
 ##  - pet/team: the identities out on the desktop (older versions kept just one, pet/identity)
 ##  - formation/<sinner>: the identity that sinner's card shows in Settings
+##  - icons/turn_to_dust: defeated icons turn to dust for a while (else get up at once)
 ## The project keeps config/name "smollSinner" because it names the user:// folder.
 
 const FILE := "user://settings.cfg"
@@ -47,6 +48,16 @@ static func formation_pick(sinner_key: String) -> String:
 static func save_formation_pick(sinner_key: String, folder: String) -> void:
 	var config := _load()
 	config.set_value("formation", sinner_key, folder)
+	config.save(FILE)
+
+
+static func icons_turn_to_dust() -> bool:
+	return _load().get_value("icons", "turn_to_dust", true)
+
+
+static func save_icons_turn_to_dust(on: bool) -> void:
+	var config := _load()
+	config.set_value("icons", "turn_to_dust", on)
 	config.save(FILE)
 
 

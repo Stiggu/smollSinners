@@ -9,6 +9,9 @@
 [ext_resource type="Script" path="res://scripts/app/desktop_sleep.gd" id="7_sleep"]
 [ext_resource type="PackedScene" path="res://scenes/app/tray.tscn" id="8_tray"]
 [ext_resource type="PackedScene" path="res://scenes/fx/fx_stage.tscn" id="9_fx_stage"]
+[ext_resource type="Script" path="res://scripts/battle/icon_statuses.gd" id="10_icon_statuses"]
+[ext_resource type="Script" path="res://scripts/desktop/icon_graveyard.gd" id="11_icon_graveyard"]
+[ext_resource type="Script" path="res://scripts/ui/icon_bars.gd" id="12_icon_bars"]
 
 [node name="Overlay" type="Node2D"]
 script = ExtResource("1_overlay")
@@ -16,19 +19,40 @@ script = ExtResource("1_overlay")
 [node name="Desktop" type="Node" parent="."]
 script = ExtResource("2_desktop")
 
+[node name="IconStatuses" type="Node" parent="."]
+script = ExtResource("10_icon_statuses")
+
 [node name="IconBoxes" type="Node2D" parent="." node_paths=PackedStringArray("desktop")]
 visible = false
 script = ExtResource("3_icon_boxes")
 desktop = NodePath("../Desktop")
 
+[node name="IconGraveyard" type="Node2D" parent="." node_paths=PackedStringArray("desktop", "icon_statuses", "clashes")]
+script = ExtResource("11_icon_graveyard")
+desktop = NodePath("../Desktop")
+icon_statuses = NodePath("../IconStatuses")
+clashes = NodePath("../Clashes")
+
+[node name="IconBars" type="Node2D" parent="." node_paths=PackedStringArray("desktop", "icon_statuses", "clashes")]
+script = ExtResource("12_icon_bars")
+desktop = NodePath("../Desktop")
+icon_statuses = NodePath("../IconStatuses")
+clashes = NodePath("../Clashes")
+
+[node name="Covers" type="Node2D" parent="IconBars"]
+z_index = -2
+
+[node name="Bars" type="Node2D" parent="IconBars"]
+
 [node name="Team" type="Node2D" parent="." node_paths=PackedStringArray("fx_stage")]
 script = ExtResource("4_team")
 fx_stage = NodePath("../FxStage")
 
-[node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop", "fx_stage")]
+[node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop", "fx_stage", "icon_statuses")]
 script = ExtResource("5_clashes")
 desktop = NodePath("../Desktop")
 fx_stage = NodePath("../FxStage")
+icon_statuses = NodePath("../IconStatuses")
 
 [node name="FxStage" parent="." instance=ExtResource("9_fx_stage")]
 
@@ -56,6 +80,7 @@ desktop = NodePath("../Desktop")
 [connection signal="bring_back_requested" from="Tray" to="Team" method="drop_all_in"]
 [connection signal="force_clash_requested" from="Tray" to="." method="_on_force_clash_requested"]
 [connection signal="icon_boxes_toggled" from="Tray" to="." method="_show_icon_boxes"]
+[connection signal="icon_dust_toggled" from="Tray" to="." method="_on_icon_dust_toggled"]
 [connection signal="monitor_chosen" from="Tray" to="." method="_move_to_screen"]
 [connection signal="quit_requested" from="Tray" to="." method="_on_quit_requested"]
 [connection signal="settings_requested" from="Tray" to="." method="open_settings"]

@@ -10,6 +10,7 @@ signal pose_changing
 
 ## Where the top of the head is taken to be, from the feet, when there's no pose to measure.
 const FALLBACK_CROWN := Vector2(0, -130)
+const STAGGER_GREY := preload("res://scripts/battle/stagger_grey.gdshader")
 
 @export_group("Landing")
 @export var squash_range := Vector2(0.05, 0.3)  ## the least and most a landing squashes it
@@ -27,6 +28,7 @@ const FALLBACK_CROWN := Vector2(0, -130)
 
 var _shown_pose: PoseSprite  ## the last pose shown (kept while the body is hidden)
 var _squash := 0.0
+var _staggered_material := ShaderMaterial.new()
 
 @onready var _pose: Sprite2D = $Pose
 @onready var _slash: Sprite2D = $Slash
@@ -42,6 +44,12 @@ func show_pose(pose: PoseSprite) -> void:
 	_shown_pose = pose
 	_pose.texture = pose.texture
 	_pose.offset = -pose.anchor
+
+
+## Drawn dark grey while staggered, as the game does.
+func show_staggered(staggered: bool) -> void:
+	_staggered_material.shader = STAGGER_GREY
+	_pose.material = _staggered_material if staggered else null
 
 
 ## Show a skill's slash sprite at `at` from the feet.

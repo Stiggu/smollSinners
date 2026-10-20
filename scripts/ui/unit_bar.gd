@@ -7,7 +7,8 @@ extends Node2D
 ##  - HPNumber, and the Sanity Orb: its frame, its glass (OrbGlass) and its Number
 ##  - States: the PANIC and STAGGER plates while they last, at Slot1 (and Slot2 for the
 ##    second), on their brushed plates when it's both at once; each pops in ("appear") and
-##    glows ("pulse"). The Burst flashes up as the unit staggers (BattleUIBreakTypo_Reveal).
+##    glows ("pulse"). The Burst flashes up as the unit staggers (BattleUIBreakTypo_Reveal),
+##    and StaggerGlass shatters there, then hangs shards round the STAGGER plate.
 ##  - BadgeAnchor: where the unit's clash badge goes
 ## Nodes in the "preview" group (a sample sinner and badge) are only there for the editor.
 ## Pieces from tools/export_unit_bar.py.
@@ -16,6 +17,9 @@ const HP_SLIDE_SHARE := 0.8  ## the HP gauge slides this share of max HP a secon
 const HP_SLIDE_MIN := 40.0  ## ... but at least this many HP a second
 const BLOOM_TEXT := Color(0.93, 0.92, 0.9)  ## the Sanity number as the orb blooms
 
+## Off for units without Sanity: the orb is hidden.
+@export var shows_sanity := true
+
 ## Whose HP and Sanity to show.
 var status: UnitStatus:
 	set = _set_status
@@ -23,6 +27,7 @@ var status: UnitStatus:
 var _shown_hp := 0.0  ## eases towards the real HP
 var _sp_text_colour: Color  ## the Sanity number's own colour, before the bloom lightens it
 var _pending_sp_changes: Array[int] = []  ## Sanity changes not shown on the orb yet
+var _staggered_before := false  ## already staggered when it got this status: no burst for that
 
 @onready var badge_anchor: Marker2D = $BadgeAnchor
 @onready var _plate: Sprite2D = $Floor/Plate
@@ -39,6 +44,8 @@ var _pending_sp_changes: Array[int] = []  ## Sanity changes not shown on the orb
 @onready var _stagger_plate: CanvasItem = $States/Stagger/Plate
 @onready var _stagger_bar: CanvasItem = $States/Stagger/Bar
 @onready var _burst: AnimationPlayer = $States/Burst/AnimationPlayer
+@onready var _burst_node: Node2D = $States/Burst
+@onready var _stagger_glass: StaggerGlass = $States/StaggerGlass
 @onready var _slots: Array[Marker2D] = [$States/Slot1, $States/Slot2]
 
 
@@ -52,12 +59,13 @@ func _ready() -> void:
 	_sp_text_colour = _sp_number.label_settings.font_color
 	for node: Node2D in [_panic, _stagger, $States/Burst]:
 		node.visible = false
+	_orb.visible = shows_sanity
 
 
 ## How far the bar reaches either side of the feet: its floor plate, or the Sanity orb on the
 ## right if that sticks out further (the HP number sits over the plate's left half).
 func reach() -> float:
-	var orb_reach := absf(_orb.position.x) + _orb_frame.texture.get_width() / 2.0
+	var orb_reach := absf(_orb.position.x) + _orb_frame.texture.get_width() / 2.0 if shows_sanity else 0.0
 	return maxf(_plate.texture.get_width() / 2.0, orb_reach)
 
 
@@ -66,7 +74,8 @@ func _process(delta: float) -> void:
 	if status == null:
 		return
 	_show_hp(delta)
-	_show_sanity()
+	if shows_sanity:
+		_show_sanity()
 	_show_condition()
 
 
@@ -75,6 +84,7 @@ func _set_status(value: UnitStatus) -> void:
 		status.sp_changed.disconnect(_on_sp_changed)
 	status = value
 	_shown_hp = status.hp if status else 0.0
+	_staggered_before = status != null and status.is_staggered()
 	if status:
 		status.sp_changed.connect(_on_sp_changed)
 
@@ -108,14 +118,21 @@ func _show_sanity() -> void:
 	_sp_number.label_settings.font_color = _sp_text_colour.lerp(BLOOM_TEXT, _glass.bloom())
 
 
-## PANIC and STAGGER plates while they last (panic first), and the burst as it staggers.
+## PANIC and STAGGER plates while they last (panic first), and the burst and glass as it staggers.
 func _show_condition() -> void:
 	_panic_name.text = status.panic_name
 	_toggle_plate(_panic, status.is_panicked())
-	if status.is_staggered() and not _stagger.visible:
+	var staggered := status.is_staggered()
+	if staggered and not _stagger.visible and not _staggered_before:
 		_burst.play("reveal")
-	_toggle_plate(_stagger, status.is_staggered())
+		_stagger_glass.shatter(_burst_node)
+	_staggered_before = _staggered_before and staggered
+	_toggle_plate(_stagger, staggered)
 	_arrange_plates()
+	if staggered:
+		_stagger_glass.start_shards(_stagger)
+	else:
+		_stagger_glass.stop_shards()
 
 
 func _toggle_plate(plate: Node2D, on: bool) -> void:

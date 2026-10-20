@@ -86,6 +86,7 @@ func wear(new_identity: IdentityData) -> void:
 	status = UnitStatus.new(identity.battle_stats)
 	status.condition_changed.connect(_on_condition_changed)
 	_bar.status = status
+	_body.show_staggered(false)
 	_trail.follow(identity.afterimages)
 	_edge_clearance = _widest_reach() + EDGE_GAP
 	_player.stop()
@@ -386,6 +387,7 @@ func _on_timeline_finished() -> void:
 
 
 func _on_condition_changed() -> void:
+	_body.show_staggered(status.is_staggered())
 	if state == State.IDLE:
 		_show_clip(_resting_clip())
 

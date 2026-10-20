@@ -1,0 +1,10 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/unit_bar.tscn" id="1_unit_bar"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/floor_enemy.png" id="2_enemy_floor"]
+
+[node name="IconBar" instance=ExtResource("1_unit_bar")]
+shows_sanity = false
+
+[node name="Plate" parent="Floor"]
+texture = ExtResource("2_enemy_floor")

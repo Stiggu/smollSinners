@@ -17,6 +17,7 @@
 [ext_resource type="Texture2D" path="res://assets/limbus/ui/unit_bar/stagger_burst.png" id="15_m8tty"]
 [ext_resource type="PackedScene" path="res://scenes/ui/clash_badge.tscn" id="16_ioxij"]
 [ext_resource type="PackedScene" path="res://scenes/fx/fx_stage.tscn" id="17_orbfx"]
+[ext_resource type="Script" path="res://scripts/ui/stagger_glass.gd" id="18_stagger_glass"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_sni2t"]
 font = ExtResource("5_uaxxg")
@@ -266,6 +267,14 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="States" type="Node2D" parent="." unique_id=1596506754]
+
+[node name="StaggerGlass" type="Node2D" parent="States"]
+position = Vector2(0, -62)
+script = ExtResource("18_stagger_glass")
+
+[node name="Stage" parent="States/StaggerGlass" instance=ExtResource("17_orbfx")]
+position = Vector2(-160, -120)
+size = Vector2i(320, 240)
 
 [node name="Slot1" type="Marker2D" parent="States" unique_id=732695046]
 position = Vector2(0, -64)
