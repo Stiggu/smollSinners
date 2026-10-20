@@ -68,6 +68,7 @@ var _effect_anchors: EffectAnchors  ## where the playing timeline's effects go
 @onready var _body: SinnerBody = $Body
 @onready var _player: TimelinePlayer = $TimelinePlayer
 @onready var _bar: UnitBar = $UnitBar
+@onready var _trail: AfterimageTrail = $AfterimageTrail
 
 
 func _ready() -> void:
@@ -85,6 +86,7 @@ func wear(new_identity: IdentityData) -> void:
 	status = UnitStatus.new(identity.battle_stats)
 	status.condition_changed.connect(_on_condition_changed)
 	_bar.status = status
+	_trail.follow(identity.afterimages)
 	_edge_clearance = _widest_reach() + EDGE_GAP
 	_player.stop()
 	_velocity = Vector2.ZERO
@@ -249,7 +251,14 @@ func play_timeline(timeline: Timeline, foe_at := Callable(), ground_y := positio
 
 ## Play a skill's whole clip. Returns its length in seconds.
 func play_skill_clip(slot: String) -> float:
-	return play_timeline(identity.skill_clip(slot))
+	var length := play_timeline(identity.skill_clip(slot))
+	leave_afterimage()
+	return length
+
+
+## An attack starts: its first frame leaves a faint copy as the next one comes up (see AfterimageTrail).
+func leave_afterimage() -> void:
+	_trail.copy_when_pose_changes(get_parent())
 
 
 ## Perform `coins` of a skill's coins the way the game choreographs them (the skill needs
@@ -276,6 +285,7 @@ func end_clash(launch := Vector2.ZERO) -> void:
 func _enter(new_state: State) -> void:
 	state = new_state
 	z_index = carried_z_index if state == State.DRAGGED else 0
+	_trail.cancel()
 	_state_time = 0.0
 	if _performance:
 		_performance.cancel()

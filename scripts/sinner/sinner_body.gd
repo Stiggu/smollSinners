@@ -5,6 +5,9 @@ extends Node2D
 ## swinging while it's carried. At rest the sprites end up at scale 1 and rotation 0 exactly,
 ## or every pixel would be resampled and the art would go soft.
 
+## The pose shown is about to be replaced (by another, or hidden); it's still up.
+signal pose_changing
+
 ## Where the top of the head is taken to be, from the feet, when there's no pose to measure.
 const FALLBACK_CROWN := Vector2(0, -130)
 
@@ -31,6 +34,8 @@ var _squash := 0.0
 
 ## Show a pose; null hides the body (some skills clear it for a moment).
 func show_pose(pose: PoseSprite) -> void:
+	if _pose.visible and pose != _shown_pose:
+		pose_changing.emit()
 	_pose.visible = pose != null
 	if pose == null:
 		return
@@ -49,6 +54,18 @@ func show_slash(sprite: PoseSprite, at: Vector2) -> void:
 
 func hide_slash() -> void:
 	_slash.visible = false
+
+
+## A still copy of the pose as shown now, placed in overlay coordinates; null while hidden.
+func still_copy() -> Sprite2D:
+	if not _pose.visible or _pose.texture == null:
+		return null
+	var copy := Sprite2D.new()
+	copy.texture = _pose.texture
+	copy.centered = false
+	copy.offset = _pose.offset
+	copy.transform = _pose.get_global_transform()
+	return copy
 
 
 ## Squash it for a landing at this fall speed (px/s).

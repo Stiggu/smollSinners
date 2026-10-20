@@ -74,6 +74,8 @@ func _begin_step(index: int) -> void:
 	_next_event = 0
 	_step_events_done = false
 	_sinner.play_timeline(_steps[index].timeline, _foe_at, _ground_y)
+	if index == 0 or _steps[index - 1].coin != _steps[index].coin:  # this coin's attack starts
+		_sinner.leave_afterimage()
 	_dispatch_due_events()
 
 

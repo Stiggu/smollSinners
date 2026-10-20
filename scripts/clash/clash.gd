@@ -8,9 +8,9 @@ extends Node2D
 ## icon's hits cost it HP.
 ##
 ## Looks and timing follow the game (matches/PowerGuard.gif, matches/clash_count.png): badges
-## flip in, numbers pop on every heads, a fiery impact with a red ring, the lost coin cracking
-## in its slot, each round's count ("N합") between the badges, the game's damage popups (see
-## DamageNumber). The badges are
+## flip in, coins spin and land one by one, numbers pop on every heads, a fiery impact with a
+## red ring, the lost coin cracking (gone by the next round), each round's count ("N합")
+## between the badges, the game's damage popups (see DamageNumber). The badges are
 ## the game's (SkillAndCoinUI), each a ClashBadge. Lives on the overlay, so it draws in
 ## overlay coordinates. Steps: prepare(), then fits()/footprint() to choose an icon, start().
 
@@ -190,8 +190,9 @@ func _place_badges() -> void:
 func _clash_round(round_number: int) -> void:
 	var skill_clip := sinner.identity.skill_clip(_skill.slot)
 	sinner.show_pose(skill_clip.opening_pose())  # wind-up
-	_you.reset(_time)
-	_foe.reset(_time)
+	for fighter: ClashFighter in [_you, _foe]:
+		fighter.reset(_time)
+		fighter.toss(_time)
 	await _wait(WIND_UP_SECONDS)
 	if not await _flip_coins_together():
 		return
@@ -207,8 +208,8 @@ func _clash_round(round_number: int) -> void:
 	await _wait(ROUND_AFTERMATH)
 
 
-## Coin by coin, both sides together; a heads pops the number with a little star. False if
-## the clash was called off meanwhile.
+## The spinning coins land one by one, both sides together; a heads pops the number with a
+## little star. False if the clash was called off meanwhile.
 func _flip_coins_together() -> bool:
 	for i in maxi(_you.coins_left, _foe.coins_left):
 		for fighter: ClashFighter in [_you, _foe]:
@@ -227,6 +228,7 @@ func _strike(skill_clip: Timeline) -> Tween:
 		sinner.show_pose(skill_clip.strike_pose())
 	else:
 		sinner.play_timeline(sinner.identity.parry_timelines.pick_random(), _icon_center)
+	sinner.leave_afterimage()
 	var feet := sinner.position
 	_tween = create_tween()
 	_tween.tween_property(sinner, "position", feet + Vector2(-_side * RECOIL, 0), RECOIL_SECONDS.x)

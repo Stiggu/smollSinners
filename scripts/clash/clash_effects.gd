@@ -11,10 +11,15 @@ const DAMAGE_NUMBER := preload("res://scenes/clash/effects/damage_number.tscn")
 const ICON_FLASH := preload("res://scenes/clash/effects/icon_flash.tscn")
 
 const ICON_FLASH_MARGIN := 4.0  ## px the white flash spills past the icon
-## Back-to-back damage numbers scatter this much, so they don't sit on top of each other.
-const DAMAGE_SCATTER := Rect2(-14, -10, 28, 16)
+## Damage numbers land anywhere this far (px, either way) around the spot above the unit hit.
+const DAMAGE_SPREAD := Vector2(60, 40)
+## Of this many random spots, a number takes the one furthest from the last few numbers.
+const DAMAGE_SPOT_TRIES := 8
+const DAMAGE_SPOTS_REMEMBERED := 4
 
 var glow_stage: FxStage  ## where damage numbers glow; unset: drawn here, without bloom
+
+var _recent_damage_spots: Array[Vector2] = []
 
 
 ## The blast where the coins clash, its swoosh coming from swoosh_from (-1 left, 1 right,
@@ -40,9 +45,9 @@ func clash_count(at: Vector2, round_number: int) -> void:
 	count.show_round(round_number)
 
 
-## A hit's damage from the attacker's skill, scattered a little (see DamageNumber.show_hit()).
+## A hit's damage from the attacker's skill, somewhere around `at` (see DamageNumber.show_hit()).
 func damage(at: Vector2, amount: int, attacker: ClashFighter, staggered := false) -> void:
-	var spot := at + DAMAGE_SCATTER.position + DAMAGE_SCATTER.size * Vector2(randf(), randf())
+	var spot := _damage_spot(at)
 	var number: DamageNumber
 	if glow_stage:
 		number = DAMAGE_NUMBER.instantiate()
@@ -60,6 +65,24 @@ func icon_flash(icon_rect: Rect2) -> void:
 	flash.position = area.position
 	flash.size = area.size
 	add_child(flash)
+
+
+## A random spot around `around`, kept clear of the last few numbers where it can be.
+func _damage_spot(around: Vector2) -> Vector2:
+	var best := around
+	var best_gap := -1.0
+	for _try in DAMAGE_SPOT_TRIES:
+		var spot := around + DAMAGE_SPREAD * Vector2(randf_range(-1.0, 1.0), randf_range(-1.0, 1.0))
+		var gap := INF
+		for recent in _recent_damage_spots:
+			gap = minf(gap, spot.distance_to(recent))
+		if gap > best_gap:
+			best = spot
+			best_gap = gap
+	_recent_damage_spots.append(best)
+	if _recent_damage_spots.size() > DAMAGE_SPOTS_REMEMBERED:
+		_recent_damage_spots.pop_front()
+	return best
 
 
 func _spawn(scene: PackedScene, at: Vector2) -> Node2D:

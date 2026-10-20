@@ -5,10 +5,11 @@ extends Node2D
 ## mirrors it). Back to front: the name Ribbon and the Name on it, the +N Tab, the Face (the
 ## sin's Glow, the skill Art, the sin's Frame; it flips in like a card), the AttackGlow and
 ## the Attack type, the Power (popping on every heads), the +N TabText, and the Coins above
-## the ribbon (Coin1 is the first coin's place, Coin2 the step to the next; lost coins stay,
-## cracked). With more tails than heads it greys out, all but the glows and the name: the art
-## and attack icon through the game's ColorGrayscale shader, the rest in the greys measured
-## off the game. The node is the badge's centre. Pieces from tools/export_ui.py.
+## the ribbon (Coin1 is the first coin's place, Coin2 the step to the next; tossed coins spin
+## edge-on until they land, lost ones go). With more tails than heads it greys out, all but
+## the glows and the name: the art and attack icon through the game's ColorGrayscale shader,
+## the rest in the greys measured off the game. The node is the badge's centre. Pieces from
+## tools/export_ui.py.
 
 const CLASH_UI := "res://assets/limbus/ui/clash"
 const NO_SIN := "NONE"
@@ -20,6 +21,7 @@ const SIN_COLOURS := {
 }
 const COIN_FACES := {
 	ClashFighter.Face.UNFLIPPED: preload("res://assets/limbus/ui/coin_idle.png"),
+	ClashFighter.Face.SPINNING: preload("res://assets/limbus/ui/coin_idle.png"),
 	ClashFighter.Face.HEADS: preload("res://assets/limbus/ui/coin_heads.png"),
 	ClashFighter.Face.TAILS: preload("res://assets/limbus/ui/coin_tails.png"),
 	ClashFighter.Face.CRACKED_FRONT: preload("res://assets/limbus/ui/coin_cracked_front.png"),
@@ -38,6 +40,9 @@ const GRAYSCALE_FADE := &"grayscale_fade"  ## the ColorGrayscale shader's 0 (col
 @export var power_pop := 0.7  ## extra scale the power pops in with
 @export var coin_pop_seconds := 0.12
 @export var coin_pop := 0.45
+@export_group("Spinning coins")  ## measured off matches/PowerGuard.gif (edge-on every ~80 ms)
+@export var coin_spins_per_second := 3.0
+@export var coin_edge_width := 0.1  ## an edge-on coin still shows this much of its width (scale)
 @export_group("Sin colours")
 @export var tab_darken := 0.15  ## the tab is a little darker than the ribbon
 @export var name_outline_darken := 0.75  ## the name's outline is a dark shade of the ribbon
@@ -166,8 +171,23 @@ func show_state(fighter: ClashFighter, now: float) -> void:
 		_frame.self_modulate = _colour.lightened(frame_lighten)
 	_show_power(fighter, greyed, now)
 	for i in mini(fighter.faces.size(), _coins.size()):
-		_coins[i].texture = COIN_FACES[fighter.faces[i]]
-		_coins[i].scale = Vector2.ONE * _pop_scale(now - fighter.flipped_at[i], coin_pop_seconds, coin_pop)
+		_show_coin(_coins[i], fighter.faces[i], now - fighter.flipped_at[i], now - fighter.spun_at)
+
+
+## One coin: gone, spinning edge-on, or showing its face (popping as it lands).
+func _show_coin(coin: Sprite2D, face: ClashFighter.Face, landed_age: float, spin_age: float) -> void:
+	coin.visible = face != ClashFighter.Face.GONE
+	if not coin.visible:
+		return
+	coin.texture = COIN_FACES[face]
+	var pop := _pop_scale(landed_age, coin_pop_seconds, coin_pop)
+	var width := _spin_width(spin_age) if face == ClashFighter.Face.SPINNING else 1.0
+	coin.scale = Vector2(pop * width, pop)
+
+
+## A spinning coin's width: it turns about its upright axis, from face-on to edge-on and back.
+func _spin_width(age: float) -> float:
+	return maxf(absf(cos(TAU * coin_spins_per_second * age)), coin_edge_width)
 
 
 ## The power appears once it has a value, popping (and flashing its own colour) each time it changes.

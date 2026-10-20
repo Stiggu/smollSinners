@@ -20,6 +20,7 @@ var battle_stats: Dictionary = {}
 var skills: Dictionary[String, SkillData] = {}  ## by slot: "S1", "S2", ...
 ## The game plays one of these for a clash round's strike; may be empty.
 var parry_timelines: Array[Timeline] = []
+var afterimages: AfterimageSettings  ## the copy it leaves as each attack starts; null: none
 
 var _dir := ""
 var _poses: Dictionary[String, PoseSprite] = {}
@@ -44,6 +45,7 @@ static func load_from(identity_dir: String, identity_path: String) -> IdentityDa
 		identity.skills[slot] = SkillData.from_json(slot, data.skills[slot])
 	for parry: Dictionary in data.get("parry", []):
 		identity.parry_timelines.append(Timeline.from_json(parry))
+	identity.afterimages = AfterimageSettings.from_json(data.get("afterimages"))
 	identity._effects = FxEffectSet.load_from(identity_dir.path_join("fx.json"))
 	return identity
 

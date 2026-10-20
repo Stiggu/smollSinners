@@ -4,9 +4,9 @@ extends RefCounted
 ## one, and each heads adds that coin's power: power = base + the powers of the coins that
 ## came up heads.
 
-## How a coin shows: a coin lost in a clash round stays in its slot cracked, its front up, or
-## its back if it had landed tails.
-enum Face { UNFLIPPED, HEADS, TAILS, CRACKED_FRONT, CRACKED_BACK }
+## How a coin shows: tossed coins spin until they land; a coin lost in a clash round shows
+## cracked (its back if it had landed tails) until the next round, then it's gone.
+enum Face { UNFLIPPED, SPINNING, HEADS, TAILS, CRACKED_FRONT, CRACKED_BACK, GONE }
 ## Each of an icon's stats comes from its own slice of its name's hash.
 enum IconStat { BASE_POWER, COIN_COUNT, COIN_POWER, ATTACK }
 
@@ -30,9 +30,10 @@ var attack_level := UnitStatus.ResistLevel.NORMAL
 var base_power := 0
 var coin_powers: Array[int] = []  ## per coin; negative for coins that subtract
 var coins_left := 0  ## losing a clash round breaks the last one
-## Per coin, cracked ones too: coins break from the end, so those from coins_left on are cracked.
+## Per coin, lost ones too: coins break from the end, so those from coins_left on are lost.
 var faces: Array[Face] = []
 var flipped_at: Array[float] = []  ## per coin: when it last flipped or cracked (it pops)
+var spun_at := LONG_AGO  ## when the coins were tossed (they spin until each lands)
 var power := 0  ## shown on the badge
 var power_changed_at := LONG_AGO  ## (it pops)
 var appeared_at := LONG_AGO  ## when its badge flipped in
@@ -70,15 +71,23 @@ static func _icon_stat(name_hash: int, stat: IconStat, options: Array) -> Varian
 	return options[(name_hash >> (stat * BITS_PER_ICON_STAT)) % options.size()]
 
 
-## The coins left back to unflipped and the power back to base (which pops in again).
+## The coins left back to unflipped, the lost ones gone, and the power back to base (which
+## pops in again).
 func reset(now: float) -> void:
 	faces.resize(coin_powers.size())
 	flipped_at.resize(coin_powers.size())
-	for i in coins_left:
-		faces[i] = Face.UNFLIPPED
+	for i in faces.size():
+		faces[i] = Face.UNFLIPPED if i < coins_left else Face.GONE
 		flipped_at[i] = LONG_AGO
 	power = base_power
 	power_changed_at = now
+
+
+## Toss the coins left: they spin until flip() lands each.
+func toss(now: float) -> void:
+	spun_at = now
+	for i in coins_left:
+		faces[i] = Face.SPINNING
 
 
 ## Flip coin i; heads adds its power. Returns whether it came up heads.
@@ -97,7 +106,7 @@ func is_greyed_out() -> bool:
 	return faces.count(Face.TAILS) > faces.count(Face.HEADS)
 
 
-## The last coin left breaks at clash time `now`; it stays in its slot, cracked.
+## The last coin left breaks at clash time `now`: cracked in its slot until the next reset().
 func break_last_coin(now: float) -> void:
 	coins_left -= 1
 	faces[coins_left] = Face.CRACKED_BACK if faces[coins_left] == Face.TAILS else Face.CRACKED_FRONT
