@@ -14,6 +14,8 @@ const ICON_FLASH_MARGIN := 4.0  ## px the white flash spills past the icon
 ## Back-to-back damage numbers scatter this much, so they don't sit on top of each other.
 const DAMAGE_SCATTER := Rect2(-14, -10, 28, 16)
 
+var glow_stage: FxStage  ## where damage numbers glow; unset: drawn here, without bloom
+
 
 ## The blast where the coins clash, its swoosh coming from swoosh_from (-1 left, 1 right,
 ## 0 none).
@@ -38,11 +40,17 @@ func clash_count(at: Vector2, round_number: int) -> void:
 	count.show_round(round_number)
 
 
-## A hit's damage with its attack type ("slash", "pierce", "blunt"), scattered a little.
-func damage(at: Vector2, amount: int, attack: String) -> void:
-	var scatter := DAMAGE_SCATTER.position + DAMAGE_SCATTER.size * Vector2(randf(), randf())
-	var number: DamageNumber = _spawn(DAMAGE_NUMBER, at + scatter)
-	number.show_damage(amount, attack)
+## A hit's damage from the attacker's skill, scattered a little (see DamageNumber.show_hit()).
+func damage(at: Vector2, amount: int, attacker: ClashFighter, staggered := false) -> void:
+	var spot := at + DAMAGE_SCATTER.position + DAMAGE_SCATTER.size * Vector2(randf(), randf())
+	var number: DamageNumber
+	if glow_stage:
+		number = DAMAGE_NUMBER.instantiate()
+		number.position = to_global(spot)
+		glow_stage.add_glowing(number)
+	else:
+		number = _spawn(DAMAGE_NUMBER, spot)
+	number.show_hit(amount, attacker, staggered)
 
 
 ## The icon flashing white as it's hit.

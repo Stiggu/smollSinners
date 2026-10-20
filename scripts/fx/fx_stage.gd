@@ -23,6 +23,11 @@ func play(effect: FxEffect, definition: FxEffectDef, life: float, source: Vector
 	effect.play(definition, life, source, target, _screen_effects)
 
 
+## Something else drawn in HDR under the bloom, placed in overlay coordinates; it frees itself.
+func add_glowing(node: Node2D) -> void:
+	_bloom.effects.add_child(node)
+
+
 func _on_effect_started(_effect: Node) -> void:
 	_show(true)
 

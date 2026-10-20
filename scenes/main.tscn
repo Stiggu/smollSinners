@@ -25,9 +25,10 @@ desktop = NodePath("../Desktop")
 script = ExtResource("4_team")
 fx_stage = NodePath("../FxStage")
 
-[node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop")]
+[node name="Clashes" type="Node2D" parent="." node_paths=PackedStringArray("desktop", "fx_stage")]
 script = ExtResource("5_clashes")
 desktop = NodePath("../Desktop")
+fx_stage = NodePath("../FxStage")
 
 [node name="FxStage" parent="." instance=ExtResource("9_fx_stage")]
 

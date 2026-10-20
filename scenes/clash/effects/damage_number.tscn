@@ -1,30 +1,40 @@
 [gd_scene format=3]
 
 [ext_resource type="Script" path="res://scripts/clash/effects/damage_number.gd" id="1_damage"]
-[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_slash.png" id="2_slash"]
-[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_pierce.png" id="3_pierce"]
-[ext_resource type="Texture2D" path="res://assets/limbus/ui/attack_blunt.png" id="4_blunt"]
-[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="5_font"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/damage_number/staggered.png" id="2_burst"]
+[ext_resource type="Texture2D" path="res://assets/limbus/ui/damage_number/icon_NONE_slash_1.png" id="3_icon"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/KOTRA_BOLD.ttf" id="4_word_font"]
+[ext_resource type="FontFile" path="res://assets/limbus/ui/fonts/ExcelsiorSans.ttf" id="5_number_font"]
 
-[sub_resource type="Gradient" id="Gradient_disc"]
-interpolation_mode = 1
-offsets = PackedFloat32Array(0, 1)
-colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+[sub_resource type="LabelSettings" id="LabelSettings_normal"]
+font = ExtResource("5_number_font")
+font_size = 46
+font_color = Color(1.363, 1.079, 0.749, 1)
+outline_size = 2
+outline_color = Color(0.87, 0.62, 0.4, 1)
+stacked_outline_count = 2
+stacked_outline_0/size = 2
+stacked_outline_0/color = Color(0.62, 0.34, 0.19, 0.85)
+stacked_outline_1/size = 3
+stacked_outline_1/color = Color(0.45, 0.2, 0.1, 0.35)
 
-[sub_resource type="GradientTexture2D" id="GradientTexture2D_disc"]
-gradient = SubResource("Gradient_disc")
-width = 68
-height = 68
-fill = 1
-fill_from = Vector2(0.5, 0.5)
-fill_to = Vector2(1, 0.5)
+[sub_resource type="LabelSettings" id="LabelSettings_staggered"]
+font = ExtResource("5_number_font")
+font_size = 46
+font_color = Color(1.363, 1.079, 0.749, 1)
+outline_size = 2
+outline_color = Color(0.77, 0.68, 0.52, 1)
+stacked_outline_count = 2
+stacked_outline_0/size = 2
+stacked_outline_0/color = Color(0.63, 0.49, 0.41, 0.85)
+stacked_outline_1/size = 3
+stacked_outline_1/color = Color(0.47, 0.35, 0.34, 0.35)
 
-[sub_resource type="LabelSettings" id="LabelSettings_number"]
-font = ExtResource("5_font")
-font_size = 34
-font_color = Color(1, 0.878, 0.29, 1)
-outline_size = 7
-outline_color = Color(0.17, 0.1, 0, 1)
+[sub_resource type="LabelSettings" id="LabelSettings_word"]
+font = ExtResource("4_word_font")
+font_size = 10
+outline_size = 3
+outline_color = Color(0, 0, 0, 1)
 
 [sub_resource type="Animation" id="Animation_rise"]
 resource_name = "rise"
@@ -55,22 +65,10 @@ tracks/1/keys = {
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Rise/Glow:self_modulate")
+tracks/2/path = NodePath("Rise/Pop:scale")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"times": PackedFloat32Array(0, 0.35),
-"transitions": PackedFloat32Array(1, 1),
-"update": 0,
-"values": [Color(1, 0.878, 0.29, 0.25), Color(1, 0.878, 0.29, 0)]
-}
-tracks/3/type = "value"
-tracks/3/imported = false
-tracks/3/enabled = true
-tracks/3/path = NodePath("Rise/Pop:scale")
-tracks/3/interp = 1
-tracks/3/loop_wrap = true
-tracks/3/keys = {
 "times": PackedFloat32Array(0, 0.1429),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -84,44 +82,41 @@ _data = {
 
 [node name="DamageNumber" type="Node2D"]
 script = ExtResource("1_damage")
-slash_icon = ExtResource("2_slash")
-pierce_icon = ExtResource("3_pierce")
-blunt_icon = ExtResource("4_blunt")
+normal_number = SubResource("LabelSettings_normal")
+staggered_number = SubResource("LabelSettings_staggered")
 
 [node name="Rise" type="Node2D" parent="."]
-
-[node name="Glow" type="Sprite2D" parent="Rise"]
-self_modulate = Color(1, 0.878, 0.29, 0.25)
-texture = SubResource("GradientTexture2D_disc")
 
 [node name="Pop" type="Node2D" parent="Rise"]
 scale = Vector2(1.5, 1.5)
 
-[node name="Number" type="Label" parent="Rise/Pop"]
-offset_left = -21.0
-offset_top = -21.0
-offset_right = 21.0
-offset_bottom = 21.0
-text = "12"
-label_settings = SubResource("LabelSettings_number")
-horizontal_alignment = 1
-vertical_alignment = 1
+[node name="Staggered" type="Sprite2D" parent="Rise/Pop"]
+visible = false
+position = Vector2(-20, 6)
+texture = ExtResource("2_burst")
 
-[node name="AttackIcon" type="TextureRect" parent="Rise/Pop/Number"]
-self_modulate = Color(1, 0.878, 0.29, 1)
-layout_mode = 1
-anchors_preset = 4
-anchor_top = 0.5
-anchor_bottom = 0.5
-offset_left = -26.0
-offset_top = -9.0
-offset_right = -2.0
-offset_bottom = 9.0
-grow_vertical = 2
+[node name="Icon" type="Sprite2D" parent="Rise/Pop"]
+position = Vector2(-15.5, 0)
+texture = ExtResource("3_icon")
+
+[node name="Word" type="Label" parent="Rise/Pop"]
+offset_left = -47.0
+offset_top = 5.0
+offset_right = 13.0
+offset_bottom = 19.0
 mouse_filter = 2
-texture = ExtResource("2_slash")
-expand_mode = 1
-stretch_mode = 3
+text = "Normal"
+label_settings = SubResource("LabelSettings_word")
+horizontal_alignment = 1
+
+[node name="Number" type="Label" parent="Rise/Pop"]
+offset_left = 1.0
+offset_top = -17.0
+offset_right = 41.0
+offset_bottom = 39.0
+mouse_filter = 2
+text = "12"
+label_settings = SubResource("LabelSettings_normal")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries/ = SubResource("AnimationLibrary_damage")

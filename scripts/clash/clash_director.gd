@@ -9,6 +9,7 @@ const CLASH_SCENE := preload("res://scenes/clash/clash.tscn")
 const COOLDOWN_SECONDS := 30.0  ## after a clash, before the idle AI may start another
 
 @export var desktop: Desktop
+@export var fx_stage: FxStage  ## where the clashes' damage numbers glow
 
 ## Debug switches (see LaunchOptions).
 var verbose := false
@@ -37,6 +38,7 @@ func start(sinner: Sinner, keep_clear: Array[Rect2]) -> bool:
 		return false
 	var clash: Clash = CLASH_SCENE.instantiate()
 	clash.verbose = verbose
+	clash.fx_stage = fx_stage
 	clash.forced_skill = forced_skill
 	clash.forced_outcome = forced_outcome
 	add_child(clash)

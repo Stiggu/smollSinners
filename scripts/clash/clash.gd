@@ -9,8 +9,8 @@ extends Node2D
 ##
 ## Looks and timing follow the game (matches/PowerGuard.gif, matches/clash_count.png): badges
 ## flip in, numbers pop on every heads, a fiery impact with a red ring, the lost coin cracking
-## in its slot, each round's count ("N합") between the badges, yellow damage numbers with the
-## attack type. The badges are
+## in its slot, each round's count ("N합") between the badges, the game's damage popups (see
+## DamageNumber). The badges are
 ## the game's (SkillAndCoinUI), each a ClashBadge. Lives on the overlay, so it draws in
 ## overlay coordinates. Steps: prepare(), then fits()/footprint() to choose an icon, start().
 
@@ -50,8 +50,8 @@ const HEADS_STAR_OFFSET := Vector2(-20, -24)  ## from a badge's centre, by its p
 ## A round's count sits between the badges, this much of the way towards the round's winner
 ## (measured in matches/clash_count.png).
 const COUNT_TOWARD_WINNER := 0.125
-const ICON_DAMAGE_OFFSET := Vector2(10, -34)  ## the icon's damage, from its centre
-const SINNER_DAMAGE_OFFSET := Vector2(20, -160)  ## the sinner's, from its feet (x away from the icon)
+## A hit's damage pops up this far above the feet of the unit hit (the game's 180 canvas units).
+const DAMAGE_HEIGHT := 108.0
 ## Where the sinner's weapon meets the icon, from its feet (x towards the icon).
 const SINNER_FRONT := Vector2(55, -95)
 
@@ -59,6 +59,7 @@ var sinner: Sinner
 var icon: DesktopIcon
 var area := Rect2()  ## the part of the overlay it takes up (see ClashLayout.footprint())
 var verbose := false  ## print each step
+var fx_stage: FxStage  ## where its damage numbers glow (set before prepare())
 var forced_skill := ""  ## debug: use this skill slot instead of a random one
 var forced_outcome := Outcome.BY_CHANCE
 
@@ -85,6 +86,7 @@ var _time := 0.0
 func prepare(p_sinner: Sinner, desktop: Desktop) -> void:
 	sinner = p_sinner
 	_desktop = desktop
+	_effects.glow_stage = fx_stage
 	var identity := sinner.identity
 	var slot := forced_skill if identity.skills.has(forced_skill) else identity.random_skill_slot()
 	_skill = identity.skills[slot]
@@ -325,8 +327,9 @@ func _icon_attacks() -> void:
 		_flip(_foe, i)
 		_effects.icon_flash(_icon_rect())
 		_effects.hit(_sinner_front())
+		var staggered := sinner.status.is_staggered()  # as the hit lands, before it can stagger
 		var taken := sinner.status.take_hit(_foe.power, _foe.attack)  # after the identity's resistance
-		_effects.damage(sinner.position + SINNER_DAMAGE_OFFSET * Vector2(_side, 1), taken, _foe.attack)
+		_effects.damage(sinner.position + Vector2(0, -DAMAGE_HEIGHT), taken, _foe, staggered)
 		sinner.show_clip_pose(IdentityData.CLIP_HURT)
 		if sinner.status.is_dead():
 			break
@@ -344,7 +347,7 @@ func _flip(fighter: ClashFighter, coin: int) -> void:
 func _hit_icon(damage: int) -> void:
 	_effects.hit(_icon_center())
 	_effects.icon_flash(_icon_rect())
-	_effects.damage(_icon_center() + ICON_DAMAGE_OFFSET, damage, _you.attack)
+	_effects.damage(_icon_center() + Vector2(0, EffectAnchors.FOE_CENTER_HEIGHT - DAMAGE_HEIGHT), damage, _you)
 
 
 func _knock_icon(cells: int) -> void:
