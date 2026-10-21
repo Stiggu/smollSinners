@@ -15,6 +15,9 @@ extends Node2D
 ## Window titles and the tray's tooltip. The project keeps config/name "smollSinner": it
 ## names the user:// folder, which holds the settings and the moved icons' way home.
 const APP_NAME := "Smoll Sinners"
+## px the overlay stops short of the work area's bottom: Godot takes a borderless window that
+## exactly covers it for maximized, and Windows one covering a whole screen for exclusive fullscreen.
+const WORK_AREA_SHORTFALL := 1
 
 var options: LaunchOptions
 
@@ -69,18 +72,12 @@ func _apply_options() -> void:
 	_show_icon_boxes(options.icon_boxes)
 
 
-## Fit the overlay to a monitor's work area (the screen above the taskbar).
+## Fit the overlay to a monitor's work area (the screen above the taskbar), a little short of it.
 func _cover_screen(screen: int) -> void:
 	_screen = screen
 	var area := DisplayServer.screen_get_usable_rect(screen)
-	# Windows can treat a borderless window covering the whole screen as exclusive fullscreen,
-	# which breaks transparency (it happens with an auto-hidden taskbar): stay a pixel short.
-	if area == Rect2i(DisplayServer.screen_get_position(screen), DisplayServer.screen_get_size(screen)):
-		area.size.y -= 1
-	# Covering a work area exactly, the window counts as maximized, and Godot then ignores
-	# moves and resizes of it (while get_window() and the viewport take them): the overlay
-	# would stay on the old monitor with the new one's size. Unmaximize it first.
-	get_window().mode = Window.MODE_WINDOWED
+	# Exactly covering it, Godot calls the window maximized and clips it to that size for good.
+	area.size.y -= WORK_AREA_SHORTFALL
 	get_window().position = area.position
 	get_window().size = area.size
 	_tray.show_monitor(screen)
